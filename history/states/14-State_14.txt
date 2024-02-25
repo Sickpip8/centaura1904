@@ -1,0 +1,25 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		owner = VUL
+		add_core_of = VUL
+		victory_points = {
+			3029 12 
+		}
+		victory_points = {
+			3029 33 
+		}
+
+	}
+
+	provinces={
+		190 653 814 847 1100 1509 2117 2128 2135 2153 3018 3020 3022 3029 3030 3036 3037 3040 3049 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

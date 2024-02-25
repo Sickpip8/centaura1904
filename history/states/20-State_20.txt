@@ -1,0 +1,22 @@
+
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = ORI
+		add_core_of = ORI
+		victory_points = {
+			188 15 
+		}
+
+	}
+
+	provinces={
+		48 56 68 185 188 335 449 519 527 581 587 610 616 661 836 854 937 957 979 1029 1038 1075 1103 1210 1242 1370 1415 1548 1758 1909 2874 2877 2882 2893 2894 2900 2910 2916 2923 2925 2931 2936 2940 3403 3416 3418 3421 3429 3443 3447 3467 3502 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

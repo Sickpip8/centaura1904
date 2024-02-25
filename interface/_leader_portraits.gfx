@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_BCH_hitori_gotoh"
+		texturefile = "gfx/leaders/BCH/portrait_BCH_hitori_gotoh.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BCH_hitori_gotoh_small"
+		texturefile = "gfx/leaders/BCH/portrait_BCH_hitori_gotoh_small.dds"
+}

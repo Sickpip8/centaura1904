@@ -1,0 +1,19 @@
+
+state={
+	id=68
+	name="STATE_68"
+	history = {
+		owner = AQU
+		add_core_of = AQU
+		victory_points = {
+			2730 13
+		}
+	}
+	provinces={
+		44 75 141 229 277 705 823 912 918 935 1170 1253 1259 1302 1317 1383 1411 1561 1606 1664 1714 1768 1770 1819 1904 2035 2588 2627 2634 2655 2671 2678 2683 2699 2712 2730 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=42
+	name="STATE_42"
+	history = {
+		owner = RIA
+		add_core_of = RIA
+		victory_points = {
+			368 19
+		}
+	}
+	provinces={
+		123 239 241 248 336 368 397 532 630 859 885 1042 1142 1311 1583 1744 1870 1942 2378 2384 2386 2391 2392 2398 2411 3163 3170 3181 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

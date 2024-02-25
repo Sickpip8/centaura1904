@@ -1,0 +1,25 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = ANT
+		add_core_of = ANT
+		victory_points = {
+			2920 10 
+		}
+		victory_points = {
+			494 30 
+		}
+
+	}
+
+	provinces={
+		19 142 147 151 157 164 270 310 311 578 591 635 703 787 973 984 1071 1655 1798 1840 1862 1901 2947 2952 2958 2963 2964 2971 2980 2985 2996 3496 3501 3512 3522 3523 3532 3533 3536 3539 3542 3551 3553 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

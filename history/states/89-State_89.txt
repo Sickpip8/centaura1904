@@ -1,0 +1,18 @@
+state={
+	id=89
+	name="STATE_89"
+	history = {
+		owner = CLB
+		add_core_of = CLB
+		victory_points = {
+			3285 12
+		}
+	}
+	provinces={
+		3285 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

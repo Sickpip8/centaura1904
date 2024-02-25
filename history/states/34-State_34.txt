@@ -1,0 +1,22 @@
+
+state={
+	id=34
+	name="STATE_34"
+
+	history={
+		owner = HYS
+		add_core_of = HYS
+		victory_points = {
+			177 16 
+		}
+
+	}
+
+	provinces={
+		35 96 103 134 177 293 322 382 427 568 668 779 813 824 875 944 974 1148 1179 1270 1343 1375 1533 1633 1785 1843 1874 2291 2310 2320 2322 2351 2363 2370 2377 2385 2387 2407 2421 3121 3126 3167 3172 3174 3178 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,33 @@
+characters = {
+	BCH_hitori_gotoh = { 
+		name = "Hitori Gotoh"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BCH_hitori_gotoh
+				small = GFX_portrait_BCH_hitori_gotoh_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { reluctant_interventionist }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+			visible = {
+				NOT = {
+					has_government = communism
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+		}
+	}
+}

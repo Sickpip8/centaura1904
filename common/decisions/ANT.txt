@@ -1,0 +1,63 @@
+ANT_bocchiland = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+
+		complete_effect = {
+			hidden_effect = {
+					every_state = {
+						limit = {
+							OR = {
+								state = 76
+							}
+							is_owned_by = ANT
+						}
+						BCH = {
+							transfer_state = PREV
+						}
+					}
+					76 = { add_core_of = BCH }
+			}
+			release_on_controlled = BCH
+			BCH = {
+				set_state_controller = 76
+				GER = {
+					puppet = PREV
+					if = {
+						limit = {
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
+						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet end_wars = no end_civil_wars = no }
+					}
+					else = {
+						set_autonomy = { target = PREV autonomy_state = autonomy_reichskommissariat  end_wars = no end_civil_wars = no }
+					}
+				}
+
+				set_cosmetic_tag = BCH
+				create_country_leader = {
+					name = "Hitori Gotoh"
+					desc = "POLITICS_HITORI_GOTOH_DESC"
+					picture = GFX_portrait_Hitori_Gotoh
+					expire = "1999.1.1"
+					ideology = democracy
+					traits = {
+					}
+				}
+			}
+		}
+	}

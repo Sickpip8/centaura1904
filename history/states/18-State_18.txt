@@ -1,0 +1,25 @@
+
+state={
+	id=18
+	name="STATE_18"
+
+	history={
+		owner = MUS
+		add_core_of = MUS
+		victory_points = {
+			1081 12 
+		}
+		victory_points = {
+			2142 31 
+		}
+
+	}
+
+	provinces={
+		757 1081 1134 1576 1730 2024 2078 2126 2142 2159 2165 2166 3026 3028 3031 3038 3039 3043 3045 3053 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=63
+	name="STATE_63"
+	history = {
+		owner = CET
+		add_core_of = CET
+		victory_points = {
+			380 6
+		}
+	}
+	provinces={
+		183 255 363 380 477 580 770 855 1039 1167 1313 1361 1488 1511 1617 1735 1742 1921 2050 2064 2647 2673 2674 2694 2695 2734 2751 2760 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

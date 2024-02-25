@@ -1,0 +1,22 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		owner = ANT
+		add_core_of = ANT
+		victory_points = {
+			2780 8 
+		}
+
+	}
+
+	provinces={
+		290 421 439 579 1845 2780 2788 2800 2809 2812 3357 3364 3367 3372 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

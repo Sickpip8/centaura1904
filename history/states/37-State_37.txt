@@ -1,0 +1,22 @@
+
+state={
+	id=37
+	name="STATE_37"
+
+	history={
+		owner = URS
+		add_core_of = URS
+		victory_points = {
+			1304 7 
+		}
+
+	}
+
+	provinces={
+		1304 3047 3075 3091 3096 3097 3102 3105 3108 3109 3216 3218 3234 3263 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

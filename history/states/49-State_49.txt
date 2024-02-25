@@ -1,0 +1,22 @@
+
+state={
+	id=49
+	name="STATE_49"
+
+	history={
+		owner = CLB
+		add_core_of = CLB
+		victory_points = {
+			789 16 
+		}
+
+	}
+
+	provinces={
+		34 39 45 325 330 350 391 466 480 621 632 789 815 904 939 1010 1286 1392 1414 1423 1540 1549 1610 1639 1797 1992 2041 2052 2087 2089 2408 2427 2434 2445 2456 2457 2466 2470 2485 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

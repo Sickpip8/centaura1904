@@ -1,0 +1,18 @@
+state={
+	id=79
+	name="STATE_79"
+	history = {
+		owner = LBR
+		add_core_of = LBR
+		victory_points = {
+			696 32
+		}
+	}
+	provinces={
+		43 66 117 416 696 895 1202 1223 1261 1601 1951 1997 2892 2905 2922 2939 3402 3404 3413 3431 3436 3448 3449 3456 3479 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

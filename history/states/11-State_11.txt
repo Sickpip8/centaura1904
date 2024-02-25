@@ -1,0 +1,25 @@
+
+state={
+	id=11
+	name="STATE_11"
+
+	history={
+		owner = GRS
+		add_core_of = GRS
+		victory_points = {
+			411 6 
+		}
+		victory_points = {
+			411 35 
+		}
+
+	}
+
+	provinces={
+		146 298 411 415 573 669 709 960 1078 1191 1228 1278 1457 1477 1490 1539 1706 1713 1722 1809 1814 1892 2065 2437 2441 2447 2448 2454 2460 2479 2486 2487 2490 2503 2506 3217 3220 3229 3237 3242 3253 3262 3270 3272 3281 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

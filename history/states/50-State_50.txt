@@ -1,0 +1,19 @@
+
+state={
+	id=50
+	name="STATE_50"
+	history = {
+		owner = CLB
+		add_core_of = CLB
+		victory_points = {
+			733 16
+		}
+	}
+	provinces={
+		37 189 250 266 351 598 733 747 831 1009 1085 1156 1176 1598 1662 1970 2477 2483 2495 2497 2498 2529 2541 2547 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=17
+	name="STATE_17"
+	history = {
+		owner = LAC
+		add_core_of = LAC
+		victory_points = {
+			1149 5
+		}
+		victory_points = {
+			474 32
+		}
+	}
+	provinces={
+		474 803 1149 2091 3008 3634 3635 3636 3637 3638 3639 3640 3641 3642 3643 3644 3645 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}

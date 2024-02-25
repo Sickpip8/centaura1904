@@ -1,0 +1,18 @@
+state={
+	id=92
+	name="STATE_92"
+	history = {
+		owner = LBR
+		add_core_of = LBR
+		victory_points = {
+			3356 5
+		}
+	}
+	provinces={
+		3356 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1
+        state_category = town
+}
