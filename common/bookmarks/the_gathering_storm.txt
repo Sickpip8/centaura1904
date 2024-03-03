@@ -1,15 +1,47 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		name = "GREASE_WAR_NAME"
+		desc = "GREASE_WAR_DESC"
+		date = 1900.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "TST"
+		default_country = ANT
 		default = yes
 		
-		"TST"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		ANT = {
+			history = ANT_1900_DESC
+			ideology = fascism
 		}
+		ORI = {
+			history = ORI_1900_DESC
+			ideology = neutrality
+		}
+		CET = {
+			history = CET_1900_DESC
+			ideology = neutrality
+
+			ideas = {
+				CET_rules_the_waves_idea
+				frederick_scapha_idea
+				CET_independent_armed_forces_idea
+			}
+		}
+		COV = {
+			history = COV_1900_DESC
+			ideology = neutrality
+		}
+		URS = {
+			history = URS_1900_DESC
+			ideology = neutrality
+		}
+		HYS = {
+			history = HYS_1900_DESC
+			ideology = neutrality
+		}
+		RIA = {
+			hidden_effect = RIA_1900_DESC
+			ideology = neutrality
+		}
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
