@@ -4,7 +4,7 @@ state={
 	name="STATE_57"
 	history = {
 		owner = CET
-		add_core_of = CET
+		#add_core_of = CET #should be earned
 		add_core_of = COV
 		victory_points = {
 			1911 13
