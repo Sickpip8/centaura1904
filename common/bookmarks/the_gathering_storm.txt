@@ -38,7 +38,11 @@ bookmarks = {
 			ideology = neutrality
 		}
 		RIA = {
-			hidden_effect = RIA_1900_DESC
+			history = RIA_1900_DESC
+			ideology = neutrality
+		}
+		LBR = {
+			history = LBR_1900_DESC
 			ideology = neutrality
 		}
 
