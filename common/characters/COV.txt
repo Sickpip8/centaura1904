@@ -1,0 +1,14 @@
+characters = {
+	COV_oliver_khorin = { 
+		name = "Oliver Khorin"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COV_oliver_khorin
+				small = GFX_portrait_COV_oliver_khorin_small
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { reluctant_interventionist }
+			expire = "1999.1.1.1"
+			id = -1
