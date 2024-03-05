@@ -33,5 +33,9 @@ country_event = {
         add_stability = 0.1
 
         CET = { COR = { set_occupation_law = forced_labor_occupation } }
+
+        hidden_effect = {
+            complete_national_focus = CET_sc_occupy
+        }
     }
 }
