@@ -181,3 +181,7 @@
  COV_intelligence_desc:0 "
  COV_take_sc:0 "Retake South Corvus"
  COV_take_sc_desc:0 "Our preparations are done. We shall march back into south corvus and retake what once was ours."
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
