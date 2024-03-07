@@ -62,7 +62,7 @@ x means assigned
 93 Jupiter atoll (libra) x
 94 Libran southwest islands x
 95 Northern canis islands (yelamn sea)
-
+96 97 COLUMBA NORTH
 Auxillary states
 73 Cetan-Antarean 1962 land 74 Aquilla-Antarean 1962 land
 

@@ -7,20 +7,21 @@ state={
 		owner = CET
 		add_core_of = CET
 		victory_points = {
-			2738 40 
+			2738 39 
 		}
 		victory_points = {
 			2109 37 
 		}
-
+		victory_points = {
+			74 43 
+		}
 	}
 
 	provinces={
-		84 232 848 1347 1673 1701 1802 1876 2019 2027 2109 2738 2747 2748 2757 2769 
+		74 84 232 848 1347 1673 1701 1802 1876 2019 2027 2109 2738 2747 2748 2757 2769 2810 
 	}
-	manpower=2109652
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-        manpower=1
-        state_category = town
 }

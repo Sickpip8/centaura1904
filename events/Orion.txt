@@ -1,0 +1,22 @@
+add_namespace = orion
+
+country_event = {
+	id = orion.1
+	title = orion.1.t #Hydrus wants help!
+	desc = orion.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = orion.1.a # Yes
+		set_country_flag = ORI_accept_hys
+		}
+	}
+	option = {
+		name = orion.1.b # NO
+		set_country_flag = ORI_refuse_hys
+		}
+	}
+}
+		

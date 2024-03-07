@@ -1,4 +1,4 @@
-﻿ENG = {
+﻿CET = {
 	submarine = {
 		prefix = "CIS"
 		generic = { "Submarine" }
@@ -10,43 +10,43 @@
 		prefix = "CIS"
 		generic = { "Destroyer"	}
 		unique = {
-			"Naiad"
+			"Naiad" "Chiceti" "Phiceti I" "Phiceti II" "Phiceti III" "Kappaceti" "Nuceti" "Luyten" "Cayrel" "Felixvarela" "Arietis" "Ceti I"
 		}
 	}
 	light_cruiser = {
 		prefix = "CIS"
-		generic = { "Light Cruiser" }
+		generic = { "Light Cruiser" } #KAITOS IS SIGMACETI
 		unique = {
-			"Ceti Lambda"
+			"Lambdaceti" "Piceti" "Muceti" "Aeceti" "Epsilonceti" "Rhoceti"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "CIS"
 		generic = { "Heavy Cruiser" }
 		unique = {
-			"Gliese"
+			"Gliese" "Thetha" "Zeta" "Upsilon" "Deltaceti" "Xiceti"
         }
 	}
 	battle_cruiser = {
         prefix = "CIS"
         generic = { "Battlecruiser" }
         unique = {
-            "Kaffaljidhma"
+            "Kaffaljidhma" "Tauceti" "Iota"
         }
     }
     battleship = {
         prefix = "CIS"
         generic = { "Battleship" }
         unique = {
-            "Mira" "Nautus"
+            "Mira" "Nautus" "Diphda" "Algenubi" "Scapha"
         }
     }
 	carrier = {
 		prefix = "CIS"
 		generic = { "Carrier" }
 		unique = {
-			"Menkar"
-			
+			"Menkar" "Kaitos"
+			}
 		}
 	}
 	air_wing_names_template = AIR_WING_NAME_ENG_FALLBACK

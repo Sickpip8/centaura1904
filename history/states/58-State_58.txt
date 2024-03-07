@@ -5,9 +5,11 @@ state={
 		owner = CET
 		add_core_of = CET
 		add_core_of = COV
-		resources={
+		
+		resources= {
 			steel=49
 		}
+		
 		victory_points = {
 			1734 18
 		}
