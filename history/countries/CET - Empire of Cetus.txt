@@ -1,4 +1,4 @@
-capital = 7
+capital = 61
 
 set_research_slots = 3
 
@@ -10,11 +10,18 @@ add_political_power = 1
 
 set_convoys = 157
 
+add_ideas = {
+	frederick_scapha_idea
+	SC_question_idea
+	CET_independent_armed_forces_idea
+	CET_rules_the_waves_idea
+}
+
 set_popularities = {
-	democratic = 3
+	democratic = 10
 	communism = 0
-	fascism = 0
-	neutrality = 97
+	fascism = 2
+	neutrality = 88
 }
 
 set_politics = {

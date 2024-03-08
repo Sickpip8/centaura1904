@@ -1,139 +1,544 @@
-﻿focus_tree = {
-	id = cetan_focus
-	
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = CET
-		}
-	}
-	
-	default = no
-	
-	continuous_focus_position = { x = 50 y = 1000 }
 
-	focus = {
-		id = cetan_industry
-		icon = GFX_goal_generic_production
-		x = 4
-		y = 0
-		cost = 10
+focus_tree = { ## Southern Corvus
+    id = CET_sc
 
-		ai_will_do = {
-			factor = 5
-			modifier = { #testing
-				CET = { surrender_progress > 0.2 }
-				factor = 0
-			}
-		}
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = CET
+        }
+    }
 
-		available = {
-			is_subject = no
-		}
-		
-		bypass = {
-			
-		}
+    focus = {
+        id = CET_sc1 #The South Corvus Question
 
-		cancel_if_invalid = no
-		continue_if_invalid = no
-		available_if_capitulated = yes
+        x = 6
+        y = 0
 
-		completion_reward = {
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 2
-					category = industry
-				}
-			}
-		}
-		
-		focus = {
-			id = expand_light_industry
-			icon = GFX_goal_generic_construct_civ_factory
-			prerequisite = { focus = cetan_industry }
-			x = 6
-			y = 1
-			cost = 10
-			relative_position_id = cetan_indsutry
+        #icon = GFX_
+        #search_filters =
+        cost = 2
 
-			completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}		
+        completion_reward = {
+            add_political_power = 100
+            country_event = {
+                id = CET.1
+                random_days = 7
+            }
+        }
+    }
 
-	focus = {
-		id = production_effort
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = cetan_industry }
-		x = -2
-		y = 1
-		relative_position_id = cetan_industry
-		cost = 10
+    focus = {
+        id =  CET_sc_int1
 
-		completion_reward = {
-		random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-			
+        x = 5
+        y = 1
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_sc_occupy }
+
+        prerequisite = {
+            focus = CET_sc1
+        }
+
+        completion_reward = {
+            swap_ideas = {
+                add_idea = SC_question_idea_integration
+                remove_idea = SC_question_idea
+            }
+        }
+    }
+
+    focus = {
+        id =  CET_sc_int2
+
+        x = 5
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc1
+        }
+
+        completion_reward = {
+            57 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id =  CET_sc_boomtown
+
+        x = 5
+        y = 3
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_int2
+        }
+
+        completion_reward = {
+            58 = {
+                add_resource = {
+                    type = oil
+                    amount = 15
+                }
+                if = {
+                    limit = {
+                        OR = {
+                            infrastructure < 4
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+                else_if = {
+                    limit = {
+                        OR = {
+                            infrastructure < 5
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                    }
+                }
+                else = {
+                    add_extra_state_shared_building_slots = 2
+                }
+            }
+            57 = {
+                add_resource = {
+                    type = steel
+                    amount = 15
+                }
+                if = {
+                    limit = {
+                        OR = {
+                            infrastructure < 4
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+                else_if = {
+                    limit = {
+                        OR = {
+                            infrastructure < 5
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                    }
+                }
+                else = {
+                    add_extra_state_shared_building_slots = 2
+                }
+            }
+        }
+    }
+
+    focus = {
+        id =  CET_sc_deport
+
+        x = 3
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 20
+
+        mutually_exclusive = { focus = CET_sc_assimilate }
+
+        prerequisite = {
+            focus = CET_sc_int1
+        }
+
+        completion_reward = {
+            add_manpower  = -5000
+        }
+    }
+
+    focus = {
+        id =  CET_sc_assimilate
+
+        x = 1
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 20
+
+        mutually_exclusive = { focus = CET_sc_deport }
+
+        prerequisite = {
+            focus = CET_sc_int1
+        }
+
+        completion_reward = {
+            add_manpower = 80000
+        }
+    }
+
+    focus = {
+        id =  CET_sc_policing
+
+        x = 1
+        y = 4
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_assimilate
+        }
+
+        completion_reward = {
+            add_manpower = 5000
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                technology = tech_military_police
+            }
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 300
+            }
+        }
+    }
+
+    focus = {
+        id = CET_sc_new_industry
+
+        x = 2
+        y = 3
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_deport
+            focus = CET_sc_assimilate
+        }
+
+        completion_reward = {
+            57 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            58 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = CET_sc_core
+
+        x = 3
+        y = 4
+
+        #icon = GFX_
+        #search_filters =
+        cost = 20
+
+        prerequisite = { focus = CET_sc_new_industry }
+        prerequisite = { focus = CET_sc_boomtown }
+
+        completion_reward = {
+            57 = { add_core_of = CET }
+            58 = { add_core_of = CET }
+            remove_ideas = SC_question_idea_integration
+        }
+    }
+
+    ## other path
+
+    focus = {
+        id = CET_sc_occupy
+
+        x = 7
+        y = 1
+
+        #icon = GFX_
+        #search_filters =
+        cost = 1
+
+        mutually_exclusive = { focus = CET_sc1 }
+
+        prerequisite = {
+            focus = CET_sc1
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = CET_sc_remove_debuff
+
+        x = 7
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 20
+
+        prerequisite = {
+            focus = CET_sc_occupy
+        }
+
+        completion_reward = {
+            remove_ideas = SC_question_idea
+        }
+    }
+
+    focus = {
+        id = CET_sc_light_industry
+
+        x = 7
+        y = 3
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_remove_debuff
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = CET_sc_new_mines
+
+        x = 10
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_occupy
+        }
+
+        completion_reward = {
+            57 = {
+                add_resource = {
+                    type = oil
+                    amount = 25
+                }
+                add_resource = {
+                    type = steel
+                    amount = 5
+                }
+            }
+            58 = {
+                add_resource = {
+                    type = oil
+                    amount = 10
+                }
+                add_resource = {
+                    type = steel
+                    amount = 20
+                }
+                add_resource = {
+                    type = chromium
+                    amount = 12
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = CET_sc_heavy_industry
+
+        x = 9
+        y = 3
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_new_mines
+        }
+
+        completion_reward = {
+            58 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = CET_sc_dockyards
+
+        x = 11
+        y = 3
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_new_mines
+        }
+
+        completion_reward = {
+            58 = {
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = CET_sc_partial_integration
+
+        x = 10
+        y = 4
+
+        #icon = GFX_
+        #search_filters =
+        cost = 20
+
+        prerequisite = {
+            focus = CET_sc_new_mines
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = CET_sc_railways
+
+        x = 6
+        y = 4
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_sc_int1
+            focus = CET_sc_occupy
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = CET_sc_war_corvus
+
+        x = 6
+        y = 5
+
+        #icon = GFX_
+        #search_filters =
+        cost = 15
+
+        prerequisite = {
+            focus = CET_sc_core
+            focus = CET_sc_partial_integration
+        }
+        prerequisite = { focus = CET_sc_railways }
+
+        available = {
+            date = 1911.1.1
+            has_army_manpower = { size > 749999 }
+        }
+
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = COV
+            }
+        }
+    }
+}
+
+focus_tree = { ## Politics
+    id = CET_pol
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = CET
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_path
+
+        x = 20
+        y = 0
+
+        #icon = GFX_
+        #search_filters =
+        cost = 8
+
+        completion_reward = {
+            add_stability = 5
+        }
+    }
+}

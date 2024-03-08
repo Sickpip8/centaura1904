@@ -1,0 +1,13 @@
+
+sc_resistance_integration = {
+    icon = GFX_MODIFIER_PARTISAN_EFFECT_FACTOR
+
+    required_garrison_factor = 0.33
+    local_resources_factor = -0.2
+    
+    enable = {
+        THIS = {
+            owner = CET
+        }
+    }
+}

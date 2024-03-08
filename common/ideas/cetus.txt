@@ -1,0 +1,76 @@
+ideas = {
+    country = {
+        frederick_scapha_idea = {
+            name = frederick_scapha
+
+            picture = generic_production_bonus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                war_support_factor = 0.05
+                drift_defence_factor = 0.15
+            }
+
+            traits = { popular_figurehead }
+        }
+
+        SC_question_idea = {
+            name = SC_question
+            
+            picture = generic_production_bonus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.2
+                political_power_gain = -0.2
+            }
+        }
+
+        SC_question_idea_integration = {
+            name = SC_question
+
+            picture = generic_production_bonus
+            allowed = { always = no }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.2
+            }
+        }
+
+        CET_independent_armed_forces_idea = {
+            name = independent_armed_forces
+
+            picture = generic_production_bonus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                command_power_gain_mult = -0.8
+                land_doctrine_cost_factor = -0.1
+                naval_doctrine_cost_factor = -0.1
+                army_org_factor = -0.3
+                army_morale_factor = -0.1
+            }
+        }
+
+        CET_rules_the_waves_idea = {
+            name = cetus_rules_the_waves
+
+            picture = generic_production_bonus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                industrial_capacity_dockyard = 0.3
+                navy_max_range_factor = 0.25
+                special_forces_cap = 0.2
+                navy_capital_ship_attack_factor = 0.1
+                navy_capital_ship_defence_factor = 0.1
+                experience_gain_navy_unit_factor = 0.25
+            }
+        }
+    }
+}
