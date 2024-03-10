@@ -1,7 +1,7 @@
 ideas = {
 
     country = 
-        secret_formula = {
+        fallen_empire = {
             picture = usa_great_depression_3
 
             allowed : {
