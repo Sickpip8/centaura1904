@@ -1,0 +1,193 @@
+focus_tree = {
+    id = ORS_focus
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 50
+            tag = AFG  # Replace AFG with ORS
+        }
+    }
+    continuous_focus_position = { x = 25 y = 680 }
+
+    focus = {
+        id = ORS_CanisCrisis
+        icon = GFX_goal_generic_territory_or_war
+        x = 10
+        y = 0
+        cost = 5
+        available = {
+            
+        }
+        completion_reward = {
+            add_stability = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+    
+    focus = {
+        id = ORS_Intervene
+        icon = GFX_focus_generic_manpower
+        x = 10
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = ORS_CanisCrisis
+        }
+        completion_reward = {
+            add_war_support = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+    
+    focus = {
+        id = ORS_RallyPeople
+        icon = "GFX_focus_generic_infiltration"
+        x = 11    
+        y = 2
+        cost = 5
+        prerequisite = {
+            focus = ORS_Intervene
+        }
+        completion_reward = {
+            add_ideas = ORS_RallyPeopleIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+    
+    focus = {
+        id = ORS_ContactHydrus
+        icon = GFX_focus_NOR_approach_kretsen
+        x = 9    
+        y = 2
+        cost = 5
+        prerequisite = {
+            focus = ORS_Intervene
+        }
+        completion_reward = {
+            USA = {
+                country_event = {
+                    id = ORS_TAG.1
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+
+    
+
+    focus = {
+        id = ORS_PromiseBusinesses
+        icon = GFX_focus_NORDIC_com_capstone_civilian
+        x = 13
+        y = 3
+        cost = 5
+        prerequisite = {
+            focus = ORS_RallyPeople
+        }
+        completion_reward = {
+            add_ideas=ORS_PromiseBusinessesIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = ORS_PrepareMilitary
+        icon = GFX_focus_generic_limited_social_mobilization
+        x = 11
+        y = 3
+        cost = 5
+        prerequisite = {
+            focus = ORS_RallyPeople
+        }
+        completion_reward = {
+           add_ideas=ORS_PrepareMilitaryIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = ORS_BattleExperience
+        icon = GFX_focus_generic_full_employment
+        x = 11
+        y = 4
+        cost = 5
+        prerequisite = {
+            focus = ORS_PrepareMilitary
+        }
+        completion_reward = {
+           add_ideas=ORS_GainExpIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+		focus = {
+        id = ORS_TrainHydrusites
+        icon = GFX_focus_ITA_blackshirts
+        x = 9
+        y = 3
+        cost = 5
+        prerequisite = {
+            focus = ORS_ContactHydrus
+        }
+        completion_reward = {
+           add_ideas=ORS_PrepareMilitaryIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+		focus = {
+        id = ORS_InvestInHydrusiteMilitaryIndustry
+        icon = GFX_focus_DEN_no_regulations
+        x = 9
+        y = 4
+        cost = 5
+        prerequisite = {
+            focus = ORS_TrainHydrusites
+        }
+        completion_reward = {
+           add_ideas=ORS_PrepareMilitaryIdea
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+		focus = {
+        id = ORS_InvadeCanis
+        icon = GFX_goal_generic_attack_allies
+        x = 10
+        y = 5
+        cost = 5
+        prerequisite = {
+		focus = ORS_InvestInHydrusiteMilitaryIndustry
+		focus = ORS_BattleExperience
+		}
+        completion_reward = {
+           declare_war_on = {
+		target = SOV #Replace SOV with URS or whatever Ursa tag is
+		type = annex_everything
+}
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+}
+
