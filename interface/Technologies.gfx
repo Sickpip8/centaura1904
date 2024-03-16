@@ -266,7 +266,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery_equipment.dds"
 	}	
 	
 	SpriteType = {
@@ -358,12 +358,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_artillery2_medium"
-		texturefile = "gfx/interface/technologies/artillery2.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_artillery1_medium"
 		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_artillery0_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery0.dds"
 	}	
 	
 	SpriteType = {
