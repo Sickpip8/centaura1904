@@ -1,16 +1,14 @@
 ideas = {
     country = {
-        frederick_scapha_idea = {
+        frederick_scapha_idea = { #for democratic path
             name = frederick_scapha
 
             picture = generic_production_bonus
-            allowed = { original_tag = CET }
-            removal_cost = -1
-
-            modifier = {
-                war_support_factor = 0.05
-                drift_defence_factor = 0.15
+            allowed = {
+                original_tag = CET
+                has_completed_focus = CET_democratic_keep_emperor
             }
+            removal_cost = -1
 
             traits = { popular_figurehead }
         }
@@ -24,7 +22,8 @@ ideas = {
 
             modifier = {
                 stability_factor = -0.2
-                political_power_gain = -0.2
+                political_power_gain = -0.5
+                stability_weekly = -0.002
             }
         }
 
@@ -41,9 +40,9 @@ ideas = {
         }
 
         CET_independent_armed_forces_idea = {
-            name = independent_armed_forces
+            name = CET_independent_armed_forces
 
-            picture = generic_production_bonus
+            picture = CET_independent_armed_forces
             allowed = { original_tag = CET }
             removal_cost = -1
 
@@ -51,15 +50,19 @@ ideas = {
                 command_power_gain_mult = -0.8
                 land_doctrine_cost_factor = -0.1
                 naval_doctrine_cost_factor = -0.1
+                experience_gain_army_factor = -0.75
                 army_org_factor = -0.3
                 army_morale_factor = -0.1
+                training_time_army_factor = 0.3
+                political_power_gain = -0.2
+                conscription_factor = -0.25
             }
         }
 
         CET_rules_the_waves_idea = {
-            name = cetus_rules_the_waves
+            name = CET_cetus_rules_the_waves
 
-            picture = generic_production_bonus
+            picture = cetus_rules_the_waves
             allowed = { original_tag = CET }
             removal_cost = -1
 
@@ -70,6 +73,7 @@ ideas = {
                 navy_capital_ship_attack_factor = 0.1
                 navy_capital_ship_defence_factor = 0.1
                 experience_gain_navy_unit_factor = 0.25
+                custom_effect_tooltip = CET_required_naval_upkeep #cetan religion is all about religion so you shouldnt be allowed to disregard navy
             }
         }
     }

@@ -84,3 +84,21 @@ CET_sc_partial_integration:0 "Allow For Freedoms"
 CET_sc_partial_integration_desc:0 "With the intent to keep Southern Corvus for the time being it should be noted that the population is going to have to adapt to their new overlord. Maybe if allow for better freedoms within the region they will come to like us more."
 CET_sc_war_corvus:0 "Kill The Crows"
 CET_sc_war_corvus:0 "The time has come for us to continue our conquest of Corvus. While the lands are not as rich in resources as the once we've already taken, the people can still be put to work in our factories and armies. Their heretical way of thinking is going to come to an end."
+
+# events
+
+# decisions
+
+# spirits
+
+CET_cetus_rules_the_waves:0 "Cetus Rules the Waves"
+CET_cetus_rules_the_waves_desc:0 "Cetus has always been nation to pride itself on its maritime history. Over the centuries the Cetan Navy has grown to be strongest on all of Forma. The quest to explore all of the Inanis is driving forward this expansion."
+CET_independent_armed_forces:0 "Independently Acting Armed Forces"
+CET_independent_armed_forces_desc:0 "The armed forces have since the invasion of Southern Corvus proven themselves to be completely fine on their own, since then the Cetan government has let go of it's control over the Army and Navy respectively and now merely act only on foreign affairs."
+SC_question:0 "The Southern Corvus Question"
+SC_question_desc:0 "The question has arisen as to what to do with Southern Corvus for the remaining future, if not tackled this could lead to rising unrest."
+frederick_scapha:0 "Frederick I"
+
+# misc
+
+CET_required_naval_upkeep:0 "§RIf the navy is neglected this spirit will deactivate!§!"
