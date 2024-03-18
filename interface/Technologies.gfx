@@ -171,47 +171,47 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_5_medium"
-		texturefile = "gfx\interface\technologies\small-arms\infantry6.dds"
+		texturefile = "gfx/interface/technologies/small-arms/infantry6.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_4_medium"
-		texturefile = "gfx\interface\technologies\small-arms\modern_infantry_weapons_4.dds"
+		texturefile = "gfx/interface/technologies/small-arms/modern_infantry_weapons_4.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_3_medium"
-		texturefile = "gfx\interface\technologies\small-arms\modern_infantry_weapons_3.dds"
+		texturefile = "gfx/interface/technologies/small-arms/modern_infantry_weapons_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_2_medium"
-		texturefile = "gfx\interface\technologies\small-arms\infantry5.dds"
+		texturefile = "gfx/interface/technologies/small-arms/infantry5.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_1_medium"
-		texturefile = "gfx\interface\technologies\small-arms\modern_infantry_weapons_1.dds"
+		texturefile = "gfx/interface/technologies/small-arms/modern_infantry_weapons_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_1_medium"
-		texturefile = "gfx\interface\technologies\small-arms\modern_infantry_weapons_1.dds"
+		texturefile = "gfx/interface/technologies/small-arms/modern_infantry_weapons_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_medium"
-		texturefile = "gfx\interface\technologies\small-arms\infantry4.dds"
+		texturefile = "gfx/interface/technologies/small-arms/infantry4.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons_medium"
-		texturefile = "gfx\interface\technologies\small-arms\infantry3.dds"
+		texturefile = "gfx/interface/technologies/small-arms/infantry3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_improved_infantry_weapons_4_medium"
-		texturefile = "gfx\interface\technologies\small-arms\improved_infantry_weapons_4.dds"
+		texturefile = "gfx/interface/technologies/small-arms/improved_infantry_weapons_4.dds"
 	}	
 
 	SpriteType = {
@@ -221,7 +221,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx\interface\technologies\small-arms\infantry_equipment_0.dds"
+		texturefile = "gfx/interface/technologies/small-arms/infantry_equipment_0.dds"
 	}		
 	
 	SpriteType = {
@@ -266,7 +266,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery_equipment.dds"
 	}	
 	
 	SpriteType = {
@@ -358,12 +358,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_artillery2_medium"
-		texturefile = "gfx/interface/technologies/artillery2.dds"
+		texturefile = "gfx/interface/technologies/artillery/artillery2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_artillery1_medium"
 		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_artillery0_medium"
+		texturefile = "gfx/interface/technologies/artillery/artillery0.dds"
 	}	
 	
 	SpriteType = {
@@ -590,22 +595,22 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_tech_engineers8_medium"
-		texturefile = "gfx\interface\technologies\specials\engineers8.dds"
+		texturefile = "gfx/interface/technologies/specials/engineers8.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_tech_engineers7_medium"
-		texturefile = "gfx\interface\technologies\specials\engineers7.dds"
+		texturefile = "gfx/interface/technologies/specials/engineers7.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_tech_engineers6_medium"
-		texturefile = "gfx\interface\technologies\specials\engineers6.dds"
+		texturefile = "gfx/interface/technologies/specials/engineers6.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_tech_engineers5_medium"
-		texturefile = "gfx\interface\technologies\specials\engineers5.dds"
+		texturefile = "gfx/interface/technologies/specials/engineers5.dds"
 	}	
 
 	SpriteType = {
@@ -2888,7 +2893,7 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_Improved_train_medium"
-		texturefile = "gfx\interface\technologies\vehicles\train_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/vehicles/train_equipment_4.dds"
 	}	
 	SpriteType = {
 		name = "GFX_Advanced_train_medium"
