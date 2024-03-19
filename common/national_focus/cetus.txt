@@ -1,6 +1,6 @@
 
 focus_tree = { ## Southern Corvus
-    id = CET_sc
+    id = CET_focus
 
     country = {
         base = 0
@@ -16,7 +16,7 @@ focus_tree = { ## Southern Corvus
         x = 6
         y = 0
 
-        #icon = GFX_
+        icon = GFX_focus_SWE_organize_a_putsch
         #search_filters =
         cost = 2
 
@@ -30,20 +30,18 @@ focus_tree = { ## Southern Corvus
     }
 
     focus = {
-        id =  CET_sc_int1
+        id = CET_sc_int1
 
         x = 5
         y = 1
 
-        #icon = GFX_
+        icon = GFX_focus_NOR_broken_gun_policies
         #search_filters =
         cost = 10
 
         mutually_exclusive = { focus = CET_sc_occupy }
 
-        prerequisite = {
-            focus = CET_sc1
-        }
+        prerequisite = { focus = CET_sc1 }
 
         completion_reward = {
             swap_ideas = {
@@ -59,7 +57,7 @@ focus_tree = { ## Southern Corvus
         x = 5
         y = 2
 
-        #icon = GFX_
+        icon = GFX_focus_spa_the_spanish_miracle
         #search_filters =
         cost = 10
 
@@ -85,7 +83,7 @@ focus_tree = { ## Southern Corvus
         x = 5
         y = 3
 
-        #icon = GFX_
+        icon = GFX_focus_generic_mining_industry
         #search_filters =
         cost = 10
 
@@ -173,7 +171,7 @@ focus_tree = { ## Southern Corvus
         x = 3
         y = 2
 
-        #icon = GFX_
+        icon = GFX_focus_spr_crush_the_revolution
         #search_filters =
         cost = 20
 
@@ -194,7 +192,7 @@ focus_tree = { ## Southern Corvus
         x = 1
         y = 2
 
-        #icon = GFX_
+        icon = GFX_focus_NOR_approach_kretsen
         #search_filters =
         cost = 20
 
@@ -215,7 +213,7 @@ focus_tree = { ## Southern Corvus
         x = 1
         y = 4
 
-        #icon = GFX_
+        icon = GFX_goal_generic_political_pressure
         #search_filters =
         cost = 10
 
@@ -243,7 +241,7 @@ focus_tree = { ## Southern Corvus
         x = 2
         y = 3
 
-        #icon = GFX_
+        icon = GFX_focus_SOV_organize_wreckers
         #search_filters =
         cost = 10
 
@@ -275,10 +273,10 @@ focus_tree = { ## Southern Corvus
     focus = {
         id = CET_sc_core
 
-        x = 3
+        x = 3.5
         y = 4
 
-        #icon = GFX_
+        icon = GFX_goal_tripartite_pact
         #search_filters =
         cost = 20
 
@@ -300,9 +298,9 @@ focus_tree = { ## Southern Corvus
         x = 7
         y = 1
 
-        #icon = GFX_
+        icon = GFX_focus_DEN_heavy_regulations
         #search_filters =
-        cost = 1
+        cost = 10
 
         mutually_exclusive = { focus = CET_sc1 }
 
@@ -321,7 +319,7 @@ focus_tree = { ## Southern Corvus
         x = 7
         y = 2
 
-        #icon = GFX_
+        icon = GFX_focus_generic_self_management
         #search_filters =
         cost = 20
 
@@ -340,7 +338,7 @@ focus_tree = { ## Southern Corvus
         x = 7
         y = 3
 
-        #icon = GFX_
+        icon = GFX_goal_generic_construct_civ_factory
         #search_filters =
         cost = 10
 
@@ -359,7 +357,7 @@ focus_tree = { ## Southern Corvus
         x = 10
         y = 2
 
-        #icon = GFX_
+        icon = GFX_goal_generic_construction2
         #search_filters =
         cost = 10
 
@@ -401,7 +399,7 @@ focus_tree = { ## Southern Corvus
         x = 9
         y = 3
 
-        #icon = GFX_
+        icon = GFX_goal_generic_construct_mil_factory
         #search_filters =
         cost = 10
 
@@ -427,7 +425,7 @@ focus_tree = { ## Southern Corvus
         x = 11
         y = 3
 
-        #icon = GFX_
+        icon = GFX_focus_SWE_coastal_support
         #search_filters =
         cost = 10
 
@@ -436,7 +434,7 @@ focus_tree = { ## Southern Corvus
         }
 
         completion_reward = {
-            58 = {
+            57 = {
                 add_extra_state_shared_building_slots = 3
                 add_building_construction = {
                     type = dockyard
@@ -453,7 +451,7 @@ focus_tree = { ## Southern Corvus
         x = 10
         y = 4
 
-        #icon = GFX_
+        icon = GFX_focus_SWE_refuge_from_war
         #search_filters =
         cost = 20
 
@@ -472,7 +470,7 @@ focus_tree = { ## Southern Corvus
         x = 6
         y = 4
 
-        #icon = GFX_
+        icon = GFX_goal_generic_construct_infrastructure
         #search_filters =
         cost = 10
 
@@ -487,58 +485,2757 @@ focus_tree = { ## Southern Corvus
     }
 
     focus = {
-        id = CET_sc_war_corvus
+        id = CET_status_quo
 
-        x = 6
-        y = 5
+        x = 13
+        y = 0
+        relative_position_id = CET_sc1
+
+        icon = GFX_focus_generic_monarchy_2
+        #search_filters =
+        cost = 1
+
+        allow_branch = {
+            if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                NOT = { has_completed_focus = CET_fascist }
+            }
+        }
+
+        mutually_exclusive = { focus = CET_fascist }
+
+        completion_reward = {
+            add_stability = 0.05
+            hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+        }
+
+    }
+
+    focus = {
+        id = CET_monarchist
+
+        x = -1
+        y = 1
+        relative_position_id = CET_status_quo
 
         #icon = GFX_
         #search_filters =
-        cost = 15
+        cost = 10
 
-        prerequisite = {
-            focus = CET_sc_core
-            focus = CET_sc_partial_integration
-        }
-        prerequisite = { focus = CET_sc_railways }
+        mutually_exclusive = { focus = CET_democratic_peaceful_revolution}
 
-        available = {
-            date = 1911.1.1
-            has_army_manpower = { size > 749999 }
-        }
+        prerequisite = { focus = CET_status_quo }
 
         completion_reward = {
-            create_wargoal = {
-                type = annex_everything
-                target = COV
-            }
-        }
-    }
-}
 
-focus_tree = { ## Politics
-    id = CET_pol
-
-    country = {
-        base = 0
-        modifier = {
-            add = 10
-            tag = CET
         }
     }
 
     focus = {
-        id = CET_monarchist_path
+        id = CET_root_corruption
 
-        x = 20
-        y = 0
+        x = 0
+        y = 2
+        relative_position_id = CET_status_quo
+
+        icon = GFX_focus_BUL_condemn_macedonian_organizations
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_democratic_peaceful_revolution
+            focus = CET_monarchist
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_cut_naval_spending
+
+        x = -1
+        y = 4
+        relative_position_id = CET_status_quo
+
+        icon = GFX_focus_ARG_anti_corruption_policies
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_root_corruption }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_reallocate_military_budget
+
+        x = 1
+        y = 4
+        relative_position_id = CET_status_quo
+
+        icon = GFX_focus_ARG_crackdown_on_corruption
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_root_corruption }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_purge_officers
+
+        x = 0
+        y = 5
+        relative_position_id = CET_status_quo
+
+        icon = GFX_focus_generic_conspiracy
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_cut_naval_spending }
+        prerequisite = { focus = CET_reallocate_military_budget }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_touring
+
+        x = -1
+        y = 1
+        relative_position_id = CET_monarchist
 
         #icon = GFX_
         #search_filters =
-        cost = 8
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist }
 
         completion_reward = {
-            add_stability = 5
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_visit_aquila
+
+        x = 0
+        y = 1
+        relative_position_id = CET_monarchist_touring
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_touring }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_media
+
+        x = -3
+        y = 1
+        relative_position_id = CET_monarchist
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_spies
+
+        x = 0
+        y = 1
+        relative_position_id = CET_monarchist_media
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_media }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_council
+
+        x = 1
+        y = 1
+        relative_position_id = CET_monarchist_spies
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_spies }
+        prerequisite = { focus = CET_monarchist_visit_aquila }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_council_industry
+
+        x = -1
+        y = 2
+        relative_position_id = CET_monarchist_council
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_council }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_council_politics
+
+        x = 0
+        y = 1
+        relative_position_id = CET_monarchist_council
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_council }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_monarchist_council_army
+
+        x = 1
+        y = 2
+        relative_position_id = CET_monarchist_council
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_monarchist_council }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral
+
+        x = -6
+        y = 2
+        relative_position_id = CET_monarchist_council_politics
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_imperial }
+
+        prerequisite = { focus = CET_monarchist_council_industry }
+        prerequisite = { focus = CET_monarchist_council_army }
+
+        available = { has_completed_focus = CET_monarchist_council_politics } #looks gay with prerequisite
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_isolation
+
+        x = 0
+        y = 1
+        relative_position_id = CET_neutral
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_defense_budget
+
+        x = -1
+        y = 1
+        relative_position_id = CET_neutral_isolation
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_isolation }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_homeland_resources
+
+        x = 1
+        y = 1
+        relative_position_id = CET_neutral_isolation
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_isolation }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = { #add research
+        id = CET_neutral_domestic_design
+
+        x = -2
+        y = 2
+        relative_position_id = CET_neutral_isolation
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_defense_budget }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_anti_air_buildings
+
+        x = 0
+        y = 1
+        relative_position_id = CET_neutral_domestic_design
+
+        icon = GFX_focus_generic_air_defense
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_domestic_design }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_forts_1
+
+        x = 0
+        y = 2
+        relative_position_id = CET_neutral_isolation
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_neutral_defense_budget
+            focus = CET_neutral_homeland_resources
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_forts_2
+
+        x = 0
+        y = 1
+        relative_position_id = CET_neutral_forts_1
+
+        icon = GFX_goal_generic_fortify_city
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_forts_1 }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_railgun
+
+        x = -1
+        y = 2
+        relative_position_id = CET_neutral_forts_1
+
+        icon = GFX_focus_generic_railway_gun
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_forts_2 }
+        prerequisite = { focus = CET_neutral_anti_air_buildings }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_civs
+
+        x = 2
+        y = 2
+        relative_position_id = CET_neutral_isolation
+
+        icon = GFX_focus_generic_industry_1
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_homeland_resources }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_food_supplies
+
+        x = 0
+        y = 1
+        relative_position_id = CET_neutral_civs
+
+        icon = GFX_focus_SWE_rations
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_civs }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_neutral_unity
+
+        x = -1
+        y = 1
+        relative_position_id = CET_neutral_food_supplies
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_neutral_food_supplies }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_shield_of_cetus
+
+        x = 1
+        y = 1
+        relative_position_id = CET_neutral_railgun
+
+        icon = GFX_focus_generic_home_defense
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_neutral_unity
+            focus = CET_neutral_railgun
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial
+
+        x = 0
+        y = 2
+        relative_position_id = CET_monarchist_council_politics
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_imperial }
+
+        prerequisite = { focus = CET_monarchist_council_politics }
+        prerequisite = { focus = CET_monarchist_council_industry }
+        prerequisite = { focus = CET_monarchist_council_army }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_clear_land
+
+        x = -2
+        y = 1
+        relative_position_id = CET_imperial
+
+        icon = GFX_focus_generic_land_reclamation
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_imperial
+            focus = CET_neutral
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_eridanus
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_clear_land
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_clear_land }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_steel
+
+        x = 2
+        y = 1
+        relative_position_id = CET_imperial
+
+        icon = GFX_focus_generic_steel
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_nauta_docks
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_steel
+
+        icon = GFX_focus_generic_refit_civilian_ships
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_steel }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_royal_academy
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_nauta_docks
+
+        icon = GFX_focus_NORDIC_mon_research
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_nauta_docks }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_for_the_emperor
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_for_faith
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_for_the_emperor
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_for_the_emperor }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_king_of_kings #persian for emperor
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_for_faith
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_for_faith }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_conquer_corvus
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_king_of_kings
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_king_of_kings }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_emperor_field_marshal
+
+        x = -2
+        y = 2
+        relative_position_id = CET_imperial_conquer_corvus
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_imperial_conquer_corvus
+            focus = CET_neutral_unity
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_march_on_skorpius
+
+        x = 0
+        y = 3
+        relative_position_id = CET_imperial_conquer_corvus
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_conquer_corvus }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_conquer_aquila
+
+        x = 2
+        y = 2
+        relative_position_id = CET_imperial_king_of_kings
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_imperial_ally_aquila }
+
+        prerequisite = { focus = CET_imperial_conquer_corvus }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_conquer_vega
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_conquer_aquila
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_conquer_aquila }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_conquer_grusa
+
+        x = 0
+        y = 1
+        relative_position_id = CET_imperial_conquer_vega
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_conquer_vega }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_northern_ambition
+
+        x = 1
+        y = 1
+        relative_position_id = CET_imperial_march_on_skorpius
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_imperial_conquer_grusa }
+        prerequisite = { focus = CET_imperial_march_on_skorpius }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_imperial_ally_aquila
+
+        x = 4
+        y = 2
+        relative_position_id = CET_imperial_king_of_kings
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_imperial_conquer_aquila }
+
+        prerequisite = { focus = CET_imperial_king_of_kings }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_peaceful_revolution
+
+        x = 1
+        y = 1
+        relative_position_id = CET_status_quo
+
+        icon = GFX_focus_CET_peaceful_revolution
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_monarchist }
+
+        prerequisite = { focus = CET_status_quo }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_open_voting
+
+        x = 1
+        y = 1
+        relative_position_id = CET_democratic_peaceful_revolution
+
+        icon = GFX_focus_usa_voter_registration_act
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_peaceful_revolution }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_street_rallies
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_open_voting
+
+        icon = GFX_focus_generic_workers
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_open_voting }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_free_media
+
+        x = 3
+        y = 1
+        relative_position_id = CET_democratic_peaceful_revolution
+
+        icon = GFX_focus_CET_free_media
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_peaceful_revolution }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_aquilan_sympathisers
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_free_media
+
+        icon = GFX_focus_prc_infiltration
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_free_media }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_educate_social_classes
+
+        x = 1
+        y = 1
+        relative_position_id = CET_democratic_street_rallies
+
+        icon = GFX_focus_generic_university_1
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_street_rallies }
+        prerequisite = { focus = CET_democratic_aquilan_sympathisers }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_referendum
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_educate_social_classes
+
+        icon = GFX_focus_generic_treaty
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_educate_social_classes }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_cut_emperor
+
+        x = -1
+        y = 1
+        relative_position_id = CET_democratic_referendum
+
+        icon = GFX_focus_rom_abdicate
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_democratic_keep_emperor }
+
+        prerequisite = { focus = CET_democratic_referendum }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_keep_emperor
+
+        x = 1
+        y = 1
+        relative_position_id = CET_democratic_referendum
+
+        icon = GFX_focus_rom_handle_king
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_democratic_keep_emperor }
+
+        prerequisite = { focus = CET_democratic_referendum }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_people_work
+
+        x = -1
+        y = 1
+        relative_position_id = CET_democratic_cut_emperor
+
+        icon = GFX_focus_generic_the_giant_wakes
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_democratic_keep_emperor
+            focus = CET_democratic_cut_emperor
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_investments
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_people_work
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_people_work }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_aquilan_alliance
+
+        x = 3
+        y = 1
+        relative_position_id = CET_democratic_cut_emperor
+
+        icon = GFX_focus_generic_league_of_nations
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_democratic_keep_emperor
+            focus = CET_democratic_cut_emperor
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_columban_alliance
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_aquilan_alliance
+
+        icon = GFX_focus_generic_little_entente
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_aquilan_alliance }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_beacon_of_freedom #on centaura LOL
+
+        x = 1
+        y = 1
+        relative_position_id = CET_democratic_cut_emperor
+
+        icon = GFX_goal_support_democracy
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_democratic_keep_emperor
+            focus = CET_democratic_cut_emperor
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_fight_for_democracy
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_beacon_of_freedom
+
+        icon = GFX_focus_spr_torchbearers_of_tomorrow
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_beacon_of_freedom }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_liberate_crows
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_fight_for_democracy
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_fight_for_democracy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_liberate_scorpions
+
+        x = -2
+        y = 1
+        relative_position_id = CET_democratic_fight_for_democracy
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_fight_for_democracy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_liberate_riaa
+
+        x = 2
+        y = 1
+        relative_position_id = CET_democratic_fight_for_democracy
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_fight_for_democracy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_liberate_libra
+
+        x = 0
+        y = 1
+        relative_position_id = CET_democratic_liberate_scorpions
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_liberate_scorpions }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_democratic_challenge_hydra #cause why not
+
+        x = 2
+        y = 1
+        relative_position_id = CET_democratic_liberate_scorpions
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_democratic_liberate_riaa }
+        prerequisite = { focus = CET_democratic_liberate_scorpions }
+
+        completion_reward = {
+            hidden_effect = {
+                country_event = { id = dirty_mark.1 }
+            }
+        }
+    }
+
+    focus = {
+        id = CET_fascist
+
+        x = 25
+        y = 0
+        relative_position_id = CET_sc1
+
+        offset = {
+            x = -12
+            y = 0
+            trigger = {
+                has_completed_focus = CET_fascist
+            }
+        }
+
+        icon = GFX_focus_generic_military_mission
+        #search_filters =
+        cost = 1
+
+        allow_branch = {
+            if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                NOT = { has_completed_focus = CET_status_quo }
+            }
+        }
+
+        mutually_exclusive = { focus = CET_status_quo }
+
+        completion_reward = {
+            hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+        }
+    }
+
+    focus = {
+        id = CET_fascist_generals
+
+        x = -2
+        y = 1
+        relative_position_id = CET_fascist
+
+        icon = GFX_focus_generic_infiltration
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_store_guns
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_generals
+
+        icon = GFX_focus_FIN_weapon_caches
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_generals }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_veterans
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_store_guns
+
+        icon = GFX_focus_secret_rearmament
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_store_guns }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_naval_officers
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist
+
+        icon = GFX_focus_CET_every_man_himself
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_southern_control
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_naval_officers
+
+        icon = GFX_focus_generic_annex_country
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_naval_officers }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_militias
+
+        x = 2
+        y = 1
+        relative_position_id = CET_fascist
+
+        icon = GFX_focus_generic_manpower
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_cash_reserve
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_militias
+
+        icon = GFX_focus_usa_reestablish_the_gold_standard
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_militias }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_revolt
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_southern_control
+
+        icon = GFX_focus_generic_provoke_border_clashes
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_southern_control }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_revolt_war_plans
+
+        x = 4
+        y = 1
+        relative_position_id = CET_fascist_revolt
+
+        icon = GFX_goal_generic_military_sphere
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_revolt }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_march_nauta
+
+        x = -2
+        y = 1
+        relative_position_id = CET_fascist_revolt_war_plans
+
+        icon = GFX_goal_generic_territory_or_war
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_revolt_war_plans }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_secure_east
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_march_nauta
+
+        icon = GFX_goal_generic_occupy_states_ongoing_war
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_march_nauta }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_organise_legions
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_revolt_war_plans
+
+        icon = GFX_focus_generic_full_social_mobilization
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_revolt_war_plans }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_contact_antares
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_organise_legions
+
+        icon = GFX_focus_generic_diplomatic_treaty
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_organise_legions }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_sabotage_supply
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_contact_antares
+
+        icon = GFX_focus_CHL_high_quality_nitrate
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_contact_antares }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_secure_naval_dominance
+
+        x = 2
+        y = 1
+        relative_position_id = CET_fascist_contact_antares
+
+        icon = GFX_goal_generic_navy_doctrines_tactics
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_contact_antares }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_convert_factories
+
+        x = 2
+        y = 1
+        relative_position_id = CET_fascist_revolt_war_plans
+
+        icon = GFX_focus_generic_reorient_production
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_revolt_war_plans }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_prioritise_supply
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_convert_factories
+
+        icon = GFX_focus_generic_railroad
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_convert_factories }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_general_staff
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_revolt
+
+        icon = GFX_focus_CET_general_staff
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_revolt }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_centralise_authority
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_general_staff
+
+        icon = GFX_focus_generic_military_dictatorship
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_general_staff }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_choose_leadership
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_centralise_authority
+
+        icon = GFX_focus_generic_national_security
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_centralise_authority }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_military_dictator
+
+        x = -1
+        y = 1
+        relative_position_id = CET_fascist_choose_leadership
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_fascist_politician }
+
+        prerequisite = { focus = CET_fascist_choose_leadership }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_politician
+
+        x = 1
+        y = 1
+        relative_position_id = CET_fascist_choose_leadership
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_fascist_military_dictator }
+
+        prerequisite = { focus = CET_fascist_choose_leadership }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_fanatisize_military
+
+        x = -3
+        y = 2
+        relative_position_id = CET_fascist_choose_leadership
+
+        icon = GFX_focus_generic_fascist_troops
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_military_dictator }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_military_school
+
+        x = -1
+        y = 2
+        relative_position_id = CET_fascist_choose_leadership
+
+        icon = GFX_focus_generic_military_academy
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_fascist_military_dictator
+            focus = CET_fascist_politician
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_military_industrial_complex
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_military_school
+
+        icon = GFX_focus_generic_tank_production
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_military_school }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_clear_out_monarchists
+
+        x = 1
+        y = 2
+        relative_position_id = CET_fascist_choose_leadership
+
+        icon = GFX_focus_eng_move_to_secure_the_dominions
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_fascist_military_dictator
+            focus = CET_fascist_politician
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_revitalise_economy
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_clear_out_monarchists
+
+        icon = GFX_focus_generic_low_cost_housing
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_clear_out_monarchists }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_indoctrinate_youth
+
+        x = 3
+        y = 2
+        relative_position_id = CET_fascist_choose_leadership
+
+        icon = GFX_focus_generic_fascist_propaganda
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_politician }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_place_under_stars
+
+        x = 1
+        y = 1
+        relative_position_id = CET_fascist_military_industrial_complex
+
+        icon = GFX_focus_CET_place_under_stars
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_military_industrial_complex }
+        prerequisite = { focus = CET_fascist_revitalise_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_snake_line #snakes eat scorpions
+
+        x = -3
+        y = 1
+        relative_position_id = CET_fascist_place_under_stars
+
+        icon = GFX_goal_generic_construct_military
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_place_under_stars }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_take_antares
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_snake_line
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_snake_line }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_take_aquila
+
+        x = -5
+        y = 1
+        relative_position_id = CET_fascist_place_under_stars
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_place_under_stars }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_ocean_to_ocean_policy
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_take_aquila
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_take_aquila }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_the_whale
+
+        x = -1
+        y = 1
+        relative_position_id = CET_fascist_place_under_stars
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_fascist_unite_astranism }
+
+        prerequisite = { focus = CET_fascist_place_under_stars }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_unite_astranism
+
+        x = 1
+        y = 1
+        relative_position_id = CET_fascist_place_under_stars
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_fascist_the_whale }
+
+        prerequisite = { focus = CET_fascist_place_under_stars }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_conquer_corvus
+
+        x = 0
+        y = 2
+        relative_position_id = CET_fascist_place_under_stars
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_fascist_unite_astranism
+            focus = CET_fascist_the_whale
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_proclaim_greater_cetus
+
+        x = 0
+        y = 4
+        relative_position_id = CET_fascist_place_under_stars
+
+        icon = GFX_focus_CET_greater_cetus
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_conquer_corvus }
+        prerequisite = { focus = CET_fascist_take_antares }
+        prerequisite = { focus = CET_fascist_ocean_to_ocean_policy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_every_man_for_himself
+
+        x = 3.5
+        y = 1
+        relative_position_id = CET_fascist_military_industrial_complex
+
+        icon = GFX_focus_CET_every_man_himself
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_military_industrial_complex }
+        prerequisite = { focus = CET_fascist_revitalise_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_earendael_plan
+
+        x = 6
+        y = 1
+        relative_position_id = CET_fascist_military_industrial_complex
+
+        icon = GFX_focus_generic_industry_2
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_military_industrial_complex }
+        prerequisite = { focus = CET_fascist_revitalise_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_workforce
+
+        x = -2
+        y = 1
+        relative_position_id = CET_fascist_earendael_plan
+
+        icon = GFX_focus_generic_public_works
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_earendael_plan }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_family_values
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_workforce
+
+        icon = GFX_focus_generic_population_growth
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_workforce }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_streamline_economy
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_earendael_plan
+
+        icon = GFX_focus_generic_modernize_industry
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_earendael_plan }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_waterworks
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_streamline_economy
+
+        icon = GFX_focus_generic_hydroelectric_energy
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_streamline_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_electricity
+
+        x = 1
+        y = 1
+        relative_position_id = CET_fascist_family_values
+
+        icon = GFX_focus_generic_energy
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_fascist_family_values
+            focus = CET_fascist_waterworks
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_national_private_sectors
+
+        x = 2
+        y = 1
+        relative_position_id = CET_fascist_earendael_plan
+
+        icon = GFX_focus_ICE_state_corporatism
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_earendael_plan }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_agrarian_subsidies
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_national_private_sectors
+
+        icon = GFX_focus_generic_agricultural_subsidies
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_national_private_sectors }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_army_rations
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_agrarian_subsidies
+
+        icon = GFX_focus_generic_farmland
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_agrarian_subsidies }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_fish_heritage
+
+        x = 2
+        y = 1
+        relative_position_id = CET_fascist_agrarian_subsidies
+
+        icon = GFX_focus_CET_fishing_heritage
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_agrarian_subsidies }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_orionite_advisor
+
+        x = 1
+        y = 1
+        relative_position_id = CET_fascist_electricity
+
+        icon = GFX_goal_generic_intelligence_exchange
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_fish_heritage }
+        prerequisite = { focus = CET_fascist_electricity }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_black_gold
+
+        x = -1
+        y = 1
+        relative_position_id = CET_fascist_fish_heritage
+
+        icon = GFX_focus_generic_resource_extraction
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_fish_heritage }
+        prerequisite = { focus = CET_fascist_electricity }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_fascist_economic_boom
+
+        x = 0
+        y = 1
+        relative_position_id = CET_fascist_orionite_advisor
+
+        icon = GFX_focus_CET_economic_boom
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_fascist_black_gold }
+        prerequisite = { focus = CET_fascist_orionite_advisor }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy
+
+        x = 40
+        y = 0
+        relative_position_id = CET_sc1
+
+        offset = {
+            x = -13
+            y = 0
+            trigger = {
+                OR ={
+                    has_completed_focus = CET_status_quo
+                    has_completed_focus = CET_fascist
+                } 
+            }
+        }
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_strict_laws
+
+        x = -6
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_economy_loosen_laws }
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_ban_monopolies
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy_strict_laws
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_strict_laws }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_loosen_laws
+
+        x = -4
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_economy_strict_laws }
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_open_market # for smaller businesses
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy_loosen_laws
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_loosen_laws }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_business_subsidies #outcome depends on foci taken
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_ban_monopolies
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_economy_ban_monopolies
+            focus = CET_economy_open_market
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_cities
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_heartland
+
+        x = -1
+        y = 1
+        relative_position_id = CET_economy_cities
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_cities }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_mira
+
+        x = -1
+        y = 1
+        relative_position_id = CET_economy_heartland
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_heartland }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_nauta
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_mira
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_heartland }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_bustling_cities #heartlands 2
+
+        x = -1
+        y = 1
+        relative_position_id = CET_economy_mira
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_heartland }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_university
+
+        x = 0
+        y = 2
+        relative_position_id = CET_economy_mira
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_nauta }
+        prerequisite = { focus = CET_economy_bustling_cities }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_rural
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_cities
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_cities }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_blackton
+
+        x = -1
+        y = 1
+        relative_position_id = CET_economy_rural
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_economy_rural
+            focus = CET_economy_heartland
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_mons_planus
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_rural
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_rural }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_capri #? make new city up or something idfk
+
+        x = 0
+        y = 2
+        relative_position_id = CET_economy_rural
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_rural }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_backbone #grains n shizz
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_mons_planus
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_rural }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_autarky
+
+        x = 5
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_rubber
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy_autarky
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_autarky }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_war_prep
+
+        x = 0
+        y = 2
+        relative_position_id = CET_economy_autarky
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_economy_increased_exports }
+
+        prerequisite = { focus = CET_economy_rubber }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_trade_missions
+
+        x = 7
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_merchant_fleet
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy_trade_missions
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_trade_missions }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_increased_exports
+
+        x = 0
+        y = 1
+        relative_position_id = CET_economy_merchant_fleet
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_economy_war_prep }
+
+        prerequisite = { focus = CET_economy_merchant_fleet }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_rare_metals
+
+        x = 1
+        y = 3
+        relative_position_id = CET_economy_autarky
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_economy_war_prep
+            focus = CET_economy_increased_exports
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_wartime_protocols #offmap mils on war
+
+        x = 10
+        y = 1
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_cut_exspenses #cheaper eco laws
+
+        x = -1
+        y = 1
+        relative_position_id = CET_economy_wartime_protocols
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_wartime_protocols }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_protect_supply_hubs
+
+        x = 1
+        y = 1
+        relative_position_id = CET_economy_wartime_protocols
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_wartime_protocols }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_economy_heavy_industry_investments
+
+        x = 0
+        y = 2
+        relative_position_id = CET_economy_wartime_protocols
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_economy_cut_exspenses }
+        prerequisite = { focus = CET_economy_protect_supply_hubs }
+
+        completion_reward = {
+
         }
     }
 }
