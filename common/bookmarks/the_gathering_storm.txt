@@ -21,7 +21,7 @@ bookmarks = {
 
 			ideas = {
 				CET_rules_the_waves_idea
-				frederick_scapha_idea
+				SC_question_idea
 				CET_independent_armed_forces_idea
 			}
 		}

@@ -6,7 +6,8 @@ state={
 		owner = CET
 		add_core_of = CET
 		victory_points = { 702 4 }
-		victory_points = { 386 45 }
+		victory_points = { 386 15 }
+		victory_points = { 2754 35 }
 	}
 	provinces={
 		332 386 617 714 1449 1608 1702 1836 1925 2737 2754 
