@@ -1,23 +1,25 @@
 technologies = {
 	
-	@1900 = 0
-	@1906 = 1
-	@1912 = 2
-	@1924 = 4
-	@1932 = 6
-	@1936 = 8
-	@1940 = 10
-	@1942 = 12
-	@1944 = 14
-	@1946 = 16
-	@1948 = 18
-	@1951 = 20
-	@1954 = 22
-	@1958 = 24
-	@1960 = 25
-	@1961 = 26
-	@1962 = 28
-	@1964 = 30
+	@1890 = 0
+	@1900 = 2
+	@1904 = 4
+	@1906 = 6
+	@1908 = 8
+	@1910 = 10
+	@1912 = 12
+	@1916 = 14
+	@1918 = 16
+	@1921 = 18
+	@1928 = 20
+	@1930 = 22
+	@1934 = 24
+	@1936 = 26
+	@1939 = 28
+	@1945 = 30
+	@1948 = 32
+	@1950 = 34
+	@1952 = 36
+	@1954 = 38
 
 	infantry_weapons = {
 
@@ -41,7 +43,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1900
+		start_year = 1890
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
@@ -68,10 +70,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1912
+		start_year = 1900
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1912 }
+			position = { x = 0 y = @1900 }
 		}
 		
 		categories = {
@@ -125,10 +127,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1922
+		start_year = 1904
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1924 }
+			position = { x = 0 y = @1904 }
 		}
 		
 		categories = {
@@ -154,7 +156,7 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				date > "1924.1.1"
+				date > "1904.1.1"
 			}
 		}
 	}
@@ -171,10 +173,10 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1908
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1932 }
+			position = { x = 0 y = @1908 }
 		}
 		
 		categories = {
@@ -186,7 +188,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1933.1.1"
+				date > "1908.1.1"
 			}
 			modifier = {
 				num_of_military_factories < 50
@@ -1894,10 +1896,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1924
+		start_year = 1900
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1924 }
+			position = { x = 0 y = @1900 }
 		}
 		
 		categories = {
