@@ -76,7 +76,7 @@ equipments = {
 
 	# Improved weapons  ~1932
 	infantry_equipment_2 = {
-		year = 1932
+		year = 1911
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
@@ -102,7 +102,7 @@ equipments = {
 	
 	# Advanced weapons  ~1944
 	infantry_equipment_3 = {
-		year = 1944
+		year = 1928
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_2

@@ -109,7 +109,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1890"
+					text = "1890>"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -345,7 +345,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_year23"
-					position = { x = 2970 y = 50 }
+					position = { x = 3120 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1954"
