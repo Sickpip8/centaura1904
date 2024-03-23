@@ -198,7 +198,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 1916
 
 		folder = {
 			name = artillery_folder
@@ -269,7 +269,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1920
 
 		folder = {
 			name = artillery_folder
@@ -338,7 +338,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1928
 
 		folder = {
 			name = artillery_folder
@@ -381,7 +381,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1942
+		start_year = 1930
 
 		folder = {
 			name = artillery_folder
@@ -447,7 +447,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 1935
 
 		folder = {
 			name = artillery_folder
@@ -522,11 +522,11 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1940
+		start_year = 1924
 
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = 8 }
 		}
 
 		ai_will_do = {
@@ -566,11 +566,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1928
 
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 8 }
+			position = { x = 3 y = 10 }
 		}
 
 		ai_will_do = {
@@ -610,11 +610,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 1932
 
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 10 }
+			position = { x = 3 y = 12 }
 		}
 
 		ai_will_do = {
@@ -645,11 +645,11 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 1935
 
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 12 }
+			position = { x = 3 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1015,11 +1015,11 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1916
+		start_year = 1909
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = 7 y = 3 }
 		}
 
 		ai_will_do = {
@@ -1128,11 +1128,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 1916
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = 7 y = 5 }
 		}
 
 		ai_will_do = {
@@ -1197,11 +1197,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1924
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = 7 y = 7 }
 		}
 
 		ai_will_do = {
@@ -1298,11 +1298,11 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1932
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 10 }
+			position = { x = 7 y = 9 }
 		}
 
 		ai_will_do = {
@@ -1399,7 +1399,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 12 }
+			position = { x = 7 y = 11 }
 		}
 
 		ai_will_do = {

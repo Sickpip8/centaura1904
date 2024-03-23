@@ -348,7 +348,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artilleryequip4.dds"
 	}	
 	
 	SpriteType = {
@@ -363,7 +363,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+		texturefile = "gfx/interface/technologies/artillery/artilleryEquip1.dds"
 	}	
 
 	SpriteType = {
