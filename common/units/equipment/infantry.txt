@@ -180,10 +180,10 @@ equipments = {
 	}
 	# modern weapons 2 ~1942
 	infantry_equipment_5 = {
-		year = 1942
+		year = 1936
 	
 		archetype = infantry_equipment
-		parent = infantry_equipment_5
+		parent = infantry_equipment_4
 		priority = 10
 		visual_level = 3
 		
@@ -203,9 +203,9 @@ equipments = {
 			steel = 4
 		}
 	}
-	# modern weapons 2 ~1958
+	# modern weapons 2 ~1945
 	infantry_equipment_6 = {
-		year = 1952
+		year = 1945
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_5
@@ -222,8 +222,34 @@ equipments = {
 		ap_attack = 14
 		air_attack = 0
 			
-		reliability = 0.85
+		reliability = 0.84
 		build_cost_ic = 0.75
+		resources = {
+			steel = 3
+			aluminium = 1
+		}
+	}
+	# modern weapons 3 ~1952
+	infantry_equipment_7 = {
+		year = 1952
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_6
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 46
+		breakthrough = 8
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 5
+		ap_attack = 14
+		air_attack = 0
+		
+		reliability = 0.85
+		build_cost_ic = 0.8
 		resources = {
 			steel = 3
 			aluminium = 1
