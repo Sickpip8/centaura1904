@@ -87,11 +87,11 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				tag = CHI
+				tag = CET
 				
 				OR = {
 					date > "1907.1.1"
-					JAP = { is_ai = no }
+					ANT = { is_ai = no }
 				}
 			}
 			
@@ -141,20 +141,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
 
 			modifier = {
 				factor = 5
@@ -243,20 +229,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
 
 			modifier = {
 				factor = 5
@@ -439,7 +411,7 @@ technologies = {
 			
 			
 			modifier = {
-				tag = GER
+				tag = ANT
 				factor = 2.5
 			}
 			modifier = {
@@ -929,10 +901,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1930
+		start_year = 1914
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1930 }
+			position = { x = 2 y = @1912 }
 		}
 		
 		on_research_complete_limit = {
@@ -957,17 +929,12 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = USA
+				tag = ANT
 			}
 			
 			modifier = {
 				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 5
-				tag = ENG
+				tag = ORI
 			}
 		}
 	}
@@ -984,10 +951,10 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1922
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = @1921 }
 		}
 		
 		categories = {
@@ -1000,17 +967,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
+				tag = ANT
 			}
 			
 			modifier = {
 				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
+				tag = ORI
 			}
 		}
 	}
@@ -1028,10 +990,10 @@ technologies = {
 		
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1930
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1945 }
+			position = { x = 2 y = @1930 }
 		}
 		
 		categories = {
@@ -1044,17 +1006,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
+				tag = ANT
 			}
 			
 			modifier = {
 				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
+				tag = ORI
 			}
 		}
 	}
@@ -1071,11 +1028,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1952
+		research_cost = 2.5
+		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1952 }
+			position = { x = 2 y = @1942 }
 		}
 		
 		categories = {
@@ -1088,17 +1045,40 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = USA
+				tag = ANT
 			}
 			
 			modifier = {
 				factor = 2
-				tag = GER
+				tag = ORI
 			}
+		}
+	}
+	paratroopers5 = {
+
+		paratrooper = {
+			max_organisation = 8
+			soft_attack = 0.08
+		}
+		
+		research_cost = 2.5
+		start_year = 1950
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1950 }
+		}
+		
+		categories = {
+			para_tech
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 0.5
 			
 			modifier = {
 				factor = 2
-				tag = ENG
+				tag = ANT
 			}
 		}
 	}
@@ -1125,7 +1105,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1890
 		folder = {
 			name = infantry_folder
@@ -1213,10 +1193,10 @@ technologies = {
 
 
 		research_cost = 2.0
-		start_year = 1916
+		start_year = 1912
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1916 }
+			position = { x = 3 y = @1912 }
 		}
 		
 		categories = {
@@ -1250,10 +1230,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1925
+		start_year = 1921
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1925 }
+			position = { x = 3 y = @1921 }
 		}
 		
 		categories = {
@@ -1288,10 +1268,10 @@ technologies = {
 
 
 		research_cost = 2.0
-		start_year = 1936
+		start_year = 1930
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1936 }
+			position = { x = 3 y = @1930 }
 		}
 		
 		categories = {
@@ -1316,15 +1296,53 @@ technologies = {
 	marines6 = {
 
 		marine = {
-			max_organisation = 8
+			max_organisation = 7
 			soft_attack = 0.06
 		}
 
+		path = {
+			leads_to_tech = marines7
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.5
-		start_year = 1962
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1948 }
+			position = { x = 3 y = @1945 }
+		}
+		
+		categories = {
+			marine_tech
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+			
+			modifier = {
+				factor = 3
+				tag = ANT
+			}
+			
+			modifier = {
+				factor = 3
+				tag = ORI
+			}
+		}
+	}
+
+	marines7 = {
+
+		marine = {
+			max_organisation = 8
+		}
+
+		research_cost = 1.5
+		start_year = 1952
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1952 }
 		}
 		
 		categories = {
@@ -1419,6 +1437,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
+			modifier = {
+				factor = 3
+				tag = CLB
+			}
 		}
 	}
 	
@@ -1882,16 +1904,6 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 15
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
 			}
 			modifier = {
 				factor = 2
@@ -1974,16 +1986,6 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
 			}
 			modifier = {
 				factor = 2
@@ -2571,7 +2573,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = ANT
 			}
 		}
 		
@@ -2914,7 +2916,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1910
+		start_year = 1912
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1910 }
@@ -2930,7 +2932,7 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = USA
+				tag = ORI
 				factor = 2
 			}
 		}
@@ -2980,7 +2982,7 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = USA
+				tag = ORI
 				factor = 2
 			}
 		}
@@ -3122,7 +3124,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		categories = {
@@ -3142,11 +3144,16 @@ technologies = {
 			mechanized_equipment_5
 		}
 
+		path = {
+			leads_to_tech = mechanised_infantry6
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
-		start_year = 1950
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1950 }
+			position = { x = 0 y = @1945 }
 		}
 		
 		categories = {
@@ -3160,221 +3167,28 @@ technologies = {
 			factor = 1
 		}
 	}
-	
-	######### FROM JAPANESE FOCUS ##########
-	bicycle_infantry = {
+	mechanised_infantry6 = {
+
+		enable_equipments = {
+			mechanized_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 1954
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1954 }
+		}
 		
-		allow = {
-			always = no
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
 		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			bicycle_battalion
-		}
-	}
-
-	camelry = {
 		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			camelry
-		}		
-	}
-
-	######### FROM SOVIET FOCUS ########## (And Finnish)
-	penal_infantry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			penal_battalion
+		ai_will_do = {
+			factor = 1
 		}
 	}
-
-	######### FROM ITALIAN FOCUS ##########
-	blackshirt_assault_battalion_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			blackshirt_assault_battalion
-		}
-	}
-
-	mountain_warfare_militias_tech = { #Hidden tech showed as part of ITA_grande_rivolta_rurale_ns national spirit
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		militia = {
-			hills = {
-				attack = 0.05 
-				movement = 0.1
-			}
-			mountain = {
-				attack = 0.05 
-				movement = 0.1
-			}
-		}
-	}
-
-	### Improved Irregular Infantry Organization 
-
-	ETH_improved_irregular_infantry_tech = {
-		research_cost = 1
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-		irregular_infantry = {
-			max_organisation = 10
-		}
-	}
-
-
-	######### FROM FINNISH FOCUS ##########
-	molotov_cocktails_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
-		}
-	}
-
-	winter_logistics_support_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			winter_logistics_support
-		}
-	}
-
-	long_range_patrol_support_tech = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			long_range_patrol_support
-		}
-	}
-
-	sami_pathfinders_tech = { #Hidden tech showed as part of FIN_sami_pathfinders national spirit
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		category_recon = {
-			recon = 1
-
-			snow = {
-				movement = 0.1
-			}
-			forest = {
-				movement = 0.05
-			}
-			hills = {
-				movement = 0.05
-			}
-			mountain = {
-				movement = 0.05
-			}
-			marsh = {
-				movement = 0.05
-			}
-			plains = {
-				movement = 0.05
-			}
-			river = {
-				movement = 0.05
-			}
-		}
-	}
-
-	lotta_svard_tech = { #Hidden tech showed as part of FIN_lotta_svard national spirit
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		category_support_battalions = { #Any changes in the values below need to be applied in FIN_lotta_svard_support_battalions_bonus_tt too
-			max_strength = 5
-			max_organisation = 10
-		}
-	}
-
-	SWE_sami_support_tech = { #Hidden tech for Sami reconcilliation for Sweden
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		category_recon = {
-			recon = 1
-
-			snow = {
-				movement = 0.1
-			}
-			forest = {
-				movement = 0.1
-			}
-			hills = {
-				movement = 0.05
-			}
-			mountain = {
-				movement = 0.05
-			}
-		}
-	}
-	
 }
