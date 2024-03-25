@@ -660,7 +660,7 @@ technologies = {
 	}
 	modern_infantry_weapons_3 = {
 		enable_equipments = {
-			infantry_equipment_4
+			infantry_equipment_5
 		}	
 
 		path = {
@@ -809,7 +809,7 @@ technologies = {
 	}
 	modern_infantry_weapons_4 = {
 		enable_equipments = {
-			infantry_equipment_5
+			infantry_equipment_6
 		}	
 
 		path = {
@@ -946,7 +946,7 @@ technologies = {
 	}
 	modern_infantry_weapons_5 = {
 		enable_equipments = {
-			infantry_equipment_5
+			infantry_equipment_7
 		}	
 
 		path = {
