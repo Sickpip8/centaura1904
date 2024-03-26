@@ -174,6 +174,9 @@
  tech_mountaineers6_short:0 "Mountaineers VI"
  support_equipment_1:0 "Support Equipment"
  support_equipment_1_short:0 "Support Equipment"
- support_equipment_1_desc:0 "Radios, Bandages, Pontoons & other equipment used to support troops."
-
+ support_equipment_1_desc:0 "Bandages, Pontoons & other equipment used to support troops." 
+ ### Armoured Equipment
+ armor_vehicle_equipment:0 "Basic Armoured Vehicle"
+ armor_vehicle_equipment_short:0
+ armor_vehicle_equipment_desc:0 
 

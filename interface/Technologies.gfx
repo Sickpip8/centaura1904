@@ -4201,7 +4201,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_gwtank_medium"
-		texturefile = "gfx/interface/technologies/gwtank.dds"
+		texturefile = "gfx/interface/technologies/armored/armored_0.png"
 	}
 
 	SpriteType = {

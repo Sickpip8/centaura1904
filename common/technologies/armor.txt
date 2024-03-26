@@ -3,7 +3,7 @@ technologies = {
 	gwtank = { #Leichttraktor
 
 		enable_equipments = {
-			gw_tank_equipment
+			armor_vehicle_equipment
 
 		}
 		enable_subunits = {
@@ -47,7 +47,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1918
+		start_year = 1905
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }
@@ -63,17 +63,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "1906.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "1907.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "1908.1.1"
 			}
 		}
 		
@@ -126,7 +126,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1934
+		start_year = 1909
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 2 }
@@ -148,17 +148,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1910.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1912.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1913.1.1"
 			}
 		}
 		
@@ -180,7 +180,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1909
 		
 		ai_will_do = {
 			base = 0.5
@@ -188,8 +188,8 @@ technologies = {
 			modifier = {
 				factor = 100
 				OR = {
-					tag = GER
-					tag = SOV
+					tag = ANT
+					tag = ORI
 				}
 				has_war = yes
 				any_enemy_country = {
@@ -238,7 +238,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1909
 		
 		ai_will_do = {
 			base = 0.25
@@ -273,7 +273,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1909
 		
 		ai_will_do = {
 			base = 0
@@ -320,7 +320,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1912
 		
 		folder = {
 			name = armour_folder
@@ -340,34 +340,34 @@ technologies = {
 				factor = 2
 				is_major = yes
 				not = {
-					tag = JAP
+					tag = ANT
 					num_of_military_factories < 50
 				}
 			}
 			modifier = {
 				is_major = yes
-				not = { tag = JAP }
+				not = { tag = ANT }
 				has_war = yes
 				factor = 10 #you are embarassing yourself
 			}
 			modifier = {
-				tag = SOV
+				tag = ORI
 				factor = 3
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1913.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1914.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1915.1.1"
 			}
 		}
 		
@@ -386,7 +386,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1936
+		start_year = 1912
 		
 		ai_will_do = {
 			base = 0
@@ -394,8 +394,8 @@ technologies = {
 			modifier = {
 				add = 120
 				OR = {
-					#tag = GER
-					tag = SOV
+					#tag = ANT
+					tag = ORI
 				}
 				has_war = yes
 				any_enemy_country = {
@@ -1568,11 +1568,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1934
+		start_year = 1910
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = 2 }
+			position = { x = 4 y = 3 }
 		}
 		
 		sub_technologies = {
