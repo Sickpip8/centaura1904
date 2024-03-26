@@ -45,6 +45,11 @@ bookmarks = {
 			history = LBR_1900_DESC
 			ideology = neutrality
 		}
+		VUL = {
+                        minor = yes
+			history = VUL_1900_DESC
+			ideology = neutrality
+		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

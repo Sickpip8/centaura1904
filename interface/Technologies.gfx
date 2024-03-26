@@ -863,7 +863,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_modern_infantry_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/small-arms/equip6.png"
+		texturefile = "gfx/interface/technologies/small-arms/equip7.png"
 	}		
 
 	SpriteType = {
@@ -1527,124 +1527,22 @@ spriteTypes = {
 	}
 
 	
-	### Soviet Aircrafts ###
+	### Cetus Equipment ###
+	
+	SpriteType = {
+		name = "GFX_CET_infantry_weapons0_medium"
+		texturefile = "gfx/interface/technologies/small-arms/CET_equip0.png"
+	}	
 
 	SpriteType = {
-		name = "GFX_SOV_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber1.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber2.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_tactical_bomber3_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber3.dds"
+		name = "GFX_CET_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/small-arms/CET_infantry1.png"
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_basic_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber1.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_improved_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber2.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_advanced_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/SOV_tactical_bomber3.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/SOV_strategic_bomber1.dds"
+		name = "GFX_CET_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/small-arms/CET_infantry2.png"
 	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/SOV_strategic_bomber2.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/SOV_strategic_bomber3.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_CAS1_medium"
-		texturefile = "gfx/interface/technologies/SOV_CAS1.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_CAS2_medium"
-		texturefile = "gfx/interface/technologies/SOV_CAS2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_CAS3_medium"
-		texturefile = "gfx/interface/technologies/SOV_CAS3.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV_heavy_fighter1.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV_heavy_fighter2.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_SOV_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV_heavy_fighter3.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/SOV_naval_bomber1.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/SOV_naval_bomber2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/SOV_naval_bomber3.dds"
-	}	
-
-	
-	SpriteType = {
-		name = "GFX_SOV_fighter1_medium"
-		texturefile = "gfx/interface/technologies/SOV_fighter1.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_fighter2_medium"
-		texturefile = "gfx/interface/technologies/SOV_fighter2.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_SOV_fighter3_medium"
-		texturefile = "gfx/interface/technologies/SOV_fighter3.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/SOV_early_fighter.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_SOV_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/SOV_early_bomber.dds"
-	}
-	
 	
 	### Japan Aircrafts ###
 	
