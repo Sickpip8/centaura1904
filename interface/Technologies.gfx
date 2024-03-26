@@ -196,7 +196,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_modern_infantry_weapons_3_medium"
-		texturefile = "gfx/interface/technologies/small-arms/infantry5.png"
+		texturefile = "gfx/interface/technologies/small-arms/infantry5.dds"
 	}
 
 	SpriteType = {
@@ -230,6 +230,11 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/vehicles/mechanized6.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_mechanised_infantry5_medium"
 		texturefile = "gfx/interface/technologies/vehicles/mechanized5.dds"
 	}	
@@ -251,7 +256,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}	
 	
 	SpriteType = {
@@ -417,6 +422,11 @@ spriteTypes = {
 		name = "GFX_tech_maintenance_company_medium"
 		texturefile = "gfx/interface/technologies/tech_maintenance_company.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_tech_signal_company6_medium"
+		texturefile = "gfx/interface/technologies/specials/tech_signal_company6.dds"
+	}	
 	
 	SpriteType = {
 		name = "GFX_tech_signal_company5_medium"
@@ -481,6 +491,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_military_police_medium"
 		texturefile = "gfx/interface/technologies/tech_military_police.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company6_medium"
+		texturefile = "gfx/interface/technologies/specials/tech_logistics_company6.dds"
 	}	
 	
 	SpriteType = {
@@ -550,7 +565,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/vehicles/motorized1.dds"
 	}
 
 	SpriteType = {
@@ -650,7 +665,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_support_weapons4_medium"
-		texturefile = "gfx/interface/technologies/support_weapons4.dds"
+		texturefile = "gfx/interface/technologies/small-arms/support_weapons4.dds"
 	}	
 	
 	SpriteType = {
@@ -660,12 +675,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_support_weapons2_medium"
-		texturefile = "gfx/interface/technologies/support_weapons2.dds"
+		texturefile = "gfx/interface/technologies/small-arms/support_weapons2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_support_weapons_medium"
-		texturefile = "gfx/interface/technologies/support_weapons.dds"
+		texturefile = "gfx/interface/technologies/small-arms/support_weapons.dds"
 	}		
 	
 	SpriteType = {
@@ -677,6 +692,11 @@ spriteTypes = {
 		name = "GFX_night_vision_medium"
 		texturefile = "gfx/interface/technologies/night_vision.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_tech_mountaineers6_medium"
+		texturefile = "gfx/interface/technologies/specials/mountaineers6.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_tech_mountaineers5_medium"
@@ -702,6 +722,11 @@ spriteTypes = {
 		name = "GFX_tech_mountaineers_medium"
 		texturefile = "gfx/interface/technologies/mountain.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_marines7_medium"
+		texturefile = "gfx/interface/technologies/specials/marines7.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_marines6_medium"
@@ -799,6 +824,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infantry_at_medium"
 		texturefile = "gfx/interface/technologies/infantry_at.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons0_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip0.dds"
 	}	
 	
 	SpriteType = {
@@ -808,12 +838,42 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_improved_infantry_weapons_2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+		texturefile = "gfx/interface/technologies/small-arms/equip2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_improved_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+		texturefile = "gfx/interface/technologies/small-arms/equip4.png"
+	}		
+
+	SpriteType = {
+		name = "GFX_modern_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip5.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip6.png"
+	}		
+	
+	SpriteType = {
+		name = "GFX_modern_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip6.png"
+	}		
+
+	SpriteType = {
+		name = "GFX_modern_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip8.png"
+	}		
+
+	SpriteType = {
+		name = "GFX_modern_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/small-arms/equip8.png"
 	}		
 	
 	### naval doctrines	###
@@ -2770,17 +2830,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_armored_car1_medium"
-		texturefile = "gfx/interface/technologies/ger_armored_car_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/vehicles/armored_car1.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_armored_car2_medium"
-		texturefile = "gfx/interface/technologies/ger_armored_car_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/vehicles/armored_car2.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_armored_car3_medium"
-		texturefile = "gfx/interface/technologies/ger_armored_car_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/vehicles/armored_car3.dds"
 	}
 
 	SpriteType = {
@@ -2898,10 +2958,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Advanced_train_medium"
 		texturefile = "gfx/interface/technologies/vehicles/train_equipment_5.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_Advanced_train2_medium"
+		texturefile = "gfx/interface/technologies/vehicles/train_equipment_6.dds"
+	}		
 	SpriteType = {
 		name = "GFX_Modern_train_medium"
-		texturefile = "gfx/interface/technologies/vehicles/train_equipment_6.dds"
+		texturefile = "gfx/interface/technologies/vehicles/train_equipment_7.dds"
 	}	
 	
 
@@ -7217,12 +7281,12 @@ spriteTypes = {
 
 	 SpriteType = {
  		name = "GFX_tech_trucks_medium"
- 		texturefile = "gfx/interface/technologies/motorized_equipment_0.dds"
+ 		texturefile = "gfx/interface/technologies/vehicles/motorized0.dds"
  	}
 
 	SpriteType = {
 		name = "GFX_motorized_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/motorized_equipment_0.dds"
+		texturefile = "gfx/interface/technologies/vehicles/motorized0.dds"
 	}
 
 	SpriteType = {
