@@ -3238,4 +3238,574 @@ focus_tree = { ## Southern Corvus
 
         }
     }
+    
+    focus = {
+        id = CET_armed_forces
+
+        x = 5
+        y = 7
+        relative_position_id = CET_economy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army
+
+        x = 0
+        y = 1
+        relative_position_id = CET_armed_forces
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_armed_forces }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_armour
+
+        x = 2
+        y = 1
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army }
+
+        mutually_exclusive = { focus = CET_army_marines }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_trucks
+
+        x = 3
+        y = 2
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_armour }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_armoured_car
+
+        x = 3
+        y = 3
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_trucks }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_the_tank
+
+        x = 3
+        y = 4
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_trucks }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_marines
+
+        x = -2
+        y = 1
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_army_armour }
+
+        prerequisite = { focus = CET_army }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_planning
+
+        x = 0
+        y = 2
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_army_marines
+            focus = CET_army_armour
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_artillery
+
+        x = 1
+        y = 3
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_planning }
+
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_guns
+
+        x = 0
+        y = 4
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_planning }
+
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_support
+
+        x = -1
+        y = 3
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_planning }
+
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_commandos
+
+        x = -3
+        y = 2
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_marines }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_engineer_corps
+
+        x = -3
+        y = 4
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_commandos }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_army_naval_invasions
+
+        x = -4
+        y = 3
+        relative_position_id = CET_army
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_army_commandos }
+        prerequisite = { focus = CET_navy_expand_dockyards }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy
+
+        x = -6
+        y = 1
+        relative_position_id = CET_armed_forces
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_armed_forces }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_jeune_ecole
+
+        x = -1
+        y = 1
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_study_designs
+
+        x = -1
+        y = 2
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_capital_ships
+
+        x = 1
+        y = 1
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_expand_dockyards
+
+        x = 1
+        y = 2
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy_capital_ships }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_carriers
+
+        x = 0
+        y = 3
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = {
+            focus = CET_navy_expand_dockyards
+            focus = CET_navy_study_designs
+        }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_airborne_torpedoes
+
+        x = -1
+        y = 4
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy_carriers }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_navy_protections #screening ships
+
+        x = 1
+        y = 4
+        relative_position_id = CET_navy
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_navy_carriers }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_air
+
+        x = 6
+        y = 1
+        relative_position_id = CET_armed_forces
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_armed_forces }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_light_air
+
+        x = -1
+        y = 1
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_plane_modules
+
+        x = -1
+        y = 3
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_light_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_medium_air
+
+        x = 1
+        y = 1
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_long_distance_fighters
+
+        x = 1
+        y = 3
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_medium_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_strike_the_heartlands #stratbombers
+
+        x = 2
+        y = 2
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_medium_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_airships 
+
+        x = 2
+        y = 4
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_strike_the_heartlands }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_airbases
+
+        x = 0
+        y = 2
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_air }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = CET_air_command #advisors
+
+        x = 0
+        y = 4
+        relative_position_id = CET_air
+
+        #icon =
+        #search_filters =
+        cost = 10
+
+        prerequisite = { focus = CET_airbases }
+
+        completion_reward = {
+
+        }
+    }
 }
