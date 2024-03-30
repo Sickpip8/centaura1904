@@ -1535,9 +1535,9 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_CET_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/small-arms/CET_infantry1.png"
-	}
+		name = "GFX_CET_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/small-arms/CET_infantry0.png"
+	}		
 
 	SpriteType = {
 		name = "GFX_CET_improved_infantry_weapons_medium"
