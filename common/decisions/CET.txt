@@ -1,0 +1,66 @@
+south_corvus_decisions = {
+    sc_resistance_end = {
+        #icon =
+
+        priority = 100
+        allowed = { always = no }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = SC_deal_with_good_tt
+                has_global_flag = SC_dealt_with_good
+            }
+        }
+
+        is_good = no
+        days_mission_timeout = 730
+        selectable_mission = no
+
+        complete_effect = {
+            effect_tooltip = {
+
+            }
+            country_event = { id = CET.10 days = 10 }
+        }
+
+        cancel_trigger = {
+            custom_trigger_tooltip = {
+                tooltip = SC_deal_with_bad_tt
+                NOT = { has_global_flag = SC_dealt_with_bad }
+            }
+        }
+
+        cancel_effect = {
+            country_event = { id = CET.11 days = 10 }
+        }
+    }
+
+    sc_resistance_ticker = {
+        #icon =
+
+        priority = 90
+        allowed = { always = no }
+
+        available = {
+            hidden_trigger = {
+				always = no
+			}
+        }
+
+        is_good = no
+        days_mission_timeout = 30
+        selectable_mission = no
+
+        complete_effect = {
+            custom_effect_tooltip = sc_resistance_worsens
+            country_event = { id = CET.9 days = 10 }
+        }
+
+        cancel_trigger = {
+            custom_trigger_tooltip = {
+                tooltip = sc_big_policing_efforts
+                # country flag
+            }
+        }
+    }
+}

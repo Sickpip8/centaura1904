@@ -89,6 +89,21 @@ CET_sc_war_corvus:0 "The time has come for us to continue our conquest of Corvus
 
 # decisions
 
+SC_loc_resistance_level_5:0 "§RArmed Revolt Imminent§!"
+SC_loc_resistance_level_4:0 "§OArmed Resistance§!"
+SC_loc_resistance_level_3:0 "§YExtreme Violence§!"
+SC_loc_resistance_level_2:0 "§7Organised Resistance§!"
+SC_loc_resistance_level_1:0 "§GSmall Resistance§!"
+SC_loc_resistance_level_0:0 "§GNo Resistance§!"
+
+south_corvus_decisions:0 "South Corvus Crisis"
+south_corvus_decisions_desc:0 "Ever since the invasion in 1880 we have seen resistance and paramilitaries try and undermine our operations in Southern Corvus. With our narrowminded approach to policy in the area we are seeing problematic groups organise themselves in the area. We must decide if we wish to integrate these territories properly into our empire or keep them simply as a source of resources.\n----------------------------------------------------------------------------------------------\nCurrent South Corvun resistance status is [CET_loc_SC_resistance]"
+sc_resistance_end:0 "Southern Corvus Resolution"
+sc_resistance_end_desc:0 "We have been set a deadline to resolve the conflicts in Southern Corvus within two years, if the territory is not integrated or subdued properly we could receive major lashback."
+sc_resistance_ticker:0 "Resistance Efforts"
+sc_resistance_ticker_desc:0 "The local Corvun populace is putting up a fierce resistance to our integration efforts."
+
+
 # spirits
 
 CET_cetus_rules_the_waves:0 "Cetus Rules the Waves"

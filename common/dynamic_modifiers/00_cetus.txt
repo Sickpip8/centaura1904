@@ -1,9 +1,9 @@
 
 sc_resistance_integration = {
-    icon = GFX_MODIFIER_PARTISAN_EFFECT_FACTOR
+    icon = GFX_idea_CET_SC_question_idea
 
-    required_garrison_factor = 0.33
-    local_resources_factor = -0.2
+    resistance_target = 0.6
+    local_resources_factor = -0.6
     
     enable = {
         THIS = {
