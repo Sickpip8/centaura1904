@@ -10,11 +10,18 @@ country_event = {
 	
 	option = {
 		name = orion.1.a # Yes
+		
+		create_faction = {
+            name = "The Anti-Ursan Coalition"
+            leader = ORI  # replace with Orion
+            add_to_faction = HYS
+        }
+		
 		set_country_flag = ORI_accept_hys
 		}
 	}
 	option = {
-		name = orion.1.b # NO
+		name = orion.1.b # NO 
 		set_country_flag = ORI_refuse_hys
 		}
 	}
