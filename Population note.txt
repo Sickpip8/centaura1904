@@ -1,0 +1,55 @@
+POPULATION OF THE WORLD: 1900
+CENTAURA: 1,200,000,000
+HYDRA: 500,000,000
+URSA: 147,000,000
+LIBRA: 168,000,000 
+
+# STATE COUNT
+
+
+Vulpa: 3
+Riaa: 7
+Tucana: 1
+Centauri: 1
+Columba: 10
+Vega: 2
+Grusa: 2
+Cetus: 13
+Corvus: 4
+Aquila: 3
+Antares: 7
+
+Ursa: 3
+
+Libra: 5
+
+# POPULATION DIVIDER
+
+Centaura:
+	Vulpa: 5,754,587 (0.47954891666666666%)
+	Riaa: 584,130,320 (48.677526666666665%)
+	Tucana: 5,901,679 (0.4918065833333333%)
+	Centauri: 8,771,380 (0.7309483333333333%)
+	Columba: 18,787,706 (1.5656421666666667%)
+	Vega: 15,266,558 (1.2722131666666667%)
+	Grusa: 28,071,493 (2.3392910833333334%)
+	Cetus: 114,475,929 (9.53966075%)
+	Corvus: 82,826,551 (6.902212583333334%)
+	Aquila: 104,029,050 (8.6690875%)
+	Antares: 336,725,282 (28.060440166666666%)
+	Lacerta: 3,329,397 (0.27744975%)
+
+
+Ursa: 
+	Federation of Ursa: 147,532,467 (100%)
+
+Libra: 
+	Libran Federation: 168,387,242 (100%)
+
+Hydra: 
+	Orion: (%)
+	Hydrus: (%)
+	Lupus: (%)
+	Canis: (%)
+	Auriga: (%)
+	Musca: (%)

@@ -2,7 +2,7 @@ STATES 1 to 18 (placeholder)
 1 Federation of Libra 370, LBR
 2 Hydrusite Commonwealth 1355, HYD (unused in 1900)
         - HYS 1900
-	- LPR 1901 (HYDRA)
+	- LPS 1901 (HYDRA)
 	- CNS 1902
 3 Orion Republic 1573, ORI
 4 Kingdom of Auriga 2990, AUR
@@ -23,31 +23,28 @@ STATES 1 to 18 (placeholder)
 
 SEPERATE COUNTRIES
 Canis CNS
-Hydra HYA / Cepheus CEP / Lepus LPR
+Hydra HYA / Cepheus CEP / Lepus LPS
 Hydrus HYS
 Gemini GEM
 
-Lolz! Ursa kills everyone with nuclear bombs
-
-States
-x means assigned
-19 - 28 ORION x
-29 and 30 HYDRA, URSA (1900) x
-31 ORION/ URSAN NORTHWESTERN CANIS (1900) [West Canis] x
-32 HYDRAN/URSAN CANIS (1900) [East Canis] x
-2 33 34 HYDRUS (independent) x
-35 36 37 URSA [Mainland] x
+States, In numerical order
+19 - 28 ORION 
+29 and 30 HYDRA (LEPUS), URSA (1900)
+31 ORION/ URSAN NORTHWESTERN CANIS (1900) [West Canis]
+32 HYDRAN/URSAN CANIS (1900) [East Canis]
+2 33 34 HYDRUS (independent)
+35 36 37 URSA [Mainland] # URSA CONTINENT
 38 - 45 RIAA x
 46 47 VULPA x
-48 - 53 COLUMBA x
-54 55 56 CORVUS x
-57 58 SOUTH CORVUS (Cetus) x
-59 - 67 CETUS x
-68 69 AQUILLA x
-70 VEGA x
-71 GRUSA x
-72 - 77 ANTARES x
-78 Libratum, LIBRA x
+48 - 53 COLUMBA
+54 55 56 CORVUS
+57 58 SOUTH CORVUS (Cetus)
+59 - 67 CETUS
+68 69 AQUILLA
+70 VEGA
+71 GRUSA
+72 - 77 ANTARES
+78 Libratum, LIBRA
 79 80 LIBRA 
 81 82 83 ANTARES x
 84 Vegan island x
@@ -56,19 +53,31 @@ x means assigned
 87 Corvun island x
 88 Cetan lake island x
 89 Columban lake island x
-90 Aquillan lake island (east) x
-91 columban annulus sea atoll x
-92 Libran nordisle x
-93 Jupiter atoll (libra) x
-94 Libran southwest islands x
-95 Northern canis islands (yelamn sea)
+90 VEGAN lake island (east)
+91 columban annulus sea atoll
+92 Libran nordisle # LIBRA
+93 Jupiter atoll (libra) # LIBRA
+94 Libran southwest islands # LIBRA
+95 Northern canis islands (yelamn sea) # URSA
 96 97 COLUMBA NORTH
+98 Riaan-Vulpa island
+99 Eastern Tucana Island
+
+
+
+
+
+
 Auxillary states
 73 Cetan-Antarean 1962 land 74 Aquilla-Antarean 1962 land
 
-Bocchiland 76
+Bocchiland 76 (UNUSED)
 
-
+CONTINENTS
+2 3 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 85 86 HYDRAN CONTINENT
+1 78 79 80 92 93 94 95 Libra
+4 6 7 8 9 10 11 12 13 14 15 16 17 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 81 82 83 84 87 88 89 90 91 CENTAURA
+5 35 36 37 95 URSA
 
 
 
