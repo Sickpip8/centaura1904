@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = antarean_industry
+		id = ant_ind_1
 		icon = GFX_goal_generic_production
 		x = 4
 		y = 0
@@ -47,6 +47,38 @@ focus_tree = {
 					bonus = 1.0
 					uses = 2
 					category = industry
+				}
+			}
+		}
+focus = {
+		id = ant_inf_1
+		icon = GFX_goal_generic_construct_infastructure
+		x = 4
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				
 				}
 			}
 		}
