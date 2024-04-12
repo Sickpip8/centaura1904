@@ -25,7 +25,7 @@
  infantry_equipment_7_short:0 "Weapons VII"
  infantry_equipment_7_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of automatic Rifles and Sub Machine Guns."
  ## Equipment
- infantry_weapons0:0 "Infatry Equipment"
+ infantry_weapons0:0 "Infantry Equipment"
  infantry_weapons0_short:0 "Inf 0"
  infantry_weapons0_desc:0 "Personal equipment for Infantry divisions."
  infantry_tank:0 "Anti-Vehicle"
