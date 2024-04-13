@@ -78,7 +78,117 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-				
+				set_building_level = {
+                                type = infastructure
+                                instant_build = yes
+                                province = 
+				}
+			}
+		}
+}
+focus = {
+		id = ant_dem_1
+		icon = GFX_goal_generic_support_democracy
+		x = 10
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_popularity = {
+                                ideology = democratic
+                                popularity = 0.2
+			}
+		}
+}
+
+focus = {
+		id = ant_mon_1
+		icon = GFX_goal_generic_monarchy_1
+		x = 12
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				set_building_level = {
+                                type = infastructure
+                                instant_build = yes
+                                province = 
+				}
+			}
+		}
+}
+focus = {
+		id = ant_inf_1
+		icon = GFX_goal_generic_construct_infastructure
+		x = 4
+		y = 5
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				set_building_level = {
+                                type = infastructure
+                                instant_build = yes
+                                province = 
 				}
 			}
 		}
