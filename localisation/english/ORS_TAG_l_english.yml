@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  ORS_CanisCrisis:0 "The Canis Crisis"
  ORS_CanisCrisis_desc:0 "Since the destabilization of the Ursan colonies in the North, the situation has gotten worse and worse. Coupled with the rising demands of oil, of such that is located in Canis, it only seems like a matter of time till war breaks out."
  ORS_Intervene:0 "Prepare For Intervention"
@@ -6,8 +6,8 @@
  ORS_RallyPeople: "Rally The People"
  ORS_RallyPeople_desc:0 "In order to secure victory in the impending conflict, it is imperative that we rally the people to our cause. By mobilizing widespread support and fostering a united front, we can strengthen our position and enhance our chances of success in the upcoming war."
  ORS_ContactHydrus:0 "Contact Hydrus"
- ORS_ContactHydrus_desc:0 "To aid Hydrus and its allies in the upcoming war, we must initiate diplomatic efforts, establish communication channels, and forge a strategic alliance. This united front will ensure our collective strength and resilience against the challenges that lie ahead."
- ORS_TAG.1.d:0 "Orion has reached out to us requesting to form an alliance for an upcoming conflict against Ursa."
+ ORS_ContactHydrus_desc:0 "To aid Hydrus in the upcoming war, we must initiate diplomatic efforts, establish communication channels, and forge a strategic alliance. This united front will ensure our collective strength and resilience against the challenges that lie ahead."
+ orion.1.d:0 "Orion has reached out to us requesting to form an alliance for an upcoming conflict against Ursa."
  ORS_RallyPeopleIdea:0 "Rally The People"
  ORS_PrepareMilitary:0 "Prepare The Military"
  ORS_PromiseBusinesses:0 "Promise The Businesses"
@@ -17,6 +17,11 @@
  ORS_InvestInHydrusiteMilitaryIndustry:0 "Invest In the Hydrusite Military Complex"
  ORS_TrainHydrusites:0 "Train Hydrusite Militias"
  ORS_BattleExperience:0 "Lessons Of War"
+ orion.1.a:0 "Perhaps it would be a wise choice if we accept."
+ orion.1.b:0 "No! We can take Canis on our own!"
+ orion.1.t:0 "Orion reaches out to us!
+ orion.1.d:0 "In the wake of the rebellion in Hydrus, we've been preparing to liberate all Ursan colonies. Since then, Orion has been watching us with a close eye, and now, they have invited us to join their coalition against Ursa."
+ AntiUrsCoal:0 "Anti-Ursan Coaliton"
  
  
  
