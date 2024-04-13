@@ -180,10 +180,8 @@ focus_tree = {
         x = 10
         y = 5
         cost = 5
-        prerequisite = {
-		focus = ORS_InvestInHydrusiteMilitaryIndustry
-		focus = ORS_BattleExperience
-		}
+        prerequisite = {focus = ORS_InvestInHydrusiteMilitaryIndustry}
+		prerequisite = {focus = ORS_BattleExperience}
         completion_reward = {
            declare_war_on = {
 		target = URS 
@@ -218,7 +216,7 @@ focus_tree = {
             factor = 5
         }
     }
-	}
+	
 	
 		focus = {
         id = ORS_TheUrsanQuestion
@@ -233,13 +231,174 @@ focus_tree = {
             focus = ORS_EndOfWar
         }
         completion_reward = {
-		URS = {
-		country_event = {id = orion.2 days = 1}
+		remove_ideas = {ORS_PrepareMilitaryIdea ORS_RallyPeopleIdea ORS_LessonsOfWar ORS_PromiseBusinessesIdea }
 		}
         ai_will_do = {
             factor = 5
         }
     }
-	}
-}
+	
+	focus = {
+        id = ORS_SpoilsOfWar
+        icon = GFX_focus_generic_resource_extraction
+        x = 9
+        y = 8
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_TheUrsanQuestion
+        }
+        completion_reward = {
+		31 = {required_garrison_factor = 0.5}
+		31 = {add_resource = {
+		type = oil 
+		amount = 10}
+		}
+		}
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = ORS_InvestInOilRigs
+        icon = GFX_goal_generic_oil_refinery
+        x = 3
+        y = 9
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_SpoilsOfWar
+        }
+        completion_reward = {
+		31 = {required_garrison_factor = 0.5}
+		31 = {add_resource = {
+		type = oil 
+		amount = 10}
+		}
+		}
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = ORS_InvestInRubberFactories
+        icon = GFX_focus_generic_rubber
+        x = 3
+        y = 10
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_InvestInOilRigs
+        }
+        completion_reward = {
+
+		31 = {add_resource = {
+		type = rubber 
+		amount = 12}
+		}
+		}
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = ORS_ClampDownOnResistence
+        icon = GFX_focus_BRA_end_the_state_of_emergency
+        x = 9
+        y = 9
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_SpoilsOfWar
+        }
+        completion_reward = {
+
+		add_manpower  = -50000
+		
+		add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -5000
+            }
+		}
+		ai_will_do = {
+            factor = 5
+        }
+		}
+		
+		focus = {
+        id = ORS_ConfiscateLand
+        icon = GFX_focus_LAT_suspend_constitution_of_latvia
+        x = 9
+        y = 10
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_ClampDownOnResistence
+        }
+        completion_reward = {
+		
+		}
+		ai_will_do = {
+            factor = 5
+        }
+		}
+		
+		focus = {
+        id = ORS_DeportUrsans
+        icon = GFX_focus_FIN_parmis_devils
+        x = 6
+        y = 9
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {
+            focus = ORS_SpoilsOfWar
+        }
+        completion_reward = {
+		
+		}
+		ai_will_do = {
+            factor = 5
+        }
+		}
+		
+		focus = {
+        id = ORS_ImproveInfrastructure
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 6
+        y = 11
+        cost = 5
+		available = {			
+			}
+		
+        prerequisite = {focus = ORS_InvestInRubberFactories}
+		prerequisite = {focus = ORS_ConfiscateLand}
+        completion_reward = {
+		
+		}
+		ai_will_do = {
+            factor = 5
+        }
+		}
+    }
+	
+	
+	
+	
+	
+
 
