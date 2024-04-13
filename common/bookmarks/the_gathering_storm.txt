@@ -46,7 +46,7 @@ bookmarks = {
 			ideology = neutrality
 		}
 		VUL = {
-                        minor = yes
+            minor = yes
 			history = VUL_1900_DESC
 			ideology = neutrality
 		}

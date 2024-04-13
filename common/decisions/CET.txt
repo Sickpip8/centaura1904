@@ -8,7 +8,7 @@ south_corvus_decisions = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = SC_deal_with_good_tt
-                has_global_flag = SC_dealt_with_good
+                has_country_flag = SC_dealt_with_good
             }
         }
 
@@ -26,7 +26,7 @@ south_corvus_decisions = {
         cancel_trigger = {
             custom_trigger_tooltip = {
                 tooltip = SC_deal_with_bad_tt
-                NOT = { has_global_flag = SC_dealt_with_bad }
+                has_country_flag = SC_dealt_with_bad
             }
         }
 
@@ -53,13 +53,12 @@ south_corvus_decisions = {
 
         complete_effect = {
             custom_effect_tooltip = sc_resistance_worsens
-            country_event = { id = CET.9 days = 10 }
         }
 
         cancel_trigger = {
             custom_trigger_tooltip = {
                 tooltip = sc_big_policing_efforts
-                # country flag
+                has_country_flag = 
             }
         }
     }

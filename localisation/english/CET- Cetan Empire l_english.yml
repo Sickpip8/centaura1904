@@ -92,7 +92,7 @@ CET_sc_war_corvus:0 "The time has come for us to continue our conquest of Corvus
 SC_loc_resistance_level_5:0 "§RArmed Revolt Imminent§!"
 SC_loc_resistance_level_4:0 "§OArmed Resistance§!"
 SC_loc_resistance_level_3:0 "§YExtreme Violence§!"
-SC_loc_resistance_level_2:0 "§7Organised Resistance§!"
+SC_loc_resistance_level_2:0 "§8Organised Resistance§!"
 SC_loc_resistance_level_1:0 "§GSmall Resistance§!"
 SC_loc_resistance_level_0:0 "§GNo Resistance§!"
 
@@ -103,6 +103,10 @@ sc_resistance_end_desc:0 "We have been set a deadline to resolve the conflicts i
 sc_resistance_ticker:0 "Resistance Efforts"
 sc_resistance_ticker_desc:0 "The local Corvun populace is putting up a fierce resistance to our integration efforts."
 
+sc_resistance_worsens:0 "§RResistance in Southern Corvus worsens!§!"
+sc_big_policing_efforts:0 "Policing is in action"
+SC_deal_with_bad_tt:0 "§RThe Southern Corvus situation has gone out of control§!"
+SC_deal_with_good_tt:0 "Corvun seperatism has been rooted"
 
 # spirits
 
@@ -115,5 +119,3 @@ SC_question_desc:0 "The question has arisen as to what to do with Southern Corvu
 frederick_scapha:0 "Frederick I"
 
 # misc
-
-CET_required_naval_upkeep:0 "§RIf the navy is neglected this spirit will deactivate!§!"

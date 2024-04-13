@@ -8758,6 +8758,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_CET_SC_question_idea"
-		texturefile = "gfx/interface/ideas/idea_CET_SC_resistance.dds"
+		texturefile = "gfx/interface/ideas/idea_CET_SC_question.dds"
 	}
 }

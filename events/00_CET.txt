@@ -33,19 +33,6 @@ country_event = {
     }
 }
 
-country_event = { # sc resistance
-    id = CET.9
-    title = TCET9
-    desc = DCET9
-    #picture = GFX_evt_
-
-    is_triggered_only = yes #timer decision
-
-    option = {
-
-    }
-}
-
 country_event = { # good management of sc
     id = CET.10
     title = TCET10
