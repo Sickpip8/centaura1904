@@ -197,10 +197,47 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-				set_building_level = {
-                                type = infastructure
-                                instant_build = yes
-                                province = 
+			add_popularity = {
+                                ideology = democratic
+                                popularity = 0.4
+				}
+			}
+		}
+}
+focus = {
+		id = ant_dem_3
+		icon = GFX_focus_generic_propoganda
+		x = 10
+		y = 10
+		cost = 10
+                prerequisite = {
+            focus = ant_dem_2
+                }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				set_politics = 
+                                    ruling_party = democratic
+                                    elections_allowed = yes
 				}
 			}
 		}
