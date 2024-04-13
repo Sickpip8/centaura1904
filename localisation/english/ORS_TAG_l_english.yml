@@ -22,7 +22,15 @@ l_english:
  orion.1.t:0 "Orion reaches out to us!
  orion.1.d:0 "In the wake of the rebellion in Hydrus, we've been preparing to liberate all Ursan colonies. Since then, Orion has been watching us with a close eye, and now, they have invited us to join their coalition against Ursa."
  AntiUrsCoal:0 "Anti-Ursan Coaliton"
- 
+ ORS_TheUrsanQuestion:0 "The Ursan Question"
+ ORS_EndOfWar:0 "Force Ursa To Negotiate"
+ ORS_SpoilsOfWar:0 "Spoils Of War"
+ ORS_ClampDownOnResistence:0 "Clamp Down On Partisans"
+ ORS_DeportUrsans:0 "Deport Ursans"
+ ORS_InvestInOilRigs:0 "Invest In Oil Rigs"
+ ORS_InvestInRubberFactories:0 "Invest in Rubber Factories"
+ ORS_ImproveInfrastructure:0 "Improve Canisian Infrastructure"
+ ORS_ConfiscateLand:0 "Confiscate Ursan Proprietary"
  
  
  
