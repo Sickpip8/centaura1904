@@ -8,22 +8,45 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	fire_only_once = yes
+	
 	option = {
 		name = orion.1.a # Yes
-		
-		create_faction = {
-            name = "The Anti-Ursan Coalition"
-            leader = ORI  # replace with Orion
-            add_to_faction = HYS
-        }
-		
-		set_country_flag = ORI_accept_hys
+		ai_chance = {factor = 90}
+		ORI = {
+		add_to_faction = ROOT = {
+		add_ai_strategy = {
+                type = alliance
+                id = "HYS"
+                value = 200
+		}
 		}
 	}
 	option = {
 		name = orion.1.b # NO 
-		set_country_flag = ORI_refuse_hys
 		}
 	}
 }
+
+	country_event = {
+	id = orion.2
+	title = orion.2.t
+	desc = orion.2.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = orion.2.a # Yes
+		set_state_owner  = 31 
+		set_state_owner = 32	
+		white_peace = ORI
+		}
+	}
+	option = {
+		name = orion.2.b # NO 
+		}
+	}
+}
+		# FINERY GO FUCK YOURSELF WHY DID YOU MAKE THIS
 		
