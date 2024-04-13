@@ -14,6 +14,8 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 1000 }
 
+#######INDUSTRY#######
+
 	focus = {
 		id = ant_ind_1
 		icon = GFX_goal_generic_production
@@ -86,12 +88,17 @@ focus = {
 			}
 		}
 }
+
+#######POLITCAL ROUTES######
+
 focus = {
 		id = ant_dem_1
 		icon = GFX_goal_generic_support_democracy
 		x = 10
 		y = 0
 		cost = 10
+
+                mutually_exclusive = { focus = ant_mon_1 }
 
 		ai_will_do = {
 			factor = 5
@@ -128,6 +135,8 @@ focus = {
 		y = 0
 		cost = 10
 
+                 mutually_exclusive = { focus = ant_dem_1 }
+
 		ai_will_do = {
 			factor = 5
 			modifier = { #testing
@@ -158,11 +167,14 @@ focus = {
 		}
 }
 focus = {
-		id = ant_inf_1
-		icon = GFX_goal_generic_construct_infastructure
-		x = 4
+		id = ant_dem_2
+		icon = GFX_focus_generic_treaty
+		x = 10
 		y = 5
 		cost = 10
+                prerequisite = {
+            focus = ant_dem_1
+                }
 
 		ai_will_do = {
 			factor = 5
