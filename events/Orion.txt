@@ -14,21 +14,23 @@ country_event = {
 		name = orion.1.a # Yes
 		ai_chance = {factor = 90}
 		ORI = {
-		add_to_faction = ROOT = {
-		add_ai_strategy = {
-                type = alliance
-                id = "HYS"
-                value = 200
-		}
+			add_to_faction = ROOT = {
+				add_ai_strategy = {
+						type = alliance
+						id = "HYS"
+						value = 200
+				}
+			}
 		}
 	}
+	
 	option = {
 		name = orion.1.b # NO 
-		}
 	}
+
 }
 
-	country_event = {
+country_event = {
 	id = orion.2
 	title = orion.2.t
 	desc = orion.2.d
@@ -41,12 +43,11 @@ country_event = {
 		set_state_owner  = 31 
 		set_state_owner = 32	
 		white_peace = ORI
-		}
 	}
+	
 	option = {
 		name = orion.2.b # NO 
-		}
 	}
 }
-		# FINERY GO FUCK YOURSELF WHY DID YOU MAKE THIS
+
 		
