@@ -14,40 +14,413 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 1000 }
 
-	focus = {
-		id = antarean_industry
-		icon = GFX_goal_generic_production
-		x = 4
-		y = 0
-		cost = 10
+#######INDUSTRY#######
 
-		ai_will_do = {
-			factor = 5
-			modifier = { #testing
-				ANT = { surrender_progress < 0.2 }
-				factor = 0
-			}
-		}
+focus = {
+	id = ant_ind_1
+	icon = GFX_goal_generic_production
+	x = 4
+	y = 0
+	cost = 10
 
-		available = {
-			is_subject = no
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
 		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
 		
-		bypass = {
-			
-		}
+	}
 
-		cancel_if_invalid = no
-		continue_if_invalid = no
-		available_if_capitulated = yes
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
 
-		completion_reward = {
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 2
-					category = industry
-				}
-			}
+	completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 1.0
+			uses = 2
+			category = industry
 		}
+	}
+}
+focus = {
+	id = ant_inf_1
+	icon = GFX_goal_generic_construct_infastructure
+	x = 4
+	y = 5
+	cost = 10
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	#completion_reward = {
+	#	set_building_level = {
+	#		type = infastructure
+	#		instant_build = yes
+	#		province = 
+	#	}
+	#}
+}
+
+#######POLITCAL ROUTES######
+
+focus = {
+	id = ant_dem_1
+	icon = GFX_goal_generic_support_democracy
+	x = 10
+	y = 0
+	cost = 10
+
+	mutually_exclusive = { focus = ant_mon_1 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.2
+		}
+	}
+}
+
+
+focus = {
+	id = ant_dem_2
+	icon = GFX_focus_generic_treaty
+	x = 10
+	y = 3
+	cost = 10
+	prerequisite = {
+		focus = ant_dem_1
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.4
+		}
+	}
+}
+
+focus = {
+	id = ant_dem_3
+	icon = GFX_focus_generic_propoganda
+	x = 10
+	y = 6
+	cost = 10
+	prerequisite = {
+		focus = ant_dem_2
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+	}
+}
+
+focus = {
+	id = ant_cor_ally
+	icon = GFX_focus_generic_propoganda
+	x = 10
+	y = 6
+	cost = 10
+	prerequisite = {
+		focus = ant_dem_3 
+		focus = ant_mon_2
+		focus = ant_fasc_3
+		focus = ant_dem_2	
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+	}
+}
+###Monarchy###
+
+focus = {
+	id = ant_mon_1
+	icon = GFX_goal_generic_monarchy_1
+	x = 15
+	y = 0
+	cost = 10
+
+				mutually_exclusive = { focus = ant_dem_1 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity =  {
+						ideology = neutrality
+						popularity = .1
+		}
+	}
+}
+focus = {
+	id = ant_mon_2
+	icon = GFX_goal_generic_monarchy_2
+	x = 15
+	y = 3
+	cost = 10
+			prerequisite = { ant_mon_1 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity =  {
+			ideology = neutrality
+			popularity = 0.2
+		}
+	}
+}
+####Fascism####
+focus = {
+	id = ant_fasc_1
+	icon = GFX_goal_generic_political_pressure
+	x = 20
+	y = 3
+	cost = 10
+			prerequisite = { ant_mon_1 }
+				mutually_exclusive = { focus = ant_mon_2 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity =  {
+			ideology = fascism
+			popularity = .3
+		}
+	}
+}
+focus = {
+	id = ant_fasc_2
+	icon = GFX_goal_generic_support_fascism
+	x = 20
+	y = 6
+	cost = 10
+			prerequisite = { ant_fasc_1 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		add_popularity =  {
+			ideology = fascism
+			popularity = .4
+		}
+	}
+}
+
+focus = {
+	id = ant_fasc_3
+	icon = GFX_goal_generic_support_fascism
+	x = 20
+	y = 6
+	cost = 10
+	prerequisite = { ant_fasc_1 }
+
+	ai_will_do = {
+		factor = 5
+		modifier = { #testing
+			ANT = { surrender_progress < 0.2 }
+			factor = 0
+		}
+	}
+
+	available = {
+		is_subject = no
+	}
+	
+	bypass = {
+		
+	}
+
+	cancel_if_invalid = no
+	continue_if_invalid = no
+	available_if_capitulated = yes
+
+	completion_reward = {
+		set_politics =  {
+			ruling_party = fascism
+		}
+	}
 }

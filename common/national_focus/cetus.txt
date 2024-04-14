@@ -2,6 +2,8 @@
 focus_tree = { ## Southern Corvus
     id = CET_focus
 
+    initial_show_position = { focus = CET_sc1 }
+
     country = {
         base = 0
         modifier = {
