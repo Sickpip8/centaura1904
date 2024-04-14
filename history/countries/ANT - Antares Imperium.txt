@@ -1,7 +1,3 @@
-capital = 6
-
-set_research_slots = 3
-
 set_stability = 0.46
 
 set_war_support = 0.23
@@ -24,3 +20,30 @@ set_politics = {
 	elections_allowed = No
 }
 
+create_country_leader = {
+	name = "Kalvin Tau"
+	desc = "test"
+	picture = portrait_ANT_Kalvin_Tau.dds
+	expire = "1927.1.1"
+	ideology = despotism
+	traits = { Autocratic_Imperialist
+	}
+}
+create_country_leader = {
+	name = "Andrew Tau"
+	desc = "test"
+	picture = portrait_ANT_Andrew_Tau.dds
+	expire = "1968.1.1"
+	ideology = Liberalism
+	traits = { Liberal Politician
+	}
+}
+create_country_leader = {
+	name = "Aran Tau"
+	desc = "test"
+	picture = portrait_ANT_Aran_Tau.dds
+	expire = "1965.1.1"
+	ideology = Falangism
+	traits = { Dictator
+	}
+}
