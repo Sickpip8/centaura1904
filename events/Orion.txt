@@ -66,8 +66,6 @@ country_event = {
 		name = orion.3.a 
 		set_state_owner = 114 # I KNOW IT ISN'T IN ORDER SHUT UP
 		set_state_owner = 118
-		set_state_owner = 119
-		set_state_owner = 116
 		set_state_owner = 117
 		set_state_owner = 113
 		set_state_owner = 115
@@ -75,6 +73,8 @@ country_event = {
 			HYS = {
 				set_state_owner = 118
 				set_state_owner = 115
+				set_state_owner = 119
+				set_state_owner = 116
 			}
 		white_peace = URS
 	}
@@ -89,8 +89,8 @@ country_event = { # Dead end for Orion (they gotta naval invade)
 	is_triggered_only = yes
 	
 	option = {
-		name = orion.4.a
-		 }
+	name = orion.4.a
+	}
 }
 
 		
