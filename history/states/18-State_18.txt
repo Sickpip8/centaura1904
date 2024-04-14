@@ -7,19 +7,16 @@ state={
 		owner = MUS
 		add_core_of = MUS
 		victory_points = {
-			1081 12 
-		}
-		victory_points = {
-			2142 31 
+			1853 15 
 		}
 
 	}
 
 	provinces={
-		757 1081 1134 1576 1730 2024 2078 2126 2142 2159 2165 2166 3026 3028 3031 3038 3039 3043 3045 3053 
+		23 306 634 761 1799 1853 3351 3371 6526 6531 6535 6537 6538 6558 6563 6568 6571 6578 6582 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

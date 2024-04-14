@@ -1,22 +1,18 @@
-
 state={
 	id=71
 	name="STATE_71"
-
-	history={
-		owner = GRS
-		add_core_of = GRS
+	history = {
+		owner = RIA
+		add_core_of = RIA
 		victory_points = {
-			2564 14 
+			1223 13
 		}
-
 	}
-
 	provinces={
-		8 18 216 551 627 734 905 913 916 976 1001 1022 1046 1295 1496 1513 1518 1679 1686 1748 1769 1787 1818 1902 1957 2080 2502 2507 2520 2522 2524 2530 2556 2564 2567 2593 3288 3293 3299 3320 
+		55 104 172 199 434 593 618 671 1083 1155 1163 1181 1223 1291 1671 1684 2031 3159 3361 3373 3384 3388 3396 6533 6540 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

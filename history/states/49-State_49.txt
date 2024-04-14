@@ -1,22 +1,18 @@
-
 state={
 	id=49
 	name="STATE_49"
-
-	history={
-		owner = CLB
-		add_core_of = CLB
+	history = {
+		owner = CET
+		add_core_of = CET
 		victory_points = {
-			789 16 
+			5063 10
 		}
-
 	}
-
 	provinces={
-		39 45 789 815 939 1010 1286 1392 1414 1423 1992 2087 2089 2456 2457 2466 2470 2485 
+		1014 1495 2745 5063 5083 5114 5120 5121 5167 5169 5170 5190 5290 5347 5414 5415 5454 5455 6785 6786 6788 6790 6791 6793 6794 6795 6803 6807 6812 
 	}
-	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+        manpower=1000
+        state_category = town
 }

@@ -2,17 +2,17 @@ state={
 	id=87
 	name="STATE_87"
 	history = {
-		owner = COV
-		add_core_of = COV
+		owner = URS
+		add_core_of = URS
 		victory_points = {
-			3296 4
+			6605 18
 		}
 	}
 	provinces={
-		3296 
+		58 191 503 518 522 888 895 942 1033 1195 1663 1726 2427 2437 2604 3340 3346 3354 3357 3362 3377 3400 3413 3423 3426 6519 6521 6523 6524 6593 6605 6607 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

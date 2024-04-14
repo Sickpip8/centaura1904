@@ -2,21 +2,21 @@
 state={
 	id=17
 	name="STATE_17"
-	history = {
+
+	history={
 		owner = LAC
 		add_core_of = LAC
 		victory_points = {
-			1149 5
+			1257 15 
 		}
-		victory_points = {
-			474 32
-		}
+
 	}
+
 	provinces={
-		474 803 1149 2091 3008 3634 3635 3636 3637 3638 3639 3640 3641 3642 3643 3644 3645 
+		351 427 841 1257 2371 6507 6508 6989 6990 6991 6992 6993 6994 
 	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-        manpower=1
-        state_category = town
 }

@@ -1,21 +1,18 @@
 state={
 	id=99
 	name="STATE_99"
-	
-	history={
-		owner = TUC
-		add_core_of = TUC
+	history = {
+		owner = ANT
+		add_core_of = ANT
 		victory_points = {
-			3102 6 
+			5627 5
 		}
-
 	}
-	
 	provinces={
-		3102 
+		1037 2008 5627 6813 
 	}
-	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+        manpower=1000
+        state_category = town
 }

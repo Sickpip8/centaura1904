@@ -1,0 +1,18 @@
+state={
+	id=113
+	name="STATE_113"
+	history = {
+		owner = URS
+		add_core_of = URS
+		victory_points = {
+			6747 4
+		}
+	}
+	provinces={
+		144 480 547 1242 1664 1931 2111 2207 2252 2332 2392 2463 2954 2977 3205 3671 3704 3718 3725 3728 3763 3780 3794 3812 3848 3872 3892 3903 6747 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1000
+        state_category = town
+}

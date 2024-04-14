@@ -7,19 +7,16 @@ state={
 		owner = CTA
 		add_core_of = CTA
 		victory_points = {
-			1000 18 
-		}
-		victory_points = {
-			1000 30 
+			1450 15 
 		}
 
 	}
 
 	provinces={
-		95 140 155 175 502 530 584 932 990 1000 1184 1307 1438 1568 1916 1955 2061 2406 2415 2416 3180 3190 3192 3193 3199 3206 3212 
+		95 1703 1819 2390 3028 3177 3578 3598 3599 3607 3615 3625 3634 6681 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

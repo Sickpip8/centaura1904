@@ -1,0 +1,18 @@
+state={
+	id=124
+	name="STATE_124"
+	history = {
+		owner = HYS
+		add_core_of = HYS
+		victory_points = {
+			6616 18
+		}
+	}
+	provinces={
+		6610 6611 6614 6616 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=1000
+        state_category = town
+}
