@@ -26,6 +26,7 @@ country_event = {
 	
 	option = {
 		name = orion.1.b # NO 
+		ai_chance = {factor = 10}
 	}
 
 }
@@ -40,14 +41,56 @@ country_event = {
 	
 	option = {
 		name = orion.2.a # Yes
-		set_state_owner  = 31 
-		set_state_owner = 32	
-		white_peace = ORI
+		ORI = {
+               country_event = {id = orion.3  days = 1 }
+               }
 	}
 	
 	option = {
-		name = orion.2.b # NO 
+		name = orion.2.b # NO
+		ORI = {
+               country_event = {id = orion.4  days = 1 }
+              }
 	}
+}
+
+country_event = {
+	id = orion.3
+	title = orion.3.t
+	desc = orion.3.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = orion.3.a 
+		set_state_owner = 114 # I KNOW IT ISN'T IN ORDER SHUT UP
+		set_state_owner = 118
+		set_state_owner = 119
+		set_state_owner = 116
+		set_state_owner = 117
+		set_state_owner = 113
+		set_state_owner = 115
+		set_state_owner = 112
+			HYS = {
+				set_state_owner = 118
+				set_state_owner = 115
+			}
+		white_peace = URS
+	}
+}
+
+country_event = { # Dead end for Orion (they gotta naval invade)
+	id = orion.4
+	title = orion.4.t
+	desc = orion.4.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = orion.4.a
+		 }
 }
 
 		
