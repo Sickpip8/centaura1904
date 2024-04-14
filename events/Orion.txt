@@ -46,7 +46,6 @@ country_event = {
 	option = {
 		name = orion.2.b # NO 
 		}
-	}
 }
 		# FINERY GO FUCK YOURSELF WHY DID YOU MAKE THIS
 		
