@@ -22,11 +22,11 @@ country_event = {
 		}
 		}
 	}
+	}
 	option = {
 		name = orion.1.b # NO 
 		}
 	}
-}
 
 	country_event = {
 	id = orion.2
