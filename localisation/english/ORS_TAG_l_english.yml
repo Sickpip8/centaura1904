@@ -31,6 +31,16 @@
  ORS_InvestInRubberFactories:0 "Invest in Rubber Factories"
  ORS_ImproveInfrastructure:0 "Improve Canisian Infrastructure"
  ORS_ConfiscateLand:0 "Confiscate Ursan Propriety"
+ orion.2.t:0 "Orion sends us a peace deal!"
+ orion.2.d:0 "Now that we have lost our last Hydran colony, Orion wants to sign a peace treaty that'll give them and Hydrus our last colony and reperations for war. Shall we accept?"
+ orion.2.a:0 "We've lost our colony, waging this war isn't worth the trouble."
+ orion.2.b:0 "No! We will never give in!"
+ orion.3.t:0 "Ursa accepts our peace treaty!"
+ orion.3.d:0 "After our swift invasion of Canis, we sent Ursa a peace treaty that included them giving up Canis and paying us and Hydrus war reperations. Now, after a few weeks of diplomatic pressure and interception of their convoys, they finally gave in"
+ orion.3.a:0 "Very well"
+ orion.4.t:0 "Ursa doesn't give in!"
+ orion.4.d:0 "Despite our efforts to force them to surrender, they have refused any peace treaty, and now, we're forced into a phony war against Ursa."
+ orion.4.a:0 "Damn it!"
  
  
  
