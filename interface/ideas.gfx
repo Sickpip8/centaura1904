@@ -8760,4 +8760,14 @@ spriteTypes = {
 		name = "GFX_idea_CET_SC_question_idea"
 		texturefile = "gfx/interface/ideas/idea_CET_SC_question.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ORI_Corruption"
+		texturefile = "gfx/interface/ideas/idea_ORI_Corruption.dds"			
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ORI_PrioritizedMilitary"
+		texturefile = "gfx/interface/ideas/idea_ORI_PrioritizedMilitary.dds"			
+	}
 }
