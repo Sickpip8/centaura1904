@@ -1,5 +1,5 @@
 
-focus_tree = { ## Southern Corvus
+focus_tree = {
     id = CET_focus
 
     initial_show_position = { focus = CET_sc1 }
@@ -230,15 +230,11 @@ focus_tree = { ## Southern Corvus
         }
 
         completion_reward = {
-            add_manpower = 5000
+            unlock_decision_tooltip = sc_resistance_crackdown
             add_tech_bonus = {
                 bonus = 1
                 uses = 1
                 technology = tech_military_police
-            }
-            add_equipment_to_stockpile = {
-                type = support_equipment
-                amount = 300
             }
         }
     }
@@ -310,7 +306,7 @@ focus_tree = { ## Southern Corvus
         #search_filters =
         cost = 10
 
-        mutually_exclusive = { focus = CET_sc1 }
+        mutually_exclusive = { focus = CET_sc_int1 }
 
         prerequisite = {
             focus = CET_sc1
@@ -336,7 +332,7 @@ focus_tree = { ## Southern Corvus
         }
 
         completion_reward = {
-            remove_ideas = SC_question_idea
+            
         }
     }
 

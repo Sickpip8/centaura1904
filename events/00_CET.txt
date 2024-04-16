@@ -14,12 +14,12 @@ country_event = {
         custom_effect_tooltip = tt_cet_integration
 
         hidden_effect = {
-            57 = {
-                add_dynamic_modifier = { modifier = sc_resistance_integration }
-            }
-            58 = {
-                add_dynamic_modifier =  { modifier = sc_resistance_integration }
-            }
+            #57 = {
+            #    add_dynamic_modifier = { modifier = sc_resistance_integration }
+            #}
+            #58 = {
+            #    add_dynamic_modifier =  { modifier = sc_resistance_integration }
+            #}
             complete_national_focus = CET_sc_int1
         }
     }

@@ -4,6 +4,7 @@ sc_resistance_integration = {
 
     resistance_target = 0.6
     local_resources_factor = -0.6
+    local_factories = -0.8
     
     enable = {
         THIS = {

@@ -82,8 +82,8 @@ CET_sc_dockyards:0 "Expand Dockyards"
 CET_sc_dockyards_desc:0 "Cetus has always been a nation that is proud of its navy and maritime prestige. In order to keep our role on the world stage as its greatest naval power we should increase our naval production."
 CET_sc_partial_integration:0 "Allow For Freedoms"
 CET_sc_partial_integration_desc:0 "With the intent to keep Southern Corvus for the time being it should be noted that the population is going to have to adapt to their new overlord. Maybe if allow for better freedoms within the region they will come to like us more."
-CET_sc_war_corvus:0 "Unite the Corvuses"
-CET_sc_war_corvus:0 "The time has come for us to continue our conquest of Corvus. While the lands are not as rich in resources as the once we've already taken, the people can still be put to work in our factories and armies. Their heretical way of thinking is going to come to an end."
+#CET_sc_war_corvus:0 "Unite the Corvuses"
+#CET_sc_war_corvus:0 "The time has come for us to continue our conquest of Corvus. While the lands are not as rich in resources as the once we've already taken, the people can still be put to work in our factories and armies. Their heretical way of thinking is going to come to an end."
 
 # events
 
@@ -102,8 +102,10 @@ sc_resistance_end:0 "Southern Corvus Resolution"
 sc_resistance_end_desc:0 "We have been set a deadline to resolve the conflicts in Southern Corvus within two years, if the territory is not integrated or subdued properly we could receive major lashback."
 sc_resistance_ticker:0 "Resistance Efforts"
 sc_resistance_ticker_desc:0 "The local Corvun populace is putting up a fierce resistance to our integration efforts."
+sc_not_crackeddown:0 "Resistance has been cracked down"
 
 sc_resistance_worsens:0 "§RResistance in Southern Corvus worsens!§!"
+sc_resistance_improves:0 "§GResistance in Southern Corvus goes down!§!"
 sc_big_policing_efforts:0 "Policing is in action"
 SC_deal_with_bad_tt:0 "§RThe Southern Corvus situation has gone out of control§!"
 SC_deal_with_good_tt:0 "Corvun seperatism has been rooted"

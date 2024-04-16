@@ -13,7 +13,7 @@ set_convoys = 157
 recruit_character = CET_frederick_scapha
 
 add_ideas = {
-	SC_question_idea
+	CET_SC_question_idea
 	CET_independent_armed_forces_idea
 	CET_rules_the_waves_idea
 }

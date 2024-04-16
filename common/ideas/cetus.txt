@@ -13,17 +13,17 @@ ideas = {
             traits = { popular_figurehead }
         }
 
-        SC_question_idea = {
+        CET_SC_question_idea = {
             name = CET_SC_question
             
-            picture = CET_SC_resistance
+            picture = CET_sc_question
             allowed = { original_tag = CET }
             removal_cost = -1
 
             modifier = {
                 stability_factor = -0.2
                 political_power_gain = -0.5
-                stability_weekly = -0.005
+                stability_weekly = -0.005 #0.5
             }
         }
 
@@ -55,12 +55,11 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                industrial_capacity_dockyard = 0.20
+                industrial_capacity_dockyard = 0.10
                 navy_max_range_factor = 0.20
                 special_forces_cap = 0.02
-                navy_capital_ship_attack_factor = 0.1
-                navy_capital_ship_defence_factor = 0.1
-                experience_gain_navy_unit_factor = 0.10
+                navy_capital_ship_attack_factor = 0.15
+                navy_capital_ship_defence_factor = 0.15
             }
         }
     }

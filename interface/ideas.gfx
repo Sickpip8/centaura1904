@@ -8757,7 +8757,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_CET_independent_armed_forces.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_CET_SC_question_idea"
+		name = "GFX_idea_CET_sc_question"
 		texturefile = "gfx/interface/ideas/idea_CET_SC_question.dds"
 	}
 
