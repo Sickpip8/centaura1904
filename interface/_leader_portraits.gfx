@@ -6,4 +6,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_BCH_hitori_gotoh_small"
 		texturefile = "gfx/leaders/BCH/portrait_BCH_hitori_gotoh_small.dds"
+		}
+
+	spriteType = {
+		name = "GFX_portrait_ORI_Kevin_Hart_small"
+		texturefile = "gfx/leaders/ORI/portrait_ORI_Kevin_Hart_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_ORI_Kevin_Hart"
+		texturefile = "gfx/leaders/ORI/portrait_ORI_Kevin_Hart.dds"
+	}
 }
