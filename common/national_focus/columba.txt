@@ -327,43 +327,6 @@ focus = {
 		}
 	}	
 focus = {
-		id = clb_take_all
-		icon = GFX_focus_NORDIC_com_army
-		x = 40
-		y = 4
-		
-		cost = 10
-		prerequisite = {
-		focus = clb_proud_nation
-		}
-
-		mutually_exclusive = { focus = clb_cor_ally focus = clb_north_ally }
-
-		ai_will_do = {
-			factor = 5
-			modifier = { #testing
-				ANT = { surrender_progress < 0.2 }
-				factor = 0
-			}
-		}
-
-		available = {
-			is_subject = no
-		}
-		
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 1
-		}
-	}	
-focus = {
 		id = clb_cor_ally
 		icon = GFX_focus_NORDIC_mon_form_alliance
 		x = 42
@@ -476,6 +439,167 @@ focus = {
         }
 	
     }
+focus = {
+		id = clb_democratic_3
+		icon = GFX_focus_generic_improve_the_administration
+		x = 34
+		y = 2
+		cost = 10
+		prerequisite = { focus = clb_democratic_2 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 1
+		    }
+        }
+		
+		focus = {
+		id = clb_democratic_parl
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		x = 32
+		y = 3
+		cost = 10
+		prerequisite = { focus = clb_democratic_3 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 1
+		    }
+        }
+		focus = {
+		id = clb_democratic_free
+		icon = GFX_focus_generic_self_management
+		x = 35
+		y = 3
+		cost = 10
+		prerequisite = { focus = clb_democratic_3 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 1
+		    }
+        }
+		focus = {
+		id = clb_democratic_cons
+		icon = GFX_focus_generic_treaty
+		x = 34
+		y = 4
+		cost = 10
+		prerequisite = { focus = clb_democratic_parl focus = clb_democratic_free }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 1
+		    }
+        }
+		focus = {
+		id = clb_hold_vote
+		icon = GFX_goal_support_democracy
+		x = 34
+		y = 4
+		cost = 10
+		prerequisite = { focus = clb_democratic_parl focus = clb_democratic_free }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 1
+		    }
+        }
 	##NEUTRAL##
 focus = {
 		id = clb_neutral_1
@@ -705,44 +829,7 @@ focus = {
             add_political_power = 1
 			}
 		}
-		##########UNITE CENTUARA##########
-		focus = {
-		id = clb_path_war
-		icon = GFX_focus_NORDIC_com_selector_army
-		x = 41
-		y = 5
 		
-		cost = 10
-		prerequisite = {
-		focus = clb_take_all
-		}
-
-		mutually_exclusive = { focus = clb_path_diplo }
-
-		ai_will_do = {
-			factor = 5
-			modifier = { #testing
-				ANT = { surrender_progress < 0.2 }
-				factor = 0
-			}
-		}
-
-		available = {
-			is_subject = no
-		}
-		
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 1
-		}
-	}
 focus = {
 		id = clb_path_diplo
 		icon = GFX_focus_NORDIC_dem_institution_1
