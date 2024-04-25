@@ -5,15 +5,15 @@ STATES 1 to 18
 	- LPS 1901 (HYDRA)
 	- CNS 1902
 3 Orion Republic, ORI (Venatia) [CAPITAL: 5537]
-4 Kingdom of Auriga, AUR (South Auriga) [CAPITAL: 6392]
+4 Kingdom of Auriga, AUR (South Auriga) [CAPITAL: 6392] 15,287,269
 5 Federation of Ursa, URS (Central Ursa) [CAPITAL: 3196]
 6 Antares Imperium, ANT (Southeastern Skorpius) [CAPITAL: 919]
 7 Empire of Cetus, CET (Nauta Region) [CAPITAL: 2919]
 8 Corvus Confederation , COV (Northernmost Corvus) [CAPITAL: 428]
 9 Kingdom of Aquila, AQU ("The Aquilan Heartland") [CAPITAL: 4563]
 10 Vegan Dominion, VEG (North Vega) [CAPITAL: 4538]
-11 Kingdom of Grusa, GRS (North Grusa) [CAPITAL: 2926]
-12 United Columban Territories, CLB (Central Coastal Region) [CAPITAL: 3857]
+11 Kingdom of Grusa, GRS (North Grusa) [CAPITAL: 2926] 16,762,728
+12 United Columban Territories, CLB (Central Coastal Region) [CAPITAL: 3857] 
 13 Republic of Riaa, RIA (Northwestern Riaa) [CAPITAL: 2218]
 14 Empire of Vulpa, VUL (Big island) [CAPITAL: 1558]
 15 Tucani Empire, TUC (Tucana East) [CAPITAL: 2648
@@ -28,35 +28,35 @@ Hydrus HYS
 Gemini GEM
 
 States, In numerical order
-19 - 24 Libra (6+1) 1
-	- 19 Libratum
-	- 20 East Libran Island [CAPITAL: 964]
-	- 21 Western Libran Islands
-	- 22 Westernmost Libran Islands
-	- 23 Middle Libra
-	- 24 Easternmost Libran Islands
+19 - 24 Libra (6+1) State_1
+	- 19 Libratum 
+	- 20 East Libran Island [CAPITAL: 964] 
+	- 21 Western Libran Islands 
+	- 22 Westernmost Libran Islands 
+	- 23 Middle Libra 
+	- 24 Easternmost Libran Islands 
 	
-25 - 28 Vega (4+1) 10
-	- 25 Vegan Murus Plateau
-	- 26 South Vega
-	- 27 Vegan Islands
-	- 28 Lake island (vega)
+25 - 28 Vega (4+1) State_10
+	- 25 Vegan Murus Plateau 
+	- 26 South Vega 
+	- 27 Vegan Islands 
+	- 28 Lake island (vega) 
 	
-29 - 30 Grusa (2+1) 11
-	- 29 Grusan desert
-	- 30 South Grusa
+29 - 30 Grusa (2+1) State_11 16,762,728
+	- 29 Grusan desert 1,805,979
+	- 30 South Grusa 9,502,786
 	
-31 - 38 Aquila (8+1) 9
+31 - 38 Aquila (8+1) State_9
 	- 31 Aquilan Coast
-	- 32 Aquilan Murus Plateau
-	- 33 The Aquilan North
-	- 34 The Eastern Heartland
-	- 35 Aquilan South
-	- 36 Southern Heartland
-	- 37 Western Borderlands
-	- 38 Western Heartland
+	- 32 Aquilan Murus Plateau 
+	- 33 The Aquilan North 
+	- 34 The Eastern Heartland 
+	- 35 Aquilan South 
+	- 36 Southern Heartland 
+	- 37 Western Borderlands 
+	- 38 Western Heartland 
 
-39 - 50 Cetus (11+1) 7
+39 - 50 Cetus (11+1) State_7
 	- 39 Cetan Northeast
 	- 40 Cetan North
 	- 41 East Cetus
@@ -70,14 +70,14 @@ States, In numerical order
 	- 49 Cetan Islands (west)
 	- 50 Cetan Islands (lake)
 	
-51 - 55 Corvus (5+1) 8
+51 - 55 Corvus (5+1) State_8
 	- 51 Corvun Center
 	- 52 Southeast North Corvus
 	- 53 North Corvus, Southern part (Central Corvus)
 	- 54 Inanis Islands
 	- 55 Lake Island
 
-56 - 62 Columba (7+1) 12
+56 - 62 Columba (7+1) State_12
 	- 56 Easternmost Columba
 	- 57 Eastern Columba (coastal)
 	- 58 Eastern Columba (inland)
@@ -86,7 +86,7 @@ States, In numerical order
 	- 61 Central Columba
 	- 62 North Columba
 
-63 - 73 Riaa (11+1) 13
+63 - 73 Riaa (11+1) State_13
 	- 63 Southernmost Riaa (Corvus border)
 	- 64 Southwestern Riaa
 	- 65 Southwestern Riaan Islands
@@ -99,23 +99,23 @@ States, In numerical order
 	- 72 Eastern Riaa
 	- 73 Eastern Riaa (coastal)
 
-74 - 76 Tucana (3+1) 15
+74 - 76 Tucana (3+1) State_15
 	- 74 Southwestern Tucana
 	- 75 Northern Tucana
 	- 76 Eastern Tucana Islands
 	
-77 - 79 Centauri (3+1) 16
+77 - 79 Centauri (3+1) State_16
 	- 77 South Centauri
 	- 78 North Centauri
 	- 79 Offshore Islands
 	
-80 - 83 Vulpa (4+1) 14
+80 - 83 Vulpa (4+1) State_14
 	- 80 Southern Islands
 	- 81 Northwestern Islands
 	- 82 South Island (vulpa central)
 	- 83 Western Islands
 	
-84 - 90 Ursa (7+1) 5
+84 - 90 Ursa (7+1) State_5
 	- 84 South Ursa (mainland)
 	- 85 South Ursan Islands
 	- 86 Southeastern Islands
@@ -124,7 +124,7 @@ States, In numerical order
 	- 89 West Ursa (mainland)
 	- 90 Westernmost Islands
 	
-91 - 111 Antares (21+1) 6
+91 - 111 Antares (21+1) State_6
 	- 91 South Island chain 
 	- 92 South Island collections
 	- 93 South Island collections (big)
@@ -161,7 +161,7 @@ States, In numerical order
 	- 122 Offshore canis island (Libran ocean), ORION CLAIM
 	- 123 Northwestern Islands
 	
-124 - 129 Hydrus (6+1) 2
+124 - 129 Hydrus (6+1) State_2
 	- 124 Northwesternmost Islands
 	- 125 Western Islands
 	- 126 Northeastern Island chain
@@ -177,7 +177,7 @@ States, In numerical order
 	- 134 Lepus Islands
 	
 	
-135 - 150 Orion (16+1) 3
+135 - 150 Orion (16+1) State_3
 	- 135 Pisca Department
 	- 136 Auriga Department
 	- 137 Gemina Department
@@ -195,10 +195,10 @@ States, In numerical order
 	- 149 Mintaka-Geminian Islands (south)
 	- 150 Geminian Islands (east)
 	
-151 - 153 Auriga (3+1) 4
-	- 151 Aurigan North
-	- 152 Aurigan Island (coastal)
-	- 153 Aurigan Island (near orion)
+151 - 153 Auriga (3+1) State_4 15,287,269
+	- 151 Aurigan North 14,613,638
+	- 152 Aurigan Island (coastal) 149,321
+	- 153 Aurigan Island (near orion) 1,067,224
 
 CONTINENTS
 2 3 4 18 112 - 153 HYDRAN CONTINENT

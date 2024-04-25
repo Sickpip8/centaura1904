@@ -4,6 +4,7 @@ state={
 	history = {
 		owner = VEG
 		add_core_of = VEG
+		add_core_of = GRS
 		victory_points = {
 			6781 9
 		}
