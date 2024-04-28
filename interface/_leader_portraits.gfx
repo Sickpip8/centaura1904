@@ -17,4 +17,9 @@ spriteTypes = {
 		name = "GFX_portrait_ORI_Kevin_Hart"
 		texturefile = "gfx/leaders/ORI/portrait_ORI_Kevin_Hart.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CET_frederick_scapha"
+		texturefile = "gfx/leaders/CET/portrait_CET_Frederick_Scapha.dds"
+	}
 }
