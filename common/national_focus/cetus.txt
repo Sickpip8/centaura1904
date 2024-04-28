@@ -32,10 +32,11 @@ focus_tree = {
             unlock_decision_category_tooltip = south_corvus_decisions
             
             hidden_effect = {
-                activate_mission = sc_resistance_end
-                activate_mission = sc_resistance_ticker
-
-                CET = { set_variable = { SC_resistance_level = 5 } }
+                CET = {
+                    activate_mission = sc_resistance_end
+                    activate_mission = sc_resistance_ticker
+                    set_variable = { SC_resistance_level = 5 }
+                }
             }
         }
     }

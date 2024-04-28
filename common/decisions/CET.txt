@@ -70,6 +70,13 @@ south_corvus_decisions = {
 
         priority = 80
 
+        visible = {
+            OR = {
+                has_completed_focus = CET_sc_policing
+                has_completed_focus = CET_sc_occupy
+            }
+        }
+
         available = {
             manpower = 5000
             has_equipment = {
