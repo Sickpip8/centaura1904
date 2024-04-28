@@ -10,6 +10,8 @@ add_political_power = 1
 
 set_convoys = 391
 
+recruit_character = ORI_Kevin_Hart
+
 set_popularities = {
 	democratic = 98
 	communism = 0
