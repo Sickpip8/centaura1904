@@ -23,4 +23,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = No
 }
+create_country_leader = {
+		name = "Aimo Lambda II"
+		desc = ""
+		picture = portrait_CLB_Aimo_Lambda.dds
+		expire = "1946.1.1"
+		ideology = despotism
+		traits = {}
+		}
+	}
 

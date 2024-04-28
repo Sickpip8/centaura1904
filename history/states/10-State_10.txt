@@ -8,19 +8,16 @@ state={
 		add_core_of = VEG
 		add_core_of = GRS
 		victory_points = {
-			2660 7 
-		}
-		victory_points = {
-			1430 34 
+			3031 15 
 		}
 
 	}
 
 	provinces={
-		200 284 492 529 729 864 1032 1049 1096 1430 1517 1520 1981 2641 2660 2676 2687 2692 2704 2705 
+		222 279 323 375 611 716 855 1250 1366 1621 1747 1786 2039 2115 2477 2911 3031 4117 4165 4275 4292 4334 4343 4344 4360 4387 4388 4389 4427 4428 4437 4438 4487 4520 4538 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

@@ -7,18 +7,15 @@ state={
 		owner = CLB
 		add_core_of = CLB
 		victory_points = {
-			21 17 
-		}
-		victory_points = {
-			1314 39 
+			3833 15 
 		}
 
 	}
 
 	provinces={
-		21 510 644 663 1227 1303 1314 1326 1532 1736 1873 2499 3208 3213 3239 3264 3267 3268 3273 
+		47 797 1169 1363 1995 2212 2945 3759 3760 3761 3771 3777 3790 3804 3817 3823 3833 3852 3857 3860 3861 3885 3900 3904 3917 3930 
 	}
-	manpower=1
+	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

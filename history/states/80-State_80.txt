@@ -2,17 +2,17 @@ state={
 	id=80
 	name="STATE_80"
 	history = {
-		owner = LBR
-		add_core_of = LBR
+		owner = VUL
+		add_core_of = VUL
 		victory_points = {
-			1450 10
+			3440 17
 		}
 	}
 	provinces={
-		1450 3426 3432 3441 3446 3452 3453 3455 3458 3469 
+		810 1168 1435 3409 3440 3441 3484 6612 6621 6628 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

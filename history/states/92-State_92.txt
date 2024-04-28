@@ -2,17 +2,17 @@ state={
 	id=92
 	name="STATE_92"
 	history = {
-		owner = LBR
-		add_core_of = LBR
+		owner = ANT
+		add_core_of = ANT
 		victory_points = {
-			3356 5
+			6965 1
 		}
 	}
 	provinces={
-		3356 
+		1743 6503 6961 6962 6965 6967 6970 6974 6976 6977 6978 6979 6981 6982 6984 6985 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

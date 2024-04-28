@@ -14,8 +14,10 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 1000 }
 
+#######INDUSTRY#######
+
 	focus = {
-		id = antarean_industry
+		id = ant_ind_1
 		icon = GFX_goal_generic_production
 		x = 4
 		y = 0
@@ -42,12 +44,1045 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 2
-					category = industry
-				}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 2
+				category = industry
 			}
 		}
+	}
+
+	focus = {
+		id = ant_civ_1
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ant_ind_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+	focus = {
+		id = ant_civ_2
+		icon = GFX_goal_generic_construct_civilian
+		x = 2
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ant_civ_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_mil_1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ant_ind_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+	focus = {
+		id = ant_mil_2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ant_mil_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+	focus = {
+		id = ant_inf_1
+		icon = GFX_goal_generic_construct_infrastructure
+		x = .5
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ant_civ_2
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_inf_2
+		icon = GFX_goal_generic_construct_infrastructure
+		x = .5
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ant_inf_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_oil_1
+		icon = GFX_goal_generic_oil_refinery
+		x = 4
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ant_civ_2
+			focus = ant_mil_2
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_rub_1
+		icon = GFX_focus_generic_rubber
+		x = 4
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ant_oil_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	#######POLITCAL ROUTES######
+
+	focus = {
+		id = ant_dem_1
+		icon = GFX_focus_rom_abdicate
+		x = 10
+		y = 0
+		cost = 10
+
+		mutually_exclusive = { focus = ant_mon_1 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+		}
+	}
+
+
+	focus = {
+		id = ant_dem_2
+		icon = GFX_focus_generic_treaty
+		x = 10
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ant_dem_1
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.4
+			}
+		}
+	}
+
+	focus = {
+		id = ant_dem_3
+		icon = GFX_focus_generic_improve_the_administration
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ant_dem_2
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+		}
+	}
+
+
+
+
+
+	###Monarchy###
+
+	focus = {
+		id = ant_mon_1
+		icon = GFX_focus_ETH_negusa-nagast
+		x = 15
+		y = 0
+		cost = 10
+
+					mutually_exclusive = { 
+			focus = ant_dem_1 
+			focus = ant_fasc_1
+	}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity =  {
+							ideology = neutrality
+							popularity = .1
+			}
+		}
+	}
+	focus = {
+		id = ant_mon_2
+		icon = GFX_focus_ETH_the-italo_ethiopian_empire
+		x = 15
+		y = 1
+		cost = 10
+		prerequisite = { focus = ant_mon_1 }
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity =  {
+				ideology = neutrality
+				popularity = 0.2
+			}
+		}
+	}
+	####Fascism####
+	focus = {
+		id = ant_fasc_1
+		icon = GFX_goal_generic_political_pressure
+		x = 20
+		y = 0
+		cost = 10
+		mutually_exclusive = { focus = ant_mon_1 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity =  {
+				ideology = fascism
+				popularity = .3
+			}
+		}
+	}
+
+	focus = {
+		id = ant_fasc_2
+		icon = GFX_focus_generic_fascist_troops
+		x = 20
+		y = 1
+		cost = 10
+		prerequisite = { focus = ant_fasc_1 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity =  {
+				ideology = fascism
+				popularity = .4
+			}
+		}
+	}
+
+
+	focus = {
+		id = ant_fasc_3
+		icon = GFX_goal_support_fascism
+		x = 20
+		y = 2
+		cost = 10
+		prerequisite = { focus = ant_fasc_2 }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_politics =  {
+				ruling_party = fascism
+			}
+		}
+	}
+
+
+
+
+
+
+
+	##################################################ARMY, NAVY, AIR############################################
+	#ARMY#
+	focus = {
+		id = ant_army_1
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 30
+		y = 0
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = ant_army_2
+		icon = GFX_focus_NORDIC_com_selector_army
+		x = 30
+		y = 1
+		cost = 5
+		prerequisite = { focus = ant_army_1 }
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	#AIR#
+	focus = {
+		id = ant_air_1
+		icon = GFX_focus_generic_copy_plane_designs
+		x = 35
+		y = 0
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+		}
+	}
+	focus = {
+		id = ant_air_2
+		icon = GFX_goal_generic_build_airforce
+		x = 35
+		y = 1
+		cost = 5
+		prerequisite = { focus = ant_air_1 }
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+		}
+	}
+	focus = {
+		id = ant_fighter_1
+		icon = GFX_goal_generic_air_fighter
+		x = 33
+		y = 2
+		cost = 5
+		prerequisite = { focus = ant_air_2 }
+		mutually_exclusive = { focus = ant_bomber_1 }
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+		}
+	}
+	focus = {
+		id = ant_bomber_1
+		icon = GFX_goal_generic_air_bomber
+		x = 37
+		y = 2
+		cost = 5
+		prerequisite = { focus = ant_air_2 }
+		mutually_exclusive = { focus = ant_fighter_1 }
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 5
+		}
+	}
+	#NAVAL#
+	focus = {
+		id = ant_ship_1
+		icon = GFX_goal_generic_navy_battleship
+		x = 40
+		y = 0
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 5
+		}
+	}
+	##ALLY CORVUS##
+	focus = {
+		id = ant_cor_ally
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 13
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ant_dem_3 
+			focus = ant_mon_2
+			focus = ant_fasc_3 	
+		}
+		mutually_exclusive = { focus = ant_cet_ally }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_prepare_cor
+		icon = GFX_goal_generic_military_sphere
+		x = 13
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = ant_cor_ally 	
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_cet_att
+		icon = GFX_goal_generic_territory_or_war
+		x = 13
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = ant_prepare_cor
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	##ALLY CETUS##
+	focus = {
+		id = ant_cet_ally
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 17
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ant_dem_3 
+			focus = ant_mon_2
+			focus = ant_fasc_3 	
+		}
+		mutually_exclusive = { focus = ant_cor_ally }
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_prepare_cet
+		icon = GFX_goal_generic_military_sphere
+		x = 17
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = ant_cet_ally
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+	focus = {
+		id = ant_cet_def
+		icon = GFX_focus_generic_home_defense
+		x = 17
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = ant_prepare_cet
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = { #testing
+				ANT = { surrender_progress < 0.2 }
+				factor = 0
+			}
+		}
+
+		available = {
+			is_subject = no
+		}
+		
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
 }

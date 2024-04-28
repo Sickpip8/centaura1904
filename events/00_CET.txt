@@ -10,32 +10,51 @@ country_event = {
 
     option = { #Path of integration -> core
         name = ACET1
-
-        add_stability = -0.1
         
         custom_effect_tooltip = tt_cet_integration
 
         hidden_effect = {
-            57 = {
-                add_dynamic_modifier = { modifier = sc_resistance_integration }
-            }
-            58 = {
-                add_dynamic_modifier =  { modifier = sc_resistance_integration }
-            }
+            #57 = {
+            #    add_dynamic_modifier = { modifier = sc_resistance_integration }
+            #}
+            #58 = {
+            #    add_dynamic_modifier =  { modifier = sc_resistance_integration }
+            #}
             complete_national_focus = CET_sc_int1
         }
-
-        set_country_flag = integrating_sc_cet #leads to tombola of events (integration and resistance)
     }
 
-    option = { #resource extraction (retard path)
+    option = {
         name = BCET1
-        add_stability = 0.1
-
-        CET = { COR = { set_occupation_law = forced_labor_occupation } }
 
         hidden_effect = {
             complete_national_focus = CET_sc_occupy
         }
+    }
+}
+
+country_event = { # good management of sc
+    id = CET.10
+    title = TCET10
+    desc = DCET10
+    #picture = GFX_evt_
+
+    is_triggered_only = yes
+
+    option = {
+
+    }
+}
+
+country_event = { # bad management of sc
+    id = CET.11
+    title = TCET11
+    desc = DCET11
+    #picture = GFX_evt_
+
+    is_triggered_only = yes
+
+    option = {
+
     }
 }

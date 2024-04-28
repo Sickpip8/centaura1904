@@ -2,21 +2,18 @@
 state={
 	id=74
 	name="STATE_74"
-
-	history={
-		owner = ANT
-		add_core_of = ANT
+	history = {
+		owner = TUC
+		add_core_of = TUC
 		victory_points = {
-			2780 8 
+			548 18
 		}
-
 	}
-
 	provinces={
-		290 421 439 579 1845 2780 2788 2800 2809 2812 3357 3364 3367 3372 
+		198 357 394 548 659 685 1074 1125 1274 2268 3491 3533 3585 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

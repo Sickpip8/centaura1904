@@ -1,22 +1,19 @@
-
 state={
 	id=28
 	name="STATE_28"
-
-	history={
-		owner = ORI
-		add_core_of = ORI
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		add_core_of = GRS
 		victory_points = {
-			3415 18 
+			6760 8
 		}
-
 	}
-
 	provinces={
-		156 196 326 371 372 373 412 485 543 593 605 639 650 687 725 790 811 838 949 953 1047 1220 1233 1359 1521 1526 1575 1580 1603 1708 1824 1835 1890 1920 1927 2034 2056 2665 2693 2716 2753 2776 2783 2797 2807 2813 2816 2842 2866 3341 3345 3350 3352 3355 3360 3361 3365 3366 3369 3371 3373 3381 3386 3394 3409 3411 
+		6760 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

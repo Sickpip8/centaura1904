@@ -1,0 +1,71 @@
+POPULATION OF THE WORLD: 1900 (Base numbers)
+CENTAURA: 1,200,000,000
+HYDRA: 500,000,000
+URSA: 147,000,000
+LIBRA: 168,000,000 
+
+# STATE COUNT AT THE START OF THE GAME (1900)
+
+
+Vulpa: 5
+Riaa: 12
+Tucana: 4
+Centauri: 4
+Columba: 8
+Vega: 5
+Grusa: 3
+Cetus: 12
+Corvus: 6
+Aquila: 9
+Antares: 22
+Lacerta: 1
+
+Ursa: 23 (8, 10, 5) Ursa, Canis, Lepus
+
+Libra: 7
+
+Orion: 17 #(21 After Grease Wars)
+	- Orionite Canis (Circania): 2 #(6 After Grease Wars)
+Hydrusite Commonwealth: 17 #After Grease Wars
+	- Hydrus: 7 
+	- Canis: 5 #Hydrusite part of Canis
+	- Lepus: 5
+Auriga: 4
+Musca: 1
+
+
+# POPULATION DIVIDER
+# PERCENTAGES TO CONTINENT, NOT ENTIRE WORLD
+
+Centaura:
+	Vulpa: 5,754,587 (0.47954891666666666%)
+	Riaa: 584,130,320 (48.677526666666665%)
+	Tucana: 5,901,679 (0.4918065833333333%)
+	Centauri: 8,771,380 (0.7309483333333333%)
+	Columba: 18,787,706 (1.5656421666666667%)
+	Vega: 15,266,558 (1.2722131666666667%)
+	Grusa: 28,071,493 (2.3392910833333334%)
+	Cetus: 114,475,929 (9.53966075%)
+	Corvus: 82,826,551 (6.902212583333334%)
+	Aquila: 104,029,050 (8.6690875%)
+	Antares: 336,725,282 (28.060440166666666%)
+	Lacerta: 3,329,397 (0.27744975%)
+
+
+Ursa: 
+	Federation of Ursa: 147,532,467 (100%)
+
+Libra: 
+	Libran Federation: 168,387,242 (100%)
+
+Hydra: 
+	Orion: 285,889,513 (57.177902599999996%)
+	Hydrusite Commonwealth: 177,411,723 (35.4823446%)
+		# PERCENT OF THE COMMONWEALTH FIRST AND CONTINENT SECOND
+		- Hydrus: 76,428,294 (43.07961881414116%) (15.285658799999998%)
+		- Lupus: 52,956,846 (29.849688117847773%) (10.5913692%)
+		- Canis: 48,026,583 (27.07069306801107%) (9.6053166%)
+	Auriga: 31,117,452 (6.2234904%)
+	Musca: 5,581,312 (1.1162623999999999%)
+	
+# State populations found in State note v2.txt

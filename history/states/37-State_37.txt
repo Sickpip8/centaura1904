@@ -1,22 +1,18 @@
-
 state={
 	id=37
 	name="STATE_37"
-
-	history={
-		owner = URS
-		add_core_of = URS
+	history = {
+		owner = AQU
+		add_core_of = AQU
 		victory_points = {
-			1304 7 
+			2022 17
 		}
-
 	}
-
 	provinces={
-		1304 3047 3075 3091 3096 3097 3102 3105 3108 3109 3216 3218 3234 3263 
+		698 1687 1920 1929 1948 2022 2485 2768 2856 4332 4353 4377 4398 4406 4434 4453 4492 4544 4619 4700 4752 4785 4793 4852 4886 4898 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

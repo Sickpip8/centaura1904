@@ -24,3 +24,7 @@ set_politics = {
 	elections_allowed = No
 }
 
+add_ideas = {
+	ORS_RampantGovernmentCorruption
+	ORS_PrioritizedMilitary
+}

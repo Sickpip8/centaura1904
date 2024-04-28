@@ -1,19 +1,18 @@
-
 state={
 	id=21
 	name="STATE_21"
 	history = {
-		owner = ORI
-		add_core_of = ORI
+		owner = LBR
+		add_core_of = LBR
 		victory_points = {
-			1597 17
+			6878 13
 		}
 	}
 	provinces={
-		102 198 243 275 318 521 833 961 1025 1104 1116 1144 1469 1514 1597 1699 1733 1764 1811 1830 1844 1864 1891 1960 2883 2889 2918 2921 2924 2926 2934 2937 11425 
+		473 655 1734 6260 6279 6334 6339 6353 6874 6878 6894 6895 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

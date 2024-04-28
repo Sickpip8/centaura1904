@@ -13,29 +13,17 @@ ideas = {
             traits = { popular_figurehead }
         }
 
-        SC_question_idea = {
-            name = SC_question
+        CET_SC_question_idea = {
+            name = CET_SC_question
             
-            picture = generic_production_bonus
+            picture = CET_sc_question
             allowed = { original_tag = CET }
             removal_cost = -1
 
             modifier = {
                 stability_factor = -0.2
                 political_power_gain = -0.5
-                stability_weekly = -0.002
-            }
-        }
-
-        SC_question_idea_integration = {
-            name = SC_question
-
-            picture = generic_production_bonus
-            allowed = { always = no }
-            removal_cost = -1
-
-            modifier = {
-                stability_factor = -0.2
+                stability_weekly = -0.005 #0.5
             }
         }
 
@@ -67,13 +55,11 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                industrial_capacity_dockyard = 0.3
-                navy_max_range_factor = 0.25
-                special_forces_cap = 0.2
-                navy_capital_ship_attack_factor = 0.1
-                navy_capital_ship_defence_factor = 0.1
-                experience_gain_navy_unit_factor = 0.25
-                custom_effect_tooltip = CET_required_naval_upkeep #cetan religion is all about religion so you shouldnt be allowed to disregard navy
+                industrial_capacity_dockyard = 0.10
+                navy_max_range_factor = 0.20
+                special_forces_cap = 0.02
+                navy_capital_ship_attack_factor = 0.15
+                navy_capital_ship_defence_factor = 0.15
             }
         }
     }

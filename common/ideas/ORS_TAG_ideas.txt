@@ -1,10 +1,9 @@
-
 ideas = {
 	country = {
 	
 
 		ORS_RallyPeopleIdea = {
-    picture = generic_reserve_divisions
+    picture = generic_manpower_bonus
     available = {
         # Add conditions for when this idea is available
     }
@@ -17,7 +16,7 @@ ideas = {
     duration = 180
 }
 		ORS_PrepareMilitaryIdea = {
-    picture = generic_goods_red_bonus
+    picture = generic_reserve_divisions 
     available = {
         
     }
@@ -31,7 +30,7 @@ ideas = {
     duration = 180
 }
 		ORS_PromiseBusinessesIdea = {
-    picture = generic_manpower_bonus
+    picture = generic_war_preparation
     available = {
         
     }
@@ -43,20 +42,7 @@ ideas = {
 
     duration = 180
 }
-		ORS_TrainHydrusIdea = {
-    picture = generic_war_preparation
-    available = {
-        
-    }
-    removal_cost = -1
-
-    modifier = {
-        army_attack_factor  = 0.1
-    }
-
-    duration = 180
-}
-		ORS_PromiseBusinessesIdea = {
+		ORS_LessonsOfWar = {
     picture = german_advisors
     available = {
         
@@ -64,10 +50,48 @@ ideas = {
     removal_cost = -1
 
     modifier = {
-        experience_gain_army_factor = 0.2
+        experience_gain_army_factor  = 0.2
     }
 
     duration = 180
+}
+
+		ORS_RampantGovernmentCorruption = {
+    picture = ORI_Corruption
+	
+    allowed = {
+		tag = ORI
+	}
+	
+	available = {
+	}
+	
+    removal_cost = -1
+
+    modifier = {
+        consumer_goods_factor = -0.40
+		stability_factor = -0.40
+		political_power_factor = -0.20
+    }
+}
+
+		ORS_PrioritizedMilitary = {
+    picture = ORI_PrioritizedMilitary
+	
+    allowed = {
+		tag = ORI
+	}
+	
+	available = {
+	}
+	
+    removal_cost = -1
+
+    modifier = {
+        consumer_goods_factor = -0.40
+		stability_factor = -0.40
+		political_power_factor = -0.20
+    }
 }
 	}
 }

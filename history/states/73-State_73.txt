@@ -1,22 +1,18 @@
-
 state={
 	id=73
 	name="STATE_73"
-
-	history={
-		owner = ANT
-		add_core_of = ANT
+	history = {
+		owner = RIA
+		add_core_of = RIA
 		victory_points = {
-			515 13 
+			1278 16
 		}
-
 	}
-
 	provinces={
-		231 357 515 881 1079 1334 1829 2114 2774 2785 2794 
+		61 126 213 286 386 408 602 1102 1278 1320 1429 1481 1600 1646 1690 1758 1976 2441 2976 3169 3252 3463 3486 3487 3502 3532 3540 6661 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1
+        manpower=1000
         state_category = town
 }

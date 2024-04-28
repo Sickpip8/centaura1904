@@ -21,7 +21,7 @@ bookmarks = {
 
 			ideas = {
 				CET_rules_the_waves_idea
-				SC_question_idea
+				CET_SC_question_idea
 				CET_independent_armed_forces_idea
 			}
 		}
@@ -46,7 +46,7 @@ bookmarks = {
 			ideology = neutrality
 		}
 		VUL = {
-                        minor = yes
+            minor = yes
 			history = VUL_1900_DESC
 			ideology = neutrality
 		}
