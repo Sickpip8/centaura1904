@@ -1,13 +1,5 @@
 name="centauransahead"
-path="mod/centauransahead"
 replace_path="history/states"
-tags={
-	"Map"
-	"Utilities"
-}
-picture="thumbnail.png"
-supported_version="1.14.*"
-
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
@@ -16,3 +8,10 @@ replace_path="common/countries"
 replace_path="common/on_actions"
 replace_path="ai_strategy"
 replace_path="gfx/loadingscreens"
+tags={
+	"Map"
+	"Utilities"
+}
+picture="thumbnail.png"
+supported_version="1.14.*"
+path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/centauransahead"

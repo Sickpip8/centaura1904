@@ -1,18 +1,22 @@
+
 state={
 	id=23
 	name="STATE_23"
-	history = {
+
+	history={
 		owner = LBR
 		add_core_of = LBR
 		victory_points = {
-			6158 15
+			6158 15 
 		}
+
 	}
+
 	provinces={
-		2654 6158 6174 6197 
+		2654 6158 6174 6197 6852 
 	}
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-        manpower=1000
-        state_category = town
 }
