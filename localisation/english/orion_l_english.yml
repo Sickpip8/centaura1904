@@ -41,6 +41,13 @@
  orion.4.t:0 "Ursa doesn't give in!"
  orion.4.d:0 "Despite our efforts to force them to surrender, they have refused any peace treaty, and now, we're forced into a phony war against Ursa."
  orion.4.a:0 "Damn it!"
+ ORS_EndHartTerm:0 "End Of The Hart Term"
+ ORS_EndHartTerm_desc:0 "Despite the fact that we're nearing the end of the term, we can still take action for the time being to aid our popularity for the upcoming elections."
+ ORS_ExpandTheCivilianSector:0 "Expand The Civilian Sector"
+ ORS_ExpandBuildingSlots:0 "Expand Building Slots"
+ ORS_EconomicBoom:0 "Orionite Economic Boom"
+ ORS_KeepUpTheBoom:0 "Keep Up The Boom"
+ ORS_Elections:0 "The 1900 Elections"
  
  
  
