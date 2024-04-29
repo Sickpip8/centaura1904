@@ -8770,4 +8770,9 @@ spriteTypes = {
 		name = "GFX_idea_ORI_PrioritizedMilitary"
 		texturefile = "gfx/interface/ideas/idea_ORI_PrioritizedMilitary.dds"			
 	}
+
+	spriteType = {
+		name = "GFX_idea_ORI_GovernmentSubsidies"
+		texturefile = "gfx/interface/ideas/idea_ORI_GovernmentSubsidies.dds"			
+	}
 }
