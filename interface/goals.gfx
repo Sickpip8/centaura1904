@@ -6315,4 +6315,9 @@ spriteTypes = {
 		name = "GFX_focus_CET_every_man_himself"
 		texturefile = "gfx/interface/goals/focus_CET_naval_officers.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_ORI_Hart_Term"
+		texturefile = "gfx/interface/goals/focus_ORI_Hart_Term.dds"
+	}
 }
