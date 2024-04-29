@@ -497,6 +497,80 @@ focus_tree = {
 				factor = 5
 			}
 		}
+
+focus = {
+			id = ORS_Elections
+			icon = GFX_focus_ORI_Hart_Term
+			x = 20
+			y = 3
+			cost = 0.1
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+				date < 1900.12.09
+			
+			}
+			
+			prerequisite = {focus = ORS_ExpandBuildingSlots}
+			prerequisite = {focus = ORS_KeepUpTheBoom}
+			
+			completion_reward = {
+				add_political_power = 100
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+
+		focus = {
+			id = ORS_KeepUpTheBoom
+			icon = GFX_focus_usa_reestablish_the_gold_standard
+			x = 21
+			y = 2
+			cost = 10
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+				date < 1900.12.09
+			
+			}
+			
+			prerequisite = {
+				focus = ORS_EconomicBoom
+			}
+			
+			completion_reward = {
+				add_political_power = 100
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+
+		focus = {
+			id = ORS_EconomicBoom
+			icon = GFX_focus_generic_supply_line
+			x = 22
+			y = 1
+			cost = 10
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+				date < 1900.12.09
+			
+			}
+			
+			prerequisite = {
+				focus = ORS_EndHartTerm
+			}
+			
+			completion_reward = {
+				add_political_power = 100
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
 		
 		
     }
