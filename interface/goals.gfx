@@ -6317,7 +6317,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_focus_ORI_Hart_Term"
+		name = "GFX_focus_ORI_Hart_Term" # this one being the election gfx
 		texturefile = "gfx/interface/goals/focus_ORI_Hart_Term.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_ORI_EndOfHartTerm" # do not confuse this with the election gfx above!!!
+		texturefile = "gfx/interface/goals/focus_ORI_EndOfHartTerm.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_OrioniteEconomicBoom"
+		texturefile = "gfx/interface/goals/focus_ORI_OrioniteEconomicBoom.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_KeepUpTheBoom"
+		texturefile = "gfx/interface/goals/focus_ORI_KeepUpTheBoom.dds"
+	}
+}
 }
