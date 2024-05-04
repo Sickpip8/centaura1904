@@ -103,15 +103,15 @@ States, In numerical order
 	- 72 Eastern Riaa
 	- 73 Eastern Riaa (coastal)
 
-74 - 76 Tucana (3+1) State_15
-	- 74 Southwestern Tucana
-	- 75 Northern Tucana
-	- 76 Eastern Tucana Islands
+74 - 76 Tucana (3+1) State_15 3,311,802
+	- 74 Southwestern Tucana 2,824,730
+	- 75 Northern Tucana 1,217,663
+	- 76 Eastern Tucana Islands 547,484
 	
-77 - 79 Centauri (3+1) State_16
-	- 77 South Centauri
-	- 78 North Centauri
-	- 79 Offshore Islands
+77 - 79 Centauri (3+1) State_16 3,680,584
+	- 77 South Centauri 3,930,868
+	- 78 North Centauri 2,304,022
+	- 79 Offshore Islands 855,906
 	
 80 - 83 Vulpa (4+1) State_14
 	- 80 Southern Islands
