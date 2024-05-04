@@ -5,6 +5,7 @@ state={
 	history = {
 		owner = GRS
 		add_core_of = GRS
+		add_core_of = VEG
 		victory_points = {
 			4310 2
 		}
@@ -14,6 +15,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=9502786
-        state_category = town
+        manpower=10502786
+        state_category = city
 }

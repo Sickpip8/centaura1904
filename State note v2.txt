@@ -27,34 +27,38 @@ Hydra HYA / Cepheus CEP / Lepus LPS
 Hydrus HYS
 Gemini GEM
 
+In order of
+Statenumber Statename Population
++1 is capital state
+
 States, In numerical order
-19 - 24 Libra (6+1) State_1
-	- 19 Libratum 
-	- 20 East Libran Island [CAPITAL: 964] 
-	- 21 Western Libran Islands 
-	- 22 Westernmost Libran Islands 
-	- 23 Middle Libra 
-	- 24 Easternmost Libran Islands 
+19 - 24 Libra (6+1) State_1 67,054,507
+	- 19 Libratum 209
+	- 20 East Libran Island [CAPITAL: 964] 95,712,681
+	- 21 Western Libran Islands 3,019,335
+	- 22 Westernmost Libran Islands 1,106,086
+	- 23 Middle Libra 2,323,495
+	- 24 Easternmost Libran Islands 1,494,424
 	
-25 - 28 Vega (4+1) State_10
-	- 25 Vegan Murus Plateau 
-	- 26 South Vega 
-	- 27 Vegan Islands 
-	- 28 Lake island (vega) 
+25 - 28 Vega (4+1) State_10 5,578,394
+	- 25 Vegan Murus Plateau 4,815,964
+	- 26 South Vega 6,805,871
+	- 27 Vegan Islands 1,884,973
+	- 28 Lake island (vega) 181,356
 	
-29 - 30 Grusa (2+1) State_11 16,762,728
+29 - 30 Grusa (2+1) State_11 20,762,728
 	- 29 Grusan desert 1,805,979
-	- 30 South Grusa 9,502,786
+	- 30 South Grusa 10,502,786
 	
-31 - 38 Aquila (8+1) State_9
-	- 31 Aquilan Coast
-	- 32 Aquilan Murus Plateau 
-	- 33 The Aquilan North 
-	- 34 The Eastern Heartland 
-	- 35 Aquilan South 
-	- 36 Southern Heartland 
-	- 37 Western Borderlands 
-	- 38 Western Heartland 
+31 - 38 Aquila (8+1) State_9 22,616,236
+	- 31 Aquilan Coast 6,578,971
+	- 32 Aquilan Murus Plateau 3,231,930
+	- 33 The Aquilan North 5,143,914
+	- 34 The Eastern Heartland 16,248,213
+	- 35 Aquilan South 8,335,446
+	- 36 Southern Heartland 21,332,725
+	- 37 Western Borderlands 4705118
+	- 38 Western Heartland 15,836,497
 
 39 - 50 Cetus (11+1) State_7
 	- 39 Cetan Northeast
@@ -75,7 +79,7 @@ States, In numerical order
 	- 52 Southeast North Corvus
 	- 53 North Corvus, Southern part (Central Corvus)
 	- 54 Inanis Islands
-	- 55 Lake Island
+	- 55 Lake Island (inland)
 
 56 - 62 Columba (7+1) State_12
 	- 56 Easternmost Columba
