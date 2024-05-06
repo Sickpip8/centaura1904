@@ -113,11 +113,11 @@ States, In numerical order
 	- 78 North Centauri 2,304,022
 	- 79 Offshore Islands 855,906
 	
-80 - 83 Vulpa (4+1) State_14
-	- 80 Southern Islands
-	- 81 Northwestern Islands
-	- 82 South Island (vulpa central)
-	- 83 Western Islands
+80 - 83 Vulpa (4+1) State_14 3,278,229
+	- 80 Southern Islands 649,836
+	- 81 Northwestern Islands 1,180,903
+	- 82 South Island (vulpa central) 1,605,405
+	- 83 Eastern Islands 145,619
 	
 84 - 90 Ursa (7+1) State_5
 	- 84 South Ursa (mainland)
@@ -126,7 +126,7 @@ States, In numerical order
 	- 87 Eastern Ursa (mainland)
 	- 88 Northern Ursa (mainland)
 	- 89 West Ursa (mainland)
-	- 90 Westernmost Islands
+	- 90 Westernmost Islands 
 	
 91 - 111 Antares (21+1) State_6
 	- 91 South Island chain 
@@ -174,11 +174,11 @@ States, In numerical order
 	- 129 East Hydrus
 
 130 - 134 Lepus, Formerly Hydra Minor (5)
-	- 130 West Lepus
-	- 131 North Lepus
-	- 132 East Lepus
-	- 133 Central Lepus
-	- 134 Lepus Islands
+	- 130 West Lepus 
+	- 131 North Lepus 
+	- 132 East Lepus 
+	- 133 Central Lepus 
+	- 134 Lepus Islands 
 	
 	
 135 - 150 Orion (16+1) State_3
