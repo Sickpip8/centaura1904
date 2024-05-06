@@ -23,9 +23,9 @@ STATES 1 to 18
 
 SEPERATE COUNTRIES
 Canis CNS
-Hydra HYA / Cepheus CEP / Lepus LPS
+Lepus LPS
 Hydrus HYS
-Gemini GEM
+Gemini GEM (does not exist)
 
 In order of
 Statenumber Statename Population
@@ -174,11 +174,11 @@ States, In numerical order
 	- 129 East Hydrus
 
 130 - 134 Lepus, Formerly Hydra Minor (5)
-	- 130 West Lepus 
-	- 131 North Lepus 
-	- 132 East Lepus 
-	- 133 Central Lepus 
-	- 134 Lepus Islands 
+	- 130 West Lepus 12,607,857
+	- 131 North Lepus 15,766,914
+	- 132 East Lepus 10,493,707
+	- 133 Central Lepus 13,037,419
+	- 134 Lepus Islands 1,050,949
 	
 	
 135 - 150 Orion (16+1) State_3
