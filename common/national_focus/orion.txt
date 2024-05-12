@@ -593,7 +593,342 @@ focus_tree = {
 			ai_will_do = {
 				factor = 5
 			}
-		}		
+		}
+
+focus = {
+			id = ORS_ExtinguishCorruption
+			icon = GFX_focus_ORI_ExtinguishCorruption
+			x = 24
+			y = 6
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_HartSecondTerm
+			}
+			
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = ORS_RampantGovernmentCorruption
+					add_idea = ORS_RampantGovernmentCorruption1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		
+		focus = {
+			id = ORS_SlightlyIncreaseMilitaryBudget
+			icon = GFX_focus_ORI_IncreaseMilitaryBudget
+			x = 24
+			y = 7
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_ExtinguishCorruption
+			}
+			
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = ORS_PrioritizedMilitary
+					add_idea = ORS_PrioritizedMilitary1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_InviteTheOpposition
+			icon = GFX_goal_generic_intelligence_exchange
+			x = 26
+			y = 7
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_ExtinguishCorruption
+			}
+			
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = ORS_PrioritizedMilitary
+					add_idea = ORS_PrioritizedMilitary1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+	focus = {
+			id = ORS_InvestInGeminiIndustry
+			icon = GFX_focus_generic_low_cost_housing
+			x = 22
+			y = 6
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_HartSecondTerm
+			}
+			
+			completion_reward = {
+			add_timed_idea = {
+				idea = ORS_BorrowedLoans
+				days = 180
+			}
+			
+			137 = {
+				limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 3
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_ExpandLemmingSteelMills
+			icon = GFX_focus_generic_steel
+			x = 22
+			y = 7
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_InvestInGeminiIndustry
+			}
+			
+			completion_reward = {
+				143 = {
+					add_resource = {
+						type = steel
+						amount = 12
+					}
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_RestrictCompanies
+			icon = GFX_focus_ORI_RestrictBusinesses
+			x = 22
+			y = 8
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_ExpandLemmingSteelMills
+			}
+			
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = ORS_RampantGovernmentCorruption1
+					add_idea = ORS_RampantGovernmentCorruption2
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_CareForTheElderlyAct
+			icon = GFX_focus_ORI_CareForTheElderlyAct
+			x = 24
+			y = 8
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_SlightlyIncreaseMilitaryBudget
+			}
+			
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = ORS_GovernmentSubisidies
+					add_idea = ORS_GovernmentSubisidies1
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_ExpandTheVenetaiaBureauOfResearch
+			icon = GFX_focus_research2
+			x = 20
+			y = 6
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_HartSecondTerm
+			}
+			
+			completion_reward = {
+				add_research_slot = 1
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_HartPropaganda
+			icon = GFX_goal_generic_propaganda
+			x = 20
+			y = 7
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_ExpandTheVenetaiaBureauOfResearch
+			}
+			
+			completion_reward = {
+				add_timed_idea = {
+					idea = ORS_HartCampaigning
+					days = 140
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_HartPropaganda
+			icon = GFX_goal_generic_propaganda
+			x = 20
+			y = 7
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_ExpandTheVenetaiaBureauOfResearch
+			}
+			
+			completion_reward = {
+				add_timed_idea = {
+					idea = ORS_HartCampaigning
+					days = 140
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_IncreaseBuildingSpeed
+			icon = GFX_focus_POL_warsaw_main_station
+			x = 20
+			y = 8
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_HartPropaganda
+			}
+			
+			completion_reward = {
+				add_timed_idea = {
+					idea = ORS_HartCampaigning
+					days = 365
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_VictoryForHart
+			icon = GFX_focus_spr_torchbearers_of_tomorrow
+			x = 22
+			y = 9
+			cost = 5
+			available = {
+				ORI_Kevin_Hart = {is_country_leader = yes}
+			}
+			
+			prerequisite = {
+				focus = ORS_IncreaseBuildingSpeed
+			}
+			
+			prerequisite = {
+				focus = ORS_RestrictCompanies
+			}
+			prerequisite = {
+				focus = ORS_CareForTheElderlyAct
+			}
+			completion_reward = {
+				add_timed_idea = {
+					idea = ORS_HartCampaigning
+					days = 140
+				}
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
     }
 	
 	
