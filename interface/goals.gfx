@@ -6335,5 +6335,27 @@ spriteTypes = {
 		name = "GFX_focus_ORI_KeepUpTheBoom"
 		texturefile = "gfx/interface/goals/focus_ORI_KeepUpTheBoom.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_ORI_ExtinguishCorruption"
+		texturefile = "gfx/interface/goals/focus_ORI_ExtinguishCorruption.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_IncreaseMilitaryBudget"
+		texturefile = "gfx/interface/goals/focus_ORI_IncreaseMilitaryBudget.dds"
+	}	
+	
+	#CareForTheElderlyAct.dds
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_RestrictBusinesses"
+		texturefile = "gfx/interface/goals/focus_ORI_RestrictBusinesses.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_CareForTheElderlyAct"
+		texturefile = "gfx/interface/goals/focus_ORI_CareForTheElderlyAct.dds"
+	}
 }
 }
