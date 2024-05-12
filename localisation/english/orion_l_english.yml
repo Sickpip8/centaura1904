@@ -47,7 +47,18 @@
  ORS_ExpandBuildingSlots:0 "Expand Building Slots"
  ORS_EconomicBoom:0 "Orionite Economic Boom"
  ORS_KeepUpTheBoom:0 "Keep Up The Boom"
- ORS_Elections:0 "The 1900 Elections"
- 
+ ORS_Elections:0 "The 1902 Elections"
+ ORS_HartSecondTerm:0 "Hart's Second Term"
+ ORS_InvestInGeminiIndustry:0 "Invest In Gemini Industry"
+ ORS_ExtinguishCorruption:0 "Extinguish Corruption"
+ ORS_ExpandLemmingSteelMills:0 "Expand The Lemming Steel Mills"
+ ORS_SlightlyIncreaseMilitaryBudget:0 "Slightly Increase Military Budget"
+ ORS_CareForTheElderlyAct:0 "Care For The Elderly Act"
+ ORS_HartPropaganda:0 "Hart Propaganda"
+ ORS_RestrictCompanies:0 "Restrict Companies"
+ ORS_IncreaseBuildingSpeed:0 "Increase Building Speed"
+ ORS_InviteTheOpposition:0 "Invite The Opposition"
+ ORS_VictoryForHart:0 "Victory For Hart and Orion!"
+ ORS_ExpandTheVenetaiaBureauOfResearch:0 "Expand The Venetaia Research Bureau"
  
  
