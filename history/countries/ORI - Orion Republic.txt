@@ -29,4 +29,6 @@ set_politics = {
 add_ideas = {
 	ORS_RampantGovernmentCorruption
 	ORS_PrioritizedMilitary
+	ORS_GovernmentSubsidies
+	ORS_RapidIndustrialization
 }
