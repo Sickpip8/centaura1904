@@ -4,6 +4,12 @@ state={
 	history = {
 		owner = URS
 		add_core_of = URS
+		buildings = {
+		infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+		}
 		victory_points = {
 			3465 13
 		}

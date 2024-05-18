@@ -6,6 +6,12 @@ state={
 		owner = URS
 		add_core_of = CNS
 		add_claim_by = ORI
+		buildings = {
+			arms_factory = 1 
+			industrial_complex = 1
+			infrastructure = 2
+		
+		}
 		victory_points = {
 			4130 2
 		}

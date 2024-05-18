@@ -4,6 +4,9 @@ state={
 	history = {
 		owner = URS
 		add_core_of = LPS
+		buildings = {
+		infrastructure = 1
+		}
 		victory_points = {
 			2042 10
 		}
