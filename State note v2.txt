@@ -119,59 +119,59 @@ States, In numerical order
 	- 82 South Island (vulpa central) 1,605,405
 	- 83 Eastern Islands 145,619
 	
-84 - 90 Ursa (7+1) State_5
-	- 84 South Ursa (mainland)
-	- 85 South Ursan Islands
-	- 86 Southeastern Islands
-	- 87 Eastern Ursa (mainland)
-	- 88 Northern Ursa (mainland)
-	- 89 West Ursa (mainland)
-	- 90 Westernmost Islands 
+84 - 90 Ursa (7+1) State_5 49,273,031
+	- 84 South Ursa (mainland) 41,192,052
+	- 85 South Ursan Islands 1,537,093
+	- 86 Southeastern Islands 1,504,601
+	- 87 Eastern Ursa (mainland) 15,682,409
+	- 88 Northern Ursa (mainland) 15,251,308
+	- 89 West Ursa (mainland) 19,037,210
+	- 90 Westernmost Islands 231,053
 	
-91 - 111 Antares (21+1) State_6
-	- 91 South Island chain 
-	- 92 South Island collections
-	- 93 South Island collections (big)
-	- 94 Southernmost Islands
-	- 95 Southwestern Islands
-	- 96 Southeastern Islands
-	- 97 East Norma
-	- 98 West Norma
-	- 99 Norma Island
-	- 100 North Lupus
-	- 101 South Lupus
-	- 102 Lupus Island
-	- 103 South Ara
-	- 104 Northeastern Ara
-	- 105 Northwestern Ara
-	- 106 Northernmost Antares (North Skorpius)
-	- 107 Northwestern Skorpius
-	- 108 West Skorpius
-	- 109 Central Skorpius
-	- 110 South Skorpius
-	- 111 Central Antares
+91 - 111 Antares (21+1) State_6 
+	- 91 South Island chain 2,432,560
+	- 92 South Island collections 982,448
+	- 93 South Island collections (big) 8,128,533
+	- 94 Southernmost Islands 367,309
+	- 95 Southwestern Islands 6,619,141
+	- 96 Southeastern Islands 7,270,770
+	- 97 East Norma 18,987,904
+	- 98 West Norma 21,423,264
+	- 99 Norma Island 309,214
+	- 100 North Lupus 11,787,644
+	- 101 South Lupus 26,157,990
+	- 102 Lupus Island 494,825
+	- 103 South Ara 25,794,530
+	- 104 Northeastern Ara 22,015,854
+	- 105 Northwestern Ara 19,172,793
+	- 106 Northernmost Antares (North Skorpius) 12,632,767
+	- 107 Northwestern Skorpius 16,766,748
+	- 108 West Skorpius 20,731,312
+	- 109 Central Skorpius 24,487,500
+	- 110 South Skorpius 28,897,209
+	- 111 Central Antares 11,782,519
 	
 112 - 123 Canis (Ursa) (12) URSA: 10	ORION: 2
-	- 112 Northern Islands, ORION CLAIM
-	- 113 Big North Island, ORION CLAIM
-	- 114 Western Canis (Central), ORION CLAIM
-	- 115 Northeastern Canis
-	- 116 Northwestern Canis (east)
-	- 117 Northwestern Canis (west), ORION CLAIM
-	- 118 Eastern Canis
-	- 119 Central Canis
-	- 120 Southernmost Canis, East Circinia (Orion)
-	- 121 Southwestern Canis, West Circinia (Orion)
-	- 122 Offshore canis island (Libran ocean), ORION CLAIM
-	- 123 Northwestern Islands
+	- 112 Northern Islands, ORION CLAIM 
+	- 113 Big North Island, ORION CLAIM 
+	- 114 Western Canis (Central), ORION CLAIM 
+	- 115 Northeastern Canis 
+	- 116 Northwestern Canis (east) 
+	- 117 Northwestern Canis (west), ORION CLAIM 
+	- 118 Eastern Canis 
+	- 119 Central Canis 
+	- 120 Southernmost Canis, East Circinia (Orion) 
+	- 121 Southwestern Canis, West Circinia (Orion) 
+	- 122 Offshore canis island (Libran ocean), ORION CLAIM 
+	- 123 Northwestern Islands 
 	
 124 - 129 Hydrus (6+1) State_2
-	- 124 Northwesternmost Islands
-	- 125 Western Islands
-	- 126 Northeastern Island chain
-	- 127 North Hydrus
-	- 128 West Hydrus
-	- 129 East Hydrus
+	- 124 Northwesternmost Islands 
+	- 125 Western Islands 
+	- 126 Northeastern Island chain 
+	- 127 North Hydrus 
+	- 128 West Hydrus 
+	- 129 East Hydrus 
 
 130 - 134 Lepus, Formerly Hydra Minor (5)
 	- 130 West Lepus 12,607,857

@@ -1,5 +1,5 @@
 state_categories = {
-	IndustrialHeartLand = {
+	industrial_heartland = {
 		local_building_slots = 20
 		
 		color = { 0 240 240 }
