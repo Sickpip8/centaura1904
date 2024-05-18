@@ -4,6 +4,9 @@ state={
 	history = {
 		owner = ORI
 		add_core_of = ORI
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
 			6825 9
 		}
