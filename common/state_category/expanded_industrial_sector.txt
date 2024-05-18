@@ -1,0 +1,9 @@
+state_categories = {
+	expanded_industrial_sector = {
+		local_building_slots = 18
+		color = { 0 240 240 }
+	
+	}
+
+
+}
