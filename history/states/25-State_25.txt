@@ -6,6 +6,13 @@ state={
 		owner = VEG
 		add_core_of = VEG
 		add_core_of = GRS
+		buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            2257 = {
+                supply_node = 1
+            }
+        }
 		victory_points = {
 			2257 17
 		}

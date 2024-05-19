@@ -4,6 +4,14 @@ state={
 	history = {
 		owner = LBR
 		add_core_of = LBR
+		buildings = {
+            infrastructure = 2
+            dockyard = 1
+            5717 = {
+                supply_node = 1
+                naval_base = 1
+            }
+        }
 		victory_points = {
 			5717 1
 		}
