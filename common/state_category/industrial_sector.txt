@@ -1,10 +1,9 @@
 state_categories = {
 	industrial_sector = {
 		local_building_slots = 16
-		color = { 0 240 240 }
-	
+		
+		color = { 172 140 255 }
 	}
-
 
 
 

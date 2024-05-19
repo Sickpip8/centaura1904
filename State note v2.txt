@@ -33,11 +33,11 @@ Statenumber Statename Population
 
 States, In numerical order
 19 - 24 Libra (6+1) State_1 67,054,507
-	- 19 Libratum 209
+	- 19 NOT Libratum 209
 	- 20 East Libran Island [CAPITAL: 964] 95,712,681
 	- 21 Western Libran Islands 3,019,335
 	- 22 Westernmost Libran Islands 1,106,086
-	- 23 Middle Libra 2,323,495
+	- 23 Middle Libra 2,323,495 (LIBRATUM!!)
 	- 24 Easternmost Libran Islands 1,494,424
 	
 25 - 28 Vega (4+1) State_10 5,578,394
