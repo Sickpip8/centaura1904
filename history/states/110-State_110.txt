@@ -5,6 +5,12 @@ state={
 	history = {
 		owner = ANT
 		add_core_of = ANT
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 3
+			infrastructure = 3
+		}
 		victory_points = {
 			2284 11
 		}
