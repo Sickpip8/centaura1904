@@ -6,6 +6,11 @@ state={
 	history={
 		owner = ANT
 		add_core_of = ANT
+		buildings = {
+		arms_factory = 2
+		industrial_complex = 2
+		dockyard = 1
+		}
 		victory_points = {
 			6073 7 
 		}
@@ -17,6 +22,6 @@ state={
 	}
 	manpower=21423264
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 	local_supplies=0.000
 }
