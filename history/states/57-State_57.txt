@@ -4,6 +4,11 @@ state={
 	history = {
 		owner = CLB
 		add_core_of = CLB
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 2
+		}
 		victory_points = {
 			604 17
 		}

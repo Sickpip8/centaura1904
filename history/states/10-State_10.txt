@@ -7,6 +7,15 @@ state={
 		owner = VEG
 		add_core_of = VEG
 		add_core_of = GRS
+		buildings = {
+			arms_factory = 3
+			industrial_complex = 4
+			infrastructure = 4
+			3031 = {
+                supply_node = 1
+            }
+		
+		}
 		victory_points = {
 			3031 15 
 		}
@@ -19,5 +28,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=5578394
-        state_category = city
+        state_category = megalopolis 
 }

@@ -4,6 +4,9 @@ state={
 	history = {
 		owner = COV
 		add_core_of = COV
+		buildings = {
+			dockyard = 1
+		}
 		victory_points = {
 			4242 5
 		}
@@ -13,6 +16,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1000
-        state_category = town
+        manpower=695247
+        state_category = tiny_island
 }

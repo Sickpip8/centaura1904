@@ -4,6 +4,10 @@ state={
 	history = {
 		owner = COV
 		add_core_of = COV
+		buildings = {
+			arms_factory = 2
+			infrastructure = 3
+		}
 		victory_points = {
 			89 4
 		}

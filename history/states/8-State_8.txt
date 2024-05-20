@@ -6,6 +6,13 @@ state={
 	history={
 		owner = COV
 		add_core_of = COV
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 5
+			dockyard = 3
+			infrastructure = 4
+		
+		}
 		victory_points = {
 			3803 15 
 		}
@@ -18,5 +25,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=30266050
-        state_category = town
+        state_category = industrialized_metropolis
 }
