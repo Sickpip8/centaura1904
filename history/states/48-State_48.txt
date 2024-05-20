@@ -4,6 +4,12 @@ state={
 	history = {
 		owner = CET
 		add_core_of = CET
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			infrastructure = 3
+		}
 		victory_points = {
 			4510 8
 		}
@@ -14,5 +20,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=13592273
-        state_category = town
+        state_category = large_city
 }

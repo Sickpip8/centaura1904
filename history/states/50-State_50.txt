@@ -5,6 +5,9 @@ state={
 	history = {
 		owner = CET
 		add_core_of = CET
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
 			4049 18
 		}
@@ -15,5 +18,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=582100
-        state_category = town
+        state_category = tiny_island
 }

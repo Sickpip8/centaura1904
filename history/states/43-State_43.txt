@@ -5,6 +5,12 @@ state={
 	history = {
 		owner = CET
 		add_core_of = CET
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+			infrastructure = 3
+		}
 		victory_points = {
 			5324 14
 		}
