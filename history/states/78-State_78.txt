@@ -4,6 +4,11 @@ state={
 	history = {
 		owner = CTA
 		add_core_of = CTA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 3
+		}
 		victory_points = {
 			3565 15
 		}

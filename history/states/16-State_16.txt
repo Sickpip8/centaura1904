@@ -6,6 +6,11 @@ state={
 	history={
 		owner = CTA
 		add_core_of = CTA
+		buildings = {
+			arms_factory = 3
+			industrial_complex = 4
+			infrastructure = 3
+		}
 		victory_points = {
 			1450 15 
 		}
@@ -18,5 +23,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=3680584
-        state_category = city
+        state_category = metropolis
 }

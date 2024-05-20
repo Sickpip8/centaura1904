@@ -4,6 +4,11 @@ state={
 	history = {
 		owner = VUL
 		add_core_of = VUL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 2
+		}
 		victory_points = {
 			6566 6
 		}

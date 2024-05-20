@@ -4,6 +4,12 @@ state={
 	history = {
 		owner = VUL
 		add_core_of = VUL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			infrastructure = 2
+			dockyard = 1
+		}
 		victory_points = {
 			3440 17
 		}
@@ -14,5 +20,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=649836
-        state_category = town
+        state_category = rural
 }

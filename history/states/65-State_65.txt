@@ -4,6 +4,10 @@ state={
 	history = {
 		owner = RIA
 		add_core_of = RIA
+		buildings = {
+			dockyard = 1
+			infrastructure = 2
+		}
 		victory_points = {
 			3675 17
 		}
@@ -14,5 +18,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=2316281
-        state_category = town
+        state_category = rural
 }

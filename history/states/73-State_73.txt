@@ -4,6 +4,11 @@ state={
 	history = {
 		owner = RIA
 		add_core_of = RIA
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 0
+			infrastructure = 3
+		}
 		victory_points = {
 			1278 16
 		}

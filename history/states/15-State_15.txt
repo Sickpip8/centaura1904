@@ -6,6 +6,11 @@ state={
 	history={
 		owner = TUC
 		add_core_of = TUC
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			infrastructure = 3
+		}
 		victory_points = {
 			501 15 
 		}
@@ -17,6 +22,6 @@ state={
 	}
 	manpower=3311802
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 	local_supplies=0.000
 }

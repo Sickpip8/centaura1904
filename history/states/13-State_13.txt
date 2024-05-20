@@ -6,6 +6,11 @@ state={
 	history={
 		owner = RIA
 		add_core_of = RIA
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 6
+			infrastructure = 4
+		}
 		victory_points = {
 			1893 15 
 		}
@@ -18,5 +23,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=80147118
-        state_category = town
+        state_category = industrialized_metropolis
 }
