@@ -5,6 +5,12 @@ state={
 	history = {
 		owner = AQU
 		add_core_of = AQU
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 0
+			infrastructure = 3
+		
+		}
 		victory_points = {
 			5068 15
 		}
