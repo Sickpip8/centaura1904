@@ -5,6 +5,7 @@ state={
         oil = 35
         steel = 20
 		tungsten = 15
+		chromium = 12
     }
 	history = {
 		owner = CET

@@ -1,6 +1,11 @@
 state={
 	id=47
 	name="STATE_47"
+	resources = {
+		steel = 4
+		aluminium = 2
+		tungsten = 6
+	}
 	history = {
 		owner = CET
 		add_core_of = CET
