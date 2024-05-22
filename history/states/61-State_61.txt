@@ -1,6 +1,9 @@
 state={
 	id=61
 	name="STATE_61"
+	resources = {
+		chromium = 7
+	}
 	history = {
 		owner = CLB
 		add_core_of = CLB

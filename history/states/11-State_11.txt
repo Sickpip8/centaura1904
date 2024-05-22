@@ -2,7 +2,10 @@
 state={
 	id=11
 	name="STATE_11"
-
+	resources = {
+		steel = 9
+		tungsten = 4
+	}
 	history={
 		owner = GRS
 		add_core_of = GRS
