@@ -14,4 +14,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/centauransahead"
+path="mod/centauransahead"

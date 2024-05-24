@@ -29,6 +29,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=67054507
+        manpower=68054507
         state_category = expanded_industrial_sector
 }

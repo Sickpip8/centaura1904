@@ -7,11 +7,13 @@ state={
 		owner = LBR
 		add_core_of = LBR
 		buildings = {
-            infrastructure = 3
-            6158 = {
-                supply_node = 1
-            }
-        }
+			infrastructure = 3
+			6158 = {
+				supply_node = 1
+
+			}
+
+		}
 		victory_points = {
 			6158 15 
 		}
@@ -19,7 +21,7 @@ state={
 	}
 
 	provinces={
-		2654 6158 6174 6197 6852 
+		2654 6832 6836 6852 
 	}
 	manpower=2323495
 	buildings_max_level_factor=1.000

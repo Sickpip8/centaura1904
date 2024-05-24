@@ -1,0 +1,41 @@
+focus_tree = {
+	id = cainc_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAI
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 0 y = 2000 }
+
+	focus = {
+		id = CAI_forma_under_ca
+		icon = GFX_goal_demand_sudetenland
+		x = 10
+		y = 0
+		cost = 5
+
+		completion_reward = {
+				add_political_power = 1000
+			}
+		}
+	
+	focus = {
+		id = CAI_mass_clones
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = CAI_forma_under_ca }
+		relative_position_id = CAI_forma_under_ca
+		x = 0
+		y = 1
+		cost = 5
+
+		completion_reward = {
+				add_manpower = 7147923612
+			}
+		}
