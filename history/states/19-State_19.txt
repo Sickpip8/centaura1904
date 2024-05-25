@@ -1,33 +1,25 @@
-
 state={
 	id=19
 	name="STATE_19"
-
-	history={
+	history = {
 		owner = LBR
 		add_core_of = LBR
 		buildings = {
-			infrastructure = 3
-			6832 = {
-				naval_base = 1
-				6836 = {
-					naval_base = 1
-
-				}
-
-			}
-			victory_points = {
-				6174 5 
-			}
-
+            infrastructure = 3
+            6174 = {
+                naval_base = 1
+            }
+        }
+		victory_points = {
+			6174 13
 		}
-		provinces={
+	}
+	provinces={
 		6158 6174 6197 
 	}
-	manpower=209
 	buildings_max_level_factor=1.000
-	state_category=tiny_island
 	local_supplies=0.000
+        manpower=209
+        state_category = tiny_island
 }
-
 
