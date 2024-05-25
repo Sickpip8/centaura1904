@@ -2,6 +2,7 @@
 state={
 	id=69
 	name="STATE_69"
+	tungsten = 7
 	history = {
 		owner = RIA
 		add_core_of = RIA
