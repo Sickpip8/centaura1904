@@ -3,15 +3,17 @@ state={
 	id=5
 	name="STATE_5"
 
-	history={
-		owner = URS
-		add_core_of = URS
-		buildings = {
-		infrastructure = 4
-		industrial_complex = 7
-		arms_factory = 5
-		dockyard = 2
-		
+		history={
+			owner = URS
+			add_core_of = URS
+			buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 5
+			dockyard = 2
+			2454 = {
+			naval_base = 4
+			}	
 		}
 		victory_points = {
 			3196 15 
