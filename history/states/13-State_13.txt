@@ -2,7 +2,9 @@
 state={
 	id=13
 	name="STATE_13"
-
+	resources = {
+		steel = 23
+	}
 	history={
 		owner = RIA
 		add_core_of = RIA
