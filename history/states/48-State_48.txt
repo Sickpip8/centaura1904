@@ -10,6 +10,7 @@ state={
 	history = {
 		owner = CET
 		add_core_of = CET
+		add_core_of = COV
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 2
@@ -17,7 +18,7 @@ state={
 			infrastructure = 3
 		}
 		victory_points = {
-			4510 8
+			276 8
 		}
 	}
 	provinces={
