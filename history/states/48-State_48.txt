@@ -9,7 +9,7 @@ state={
     }
 	history = {
 		owner = CET
-		add_core_of = CET
+		add_claim_by = CET
 		add_core_of = COV
 		buildings = {
 			arms_factory = 1

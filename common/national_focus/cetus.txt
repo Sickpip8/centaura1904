@@ -289,9 +289,8 @@ focus_tree = {
         prerequisite = { focus = CET_sc_boomtown }
 
         completion_reward = {
-            57 = { add_core_of = CET }
-            58 = { add_core_of = CET }
-            remove_ideas = SC_question_idea_integration
+            48 = { add_core_of = CET }
+            remove_ideas = CET_SC_question_idea
         }
     }
 

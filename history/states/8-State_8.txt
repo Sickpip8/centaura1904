@@ -17,7 +17,7 @@ state={
 		
 		}
 		victory_points = {
-			3803 15 
+			3803 40
 		}
 
 	}
@@ -27,6 +27,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=30266050
+        manpower=20266050
         state_category = industrialized_metropolis
 }

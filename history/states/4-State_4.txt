@@ -7,7 +7,7 @@ state={
 		owner = AUR
 		add_core_of = AUR
 		victory_points = {
-			6418 15 
+			6418 40 
 		}
 
 	}

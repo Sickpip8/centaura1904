@@ -7,7 +7,7 @@ state={
 		owner = LAC
 		add_core_of = LAC
 		victory_points = {
-			1257 15 
+			1257 35 
 		}
 
 	}

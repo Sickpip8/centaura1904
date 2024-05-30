@@ -2,6 +2,10 @@
 state={
 	id=25
 	name="STATE_25"
+	resources = {
+        steel = 37
+		tungsten = 19
+	}
 	history = {
 		owner = VEG
 		add_core_of = VEG
