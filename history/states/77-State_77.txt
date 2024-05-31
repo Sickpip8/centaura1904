@@ -11,9 +11,39 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			infrastructure = 3
+			845 = {
+                coastal_bunker = 8
+            }
+			1013 = {
+                coastal_bunker = 8
+            }
+			3280 = {
+                coastal_bunker = 8
+            }
+			3626 = {
+                coastal_bunker = 8
+            }
+			3629 = {
+                coastal_bunker = 8
+            }
+			3642 = {
+                coastal_bunker = 8
+            }
+			3650 = {
+                coastal_bunker = 8
+            }
+			3652 = {
+                coastal_bunker = 8
+            }
+			3660 = {
+                coastal_bunker = 8
+            }
+			3662 = {
+                coastal_bunker = 8
+            }
 		}
 		victory_points = {
-			3652 7
+			3652 20
 		}
 	}
 	provinces={
