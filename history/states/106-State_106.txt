@@ -1,6 +1,9 @@
 state={
 	id=106
 	name="STATE_106"
+	resources = {
+		tungsten = 13
+	}
 	history = {
 		owner = ANT
 		add_core_of = ANT
