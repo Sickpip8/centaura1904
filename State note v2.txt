@@ -115,9 +115,9 @@ States, In numerical order
 	
 80 - 83 Vulpa (4+1) State_14 3,278,229
 	- 80 Southern Islands 649,836
-	- 81 Northwestern Islands 1,180,903
+	- 81 Norteastern Islands 1,180,903
 	- 82 South Island (vulpa central) 1,605,405
-	- 83 Eastern Islands 145,619
+	- 83 Western Islands 145,619
 	
 84 - 90 Ursa (7+1) State_5 49,273,031
 	- 84 South Ursa (mainland) 41,192,052

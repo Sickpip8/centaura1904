@@ -1,0 +1,72 @@
+form_commonwealth_category = {
+	
+	form_commonwealth = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = HYS
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_hydrus_commonwealth_flag
+				hidden_trigger = {
+					NOT = { has_country_flag = form_hydrus_commonwealth_flag }
+				}
+			}
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_hydrus_required_states_tt
+				controls_state = 110
+				controls_state = 142
+				controls_state = 143
+				controls_state = 144
+				controls_state = 920
+				controls_state = 921
+				controls_state = 922
+				controls_state = 923
+				controls_state = 924
+				controls_state = 925
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = HYS
+			}
+			NOT = { has_country_flag = form_hydrus_commonwealth_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HYS_UNITED
+			custom_effect_tooltip = form_country_hydrus_coring_states_tt
+			hidden_effect = {
+				110 = { add_core_of = ROOT }
+				142 = { add_core_of = ROOT }
+				143 = { add_core_of = ROOT }
+				144 = { add_core_of = ROOT }
+				920 = { add_core_of = ROOT }
+				921 = { add_core_of = ROOT }
+				922 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				924 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				news_event = { id = wtt_news.53 hours = 6 }
+				set_country_flag = form_hydrus_commonwealth_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
