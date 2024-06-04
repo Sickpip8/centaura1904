@@ -2,6 +2,9 @@
 state={
 	id=117
 	name="STATE_117"
+	resources = {
+		oil = 65
+	}
 	history = {
 		owner = URS
 		add_core_of = CNS

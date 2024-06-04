@@ -1,6 +1,10 @@
 state={
 	id=131
 	name="STATE_131"
+	resources = {
+		steel = 11
+		tungsten = 8
+	}
 	history = {
 		owner = URS
 		add_core_of = LPS

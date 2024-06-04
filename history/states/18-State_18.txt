@@ -2,7 +2,9 @@
 state={
 	id=18
 	name="STATE_18"
-
+	resources = {
+		steel = 18
+	}
 	history={
 		owner = MUS
 		add_core_of = MUS

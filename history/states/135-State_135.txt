@@ -2,6 +2,9 @@
 state={
 	id=135
 	name="STATE_135"
+	resources = {
+		chromium = 15
+	}
 	history = {
 		owner = ORI
 		add_core_of = ORI

@@ -1,6 +1,10 @@
 state={
 	id=141
 	name="STATE_141"
+	resources = {
+		steel = 17
+		tungsten = 9
+	}
 	history = {
 		owner = ORI
 		add_core_of = ORI
