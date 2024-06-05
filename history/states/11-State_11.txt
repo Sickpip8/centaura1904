@@ -15,8 +15,11 @@ state={
             industrial_complex = 3
 			arms_factory = 4
 			dockyard = 2
-            684 = {
-                supply_node = 1
+            2926 = {
+				naval_base = 7
+				}
+			3928 = {
+				naval_base = 4
             }
         }
 		victory_points = {
@@ -31,5 +34,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=20762728
-        state_category = metropolis
+        state_category = megalopolis
 }

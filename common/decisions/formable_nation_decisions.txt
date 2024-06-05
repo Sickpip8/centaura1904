@@ -20,16 +20,16 @@ form_commonwealth_category = {
 			is_subject = no
 			custom_trigger_tooltip = {
 				tooltip = form_country_hydrus_required_states_tt
-				controls_state = 110
-				controls_state = 142
-				controls_state = 143
-				controls_state = 144
-				controls_state = 920
-				controls_state = 921
-				controls_state = 922
-				controls_state = 923
-				controls_state = 924
-				controls_state = 925
+				controls_state = 115
+				controls_state = 116
+				controls_state = 118
+				controls_state = 119
+				controls_state = 123
+				controls_state = 130
+				controls_state = 131
+				controls_state = 132
+				controls_state = 133
+				controls_state = 134
 			}
 		}
 
@@ -41,19 +41,19 @@ form_commonwealth_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = HYS_UNITED
+			set_cosmetic_tag = HYD
 			custom_effect_tooltip = form_country_hydrus_coring_states_tt
 			hidden_effect = {
-				110 = { add_core_of = ROOT }
-				142 = { add_core_of = ROOT }
-				143 = { add_core_of = ROOT }
-				144 = { add_core_of = ROOT }
-				920 = { add_core_of = ROOT }
-				921 = { add_core_of = ROOT }
-				922 = { add_core_of = ROOT }
-				923 = { add_core_of = ROOT }
-				924 = { add_core_of = ROOT }
-				925 = { add_core_of = ROOT }
+				115 = { add_core_of = ROOT }
+				116 = { add_core_of = ROOT }
+				118 = { add_core_of = ROOT }
+				119 = { add_core_of = ROOT }
+				123 = { add_core_of = ROOT }
+				130 = { add_core_of = ROOT }
+				131 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				134 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.53 hours = 6 }

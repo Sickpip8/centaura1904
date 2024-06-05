@@ -12,34 +12,34 @@ state={
 			industrial_complex = 2
 			infrastructure = 3
 			845 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			1013 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3280 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3626 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3629 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3642 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3650 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3652 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3660 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 			3662 = {
-                coastal_bunker = 8
+                coastal_bunker = 10
             }
 		}
 		victory_points = {

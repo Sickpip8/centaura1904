@@ -36,7 +36,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-				add_manpower = 7147923612
+				add_manpower = 2147483
+				add_manpower = 2147483
+				add_manpower = 2147483
+				add_manpower = 2147483
 			}
 		}
 		
@@ -59,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = CAI_pick_a_leader}
 		relative_position_id = CAI_pick_a_leader
-		x = 1
+		x = 2
 		y = 1
 		cost = 5
 
@@ -87,7 +90,7 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = CAI_pick_a_leader}
 		relative_position_id = CAI_pick_a_leader
-		x = -1
+		x = -2
 		y = 1
 		cost = 5
 

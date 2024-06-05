@@ -11,9 +11,15 @@ state={
 		add_core_of = CNS
 		buildings =  {
 			infrastructure = 2
+			2181 = {
+				naval_base = 5
+			}
+			3242 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			3289 2
+			2181 10
 		}
 	}
 	provinces={
