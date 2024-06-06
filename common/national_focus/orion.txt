@@ -202,13 +202,17 @@ focus_tree = {
         y = 6
         cost = 5
 		available = {
-				has_full_control_of_state = 114
-				has_full_control_of_state = 115
-				has_full_control_of_state = 116
-				has_full_control_of_state = 117
-				has_full_control_of_state = 118
-				has_full_control_of_state = 119				
+			URS = {
+				OR = {
+					NOT = { has_full_control_of_state = 117 } 
+					NOT = { has_full_control_of_state = 119 } 
+					NOT = { has_full_control_of_state = 114 } 
+					NOT = { has_full_control_of_state = 116 } 
+					NOT = { has_full_control_of_state = 115 }
+					NOT = { has_full_control_of_state = 118 } 					
+				}
 			}
+		}
 		
         prerequisite = {
             focus = ORS_InvadeCanis
@@ -281,10 +285,10 @@ focus_tree = {
             focus = ORS_SpoilsOfWar
         }
         completion_reward = {
-		31 = {required_garrison_factor = 0.5}
-		31 = {add_resource = {
+		114 = {required_garrison_factor = 0.5}
+		114 = {add_resource = {
 		type = oil 
-		amount = 10}
+		amount = 32}
 		}
 		}
         ai_will_do = {
