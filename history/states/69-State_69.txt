@@ -11,11 +11,11 @@ state={
 		add_core_of = RIA
 		buildings = {
 			arms_factory = 4
-			industrial_complex = 3
-			infrastructure = 3
+			industrial_complex = 6
+			infrastructure = 4
 		}
 		victory_points = {
-			2393 11
+			2393 50
 		}
 	}
 	provinces={
@@ -23,6 +23,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=73647163
-        state_category = large_city
+        manpower=80147118
+        state_category = industrialized_metropolis
 }

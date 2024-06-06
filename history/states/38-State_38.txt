@@ -1,28 +1,32 @@
+
 state={
 	id=38
 	name="STATE_38"
-	resources = {
-		steel = 4
-		tungsten = 6
+	resources={
+		steel=4.000
+		tungsten=6.000
 	}
-	history = {
+
+	history={
 		owner = AQU
 		add_core_of = AQU
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 3
 			infrastructure = 3
-		
+
 		}
 		victory_points = {
-			4473 18
+			4473 18 
 		}
+
 	}
+
 	provinces={
-		74 80 98 115 249 625 778 1126 1302 1501 1634 1783 2491 2748 2834 2930 3039 4302 4358 4372 4473 4474 4515 4518 4552 4554 4574 4575 4587 4630 4715 4742 4743 4763 4794 
+		74 80 98 115 249 625 778 1126 1302 1501 1634 1783 2491 2748 2834 2930 3039 4302 4358 4372 4473 4474 4515 4518 4552 4554 4574 4575 4587 4630 4715 4742 4743 4763 4794 4816 
 	}
+	manpower=15836497
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
-        manpower=15836497
-        state_category = large_city
 }

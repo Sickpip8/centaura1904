@@ -1,8 +1,8 @@
-form_commonwealth_category = {
+form_commonwealthB_category = {
 	
-	form_commonwealth = {
+	form_commonwealthB = {
 
-		icon = generic_form_nation
+		icon = decision_cat_generic_hydrus
 
 		allowed = {
 			OR = {
@@ -56,7 +56,7 @@ form_commonwealth_category = {
 				134 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				news_event = { id = wtt_news.53 hours = 6 }
+				# news_event = { id = wtt_news.53 hours = 6 }
 				set_country_flag = form_hydrus_commonwealth_flag
 			}
 		}

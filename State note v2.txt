@@ -7,14 +7,14 @@ STATES 1 to 18
 3 Orion Republic, ORI (Venatia) [CAPITAL: 5559]
 4 Kingdom of Auriga, AUR (South Auriga) [CAPITAL: 6418] 15,287,269
 5 Federation of Ursa, URS (Central Ursa) [CAPITAL: 3196]
-6 Antares Imperium, ANT (Southeastern Skorpius) [CAPITAL: 919]
+6 Antares Imperium, ANT (Southeastern Skorpius) [FORMER CAPITAL: 919]
 7 Empire of Cetus, CET (Nauta Region) [CAPITAL: 2919]
-8 Corvus Confederation , COV (Northernmost Corvus) [CAPITAL: 3803]
+8 Corvus Confederation , COV (Northernmost Corvus) [FORMER CAPITAL: 3803]
 9 Kingdom of Aquila, AQU ("The Aquilan Heartland") [CAPITAL: 14]
 10 Vegan Dominion, VEG (North Vega) [CAPITAL: 4538]
 11 Kingdom of Grusa, GRS (North Grusa) [CAPITAL: 2926] 16,762,728
 12 United Columban Territories, CLB (Central Coastal Region) [CAPITAL: 3860] 
-13 Republic of Riaa, RIA (Northwestern Riaa) [CAPITAL: 2218]
+13 Republic of Riaa, RIA (Northwestern Riaa) [FORMER CAPITAL: 2218]
 14 Empire of Vulpa, VUL (Big island) [CAPITAL: 1558]
 15 Tucani Empire, TUC (Tucana East) [CAPITAL: 501]
 16 Kingdom of Centauri, CTA (Centauri Center) [CAPITAL: 95]
@@ -75,7 +75,7 @@ States, In numerical order
 	- 50 Cetan Islands (lake)
 	
 51 - 55 Corvus (5+1) State_8
-	- 51 Corvun Center
+	- 51 Corvun Center [CAPITAL: 89]
 	- 52 Southeast North Corvus
 	- 53 North Corvus, Southern part (Central Corvus)
 	- 54 Inanis Islands
@@ -97,7 +97,7 @@ States, In numerical order
 	- 66 West Riaa
 	- 67 Inner Riaa
 	- 68 South Riaa
-	- 69 Central Riaa (SOUTH)
+	- 69 Central Riaa (SOUTH) [CAPITAL: 2393]
 	- 70 Central Riaa (NORTH)
 	- 71 Northeastern Riaa
 	- 72 Eastern Riaa
@@ -136,7 +136,7 @@ States, In numerical order
 	- 95 Southwestern Islands 6,619,141
 	- 96 Southeastern Islands 7,270,770
 	- 97 East Norma 18,987,904
-	- 98 West Norma 21,423,264
+	- 98 West Norma 21,423,264 [CAPITAL: 6073]
 	- 99 Norma Island 309,214
 	- 100 North Lupus 11,787,644
 	- 101 South Lupus 26,157,990

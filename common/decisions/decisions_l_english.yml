@@ -120,16 +120,14 @@
  decision_cost_ie_500_MP_500_CP_25_blocked:0 "£infantry_equipment_text_icon  §R500§! £manpower_texticon  §R500§! £command_power  §R25§!"
  decision_cost_ie_500_MP_500_CP_25_tooltip:1 "It costs £infantry_equipment_text_icon  §Y500§! £manpower_texticon  §Y500§! £command_power  §Y25§! to take the decision"
 
- form_commonwealth_category:0 "The Hydrus Commonwealth"
- form_commonwealth_category_desc:0 "The Federation of Ursa has held us down for decades. Now that Hydrus, Lepus and Canis is free, we shall unite together to form the Hydrus Commonwealth."
- form_commomwealth:0 "Unite the Colonies"
+ form_commonwealthB_category:0 "The Hydrus Commonwealth"
+ form_commonwealthB_category_desc:0 "The Federation of Ursa has held us down for decades. Now that Hydrus, Lepus and Canis is free, we shall unite together to form the Hydrus Commonwealth."
+ form_commomwealthB:0 "Unite the Colonies"
  form_country_hydrus_required_states_tt:0 "Controls all Lepun and Canisian states."
- form_country_hydrus_coring_states_tt:0 "Cores all Lepun and Canisian states."
- form_commonwealth_desc:0 "With Hydrus, Lepus and Canis under our control, we have the unique opportunity to restore the old Sultanate of Al-Andalus and proclaim all of its former territories as rightful parts of our state."
- adu_restore_sultanate_of_africa:0 "Restore the Sultanate of Africa"
- adu_restore_sultanate_of_africa_desc:0 "Long ago, the Moors of North Africa were united into a single sultanate; the Sultanate of Africa, an important branch of the Umayyad Caliphate. With Andalusia restored and all Moorish peoples now coexisting within our state, we are able to unify the Moorish identity."
+ form_country_hydrus_coring_states_tt:0 "Gain cores on all Lepun and some Canisian states."
+ form_commonwealthB_desc:0 "With Hydrus, Lepus and Canis under our control, we have the unique opportunity to create a commonwealth under us and proclaim all of the former Ursan territories as rightful parts of our state."
 
- coring_north_africa_tt:0 "Gain cores on all Lepun and Hydrusite-Controlled Canisian states."
+ # coring_north_africa_tt:0 "Gain cores on all Lepun and Hydrusite-Controlled Canisian states."
 
  ############### Foreign MIOs ###############
  available_mio_tt: "§GAvailable§! as §YMilitary Industrial Organization§!: "
