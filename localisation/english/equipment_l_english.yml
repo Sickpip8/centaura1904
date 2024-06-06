@@ -66,13 +66,13 @@
  infantry_tank3_desc:0 "For infantry to effectively engage heavier armored units, high-explosive anti-tank weapons need to be made smaller and lighter."
  # Support
  support_weapons5:0 "Support Weapons V"
- support_weapons5_short:0 "Support Weapons V"
+ support_weapons5_short:0 "Support V"
  support_weapons5_desc:0 "With more powerfull rifles and advanced assault weapons Reliable Support Weapons are a must."
  support_weapons6:0 "Support Weapons VI"
- support_weapons6_short:0 "Support Weapons VI"
+ support_weapons6_short:0 "Support VI"
  support_weapons6_desc:0 "With more powerfull rifles and advanced assault weapons Reliable Support Weapons are a must."
  support_weapons7:0 "Support Weapons VII"
- support_weapons7_short:0 "Support Weapons VII"
+ support_weapons7_short:0 "Support VII"
  support_weapons7_desc:0 "With more powerfull Automatic rifles and advanced assault weapons Reliable and powerfull Support Weapons are a must."
  ### Motorized
  motorized_equipment_0:0 "Basic Trucks"
