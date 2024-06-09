@@ -1,5 +1,15 @@
 capital = 2
 
+oob = "HYS_1900"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	engineers_tech = 1
+	gw_artillery = 1
+}
+
 set_research_slots = 3
 
 set_stability = 0.5
