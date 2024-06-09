@@ -179,7 +179,7 @@
  armor_vehicle_equipment:0 "Basic Armoured Vehicle"
  armor_vehicle_equipment_short:0
  armor_vehicle_equipment_desc:0 
-### Cetus ###
+ ### Cetus ###
  ##Rifles 
  CET_infantry_equipment_0:0 "M1889 LA"
  CET_infantry_equipment_0_short:0 "M1889 LA"
@@ -187,7 +187,7 @@
  CET_infantry_equipment_2:0 "M1909"
  CET_infantry_equipment_2_short:0 "M1909"
  CET_infantry_equipment_2_desc:0 "Submachine gun issued to the Cetan Armed Forces. It uses a smaller caliber in comparison to the M1889 LA rifle but has a much higher rate of fire at 600 rounds per minute. The stick magazine holds a maximum of 25 rounds loaded on the top of the gun."
-### Corvus ###
+ ### Corvus ###
  ##Rifles
  COV_infantry_equipment_1:0 "T05"
  COV_infantry_equipment_1_short:0 "T05"
@@ -195,7 +195,7 @@
  COV_infantry_equipment_2:0 "T09"
  COV_infantry_equipment_2_short:0 "T09"
  COV_infantry_equipment_2_desc:0 "Submachine gun issued to the Corvun Armed Forces. It uses a smaller caliber in comparison to the T05 rifle but has a much higher rate of fire at 600 rounds per minute. The drum magazine holds a maximum of 25 rounds loaded on the left side of the gun."
-### Antares ###
+ ### Antares ###
  ##Rifles
  ANT_infantry_equipment_1:0 "E/VIII"
  ANT_infantry_equipment_1_short:0 "E/VIII"
