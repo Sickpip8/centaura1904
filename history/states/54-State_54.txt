@@ -6,9 +6,12 @@ state={
 		add_core_of = COV
 		buildings = {
 			infrastructure = 2
+			1096 = {
+			naval_base = 1
+			}
 		}
 		victory_points = {
-			4242 5
+			1096 5
 		}
 	}
 	provinces={

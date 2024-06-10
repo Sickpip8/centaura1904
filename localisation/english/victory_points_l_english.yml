@@ -1,6 +1,6 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§!victory points = §Y$POINTS$§!"
-
+## CAPITAL CITIES
  VICTORY_POINTS_964:0 "Libratus"
  VICTORY_POINTS_2386:0 "Hydrus Capital V"
  VICTORY_POINTS_5559:0 "Venatia"
@@ -19,4 +19,16 @@
  VICTORY_POINTS_95:0 "Centauri Capital B"
  VICTORY_POINTS_1257:0 "Lacerta City A"
  VICTORY_POINTS_1853:0 "Majakka"
+ ##CORVUN CITIES
  VICTORY_POINTS_3803:0 "Kraz"
+ VICTORY_POINTS_4099:0 "Gienah"
+ VICTORY_POINTS_4161:0 "Alchiba"
+ VICTORY_POINTS_6753:0 "Tombaugh"
+ VICTORY_POINTS_1096:0 "Tresvus" # if anyone asks, its a combination of Tres (3 in latin, and corvus)
+ VICTORY_POINTS_4145:0 "Algorab"
+ VICTORY_POINTS_3237:0 "Zetavus" # Zeta and Corvus
+ VICTORY_POINTS_4321:0 "Minkar"
+ ##CETAN CITIES
+ VICTORY_POINTS_5032:0 "St. Kirk"
+ VICTORY_POINTS_1346:0 "Carran"
+ VICTORY_POINTS_276:0 "Blackton"
