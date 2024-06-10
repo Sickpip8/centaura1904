@@ -23,6 +23,25 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Militia Division"
+	division_names_group = HYS_INF_1
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+		recon = {x = 0 y = 1}
+	}
+}
+
 units = {
 	division = {
 		division_name = {
@@ -86,6 +105,106 @@ units = {
 		}
 		location = 2362
 		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 72
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 72
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 3309
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 3309
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2386
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2386
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 3088
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 3088
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2362
+		division_template = "Militia Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2362
+		division_template = "Militia Division"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}
