@@ -180,7 +180,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 1744
+		location = 1691
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.29
