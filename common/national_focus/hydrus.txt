@@ -22,10 +22,4 @@ focus_tree = {
 		cost = 0
 
 		completion_reward = {
-				ORI = {
-					country_event = {
-						days = 1
-						id = orion.1
-						
-			}
 		}

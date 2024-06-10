@@ -1,0 +1,102 @@
+division_template = {
+	name = "Hydrusite Militia Division"
+	division_names_group = HYS_INF_1
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+		recon = {x = 0 y = 0}
+	}
+}
+
+division_template = {
+	name = "Hydrusite Infantry Division"
+	division_names_group = HYS_INF_2
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+		recon = {x = 0 y = 0}
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2386
+		division_template = "Hydrusite Militia Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2386
+		division_template = "Hydrusite Militia Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 72
+		division_template = "Hydrusite Militia Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 72
+		division_template = "Hydrusite Militia Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 2386
+		division_template = "Hydrusite Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = no
+		}
+		location = 72
+		division_template = "Hydrusite Militia Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+}
