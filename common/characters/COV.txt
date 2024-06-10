@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nazism
-			traits = { reluctant_interventionist }
-			expire = "1999.1.1.1"
+			ideology = despotism
+			traits = { The_Director }
+			expire = "1913.1.1.1"
 			id = -1

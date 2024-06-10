@@ -75,7 +75,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            57 = {
+            48 = {
                 add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = industrial_complex
@@ -101,42 +101,11 @@ focus_tree = {
         }
 
         completion_reward = {
-            58 = {
+            48 = {
                 add_resource = {
                     type = oil
                     amount = 15
                 }
-                if = {
-                    limit = {
-                        OR = {
-                            infrastructure < 4
-                        }
-                    }
-                    add_extra_state_shared_building_slots = 1
-                    add_building_construction = {
-                        type = infrastructure
-                        level = 2
-                        instant_build = yes
-                    }
-                }
-                else_if = {
-                    limit = {
-                        OR = {
-                            infrastructure < 5
-                        }
-                    }
-                    add_extra_state_shared_building_slots = 1
-                    add_building_construction = {
-                        type = infrastructure
-                        level = 1
-                        instant_build = yes
-                    }
-                }
-                else = {
-                    add_extra_state_shared_building_slots = 2
-                }
-            }
-            57 = {
                 add_resource = {
                     type = steel
                     amount = 15
@@ -163,12 +132,12 @@ focus_tree = {
                     add_extra_state_shared_building_slots = 1
                     add_building_construction = {
                         type = infrastructure
-                        level = 1
+                        level = 2
                         instant_build = yes
                     }
                 }
                 else = {
-                    add_extra_state_shared_building_slots = 2
+                    add_extra_state_shared_building_slots = 3
                 }
             }
         }
@@ -182,7 +151,7 @@ focus_tree = {
 
         icon = GFX_focus_spr_crush_the_revolution
         #search_filters =
-        cost = 20
+        cost = 10
 
         mutually_exclusive = { focus = CET_sc_assimilate }
 
@@ -256,19 +225,11 @@ focus_tree = {
         }
 
         completion_reward = {
-            57 = {
-                add_extra_state_shared_building_slots = 1
+            48 = {
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            58 = {
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
+                    level = 2
                     instant_build = yes
                 }
             }
@@ -332,7 +293,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            
+            remove_ideas = CET_SC_question_idea
         }
     }
 
@@ -344,14 +305,21 @@ focus_tree = {
 
         icon = GFX_goal_generic_construct_civ_factory
         #search_filters =
-        cost = 10
+        cost = 5
 
         prerequisite = {
             focus = CET_sc_remove_debuff
         }
 
         completion_reward = {
-            
+            48 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
         }
     }
 
@@ -370,33 +338,22 @@ focus_tree = {
         }
 
         completion_reward = {
-            57 = {
+            48 = {
                 add_resource = {
                     type = oil
                     amount = 25
                 }
                 add_resource = {
                     type = steel
-                    amount = 5
+                    amount = 15
                 }
-            }
-            58 = {
-                add_resource = {
-                    type = oil
-                    amount = 10
-                }
-                add_resource = {
-                    type = steel
-                    amount = 20
-                }
-                add_resource = {
+				add_resource = {
                     type = chromium
                     amount = 12
-                }
+				}
             }
-        }
-    }
-
+          }
+		}
     focus = {
         id = CET_sc_heavy_industry
 
@@ -412,7 +369,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            58 = {
+            48 = {
                 add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
@@ -438,7 +395,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            57 = {
+            48 = {
                 add_extra_state_shared_building_slots = 3
                 add_building_construction = {
                     type = dockyard
@@ -546,6 +503,7 @@ focus_tree = {
         prerequisite = { focus = CET_status_quo }
 
         completion_reward = {
+			www
 
         }
     }

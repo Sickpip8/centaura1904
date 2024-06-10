@@ -1,25 +1,6 @@
 division_template = {
-	name = "Hydrusite Militia Division"
+	name = "Infantry Division"
 	division_names_group = HYS_INF_1
-	
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-        militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-
-	}
-	
-	support = {
-		recon = {x = 0 y = 0}
-	}
-}
-
-division_template = {
-	name = "Hydrusite Infantry Division"
-	division_names_group = HYS_INF_2
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -31,72 +12,82 @@ division_template = {
         infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
 	}
 	
 	support = {
-		recon = {x = 0 y = 0}
+		engineer = { x = 0 y = 0 }
+		recon = {x = 0 y = 1}
 	}
 }
 
 units = {
 	division = {
 		division_name = {
-			is_name_ordered = no
+			is_name_ordered = yes
+			name_order = 1
 		}
 		location = 2386
-		division_template = "Hydrusite Militia Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.4
-	}
-	division = {
-		division_name = {
-			is_name_ordered = no
-		}
-		location = 2386
-		division_template = "Hydrusite Militia Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.4
-	}
-
-	division = {
-		division_name = {
-			is_name_ordered = no
-		}
-		location = 72
-		division_template = "Hydrusite Militia Division"
-		start_experience_factor = 0.2
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
 		division_name = {
-			is_name_ordered = no
+			is_name_ordered = yes
+			name_order = 2
 		}
-		location = 72
-		division_template = "Hydrusite Militia Division"
-		start_experience_factor = 0.2
+		location = 3026
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
 		division_name = {
-			is_name_ordered = no
+			is_name_ordered = yes
+			name_order = 3
 		}
-		location = 2386
-		division_template = "Hydrusite Infantry Division"
-		start_experience_factor = 0.2
+		location = 2576
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}
 	
 	division = {
 		division_name = {
-			is_name_ordered = no
+			is_name_ordered = yes
+			name_order = 3
 		}
-		location = 72
-		division_template = "Hydrusite Militia Division"
-		start_experience_factor = 0.2
+		location = 1795
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}
-
-}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3088
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2362
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+}	
+	
