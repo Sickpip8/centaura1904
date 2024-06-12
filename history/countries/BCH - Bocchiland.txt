@@ -1,5 +1,13 @@
 capital = 76
 
+set_technology = {
+	infantry_weapons = 4
+	tech_support = 1
+	tech_recon = 4
+	tech_engineer = 4
+	gw_artillery = 4
+}
+
 set_research_slots = 7
 
 set_stability = 1

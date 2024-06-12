@@ -4,6 +4,7 @@ state={
     resources = {
         steel = 3
 		aluminium = 2
+		oil = 13
     }
 	history = {
 		owner = COV
@@ -25,6 +26,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=14523779
+        manpower=16523779
         state_category = large_town
 }

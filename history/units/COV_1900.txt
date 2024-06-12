@@ -73,7 +73,7 @@ units = {
 		location = 3883
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.49
+		start_equipment_factor = 0.79
 	}
 
 	division = {
@@ -128,7 +128,7 @@ units = {
 		location = 1670
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.46
+		start_equipment_factor = 0.76
 	}
 	
 	division = {
@@ -150,7 +150,7 @@ units = {
 		location = 4161
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.29
+		start_equipment_factor = 0.83
 	}
 	
 	division = {
@@ -161,7 +161,7 @@ units = {
 		location = 3237
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.29
+		start_equipment_factor = 0.67
 	}
 	
 	division = {
@@ -172,7 +172,7 @@ units = {
 		location = 2436
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.29
+		start_equipment_factor = 0.78
 	}
 	
 	division = {
@@ -183,7 +183,7 @@ units = {
 		location = 1691
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.29
+		start_equipment_factor = 0.66
 	}
 	
 	division = {
@@ -194,7 +194,7 @@ units = {
 		location = 89
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.29
+		start_equipment_factor = 0.62
 	}
 }
 
@@ -209,4 +209,22 @@ instant_effect = {
 		progress = 0.2
 		efficiency = 20
 	}	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "COV"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 20
+	}	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "COV"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 20
+	}
 }
