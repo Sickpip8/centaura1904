@@ -161,7 +161,7 @@ units = {
 		}
 		location = 1182 #Tokyo
 		division_template = "Jidousha Shidan"			# Elite Guard unit (highest experience, best equipment)
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Osaka Kichi Kaiheidan"
