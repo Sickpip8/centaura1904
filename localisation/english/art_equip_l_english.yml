@@ -13,3 +13,4 @@
  interwar_artillery_short:0 "Inter-War Artillery"
  interwar_artillery_desc:0 "Improvements in other fields have helped us improve our atillery development"
 
+  EQUIPMENT_DESCRIPTION: "$NAME$"
