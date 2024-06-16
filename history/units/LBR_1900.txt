@@ -28,7 +28,7 @@ units = {
 		}
 		location = 964
 		division_template = "Infantry Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
@@ -39,7 +39,7 @@ units = {
 		}
 		location = 6218
 		division_template = "Infantry Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	
@@ -50,6 +50,6 @@ units = {
 		}
 		location = 6157
 		division_template = "Infantry Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}

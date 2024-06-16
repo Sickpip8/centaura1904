@@ -477,7 +477,7 @@ units = {
 		name = "SS-Standarte 'Der Führer'"
 		location = 11640
 		division_template = "SS-Regiment"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division= {	# "5. Infanterie-Division"
 		division_name = {
@@ -1047,7 +1047,7 @@ units = {
 		name = "SS Leibstandarte 'Adolf Hitler'"
 		location = 3283
 		division_template = "SS-Regiment"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division= {	# "10. Infanterie-Division"
 		division_name = {
@@ -1207,7 +1207,7 @@ units = {
 		name = "SS-Standarte 'Germania'"
 		location = 6590
 		division_template = "SS-Regiment"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division= {	# "5. Panzer-Division"
 		division_name = {

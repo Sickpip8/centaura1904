@@ -212,7 +212,7 @@ units = {
 		}
 		location = 6174
 		division_template = "Motostrelkovaya Diviziya"				# OMSDON Division ( elite NKVD unit)
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}			
 	division= {	# "1ya NKVD Pogranichnaya Diviziya"		
 		division_name = {

@@ -455,7 +455,7 @@ units = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 2591
+		location = 4363
 		division_template = "Home Guard Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
@@ -465,7 +465,7 @@ units = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 4294
+		location = 4348
 		division_template = "Home Guard Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6

@@ -734,7 +734,7 @@ units = {
 		}
 		location = 4158
 		division_template = "Dokuritsu Konsei Ryodan"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division = { # "3 Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -972,7 +972,7 @@ units = {
 		}
 		location = 11988
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division = { # "6 'Mei' Hohei Shidan"
 		division_name = {
@@ -981,7 +981,7 @@ units = {
 		}
 		location = 7653
 		division_template = "Hohei Shidan"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division = { # "13 'Kyo' Hohei Shidan"
 		division_name = {
@@ -1066,7 +1066,7 @@ units = {
 		}
 		location = 11941
 		division_template = "Jidousha Shidan"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	}
 	division = { # "18 'Kiku' Hohei Shidan"
 		division_name = {

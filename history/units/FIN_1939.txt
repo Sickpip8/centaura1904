@@ -83,7 +83,7 @@ units = {
 		}
 		location = 197 # Salla
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -95,7 +95,7 @@ units = {
 		}
 		location = 6210 # Uimaharju 
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -133,7 +133,7 @@ units = {
 		}
 		location = 6153 # Suojärvi
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -196,7 +196,7 @@ units = {
 		}
 		location = 6082 # Lappeenranta
 		division_template = "Ratsuväkiprikaati" 
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -208,7 +208,7 @@ units = {
 		}
 		location = 9176 # Salmi
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -220,7 +220,7 @@ units = {
 		}
 		location = 3061 # Kotka
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -232,7 +232,7 @@ units = {
 		}
 		location = 9176 # Salmi
 		division_template = "Erillinen Prikaati"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 
 	}
@@ -265,7 +265,7 @@ units = {
 	#	name = "Raudun Ryhmä"
 	#	location = 9181 # Ilomantsi
 	#	division_template = "Erillinen Prikaati"
-	#	start_experience_factor = 0.4
+	#	start_experience_factor = 0.3
 	#	start_equipment_factor = 0.5
 	#}
 

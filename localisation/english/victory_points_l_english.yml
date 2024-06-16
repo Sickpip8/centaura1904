@@ -14,7 +14,7 @@
  VICTORY_POINTS_2926:0 "Alnair" #grusa
  VICTORY_POINTS_3860:0 "Mundare"
  VICTORY_POINTS_6418:0 "Honnua"
- VICTORY_POINTS_1558:0 "Voulpas"
+ VICTORY_POINTS_1558:0 "Anser" #vulpa
  VICTORY_POINTS_501:0 "Tucana Capital X"
  VICTORY_POINTS_95:0 "Centauri Capital B"
  VICTORY_POINTS_1257:0 "Lacerta City A"
@@ -23,12 +23,27 @@
  VICTORY_POINTS_3803:0 "Kraz"
  VICTORY_POINTS_4099:0 "Gienah"
  VICTORY_POINTS_4161:0 "Alchiba"
- VICTORY_POINTS_6753:0 "Tombaugh"
- VICTORY_POINTS_1096:0 "Tresvus" # if anyone asks, its a combination of Tres (3 in latin, and corvus)
+ VICTORY_POINTS_6753:0 "Procul"
+ VICTORY_POINTS_1096:0 "Pluma"
  VICTORY_POINTS_4145:0 "Algorab"
- VICTORY_POINTS_3237:0 "Zetavus" # Zeta and Corvus
+ VICTORY_POINTS_3237:0 "Volans"
  VICTORY_POINTS_4321:0 "Minkar"
- ##CETAN CITIES
+ ##CETAN CITIES #credit to Handsndeck for them names
  VICTORY_POINTS_5032:0 "St. Kirk"
- VICTORY_POINTS_1346:0 "Carran"
+ VICTORY_POINTS_5136:0 "Carran"
  VICTORY_POINTS_276:0 "Blackton"
+ VICTORY_POINTS_4916:0 "Allansford"
+ VICTORY_POINTS_1682:0 "Crosney"
+ VICTORY_POINTS_1561:0 "Alderdenn Hills"
+ VICTORY_POINTS_4049:0 "Belhold"
+ VICTORY_POINTS_5190:0 "Port Dubwallow"
+ VICTORY_POINTS_1495:0 "Port Melmere"
+ VICTORY_POINTS_1129:0 "Tolhalm Hill"
+ VICTORY_POINTS_2081:0 "Fort Dawnham"
+ VICTORY_POINTS_1123:0 "Coveburn"
+ VICTORY_POINTS_1860:0 "Hobdale"
+ VICTORY_POINTS_1839:0 "Capergate"
+ VICTORY_POINTS_4809:0 "Belport"
+ VICTORY_POINTS_4791:0 "Charham"
+ ## AQUILAN CITIES
+ VICTORY_POINTS_4583:0 "Talona"
