@@ -1,5 +1,5 @@
 division_template = {
-	name = "Infantry Division"
+	name = "Divisão de Infantaria"
 	division_names_group = VEG_INF_1
 	
 	regiments = {
@@ -12,10 +12,11 @@ division_template = {
         infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		artillery_brigade = {x = 3 y = 1 }
 	}
 	
 	support = {
-		engineer = { x = 0 y = 0 }
 		artillery = {x = 0 y = 1}
 	}
 }
@@ -27,7 +28,7 @@ units = {
 			name_order = 1
 		}
 		location = 2257
-		division_template = "Infantry Division"
+		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -38,7 +39,7 @@ units = {
 			name_order = 2
 		}
 		location = 4315
-		division_template = "Infantry Division"
+		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
@@ -49,7 +50,261 @@ units = {
 			name_order = 3
 		}
 		location = 4799
-		division_template = "Infantry Division"
+		division_template = "Divisão de Infantaria"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1710
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1796
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2099
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4767
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 42
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4680
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2230
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 962
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 925
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2794
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4195
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4538
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4813
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4524
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2039
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4165
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1366
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4275
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4292
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4344
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1621
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4360
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4428
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}
