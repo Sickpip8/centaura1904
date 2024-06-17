@@ -151,8 +151,8 @@
  STATE_150:1 "Eastern Geminian Islands"
  STATE_151:1 "South Auriga"
  STATE_152:0 "Offshore Island"
- STATE_153:0 "Outer Aurigan Island" # end end end end end end end end end end end end end end end end end end end end end end end end end end
- STATE_154:0 "Alföld"
+ STATE_153:0 "Outer Aurigan Island" 
+ STATE_154:0 "Southernmost Corvus" # end end end end end end end end end end end end end end end end end end end end end end end end end end
  STATE_155:0 "Transdanubia"
  STATE_156:0 "Calabria"
  STATE_157:0 "Abruzzo"

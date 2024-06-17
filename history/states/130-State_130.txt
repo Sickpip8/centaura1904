@@ -9,10 +9,13 @@ state={
 		owner = URS
 		add_core_of = LPS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			1641 = {
+			naval_base = 4
+			}
 		}
 		victory_points = {
-			550 1
+			1641 10
 		}
 	}
 	provinces={
