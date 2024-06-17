@@ -60,7 +60,7 @@ States, In numerical order
 	- 37 Western Borderlands 4705118
 	- 38 Western Heartland 15,836,497
 
-39 - 50 Cetus (11+1) State_7
+39 - 50, 154 Cetus (11+1) State_7
 	- 39 Cetan Northeast
 	- 40 Cetan North
 	- 41 East Cetus
@@ -73,6 +73,7 @@ States, In numerical order
 	- 48 South Corvus/Northwesternmost Cetus
 	- 49 Cetan Islands (west)
 	- 50 Cetan Islands (lake)
+	- 154 Southernmost Corvus
 	
 51 - 55 Corvus (5+1) State_8
 	- 51 Corvun Center [CAPITAL: 89]
