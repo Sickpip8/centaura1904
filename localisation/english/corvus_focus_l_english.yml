@@ -14,6 +14,7 @@
  COV_take_sc_desc:0 "Our preparations are done. We shall march back into South Corvus and retake what once was ours."
  COV_railroad:0 "Connect The South"
  COV_railroad_desc:0 "Connect The South"
+ COV_take_sc_desc:0 "Our preparations are done. We shall march back into south corvus and retake what once was ours."
 # events
 
 # decisions

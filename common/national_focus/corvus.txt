@@ -52,15 +52,18 @@
 
 	focus = {
 		id = COV_the_confederation #political
+		icon = GFX_goal_demand_sudetenland
 		icon = GFX_focus_COV_the_confederation
 		x = 25
 		y = 0
+		cost = 10
 		cost = 5
 
 		completion_reward = {
 				add_political_power = 100
 			}
 		}
+	
 	################################################################################################################
 	##################################### POLITICAL PATH: HISTORICAL ###############################################
 	################################################################################################################
@@ -93,6 +96,7 @@
 				add_political_power = 100
 			}
 		}
+	
 	################################################################################################################
 	################################# POLITICAL PATH: NOT HISTORICAL ###############################################
 	################################################################################################################
@@ -116,6 +120,7 @@
 	focus = {
 		id = COV_research
 		icon = GFX_goal_generic_improve_relations
+		x = 10
 		x = 35
 		y = 0
 		cost = 10
@@ -152,12 +157,14 @@
 				add_political_power = 100
 			}
 		}
+		# INDUSTRY ##########################################################
 	####################################################################################################
 	################################ INDUSTRY ##########################################################
 	####################################################################################################
 	focus = {
 		id = COV_industry
 		icon = GFX_goal_generic_improve_relations
+		x = 35
 		x = 10
 		y = 0
 		cost = 5
@@ -174,6 +181,7 @@
 		relative_position_id = COV_industry
 		x = 0
 		y = 1
+		cost = 10
 		cost = 5
 
 		completion_reward = {
@@ -200,9 +208,12 @@
 				}
 			}
 		}
+		
 		focus = {
 		id = COV_improve_infrastructure
 		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = COV_increase_coal_output }
+		relative_position_id = COV_increase_coal_output
 		prerequisite = { focus = COV_railroad }
 		relative_position_id = COV_railroad
 		x = 0
@@ -234,6 +245,7 @@
 				}
 			}
 		}
+		
 		focus = {
 		id = COV_dev_northcentral
 		icon = GFX_goal_generic_improve_relations
@@ -426,7 +438,9 @@
 		cost = 5
 
 		completion_reward = {
+				add_political_power = 100
 				navy_experience = 10
 			}
 		}
+		
 }
