@@ -8,14 +8,12 @@ state={
 		add_core_of = LBR
 		buildings = {
 			infrastructure = 3
-			6174 = {
+			8219 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
-			6174 13 
+			8219 1 
 		}
 		set_demilitarized_zone = yes
 	}
