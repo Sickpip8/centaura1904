@@ -18,6 +18,17 @@ state={
             5827 = {
                 supply_node = 1
             }
+			2264 = {
+				naval_base = 1
+			}
+			
+			3322 = {
+				naval_base = 1
+			}
+			
+			5827 = {
+				naval_base = 1
+			}
         }
 		victory_points = {
 			5827 4 
