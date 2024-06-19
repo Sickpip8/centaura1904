@@ -6277,8 +6277,37 @@ spriteTypes = {
 
 	################### MOD ICONS ##################
 	## PUT ANY VANILLA FILES BEFORE THE MOD FILES ##
-
-
+	
+	###########
+	# generic #
+	###########
+	SpriteType = {
+		name = "GFX_focus_generic_ant_cap"
+		texturefile = "gfx/interface/goals/focus_generic_ant_cap.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_aquila"
+		texturefile = "gfx/interface/goals/focus_generic_aquila.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_ant"
+		texturefile = "gfx/interface/goals/focus_generic_ant.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_cetus"
+		texturefile = "gfx/interface/goals/focus_generic_cetus.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_no_image"
+		texturefile = "gfx/interface/goals/focus_generic_no_image.dds"
+	}
+	#########
+	# cetus #
+	#########
 	SpriteType = {
 		name = "GFX_focus_CET_general_staff"
 		texturefile = "gfx/interface/goals/focus_CET_general_staff.dds"
@@ -6315,7 +6344,9 @@ spriteTypes = {
 		name = "GFX_focus_CET_every_man_himself"
 		texturefile = "gfx/interface/goals/focus_CET_naval_officers.dds"
 	}
-
+	#########
+	# orion #
+	#########
 	SpriteType = {
 		name = "GFX_focus_ORI_Hart_Term" # this one being the election gfx
 		texturefile = "gfx/interface/goals/focus_ORI_Hart_Term.dds"
@@ -6357,5 +6388,27 @@ spriteTypes = {
 		name = "GFX_focus_ORI_CareForTheElderlyAct"
 		texturefile = "gfx/interface/goals/focus_ORI_CareForTheElderlyAct.dds"
 	}
-}
+	##########
+	# corvus #
+	##########
+	SpriteType = {
+		name = "GFX_focus_COV_the_confederation"
+		texturefile = "gfx/interface/goals/focus_COV_the_confederation.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_north"
+		texturefile = "gfx/interface/goals/focus_COV_dev_north.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_northcentral"
+		texturefile = "gfx/interface/goals/focus_COV_dev_northcentral.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_northeast"
+		texturefile = "gfx/interface/goals/focus_COV_dev_northeast.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_central"
+		texturefile = "gfx/interface/goals/focus_COV_dev_central.dds"
+	}
 }

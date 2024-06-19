@@ -8748,6 +8748,7 @@ spriteTypes = {
 
 	## MOD IDEAS/SPIRITS ##
 
+	# cetus
 	spriteType = {
 		name = "GFX_idea_cetus_rules_the_waves"
 		texturefile = "gfx/interface/ideas/idea_cetus_rules_the_waves.dds"
@@ -8761,6 +8762,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_CET_SC_question.dds"
 	}
 
+	# orion
 	spriteType = {
 		name = "GFX_idea_ORI_Corruption"
 		texturefile = "gfx/interface/ideas/idea_ORI_Corruption.dds"			
@@ -8779,5 +8781,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ORI_RapidIndustrialization"
 		texturefile = "gfx/interface/ideas/idea_ORI_RapidIndustrialization.dds"			
+	}
+
+	# corvus
+	spriteType = {
+		name = "GFX_idea_COV_revanchism_idea"
+		texturefile = "gfx/interface/ideas/idea_COV_revanchism_idea.dds"			
+	}
+
+	spriteType = {
+		name = "GFX_idea_COV_dysfunctional_economy_idea"
+		texturefile = "gfx/interface/ideas/idea_COV_dysfunctional_economy_idea.dds"			
 	}
 }

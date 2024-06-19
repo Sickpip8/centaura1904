@@ -52,7 +52,6 @@
 
 	focus = {
 		id = COV_the_confederation #political
-		icon = GFX_goal_demand_sudetenland
 		icon = GFX_focus_COV_the_confederation
 		x = 25
 		y = 0
@@ -84,11 +83,10 @@
 		
 		focus = {
 		id = COV_prepare_to_take_SC
-		icon = GFX_goal_demand_sudetenland
-		prerequisite = { focus = COV_the_confederation }
-		relative_position_id = COV_the_confederation
-		mutually_exclusive = { focus = COV_reapproachment }
-		x = 4
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = COV_take_SC }
+		relative_position_id = COV_take_SC
+		x = 0
 		y = 1
 		cost = 5
 
@@ -96,7 +94,291 @@
 				add_political_power = 100
 			}
 		}
-	
+		
+		focus = {
+		id = COV_coastal_battery
+		icon = GFX_focus_FIN_coastal_defense
+		prerequisite = { focus = COV_prepare_to_take_SC }
+		relative_position_id = COV_prepare_to_take_SC
+		x = -2
+		y = 2
+		cost = 5
+
+		completion_reward = {
+			custom_effect_tooltip = corvus_battery_1_tooltip
+			hidden_effect = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = COV
+								is_in_faction_with = COV
+							}
+							has_full_control_of_state = 51
+							has_full_control_of_state = 53
+							has_full_control_of_state = 8
+						}
+					}
+					51 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+							}
+							53 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+								}
+								8 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 1
+            	    	    instant_build = yes
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		focus = {
+		id = COV_expand_coastal_battery
+		icon = GFX_focus_NOR_drobak_coastal_fort
+		prerequisite = { focus = COV_coastal_battery }
+		relative_position_id = COV_coastal_battery
+		x = 0
+		y = 1
+		cost = 15
+
+		completion_reward = {
+			custom_effect_tooltip = corvus_battery_2_tooltip
+			hidden_effect = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = COV
+								is_in_faction_with = COV
+							}
+							has_full_control_of_state = 51
+							has_full_control_of_state = 53
+							has_full_control_of_state = 8
+						}
+					}
+					51 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 2
+            	    	    instant_build = yes
+							}
+							53 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 2
+            	    	    instant_build = yes
+								}
+								8 = {
+						#Fortify naval bases
+						add_building_construction = {
+							type = coastal_bunker
+							province = {
+								all_provinces = yes
+								limit_to_naval_base = yes
+							}
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+            	    	    type = coastal_bunker
+            	    	    province = {
+            	    	        all_provinces = yes
+            	    	        limit_to_coastal = yes
+            	    	    }
+            	    	    level = 2
+            	    	    instant_build = yes
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		focus = {
+		id = COV_invite_antarean_advisors
+		icon = GFX_focus_generic_ant_cap
+		prerequisite = { focus = COV_prepare_to_take_SC }
+		relative_position_id = COV_prepare_to_take_SC
+		x = 3
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_expand_antarean_support
+		icon = GFX_focus_generic_ant
+		prerequisite = { focus = COV_invite_antarean_advisors }
+		relative_position_id = COV_invite_antarean_advisors
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_conscription
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = COV_prepare_to_take_SC }
+		relative_position_id = COV_prepare_to_take_SC
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_ideas = extensive_conscription
+				add_manpower = 238491
+			}
+		}
+		
+		focus = {
+		id = COV_ramp_production_up
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = COV_conscription }
+		relative_position_id = COV_conscription
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+					}
+				}
+			}
+		}
+		
+		focus = {
+		id = COV_test
+		icon = GFX_focus_COV_the_confederation
+		prerequisite = { focus = COV_ramp_production_up }
+		relative_position_id = COV_ramp_production_up
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
 	################################################################################################################
 	################################# POLITICAL PATH: NOT HISTORICAL ###############################################
 	################################################################################################################
@@ -105,7 +387,7 @@
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = COV_the_confederation }
 		relative_position_id = COV_the_confederation
-		mutually_exclusive = { focus = COV_prepare_to_take_SC }
+		mutually_exclusive = { focus = COV_take_SC }
 		x = -4
 		y = 1
 		cost = 5
@@ -114,28 +396,13 @@
 				add_political_power = 100
 			}
 		}
-	################################################################################################################
-	######################################### RESEARCH #############################################################
-	################################################################################################################
-	focus = {
-		id = COV_research
-		icon = GFX_goal_generic_improve_relations
-		x = 10
-		x = 35
-		y = 0
-		cost = 10
-
-		completion_reward = {
-				add_political_power = 100
-			}
-		}
 		
 		focus = {
-		id = COV_research_industry
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_research }
-		relative_position_id = COV_research
-		x = -2
+		id = COV_contact_cetus
+		icon = GFX_focus_generic_cetus
+		prerequisite = { focus = COV_reapproachment }
+		relative_position_id = COV_reapproachment
+		x = 0
 		y = 1
 		cost = 10
 
@@ -143,43 +410,32 @@
 				add_political_power = 100
 			}
 		}
-		
-		focus = {
-		id = COV_research_military
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_research }
-		relative_position_id = COV_research
-		x = 2
-		y = 1
-		cost = 10
-
-		completion_reward = {
-				add_political_power = 100
-			}
-		}
-		# INDUSTRY ##########################################################
+	
 	####################################################################################################
 	################################ INDUSTRY ##########################################################
 	####################################################################################################
 	focus = {
 		id = COV_industry
-		icon = GFX_goal_generic_improve_relations
-		x = 35
-		x = 10
+		icon = GFX_focus_generic_modernize_industry
+		x = 5
 		y = 0
 		cost = 5
 
 		completion_reward = {
-				add_political_power = 100
+				add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				}
 			}
 		}
 		
 		focus = {
 		id = COV_railroad
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_generic_railroad
 		prerequisite = { focus = COV_industry }
 		relative_position_id = COV_industry
-		x = 0
+		x = 2
 		y = 1
 		cost = 10
 		cost = 5
@@ -191,14 +447,17 @@
 				4136 2741 4219 4629 4321
 				}
 				build_railway = { #to east
+				level = 2
 					path = {
 						4136 2806 3237 4122 4145
 						}
 						build_railway = { #to southeast
+						level = 2
 							path = {
 								4136 4161 2118 4251 1774 4320 2910 4466 2912
 								}
 							build_railway = { #to southwest
+							level = 2
 								path = {
 									4219 2174 1377
 								}
@@ -210,27 +469,11 @@
 		}
 		
 		focus = {
-		id = COV_improve_infrastructure
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_increase_coal_output }
-		relative_position_id = COV_increase_coal_output
-		prerequisite = { focus = COV_railroad }
-		relative_position_id = COV_railroad
-		x = 0
-		y = 1
-		cost = 10
-
-		completion_reward = {
-				add_political_power = 100
-			}
-		}
-		
-		focus = {
 		id = COV_dev_north
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_improve_infrastructure }
-		relative_position_id = COV_improve_infrastructure
-		x = -2
+		icon = GFX_focus_COV_dev_north
+		prerequisite = { focus = COV_industry }
+		relative_position_id = COV_industry
+		x = -4
 		y = 1
 		cost = 10
 
@@ -248,11 +491,11 @@
 		
 		focus = {
 		id = COV_dev_northcentral
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_improve_infrastructure }
-		relative_position_id = COV_improve_infrastructure
+		icon = GFX_focus_COV_dev_northcentral
+		prerequisite = { focus = COV_industry }
+		relative_position_id = COV_industry
 		x = 0
-		y = 1
+		y = 2
 		cost = 10
 
 		completion_reward = {
@@ -269,11 +512,11 @@
 
 		focus = {
 		id = COV_dev_central
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_improve_infrastructure }
-		relative_position_id = COV_improve_infrastructure
-		x = 2
-		y = 1
+		icon = GFX_focus_COV_dev_central
+		prerequisite = { focus = COV_railroad }
+		relative_position_id = COV_industry
+		x = 4
+		y = 2
 		cost = 10
 
 		completion_reward = {
@@ -290,11 +533,11 @@
 
 		focus = {
 		id = COV_dev_northeast
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_improve_infrastructure }
-		relative_position_id = COV_improve_infrastructure
-		x = 4
-		y = 1
+		icon = GFX_focus_COV_dev_northeast
+		prerequisite = { focus = COV_railroad }
+		relative_position_id = COV_industry
+		x = 8
+		y = 2
 		cost = 10
 
 		completion_reward = {
@@ -311,7 +554,7 @@
 		
 		focus = {
 		id = COV_dev_north_2
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_generic_industry_1
 		prerequisite = { focus = COV_dev_north }
 		relative_position_id = COV_dev_north
 		x = 0
@@ -341,7 +584,7 @@
 	
 	focus = {
 		id = COV_dev_northcentral_2
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_generic_industry_1
 		prerequisite = { focus = COV_dev_northcentral }
 		relative_position_id = COV_dev_northcentral
 		x = 0
@@ -371,39 +614,10 @@
 	
 	focus = {
 		id = COV_dev_central_2
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_generic_industry_1
 		prerequisite = { focus = COV_dev_central }
 		relative_position_id = COV_dev_central
 		x = 0
-		y = 1
-		cost = 10
-
-		completion_reward = {
-		random_state = {
-				limit = { 
-					OR = {
-						state = 52
-					}
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-					}
-				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = COV_dev_northeast_2
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = COV_dev_northeast }
-		relative_position_id = COV_dev_northeast
 		y = 1
 		cost = 10
 
@@ -427,18 +641,228 @@
 			}
 		}
 	}
+	
+	focus = {
+		id = COV_dev_northeast_2
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = COV_dev_northeast }
+		relative_position_id = COV_dev_northeast
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		random_state = {
+				limit = { 
+					OR = {
+						state = 53
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = COV_dev_west
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = COV_dev_central }
+		prerequisite = { focus = COV_dev_northcentral }
+		relative_position_id = COV_dev_central
+		x = -2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		random_state = {
+				limit = { 
+					OR = {
+						state = 51
+						state = 52
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					}
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
+	}
+	################################################################################################################
+	######################################### RESEARCH #############################################################
+	################################################################################################################
+	focus = {
+		id = COV_research
+		icon = GFX_goal_generic_improve_relations
+		x = 40
+		y = 0
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_civilian
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = COV_research }
+		relative_position_id = COV_research
+		x = -2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_civilian2
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = COV_research_civilian }
+		relative_position_id = COV_research_civilian
+		x = 2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_military
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = COV_research }
+		relative_position_id = COV_research
+		x = 2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				army_experience = 10
+				add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+				}
+			}
+		}
+		
+		focus = {
+		id = COV_research_gun
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = COV_research_military }
+		relative_position_id = COV_research_military
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_artillery
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = COV_research_gun }
+		relative_position_id = COV_research_gun
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_vehicle
+		icon = GFX_focus_generic_truck
+		prerequisite = { focus = COV_research_military }
+		relative_position_id = COV_research_military
+		x = 2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_armored_car
+		icon = GFX_focus_SWE_lynx_armored_car
+		prerequisite = { focus = COV_research_vehicle }
+		relative_position_id = COV_research_vehicle
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = COV_research_tank
+		icon = GFX_focus_NZL_bob_semple_tank
+		prerequisite = { focus = COV_research_artillery }
+		prerequisite = { focus = COV_research_armored_car }
+		relative_position_id = COV_research_armored_car
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_political_power = 100
+			}
+		}
+		
+	################################################################################################################
+	############################################      ARMY      ####################################################
+	################################################################################################################
+	focus = {
+		id = COV_army
+		icon = GFX_goal_generic_army_doctrines
+		x = 50
+		y = 0
+		cost = 5
+
+		completion_reward = {
+				army_experience = 10
+			}
+		}
+		
 	################################################################################################################
 	############################################      NAVY      ####################################################
 	################################################################################################################
 	focus = {
 		id = COV_navy
-		icon = GFX_goal_generic_improve_relations
-		x = 40
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 60
 		y = 0
 		cost = 5
 
 		completion_reward = {
-				add_political_power = 100
 				navy_experience = 10
 			}
 		}

@@ -34,6 +34,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+		COV_revanchism_idea
+		COV_dysfunctional_economy_idea
+		limited_conscription
+		low_economic_mobilisation
+			}
+
 create_country_leader = {
 	name = "Oliver Khorin"
 	desc = "Bocchidesu"

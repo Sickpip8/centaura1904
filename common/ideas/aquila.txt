@@ -1,0 +1,17 @@
+ideas = {
+    country = {
+        AQU_iron_army_idea = {
+            name = AQU_iron_army
+            
+            picture = idea_iron_army
+            allowed = { original_tag = AQU }
+            removal_cost = -1
+
+            modifier = {
+                conscription_factor = -0.2
+                training_time_army_factor = 0.5
+				army_speed_factor = -0.1
+				army_defence_factor = 2
+				dig_in_speed_factor = 1
+            }
+        }

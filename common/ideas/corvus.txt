@@ -1,0 +1,41 @@
+ideas = {
+    country = {
+        COV_revanchism_idea = {
+            name = COV_revanchism
+            
+            picture = idea_COV_revanchism
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                conscription_factor = 0.1
+                training_time_army_factor = -0.1
+            }
+        }
+
+        COV_dysfunctional_economy_idea = {
+            name = COV_dysfunctional_economy
+
+            picture = COV_dysfunctional_economy
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.1
+            }
+        }
+		COV_surpise_attack_idea = { #timed idea when corvus invades cetus. should last for a week
+            name = COV_surpise_attack
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                army_speed_factor = 1
+				army_defence_factor = -0.25
+				dig_in_speed_factor = -1
+            }
+		}
+    }
+}

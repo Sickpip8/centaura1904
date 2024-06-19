@@ -28,6 +28,10 @@ bookmarks = {
 		COV = {
 			history = COV_1900_DESC
 			ideology = neutrality
+			ideas = {
+				COV_revanchism_idea
+				COV_dysfunctional_economy_idea
+			}
 		}
 		URS = {
 			history = URS_1900_DESC
