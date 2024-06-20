@@ -11,7 +11,7 @@ ideas = {
                 conscription_factor = -0.2
                 training_time_army_factor = 0.5
 				army_speed_factor = -0.1
-				army_defence_factor = 2
+				army_defence_factor = 1
 				dig_in_speed_factor = 1
 				max_surrender_limit_offset = 0.95
             }
