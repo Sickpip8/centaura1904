@@ -91,4 +91,26 @@ country_event = { # Dead end for Orion (they gotta naval invade)
 	}
 }
 
-		
+country_event = {
+	id = orion.5
+	title = orion.5.t
+	desc = orion.5.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = orion.5.a
+		LEP = {
+			set_state_owner = 133
+			set_state_owner = 130
+			set_state_owner = 131
+			set_state_owner = 132
+			set_state_owner = 134
+		}
+	}
+}
+
+
+
+	
