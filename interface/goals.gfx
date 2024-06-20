@@ -6436,4 +6436,20 @@ spriteTypes = {
 		name = "GFX_focus_COV_dev_central"
 		texturefile = "gfx/interface/goals/focus_COV_dev_central.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_north_2"
+		texturefile = "gfx/interface/goals/focus_COV_dev_north_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_northcentral_2"
+		texturefile = "gfx/interface/goals/focus_COV_dev_northcentral_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_northeast_2"
+		texturefile = "gfx/interface/goals/focus_COV_dev_northeast_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COV_dev_central_2"
+		texturefile = "gfx/interface/goals/focus_COV_dev_central_2.dds"
+	}
 }

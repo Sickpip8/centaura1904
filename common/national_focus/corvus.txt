@@ -554,7 +554,7 @@
 		
 		focus = {
 		id = COV_dev_north_2
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_COV_dev_north_2
 		prerequisite = { focus = COV_dev_north }
 		relative_position_id = COV_dev_north
 		x = 0
@@ -584,7 +584,7 @@
 	
 	focus = {
 		id = COV_dev_northcentral_2
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_COV_dev_northcentral_2
 		prerequisite = { focus = COV_dev_northcentral }
 		relative_position_id = COV_dev_northcentral
 		x = 0
@@ -614,7 +614,7 @@
 	
 	focus = {
 		id = COV_dev_central_2
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_COV_dev_central_2
 		prerequisite = { focus = COV_dev_central }
 		relative_position_id = COV_dev_central
 		x = 0
@@ -644,7 +644,7 @@
 	
 	focus = {
 		id = COV_dev_northeast_2
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_focus_COV_dev_northeast_2
 		prerequisite = { focus = COV_dev_northeast }
 		relative_position_id = COV_dev_northeast
 		x = 0
@@ -708,7 +708,7 @@
 	################################################################################################################
 	focus = {
 		id = COV_research
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_research2
 		x = 40
 		y = 0
 		cost = 10
@@ -720,7 +720,7 @@
 		
 		focus = {
 		id = COV_research_civilian
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_NORDIC_dem_research
 		prerequisite = { focus = COV_research }
 		relative_position_id = COV_research
 		x = -2
@@ -748,7 +748,7 @@
 		
 		focus = {
 		id = COV_research_military
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_NORDIC_com_research
 		prerequisite = { focus = COV_research }
 		relative_position_id = COV_research
 		x = 2

@@ -35,5 +35,5 @@ set_politics = {
 }
 
 add_ideas = {
-	AQU_iron_army
+	AQU_iron_army_idea
 		}
