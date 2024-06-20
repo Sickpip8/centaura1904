@@ -203,24 +203,25 @@ focus_tree = {
         cost = 5
 		available = {
 			URS = {
-				OR = {
-					NOT = { has_full_control_of_state = 117 } 
-					NOT = { has_full_control_of_state = 119 } 
-					NOT = { has_full_control_of_state = 114 } 
-					NOT = { has_full_control_of_state = 116 } 
-					NOT = { has_full_control_of_state = 115 }
-					NOT = { has_full_control_of_state = 118 } 					
+				AND = {
+						NOT = { has_full_control_of_state = 117 } 
+						NOT = { has_full_control_of_state = 119 } 
+						NOT = { has_full_control_of_state = 114 } 
+						NOT = { has_full_control_of_state = 116 } 
+						NOT = { has_full_control_of_state = 115 }
+						NOT = { has_full_control_of_state = 118 } 					
+					}
 				}
 			}
-		}
+
 		
         prerequisite = {
             focus = ORS_InvadeCanis
         }
         completion_reward = {
-		URS = {
-		country_event = {id = orion.2 days = 1}
-		}
+			URS = {
+				country_event = {id = orion.2 days = 1}
+			}
 		}
         ai_will_do = {
             factor = 5
@@ -1035,10 +1036,10 @@ focus = {
 		}
 		
 		focus = {
-			id = ORS_OrioniteIsolationism
-			icon = GFX_focus_ORI_OrioniteIsolationism
-			x = 35
-			y = 1
+			id = ORS_IsolateAuriga
+			icon = GFX_focus_ORI_EncircleAuriga
+			x = 45
+			y = 2
 			cost = 5
 			available = {
 				

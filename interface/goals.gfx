@@ -6413,6 +6413,11 @@ spriteTypes = {
 		name = "GFX_focus_ORI_OrioniteInterventionism"
 		texturefile = "gfx/interface/goals/focus_ORI_OrioniteInterventionism.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_EncircleAuriga"
+		texturefile = "gfx/interface/goals/focus_ORI_EncircleAuriga.dds"
+	}
 	##########
 	# corvus #
 	##########
