@@ -6388,6 +6388,31 @@ spriteTypes = {
 		name = "GFX_focus_ORI_CareForTheElderlyAct"
 		texturefile = "gfx/interface/goals/focus_ORI_CareForTheElderlyAct.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_QuestionOfForeignPolicy"
+		texturefile = "gfx/interface/goals/focus_ORI_QuestionOfForeignPolicy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_HartsSecondTerm"
+		texturefile = "gfx/interface/goals/focus_ORI_HartsSecondTerm.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_OrioniteIsolationism"
+		texturefile = "gfx/interface/goals/focus_ORI_OrioniteIsolationism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_OrioniteImperialism"
+		texturefile = "gfx/interface/goals/focus_ORI_OrioniteImperialism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_OrioniteInterventionism"
+		texturefile = "gfx/interface/goals/focus_ORI_OrioniteInterventionism.dds"
+	}
 	##########
 	# corvus #
 	##########
