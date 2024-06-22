@@ -2,12 +2,24 @@ capital = 98
 
 oob = "ANT_1900"
 
+starting_train_buffer = 5
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1
 	tech_recon = 1
 	tech_engineers = 1
 	gw_artillery = 1
+	basic_train = 1
+	# a
+	# b
+	# c
+	# d
+	# e
+	# f
+	# g
+	# h
+	# i
 }
 
 set_stability = 0.46
