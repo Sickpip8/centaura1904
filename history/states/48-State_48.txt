@@ -18,7 +18,11 @@ state={
 			industrial_complex = 2
 			dockyard = 2
 			infrastructure = 3
-
+		
+		}
+		1944.1.1.12 = {
+		owner = COV
+		controller = COV
 		}
 		victory_points = {
 			276 6 

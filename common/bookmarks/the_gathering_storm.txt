@@ -49,9 +49,54 @@ bookmarks = {
 			history = LBR_1900_DESC
 			ideology = neutrality
 		}
+		AQU = {
+            minor = yes
+			history = AQU_1900_DESC
+			ideology = democracy
+		}
+		GRS = {
+            minor = yes
+			history = GRS_1900_DESC
+			ideology = neutrality
+		}
+		VEG = {
+            minor = yes
+			history = VEG_1900_DESC
+			ideology = neutrality
+		}
+		CLB = {
+            minor = yes
+			history = CLB_1900_DESC
+			ideology = neutrality
+		}
+		TUC = {
+            minor = yes
+			history = TUC_1900_DESC
+			ideology = neutrality
+		}
+		CTA = {
+            minor = yes
+			history = CTA_1900_DESC
+			ideology = neutrality
+		}
 		VUL = {
             minor = yes
 			history = VUL_1900_DESC
+			ideology = neutrality
+		}
+		AUR = {
+            minor = yes
+			history = AUR_1900_DESC
+			ideology = neutrality
+		}
+		LAC = {
+            minor = yes
+			history = LAC_1900_DESC
+			ideology = neutrality
+		}
+		MUS = {
+            minor = yes
+			history = MUS_1900_DESC
 			ideology = neutrality
 		}
 

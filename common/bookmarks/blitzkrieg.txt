@@ -1,7 +1,7 @@
-ookmarks = {
+bookmarks = {
 	bookmark = {
-		name = "GREASE_WAR_NAME"
-		desc = "GREASE_WAR_DESC"
+		name = "FORMAN_WAR_NAME"
+		desc = "FORMAN_WAR_DESC"
 		date = 1944.1.1.12
 		picture = "GFX_select_date_1944"
 		default_country = ORI
@@ -14,16 +14,6 @@ ookmarks = {
 		ORI = {
 			history = ORI_1944_DESC
 			ideology = neutrality
-		}
-		CET = {
-			history = CET_1944_DESC
-			ideology = neutrality
-
-			ideas = {
-				CET_rules_the_waves_idea
-				SC_question_idea
-				CET_independent_armed_forces_idea
-			}
 		}
 		COV = {
 			history = COV_1944_DESC
