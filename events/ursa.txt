@@ -5,6 +5,7 @@ country_event = {
 	title = ursa.1.t
 	desc = ursa.1.d
 	picture = GFX_
+	tooltip = ursa_a.1.t
 	
 	is_triggered_only = yes
 	
