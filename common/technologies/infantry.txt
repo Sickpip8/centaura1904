@@ -2296,7 +2296,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1942
+		start_year = 1910
 		sub_tech_index = 1
 		
 		categories = {
@@ -2310,17 +2310,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1911.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "1912.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1913.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -2511,7 +2511,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1928
+		start_year = 1920
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1920 }
@@ -2598,7 +2598,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1918
+		start_year = 1922
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1922 }

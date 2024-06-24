@@ -1,7 +1,7 @@
 equipments = {
 
 	mechanized_equipment = {
-		year = 1910
+		year = 1904
 
 		is_archetype = yes
 		picture = archetype_motorized_equipment
@@ -51,7 +51,7 @@ equipments = {
 
 	# ~1941
 	mechanized_equipment_1 = {
-		year = 1912
+		year = 1910
 
 		archetype = mechanized_equipment
 		priority = 40
@@ -60,7 +60,7 @@ equipments = {
 
 	# ~1943
 	mechanized_equipment_2 = {
-		year = 1918
+		year = 1916
 
 		archetype = mechanized_equipment
 		parent = mechanized_equipment_1
@@ -88,7 +88,7 @@ equipments = {
 
 	# ~1928
 	mechanized_equipment_3 = {
-		year = 1928
+		year = 1922
 
 		archetype = mechanized_equipment
 		parent = mechanized_equipment_2
