@@ -1,0 +1,10 @@
+on_actions = { 
+	on_startup = {
+		effect = {
+			URS = {
+				country_event = {id = ursa.1 days = 270}
+			}
+		}
+	
+	
+	}

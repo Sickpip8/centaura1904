@@ -13,12 +13,42 @@ state={
 		buildings = {
             infrastructure = 2
             industrial_complex = 1
+			4195 = {
+				bunker = 8
+			}
+			2794 = {
+				bunker = 8
+			}
+			4315 = {
+				bunker = 8
+			}
+			925 = {
+				bunker = 8
+			}
+			962 = {
+				bunker = 8
+			}
             2257 = {
-                supply_node = 1
+                bunker = 8
             }
+			2230 = {
+				bunker = 8
+			}
+			4680 = {
+				bunker = 8
+			}
+			42 = {
+				bunker = 8
+			}
+			4767 = {
+				bunker = 8
+			}
+			2099 = {
+				bunker = 8
+			}
         }
 		victory_points = {
-			2257 17
+			2462 17
 		}
 	}
 	provinces={

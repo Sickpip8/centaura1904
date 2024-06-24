@@ -26,6 +26,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=22616236
+        manpower=25616236
         state_category = industrial_heartland
 }

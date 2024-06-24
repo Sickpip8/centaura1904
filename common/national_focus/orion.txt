@@ -255,7 +255,15 @@ focus_tree = {
         x = 9
         y = 8
         cost = 5
-		available = {			
+		available = {	
+				ORI = {
+					AND = {
+						has_full_control_of_state = 117
+						has_full_control_of_state = 114 
+						has_full_control_of_state = 113
+						NOT = { has_war_with = URS }
+					}
+				}
 			}
 		
         prerequisite = {
@@ -1046,11 +1054,31 @@ focus = {
 			}
 			
 			prerequisite = {
-				focus = ORS_QuestionOfForeignPolicy
+				focus = ORS_OrioniteImperialism
 			}
 			
-			mutually_exclusive = { focus = ORS_OrioniteImperialism }
-			mutually_exclusive = { focus = ORS_OrioniteInterventionism }
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_RallyTheNationalists
+			icon = GFX_focus_ORI_RallyTheNationalists
+			x = 47
+			y = 2
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_OrioniteImperialism
+			}
 			
 			completion_reward = {
 				add_stability = 0.05

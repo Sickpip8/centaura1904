@@ -21,6 +21,10 @@ state={
 				naval_base = 2
 				}
 			}
+			1944.1.1.12 = {
+				owner = COV
+				controller = COV
+				}
 			victory_points = {
 			4809 11 
 			}

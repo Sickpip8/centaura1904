@@ -17,12 +17,14 @@ state={
 			2919 = {
 				naval_base = 10
 				}
-		}
+			}
+			1944.1.1.12 = {
+				owner = ANT
+				controller = ANT
+				add_core_of = ANT
+				}
 		victory_points = {
 			2919 50 
-		}
-		victory_points = {
-			200 20
 		}
 
 	}
