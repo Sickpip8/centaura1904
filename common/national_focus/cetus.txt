@@ -484,7 +484,6 @@ focus_tree = {
 				}
 			}
         }
-
     }
 
     focus = {
@@ -503,7 +502,6 @@ focus_tree = {
         prerequisite = { focus = CET_status_quo }
 
         completion_reward = {
-			www
 
         }
     }

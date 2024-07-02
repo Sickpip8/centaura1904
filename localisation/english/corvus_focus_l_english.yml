@@ -97,6 +97,8 @@
  #########
  COV_revanchism_idea:0 "Corvun Revanchism"
  COV_revanchism_idea_desc:0 "Cetus invaded and occupied South Corvus in 1880. We were surprised by this invasion and we could not defend. We will return one day."
+ COV_revanchism_idea_2:0 "Corvun Revanchism"
+ COV_revanchism_idea_2_desc:0 "Cetus invaded and occupied South Corvus in 1880. We were surprised by this invasion and we could not defend. We will return one day."
  COV_dysfunctional_economy_idea:0 "Dysfunctional Economy
  COV_dysfunctional_economy_idea_desc:0 "Losing South Corvus has turned our economy into glass. It may collapse if a war goes for long enough."
  COV_surprise_attack_idea:0 "Surprise Invasion"
