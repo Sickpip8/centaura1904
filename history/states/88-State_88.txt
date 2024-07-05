@@ -1,10 +1,12 @@
+
 state={
 	id=88
 	name="STATE_88"
-	resources = {
-		steel = 15
+	resources={
+		steel=15.000
 	}
-	history = {
+
+	history={
 		owner = URS
 		add_core_of = URS
 		buildings = {
@@ -12,16 +14,19 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 0
+
 		}
 		victory_points = {
-			3338 1
+			3338 1 
 		}
+
 	}
+
 	provinces={
-		28 150 215 223 250 258 453 673 793 1062 1200 1331 1643 1650 1721 1955 1963 2141 2180 2182 2228 2640 3334 3338 3342 3344 3349 3352 3356 3366 6510 
+		28 150 215 223 250 258 453 673 793 1062 1200 1331 1643 1721 1955 1963 2141 2180 2182 2228 2483 2640 3334 3338 3342 3344 3349 3352 3356 3364 6510 
 	}
+	manpower=19251308
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
-        manpower=19251308
-        state_category = city
 }

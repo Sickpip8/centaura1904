@@ -25,7 +25,7 @@ state={
 		controller = COV
 		}
 		victory_points = {
-			276 6 
+			2749 6 
 		}
 
 	}

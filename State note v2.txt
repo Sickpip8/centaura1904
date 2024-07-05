@@ -31,6 +31,9 @@ In order of
 Statenumber Statename Population
 +1 is capital state
 
+Total amount of States
+155
+
 States, In numerical order
 19 - 24 Libra (6+1) State_1 68,054,507
 	- 19 Libratum 209

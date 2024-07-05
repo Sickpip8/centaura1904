@@ -37,5 +37,18 @@ ideas = {
 				dig_in_speed_factor = -1
             }
 		}
+		COV_revanchism_2_idea = {
+            name = COV_revanchism_2
+            
+            picture = idea_COV_revanchism
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                conscription_factor = 0.1
+                training_time_army_factor = -0.1
+				army_core_attack_factor = 0.1
+            }
+        }
     }
 }

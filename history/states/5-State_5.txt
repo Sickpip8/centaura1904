@@ -2,10 +2,11 @@
 state={
 	id=5
 	name="STATE_5"
-	resources = {
-		steel = 21
-		chromium = 11
+	resources={
+		steel=21.000
+		chromium=11.000
 	}
+
 	history={
 		owner = URS
 		add_core_of = URS
@@ -14,9 +15,7 @@ state={
 			industrial_complex = 7
 			arms_factory = 5
 			dockyard = 2
-			2454 = {
-				naval_base = 4
-			}	
+
 		}
 		victory_points = {
 			3196 50 
@@ -25,10 +24,10 @@ state={
 	}
 
 	provinces={
-		65 128 227 291 299 338 521 556 587 601 692 765 859 987 1004 1015 1064 1229 1276 1277 1313 1386 1466 1610 1685 1867 1871 1882 2041 2100 2145 2204 2280 2370 2454 2461 2509 2612 2666 2708 3122 3196 3376 3379 3381 3389 3398 3404 3410 3411 3415 3425 3429 3431 3444 3455 3456 3460 3461 3476 3483 3499 3500 3507 3522 3523 3534 6587 6588 6627 6653 6657 8207 
+		128 227 291 556 765 987 1004 1024 1060 1064 1229 1277 1650 1867 2100 2145 2708 3196 3366 3376 3379 3381 3389 3398 3404 3410 3411 8207 
 	}
+	manpower=49273031
 	buildings_max_level_factor=1.000
+	state_category=industrial_heartland
 	local_supplies=0.000
-        manpower=49273031
-        state_category = industrial_heartland
 }

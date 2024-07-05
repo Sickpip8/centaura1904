@@ -3,7 +3,7 @@
  STATE_2:1 "South Hydrus"
  STATE_3:1 "Venatia Department"
  STATE_4:0 "South Auriga" #Honnua
- STATE_5:1 "Ursa Capital Region Z"
+ STATE_5:1 "Central Ursa"
  STATE_6:0 "Southeastern Skorpius"
  STATE_7:0 "Nauta Region"
  STATE_8:0 "Northern Corvus"
@@ -82,7 +82,7 @@
  STATE_81:0 "Northeastern Islands"
  STATE_82:0 "Central South Island"
  STATE_83:0 "Western Islands"
- STATE_84:0 "South Ursa"
+ STATE_84:0 "Southwestern Ursa"
  STATE_85:0 "South Ursan Islands"
  STATE_86:0 "Southeastern Islands"
  STATE_87:1 "Eastern Ursa"
@@ -152,8 +152,8 @@
  STATE_151:1 "South Auriga"
  STATE_152:0 "Offshore Island"
  STATE_153:0 "Outer Aurigan Island" 
- STATE_154:0 "Southernmost Corvus" # end end end end end end end end end end end end end end end end end end end end end end end end end end
- STATE_155:0 "Transdanubia"
+ STATE_154:0 "Southernmost Corvus"
+ STATE_155:0 "South Ursa" # end end end end end end end end end end end end end end end end end end end end end end end end end end
  STATE_156:0 "Calabria"
  STATE_157:0 "Abruzzo"
  STATE_158:1 "Piemonte"
