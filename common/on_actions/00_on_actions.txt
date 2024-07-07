@@ -1,0 +1,17 @@
+on_actions = {
+	on_war_relation_added = {=
+		effect = {
+			if = {
+				limit = {
+					original_tag = COV
+					FROM = {
+						original_tag = CET
+					}
+				}
+				complete_national_focus = COV_initial_offensive
+				#CET = { set_country_flag = cov_attack_cetus_first }
+			}
+		}
+	}
+}
+		

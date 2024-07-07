@@ -270,8 +270,8 @@ focus_tree = {
             focus = ORS_TheUrsanQuestion
         }
         completion_reward = {
-		31 = {required_garrison_factor = 0.5}
-		31 = {add_resource = {
+		117 = {required_garrison_factor = 0.5}
+		117 = {add_resource = {
 		type = oil 
 		amount = 10}
 		}

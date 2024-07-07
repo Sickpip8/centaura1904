@@ -7,14 +7,14 @@
  ######################
  COV_take_SC:0 "Retake South Corvus"
  COV_take_SC_desc:0 "The loss of South Corvus has pushed our country into a dark age, literally. We need coal to run our country, so we will begin preparations to retake South Corvus."
- COV_retake_sc:0 "Retake South Corvus"
- COV_retake_sc_desc:0 "Our preparations are done. We shall march back into South Corvus and retake what once was ours."
+ #COV_retake_sc:0 "Retake South Corvus"
+ #COV_retake_sc_desc:0 "Our preparations are done. We shall march back into South Corvus and retake what once was ours."
  COV_prepare_to_take_SC:0 "Start Preparations"
- COV_prepare_to_take_SC_desc:0 "."
+ COV_prepare_to_take_SC_desc:0 "We will need preparations to retake South Corvus. Our army is not enough to challenge Cetus right now."
  COV_conscription:0 "Increase Conscription"
- COV_conscription_desc:0 "
+ COV_conscription_desc:0 "We will begin mass conscription in our cities in order to quickly increase the size of our army to challenge Cetus on land."
  COV_ramp_production_up:0 "Ramp Production Up"
- COV_ramp_production_up_desc:0 "
+ COV_ramp_production_up_desc:0 "We need to increase production on weapons to quickly arm our men."
  COV_coastal_battery:0 "Construct Coastal Batteries"
  COV_coastal_battery_desc:0 "We may lack the naval assets to challenge Cetus, however we can construct coastal batteries off our coast to deny them the strategic use of their navy."
  COV_expand_coastal_battery:0 "Coastal Battery Expansion"
@@ -23,13 +23,39 @@
  COV_invite_antarean_advisors_desc:0 "
  COV_expand_antarean_support:0 "Expand Antarean Support"
  COV_expand_antarean_support_desc:0 "
+ COV_request_antarean_intervention:0 "Request Antarean Intervention"
+ COV_request_antarean_intervention_desc:0 "The war is not going in our favor. If we do not ask for help quickly, Cetus will overrun North Corvus and we will cease to exist. By any means."
+ COV_war_with_cetus:0 "War with Cetus"
+ COV_war_with_cetus_desc:0 "Our preparations are done. We shall march back into South Corvus and retake what once was ours."
+ COV_initial_offensive:0 "Initial Offensive"
+ COV_initial_offensive_desc:0 "We will quickly advance into Cetus, catching them by surprise as they do not expect an invasion."
+ COV_consolidate_gains:0 "Consolidate Gains"
+ COV_consolidate_gains_desc:0 "
+ COV_improve_supply_issue:0 "Improve Supply Chain"
+ COV_improve_supply_issue_desc:0 "
+ COV_fortification_focus:0 "Bunker Priority"
+ COV_fortification_focus_desc:0 "
+ COV_increase_gun_production:0 "Increase Gun Production"
+ COV_increase_gun_production_desc:0 "
+ COV_continue_attack:0 "Continue the Attack"
+ COV_continue_attack_desc:0 "The offensive will not stop quickly if we do not allow it to. Continue the push into Cetus."
+ COV_northern_offensive:0 "Northern Offensive"
+ COV_northern_offensive_desc:0 "A northern offensive would allow us access to the coal-rich regions of Cetus, repowering our former civilian railways."
+ COV_southern_offensive:0 "Southern Offensive"
+ COV_southern_offensive_desc:0 "A southern offensive would allow us to reclaim the rest of South Corvus."
  ##########################
  # political not historical
  ##########################
- COV_reapproachment:0 "Cetan Reapproachment"
+ COV_reapproachment:0 "Cetan Reapproachement"
  COV_reapproachment_desc:0 "We will use diplomatic ways to regain South Corvus."
  COV_contact_cetus:0 "Contact Cetus"
- COV_contact_cetus_desc:0 "
+ COV_contact_cetus_desc:0 "We will reestablish diplomatic contact with Cetus."
+ COV_concessions:0 "Concessions"
+ COV_concessions_desc:0 "
+ COV_iron_and_oil:0 "Iron and Oil Agreement"
+ COV_iron_and_oil_desc:0 "Cetus wants steel and oil to power their navy. We need these resources to power our country. We will allow a larger share of resources to Cetus."
+ COV_nauta_compromise:0 "The Nauta Compromise"
+ COV_nauta_compromise_desc:0 "The Nauta Compromise seeks to return parts of South Corvus back to Corvus. Although we may hope for a full return, it is unlikely."
  ##########
  # industry
  ##########
@@ -55,16 +81,22 @@
  COV_dev_northeast_2_desc:0 "
  COV_dev_west:0 "Western Industrial Expansion"
  COV_dev_west_desc:0 "
+ COV_dev_northwest:0 "Northwestern Industrial Expansion"
+ COV_dev_northwest_desc:0 "
  ######
  # army
  ######
  COV_army:0 "The Corvun Army"
  COV_army_desc:0 "The Corvun Army is Corvus's pride. Without it, maybe North Corvus would had fell to the Cetans."
+ COV_army_2:0 "Military Expansion"
+ COV_army_2_desc:0 "
  ######
  # navy
  ######
  COV_navy:0 "The Corvun Navy"
  COV_navy_desc:0 "One of the smallest navies on Centaura, the Corvun Navy is still a threat to any nation's coastline."
+ COV_dockyards:0 "Basic Dockyards"
+ COV_dockyards_desc:0 "
  ##########
  # research
  ##########
@@ -99,12 +131,15 @@
  COV_revanchism_idea_desc:0 "Cetus invaded and occupied South Corvus in 1880. We were surprised by this invasion and we could not defend. We will return one day."
  COV_revanchism_idea_2:0 "Corvun Revanchism"
  COV_revanchism_idea_2_desc:0 "Cetus invaded and occupied South Corvus in 1880. We were surprised by this invasion and we could not defend. We will return one day."
- COV_dysfunctional_economy_idea:0 "Dysfunctional Economy
+ COV_dysfunctional_economy_idea:0 "Dysfunctional Economy"
  COV_dysfunctional_economy_idea_desc:0 "Losing South Corvus has turned our economy into glass. It may collapse if a war goes for long enough."
  COV_surprise_attack_idea:0 "Surprise Invasion"
- COV_surprise_attack_idea_desc:0 "The Cetans do not expect an invasion. Our attack is going quicker than expected. However, this also reduces our defensive capabilities. Movement speed is doubled for a week."
+ COV_surprise_attack_idea_desc:0 "The Cetans do not expect an invasion. Our attack is going quicker than expected. However, this also reduces our defensive capabilities. Attack is doubled on core territory and movement speed is doubled for a week."
+ COV_bunker_boost_idea:0 "Defence Boost"
+ COV_bunker_boost_idea_desc:0 "We shall build fortifications to hold what we have gotten."
  ######
  # misc
  ######
  corvus_battery_1_tooltip:0 "Constructs Level 1 coastal forts on every coastal province. Adds 2 levels for port cities."
  corvus_battery_2_tooltip:0 "Adds 2 levels of coastal forts on every coastal province."
+ corvun_assimilation_tooltip:0 "This will make Antares §Gintervene§! in the war, §Rbut turn Corvus into a puppet of Antares.§!"

@@ -12,7 +12,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
-			arms_factory = 7
+			arms_factory = 3
 			dockyard = 1
 
 		}
@@ -27,6 +27,6 @@ state={
 	}
 	manpower=25178817
 	buildings_max_level_factor=1.000
-	state_category=industrial_sector
+	state_category=megalopolis
 	local_supplies=0.000
 }

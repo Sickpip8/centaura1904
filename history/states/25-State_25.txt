@@ -5,6 +5,7 @@ state={
 	resources = {
         steel = 37
 		tungsten = 19
+		oil = 6
 	}
 	history = {
 		owner = VEG

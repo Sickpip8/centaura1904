@@ -11,9 +11,9 @@ state={
 		owner = ORI
 		add_core_of = ORI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 5
-			arms_factory = 7
+			arms_factory = 4
 			dockyard = 3
 			4528 = {
 				naval_base = 3
@@ -33,6 +33,6 @@ state={
 	}
 	manpower=24144240
 	buildings_max_level_factor=1.000
-	state_category=expanded_industrial_sector
+	state_category=industrialized_megalopolis
 	local_supplies=0.000
 }

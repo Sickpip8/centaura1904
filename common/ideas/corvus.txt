@@ -12,31 +12,7 @@ ideas = {
                 training_time_army_factor = -0.1
             }
         }
-
-        COV_dysfunctional_economy_idea = {
-            name = COV_dysfunctional_economy
-
-            picture = COV_dysfunctional_economy
-            allowed = { original_tag = COV }
-            removal_cost = -1
-
-            modifier = {
-                stability_factor = -0.1
-            }
-        }
-		COV_surpise_attack_idea = { #timed idea when corvus invades cetus. should last for a week
-            name = COV_surpise_attack
-
-            picture = COV_surpise_attack
-            allowed = { original_tag = COV }
-            removal_cost = -1
-
-            modifier = {
-                army_speed_factor = 1
-				army_defence_factor = -0.25
-				dig_in_speed_factor = -1
-            }
-		}
+		
 		COV_revanchism_2_idea = {
             name = COV_revanchism_2
             
@@ -50,5 +26,102 @@ ideas = {
 				army_core_attack_factor = 0.1
             }
         }
+		
+		COV_bunker_boost_idea = {
+            name = COV_bunker_boost
+            
+            picture = idea_COV_bunker_boost
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_bunker_factor = 0.2
+            }
+        }
+		
+        COV_dysfunctional_economy_idea = {
+            name = COV_dysfunctional_economy
+
+            picture = COV_dysfunctional_economy
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.1
+            }
+        }
+		
+		COV_surpise_attack_idea = { #timed idea when corvus invades cetus. should last for a week
+            name = COV_surpise_attack
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                army_speed_factor = 1
+				army_defence_factor = -0.25
+				dig_in_speed_factor = -1
+				army_core_attack_factor = 1
+            }
+		}
+		
+		COV_consolidate_gains_idea = {
+            name = COV_consolidate_gains
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                army_speed_factor = -0.25
+				army_defence_factor = 0.25
+				dig_in_speed_factor = 0.2
+				army_core_attack_factor = 1
+            }
+		}
+		
+		COV_renewed_offensive_idea = {
+            name = COV_renewed_offensive
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                army_speed_factor = 0.5
+				army_defence_factor = -0.125
+				dig_in_speed_factor = -0.5
+				army_core_attack_factor = 0.5
+            }
+		}
+		
+		COV_continued_offensive_idea = {
+            name = COV_renewed_offensive
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                army_speed_factor = 0.75
+				army_defence_factor = -0.175
+				dig_in_speed_factor = -0.75
+				army_core_attack_factor = 0.75
+            }
+		}
+		
+		COV_improve_supply_idea = {
+		name = COV_improve_supply
+
+            picture = COV_surpise_attack
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                supply_consumption_factor = -0.2
+				supply_combat_penalties_on_core_factor = -0.4
+            }
+		}
     }
 }

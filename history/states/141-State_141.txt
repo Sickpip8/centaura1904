@@ -11,9 +11,9 @@ state={
 		owner = ORI
 		add_core_of = ORI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 5
-			arms_factory = 8
+			arms_factory = 4
 
 		}
 		victory_points = {
@@ -27,6 +27,6 @@ state={
 	}
 	manpower=22909206
 	buildings_max_level_factor=1.000
-	state_category=expanded_industrial_sector
+	state_category=industrialized_metropolis
 	local_supplies=0.000
 }

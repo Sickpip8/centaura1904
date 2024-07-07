@@ -15,6 +15,7 @@ replace_path="common/peace_conference/ai_peace"
 replace_path="common/dynamic_modifiers"
 replace_path="common/achievements"
 replace_path="common/abilities"
+replace_path="common/ideas"
 replace_path="ai_strategy"
 replace_path="gfx/loadingscreens"
 tags={

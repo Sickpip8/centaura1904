@@ -6305,6 +6305,11 @@ spriteTypes = {
 		name = "GFX_focus_generic_no_image"
 		texturefile = "gfx/interface/goals/focus_generic_no_image.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_attack_cetus"
+		texturefile = "gfx/interface/goals/focus_generic_attack_cetus.dds"
+	}
 	#########
 	# cetus #
 	#########
