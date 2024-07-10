@@ -2,15 +2,16 @@ state={
 	id=51
 	name="STATE_51"
     resources = {
-        steel = 12
+        steel = 3
         tungsten = 5
     }
 	history = {
 		owner = COV
 		add_core_of = COV
 		buildings = {
-			arms_factory = 2
+			arms_factory = 3
 			infrastructure = 3
+			industrial_complex = 2
 			4099 = {
 			naval_base = 6
 			}
@@ -34,5 +35,5 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=29627656
-        state_category = city
+        state_category = metropolis
 }

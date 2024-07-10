@@ -15,6 +15,19 @@ state={
 			infrastructure = 3
 			3625 = {
 				naval_base = 4
+				coastal_bunker = 8
+			}
+			3634 = {
+				coastal_bunker = 8
+			}
+			3028 = {
+				coastal_bunker = 8
+			}
+			3599 = {
+				coastal_bunker = 8
+			}
+			3598 = {
+				coastal_bunker = 8
 			}
 		}
 		victory_points = {

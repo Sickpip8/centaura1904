@@ -3,49 +3,49 @@ COV = {
 		prefix = "CS"
 		generic = { "Submarine" }
 		unique = {
-			"Ursan License Submarine 1" 
+			"Ursan License Submarine 1" "Ursan License Submarine 2" "Ursan License Submarine 3" "Ursan License Submarine 4" "Ursan License Submarine 5" "Ursan License Submarine 6" 
 		}
 	}
 	destroyer = {
 		prefix = "CS"
 		generic = { "Destroyer"	}
 		unique = {
-			"Purpura"
+			"Procul"
 		}
 	}
 	light_cruiser = {
 		prefix = "CS"
 		generic = { "Light Cruiser" }
 		unique = {
-			"Aurum
+			"Aereus" "Argenti" "Aurum" "Ferrum"
 		}
 	}
 	heavy_cruiser = {
 		prefix = "CS"
 		generic = { "Heavy Cruiser" }
 		unique = {
-			"Rubrum"
+			"Alchiba"
         }
 	}
 	battle_cruiser = {
         prefix = "CS"
         generic = { "Battlecruiser" }
         unique = {
-            "Alphatau"
+            "Alphacorvi"
         }
     }
     battleship = {
         prefix = "CS"
         generic = { "Battleship" }
         unique = {
-            "Kraz"
+            "Kraz" "Ravo" "Gienah" "Algorab" "Minkar"
         }
     }
 	carrier = {
 		prefix = "CS"
 		generic = { "Carrier" }
 		unique = {
-			"Experimental Ship 1"
+			"Experimentium A"
 			}
 		}
 	}

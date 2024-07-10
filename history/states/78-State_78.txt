@@ -8,6 +8,51 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 3
+			3574 = {
+				coastal_bunker = 8
+				bunker = 8
+			}
+			2953 = {
+				coastal_bunker = 8
+				bunker = 8
+			}
+			3576 = {
+				coastal_bunker = 8
+				bunker = 8
+			}
+			186 = {
+				coastal_bunker = 8
+				bunker = 8
+			}
+			1585 = {
+				coastal_bunker = 8
+				bunker = 8
+			}
+			3563 = {
+				bunker = 8
+				coastal_bunker = 8
+			}
+			607 = {
+				bunker = 8
+			}
+			3027 = {
+				bunker = 8
+			}
+			1448 = {
+				bunker = 8
+			}
+			1009 = {
+				bunker = 8
+			}
+			3240 = {
+				bunker = 8
+			}
+			3562 = {
+				bunker = 8
+			}
+			3565 = {
+				bunker = 8
+			}
 		}
 		victory_points = {
 			3565 15

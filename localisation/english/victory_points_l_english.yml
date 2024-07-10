@@ -1,5 +1,11 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§!victory points = §Y$POINTS$§!"
+ 
+ ## is CENTAURA
+ #### is URSA
+ # is HYDRA
+ ### is LIBRA
+ 
 ## CAPITAL CITIES
  VICTORY_POINTS_964:0 "Libratus"
  VICTORY_POINTS_2386:0 "Hydrus Capital V"
@@ -32,10 +38,14 @@
  VICTORY_POINTS_2910:0 "Dair"
  
  ## CETAN CITIES #credit to Handsndeck for them names
+ ## south corvus
+ VICTORY_POINTS_2749:0 "Blackton"
+ VICTORY_POINTS_4593:0 "Plaskett"
+ VICTORY_POINTS_4809:0 "Belport"
+ ## cetus proper
  VICTORY_POINTS_5032:0 "St. Kirk"
  VICTORY_POINTS_5136:0 "West Carran"
  VICTORY_POINTS_1346:0 "East Carran"
- VICTORY_POINTS_2749:0 "Blackton"
  VICTORY_POINTS_5161:0 "Mira"
  VICTORY_POINTS_4916:0 "Menkar"
  VICTORY_POINTS_1682:0 "Crosney"
@@ -48,7 +58,6 @@
  VICTORY_POINTS_1123:0 "Diphda"
  VICTORY_POINTS_1860:0 "Hobdale"
  VICTORY_POINTS_2449:0 "Capergate"
- VICTORY_POINTS_4809:0 "Belport"
  VICTORY_POINTS_4791:0 "Charham"
  VICTORY_POINTS_2690:0 "Allansford"
  VICTORY_POINTS_120:0 "Luyten"
@@ -62,6 +71,7 @@
  
  ## ANTAREAN CITIES
  VICTORY_POINTS_919:0 "Shaula"
+ VICTORY_POINTS_2177:0 "Kharon"
  
  ## VEGAN CITIES
  VICTORY_POINTS_4704:0 "Sulafat"

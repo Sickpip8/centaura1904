@@ -1,5 +1,5 @@
 state_categories = {
-	industrialized_metropolis = {
+	industrialized_megalopolis = {
 		local_building_slots = 15
 		
 		color = { 140 150 255 }

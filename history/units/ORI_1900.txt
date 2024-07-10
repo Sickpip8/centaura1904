@@ -99,7 +99,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 2408
+		location = 4528
 		division_template = "Republican Guard Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
@@ -110,7 +110,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 2408
+		location = 4853
 		division_template = "Republican Guard Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
@@ -433,7 +433,7 @@ units = {
 		division_name = {
 			is_name_ordered = no
 		}
-		location = 4348
+		location = 4359
 		division_template = "Home Guard Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
