@@ -12,6 +12,9 @@ Teemodahunta (Proud Hydrusite warrior) (Orion Dev)
 # ARTIST GFX
 crack_addict. (Total ant death) (GFX)
 
+# CONTRIBUTORS
+EeksusDeekus (some loading screen gfx)
+
 # PLAYTESTERS
 kaiser1915
 

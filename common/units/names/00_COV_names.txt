@@ -51,34 +51,6 @@ COV = {
 	}
 	air_wing_names_template = AIR_WING_NAME_COV_FALLBACK
 
-	#Air wings can only be named through archetype
-
-	cv_small_plane_airframe = {
-		prefix = ""
-		generic = { "Squadron FAA" }
-		generic_pattern = AIR_WING_NAME_COV_CARRIER
-		unique = { "No. 800 Naval Air Squadron"
-		}	
-	}
-
-	cv_small_plane_cas_airframe = {
-		prefix = ""
-		generic = { "Squadron FAA" }
-		generic_pattern = AIR_WING_NAME_COV_CARRIER
-		unique = {
-		 "No. 800 Naval Air Squadron"
-		}	
-	}
-	cv_small_plane_naval_bomber_airframe = {
-		prefix = ""
-		generic = { "Squadron FAA" }
-		generic_pattern = AIR_WING_NAME_COV_CARRIER
-		unique = {
-		 "No. 800 Naval Air Squadron"
-	}
-
-	
-
 	infantry = {
 		prefix = ""
 		generic = { "Infantry Division" }

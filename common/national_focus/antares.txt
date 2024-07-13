@@ -290,7 +290,10 @@ focus_tree = {
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 
 		available_if_capitulated = yes
-
+		
+		available = {
+			has_tech = iw_fighters
+			}
 
 		complete_tooltip = {
 			air_experience = 25
@@ -2337,22 +2340,113 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = ANT_test
+		id = ANT_act_on_ambitions
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 25
+		x = 27
 		y = 0
 		cost = 10
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available = {
+				is_subject = no
+				has_army_manpower = { size > 699999 }
+		}
+		completion_reward = {
+			custom_effect_tooltip = corvus_does_nothing_tooltip
+				}
+			}
+	
+	focus = {
+		id = ANT_alliance_corvus
+		icon = GFX_focus_COV_the_confederation
+		prerequisite = { focus = ANT_act_on_ambitions }
+		relative_position_id = ANT_act_on_ambitions
+		x = -2
+		y = 1
+		cost = 10
 		
-		available_if_capitulated = yes
+		bypass = {
+			ANT = {
+				OR = {
+					is_in_faction_with = COV
+					has_war_with = COV
+				}
+			}
+		}
+		
+		
+		
+		completion_reward = {
+			custom_effect_tooltip = corvus_does_nothing_tooltip
+			hidden_effect = {
+			custom_effect_tooltip = antares_corvus_alliance_tooltip
+			}
+		}
+	}
+	
+	focus = {
+		id = ANT_war_with_cetus
+		icon = GFX_focus_generic_attack_cetus
+		prerequisite = { focus = ANT_act_on_ambitions }
+		relative_position_id = ANT_act_on_ambitions
+		x = 0
+		y = 1
+		cost = 10
+		
+		bypass = {
+			ANT = {
+				OR = {
+					is_in_faction_with = CET
+					has_war_with = CET
+				}
+			}
+		}
 
 		completion_reward = {
-			army_experience = 25
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+			add_named_threat = { threat = 5 name = ANT_war_with_cetus }
+			create_wargoal = {
+					type = take_state_focus
+					target = CET
+					expire = 0
+			}
+		}
+	}
+	
+	focus = {
+		id = ANT_war_with_aquila
+		icon = GFX_focus_generic_aquila
+		prerequisite = { focus = ANT_war_with_cetus }
+		relative_position_id = ANT_war_with_cetus
+		x = 0
+		y = 1
+		cost = 10
+		
+		available = {
+				controls_state = 39
+				controls_state = 40
+				controls_state = 41
+				controls_state = 42
+				controls_state = 43
+				controls_state = 44
+				controls_state = 45
+				controls_state = 46
+				controls_state = 47
+				controls_state = 49
+		}
+		
+		bypass = {
+			ANT = {
+				OR = {
+					is_in_faction_with = AQU
+					has_war_with = AQU
+				}
+			}
+		}
+
+		completion_reward = {
+			add_named_threat = { threat = 5 name = ANT_war_with_aquila }
+			create_wargoal = {
+					type = take_state_focus
+					target = AQU
+					expire = 0
 			}
 		}
 	}

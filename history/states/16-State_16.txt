@@ -2,10 +2,10 @@
 state={
 	id=16
 	name="STATE_16"
-	resources = {
-		steel = 12
+	resources={
+		steel=12.000
 	}
-	
+
 	history={
 		owner = CTA
 		add_core_of = CTA
@@ -16,34 +16,40 @@ state={
 			3625 = {
 				naval_base = 4
 				coastal_bunker = 8
+
 			}
 			3634 = {
 				coastal_bunker = 8
+
 			}
 			3028 = {
 				coastal_bunker = 8
+
 			}
 			3599 = {
 				coastal_bunker = 8
+
 			}
 			3598 = {
 				coastal_bunker = 8
+
 			}
+
 		}
 		victory_points = {
-			3028 30
+			3028 30 
 		}
 		victory_points = {
-			95 50
+			95 50 
 		}
 
 	}
 
 	provinces={
-		95 1703 1819 2390 3028 3177 3578 3598 3599 3607 3615 3625 3634 6681 
+		95 1703 1819 2390 3028 3177 3578 3598 3599 3607 3615 3625 3634 
 	}
+	manpower=3680584
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 	local_supplies=0.000
-        manpower=3680584
-        state_category = metropolis
 }

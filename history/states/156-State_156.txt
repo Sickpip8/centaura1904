@@ -1,0 +1,24 @@
+state={
+	id=156
+	name="STATE_156"
+	history={
+		owner = CLB
+		add_core_of = CLB
+		buildings = {
+			infrastructure = 1
+			6723 = {
+				naval_base = 1
+				}
+			}
+			victory_points = {
+			6723 1 
+			}
+		}
+	provinces={
+		6723 
+	}
+	manpower=1259
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -14,13 +14,13 @@ Centauri: 4
 Columba: 8
 Vega: 5
 Grusa: 3
-Cetus: 12
+Cetus: 13
 Corvus: 6
 Aquila: 9
 Antares: 22
 Lacerta: 1
 
-Ursa: 23 (8, 10, 5) Ursa, Canis, Lepus
+Ursa: 24 (9, 10, 5) Ursa, Canis, Lepus
 
 Libra: 7
 

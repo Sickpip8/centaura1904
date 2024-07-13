@@ -35,7 +35,8 @@
  VICTORY_POINTS_4145:0 "Algorab"
  VICTORY_POINTS_3237:0 "Volans"
  VICTORY_POINTS_4321:0 "Minkar"
- VICTORY_POINTS_2910:0 "Dair"
+ VICTORY_POINTS_2910:0 "Dair" #from MenNemMane
+ VICTORY_POINTS_6744:0 "Liezen"
  
  ## CETAN CITIES #credit to Handsndeck for them names
  ## south corvus
@@ -97,9 +98,6 @@
  ## LACERTAN CITIES
  VICTORY_POINTS_4486:0 "Talona"
  
- #### URSAN CITIES
- VICTORY_POINTS_4486:0 "Talona"
- 
  # HYDRUS CITIES
  VICTORY_POINTS_4486:0 "Talona"
  
@@ -124,3 +122,5 @@
  ### LIBRAN CITIES
  VICTORY_POINTS_4486:0 "Talona"
  
+ #### URSAN CITIES
+ VICTORY_POINTS_4486:0 "Talona"

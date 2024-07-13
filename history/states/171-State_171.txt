@@ -1,0 +1,21 @@
+state={
+	id=171
+	name="STATE_171"
+	history={
+		owner = URS
+		add_core_of = CNS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			6756 1
+		}
+	}
+	provinces={
+		6756 
+	}
+	manpower=1337
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
