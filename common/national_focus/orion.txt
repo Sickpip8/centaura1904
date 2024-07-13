@@ -968,7 +968,7 @@ focus = {
 		focus = {
 			id = ORS_OrioniteImperialism
 			icon = GFX_focus_ORI_OrioniteImperialism
-			x = 45
+			x = 46
 			y = 1
 			cost = 5
 			available = {
@@ -1020,7 +1020,7 @@ focus = {
 		focus = {
 			id = ORS_OrioniteIsolationism
 			icon = GFX_focus_ORI_OrioniteIsolationism
-			x = 35
+			x = 34
 			y = 1
 			cost = 5
 			available = {
@@ -1044,9 +1044,9 @@ focus = {
 		}
 		
 		focus = {
-			id = ORS_IsolateAuriga
-			icon = GFX_focus_ORI_EncircleAuriga
-			x = 45
+			id = ORS_LookDownSouth
+			icon = GFX_focus_generic_black_sea_focus
+			x = 46
 			y = 2
 			cost = 5
 			available = {
@@ -1067,9 +1067,32 @@ focus = {
 		}
 		
 		focus = {
+			id = ORS_IsolateAuriga
+			icon = GFX_focus_ORI_EncircleAuriga
+			x = 46
+			y = 3
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_LookDownSouth
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
 			id = ORS_RallyTheNationalists
 			icon = GFX_focus_ORI_RallyTheNationalists
-			x = 47
+			x = 51
 			y = 2
 			cost = 5
 			available = {
@@ -1078,6 +1101,221 @@ focus = {
 			
 			prerequisite = {
 				focus = ORS_OrioniteImperialism
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_InvadeAuriga
+			icon = GFX_goal_generic_major_war
+			x = 46
+			y = 4
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_IsolateAuriga
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		
+		focus = {
+			id = ORS_ExpandTheMilitaryIndustry
+			icon = GFX_focus_SOV_merge_plants
+			x = 51
+			y = 3
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_RallyTheNationalists
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_ExpandLibranPorts
+			icon = GFX_goal_generic_construct_naval_dockyard
+			x = 43
+			y = 2
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_OrioniteImperialism
+				focus = ORS_OrioniteInterventionism
+			}
+			
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		
+		focus = {
+			id = ORS_FoundTheMarineCorps
+			icon = GFX_goal_generic_amphibious_assault
+			x = 51
+			y = 4
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_ExpandTheMilitaryIndustry
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_RoundTwo
+			icon = GFX_focus_ger_strike_at_the_source
+			x = 48
+			y = 4
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_BuildCanisianNavalBases
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_BuildCanisianNavalBases
+			icon = GFX_focus_generic_naval_discipline
+			x = 48
+			y = 3
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_LookUpNorth
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_LookUpNorth
+			icon = GFX_focus_generic_mediterranean_sea_focus
+			x = 48
+			y = 2
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_OrioniteImperialism
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		
+		focus = {
+			id = ORS_FinishTheLastManStanding
+			icon = GFX_focus_ICE_securing_the_north_sea_passage
+			x = 47
+			y = 5
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_RoundTwo
+			}
+			prerequisite = {
+				focus = ORS_InvadeAuriga
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_TheEasternTitan
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 47
+			y = 6
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_FinishTheLastManStanding
 			}
 			
 			completion_reward = {
