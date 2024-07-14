@@ -395,7 +395,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            48 = {
+            154 = {
                 add_extra_state_shared_building_slots = 3
                 add_building_construction = {
                     type = dockyard
@@ -502,6 +502,485 @@ focus_tree = {
         prerequisite = { focus = CET_status_quo }
 
         completion_reward = {
-
+		
         }
     }
+	
+	focus = {
+        id = CET_armed_forces
+        x = 30
+        y = 0
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_army
+        x = 4
+        y = 1
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        relative_position_id = CET_armed_forces
+		prerequisite = { focus = CET_armed_forces }
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_navy
+        x = -4
+        y = 1
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        relative_position_id = CET_armed_forces
+		prerequisite = { focus = CET_armed_forces }
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_review_spending
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = -4
+        y = 1
+        relative_position_id = CET_army
+		prerequisite = { focus = CET_army }
+		prerequisite = { focus = CET_navy }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	#focus = {
+     #   id = CET_2
+	#	icon = GFX_focus_SWE_neither_death_nor_dishonor
+    #    x = 0
+    #    y = 1
+      #  relative_position_id = CET_army
+	#	prerequisite = { focus = CET_army }
+#
+        #icon = GFX_
+        #search_filters =
+     #   cost = 10
+
+     #   completion_reward = {
+	#	custom_effect_tooltip = corvus_does_nothing_tooltip
+   #     }
+   # }
+	
+	focus = {
+        id = CET_defence_measures
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = 2
+        y = 1
+        relative_position_id = CET_army
+		prerequisite = { focus = CET_army }
+		
+		available = {
+			OR = {
+			has_war_with = COV
+			has_war_with = ANT
+			has_war_with = AQU
+			has_war_with = CLB
+			}
+		}
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 5
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_defence_first
+		icon = GFX_focus_generic_fortify_finland
+        x = -2
+        y = 1
+        relative_position_id = CET_defence_measures
+		prerequisite = { focus = CET_defence_measures }
+		mutually_exclusive = { focus = CET_counterattack_first }
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+				add_timed_idea = {
+				idea = CET_defence_idea
+				days = 140
+				}
+			}
+		}
+		
+		focus = {
+        id = CET_bunker_line
+		icon = GFX_focus_SWE_hedgehog_defense
+        x = 0
+        y = 1
+        relative_position_id = CET_defence_first
+		prerequisite = { focus = CET_defence_first }
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+				add_timed_idea = {
+				idea = CET_bunker_line_idea
+				days = 140
+				}
+			}
+		}
+	
+	focus = {
+        id = CET_counterattack_first
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = 2
+        y = 1
+        relative_position_id = CET_defence_measures
+		prerequisite = { focus = CET_defence_measures }
+		mutually_exclusive = { focus = CET_defence_first }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+				add_timed_idea = {
+				idea = CET_counterattack_idea
+				days = 70
+				}
+			}
+		}
+	
+	focus = {
+        id = CET_raise_army
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = -2
+        y = 1
+        relative_position_id = CET_counterattack_first
+		prerequisite = { focus = CET_counterattack_first focus = CET_defence_first }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+			division_template = {
+			name = "Rushed Infantry Division"
+			division_names_group = CET_INF_3
+	
+			regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			}
+	
+			support = {
+				engineer = { x = 0 y = 0 }
+				artillery = {x = 0 y = 1}
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 45 }
+				limit = { PREV = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Rushed Infantry Division\" division_template = \"Rushed Infantry Division\" start_experience_factor = 0.5" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Rushed Infantry Division\" division_template = \"Rushed Infantry Division\" start_experience_factor = 0.5" 
+					owner = PREV
+				}
+			}
+		}
+	}
+	
+	focus = {
+        id = CET_defence_plans
+		icon = GFX_goal_generic_defence
+        x = 18
+        y = 1
+        relative_position_id = CET_army
+		prerequisite = { focus = CET_army }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_ideas = CET_defence_planning_idea
+        }
+    }
+	
+	focus = {
+        id = CET_plan_corvus
+		icon = GFX_focus_COV_the_confederation
+        x = -4
+        y = 1
+        relative_position_id = CET_defence_plans
+		prerequisite = { focus = CET_defence_plans }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+		available = {
+			OR = {
+				NOT = { has_completed_focus = CET_plan_antares }
+				has_completed_focus = CET_complete_plan_antares
+			}
+		}
+		
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_corvus_bunker_lines_north
+		icon = GFX_focus_COV_the_confederation
+        x = 0
+        y = 1
+        relative_position_id = CET_plan_corvus
+		prerequisite = { focus = CET_plan_corvus }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_corvus_bunker_lines_south
+		icon = GFX_focus_COV_the_confederation
+        x = 2
+        y = 1
+        relative_position_id = CET_plan_corvus
+		prerequisite = { focus = CET_plan_corvus }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_plan_antares
+		icon = GFX_focus_generic_ant
+        x = 0
+        y = 1
+        relative_position_id = CET_defence_plans
+		prerequisite = { focus = CET_defence_plans }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_complete_plan_antares
+		icon = GFX_focus_generic_ant
+        x = 0
+        y = 1
+        relative_position_id = CET_plan_antares
+		prerequisite = { focus = CET_plan_antares }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_plan_aquila
+		icon = GFX_focus_generic_aquila
+        x = 4
+        y = 1
+        relative_position_id = CET_defence_plans
+		prerequisite = { focus = CET_defence_plans }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_plan_columba
+		icon = GFX_focus_generic_no_image
+        x = 8
+        y = 1
+        relative_position_id = CET_defence_plans
+		prerequisite = { focus = CET_defence_plans }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_deploy_the_elite_guard
+		icon = GFX_focus_generic_total_war
+        x = 29
+        y = 2
+
+        #icon = GFX_
+        #search_filters =
+        cost = 5
+
+        completion_reward = {
+			custom_effect_tooltip = cetus_joke_army_tooltip
+			random_owned_controlled_state = {
+				prioritize = { 45 }
+				limit = { PREV = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
+					owner = PREV
+				}
+			}
+		}
+	}

@@ -553,6 +553,8 @@
 			}
 		}
 		
+		# defensive route
+		
 		focus = {
 		id = COV_consolidate_gains
 		icon = GFX_focus_FIN_weapon_caches
@@ -644,6 +646,8 @@
 				}
 			}
 		}
+		
+		# continued offensive #
 		
 		focus = {
 		id = COV_continue_attack

@@ -62,5 +62,54 @@ ideas = {
                 navy_capital_ship_defence_factor = 0.15
             }
         }
+		
+		CET_defence_planning_idea = {
+            name = CET_defence_planning
+
+            picture = cetus_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			army_defence_factor = 0.05
+            }
+        }
+		
+		CET_counterattack_idea = {
+            name = CET_counterattack
+            picture = cetus_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			army_attack_factor = 0.5
+			army_defence_factor = -0.2
+            }
+        }
+		
+		CET_defence_idea = {
+            name = CET_defence
+
+            picture = cetus_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			army_defence_factor = 0.5
+			dig_in_speed_factor = 0.75
+            }
+        }
+		
+		CET_bunker_line_idea = {
+            name = CET_bunker_line
+            
+            picture = CET
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_bunker_factor = 0.4
+            }
+        }
     }
 }

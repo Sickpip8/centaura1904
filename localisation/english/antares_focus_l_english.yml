@@ -5,4 +5,10 @@
  ANT_alliance_corvus_desc:0 "
  ANT_war_with_cetus:0 "War With Cetus"
  ANT_war_with_cetus_desc:0 "Kalvin Tau’s vision for peace through Antarean hegemony will be to invade every other country. Cetus will be the first stepping stone towards centauran peace."
+ ANT_war_with_corvus:0 "War With Corvus"
+ ANT_war_with_corvus_desc:0 "War With Corvus"
+ ANT_war_with_aquila:0 "War With Aquila"
+ ANT_war_with_aquila_desc:0 "War With Aquila"
+ 
+ 
  antares_corvus_alliance_tooltip:0 "This focus does nothing. Get Corvus to do the focus 'Request Antarean Intervention'."

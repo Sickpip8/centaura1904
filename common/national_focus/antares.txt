@@ -2342,7 +2342,7 @@ focus_tree = {
 	focus = {
 		id = ANT_act_on_ambitions
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 27
+		x = 30
 		y = 0
 		cost = 10
 		available = {
@@ -2353,35 +2353,7 @@ focus_tree = {
 			custom_effect_tooltip = corvus_does_nothing_tooltip
 				}
 			}
-	
-	focus = {
-		id = ANT_alliance_corvus
-		icon = GFX_focus_COV_the_confederation
-		prerequisite = { focus = ANT_act_on_ambitions }
-		relative_position_id = ANT_act_on_ambitions
-		x = -2
-		y = 1
-		cost = 10
 		
-		bypass = {
-			ANT = {
-				OR = {
-					is_in_faction_with = COV
-					has_war_with = COV
-				}
-			}
-		}
-		
-		
-		
-		completion_reward = {
-			custom_effect_tooltip = corvus_does_nothing_tooltip
-			hidden_effect = {
-			custom_effect_tooltip = antares_corvus_alliance_tooltip
-			}
-		}
-	}
-	
 	focus = {
 		id = ANT_war_with_cetus
 		icon = GFX_focus_generic_attack_cetus
@@ -2410,6 +2382,58 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = ANT_alliance_corvus
+		icon = GFX_focus_COV_the_confederation
+		prerequisite = { focus = ANT_act_on_ambitions }
+		relative_position_id = ANT_war_with_cetus
+		mutually_exclusive = { focus = ANT_war_with_corvus }
+		x = -4
+		y = 1
+		cost = 10
+		
+		bypass = {
+			ANT = {
+				OR = {
+					is_in_faction_with = COV
+					has_war_with = COV
+				}
+			}
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = antares_corvus_alliance_tooltip
+			}
+		}
+		
+		focus = {
+		id = ANT_war_with_corvus
+		icon = GFX_focus_COV_the_confederation
+		prerequisite = { focus = ANT_war_with_cetus }
+		relative_position_id = ANT_war_with_cetus
+		mutually_exclusive = { focus = ANT_alliance_corvus }
+		x = -2
+		y = 1
+		cost = 10
+		
+		bypass = {
+			ANT = {
+				OR = {
+					is_in_faction_with = COV
+					has_war_with = COV
+				}
+			}
+		}
+		
+		completion_reward = {
+			add_named_threat = { threat = 5 name = ANT_war_with_corvus }
+			create_wargoal = {
+					type = take_state_focus
+					target = COV
+					expire = 0
+			}
+		}
+	}
 	focus = {
 		id = ANT_war_with_aquila
 		icon = GFX_focus_generic_aquila
