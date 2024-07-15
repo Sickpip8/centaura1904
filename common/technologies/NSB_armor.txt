@@ -1,15 +1,15 @@
 technologies = {
 
 
-	@1918 = 0
-	@1934 = 2
+	@1904 = 0
+	@1907 = 2
 	@1935 = 3
-	@1936 = 4
+	@1910 = 4
 	@1937 = 5
 	@1938 = 5
 	@1939 = 7
-	@1940 = 7
-	@1941 = 8
+	@1914 = 7
+	@1915 = 8
 	@1942 = 9
 	@1943 = 10
 	@1944 = 11
@@ -112,7 +112,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1918
+		start_year = 1904
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
@@ -202,7 +202,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1907
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -1 y = 2 }
@@ -260,7 +260,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1910
 
 		folder = {
 			name = nsb_armour_folder
@@ -294,7 +294,7 @@ technologies = {
 				factor = 3
 				# Matilda II was designed and entered production in 1937
 				tag = ENG
-				date > "1936.9.1"
+				date > "1910.9.1"
 			}
 
 			modifier = {
@@ -353,7 +353,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1938
+		start_year = 1912
 
 		folder = {
 			name = nsb_armour_folder
@@ -418,7 +418,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1916
 
 		folder = {
 			name = nsb_armour_folder
@@ -467,7 +467,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1915
 
 		folder = {
 			name = nsb_armour_folder
@@ -583,12 +583,12 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1940.1.1"
+				date > "1914.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1941.1.1"
+				date > "1915.1.1"
 			}
 
 			modifier = {
@@ -628,11 +628,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1914
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1940 }
+			position = { x = 2 y = @1914 }
 		}
 
 		on_research_complete = {
@@ -662,7 +662,7 @@ technologies = {
 				}
 			}
 			modifier = {
-				date < "1941.1.1"
+				date < "1915.1.1"
 				factor = 0.3
 			}
 			modifier = {
@@ -851,7 +851,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1907
 
 		folder = {
 			name = nsb_armour_folder
@@ -914,11 +914,11 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1914
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 5 y = @1914 }
 		}
 
 		on_research_complete = {
@@ -1103,7 +1103,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1910
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1935 }
@@ -1219,10 +1219,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 1915
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
+			position = { x = 3 y = @1915 }
 		}
 
 		ai_will_do = {
@@ -1325,7 +1325,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1934
+		start_year = 1907
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1935 }
@@ -1437,10 +1437,10 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 1915
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 2 y = @1915 }
 		}
 
 		ai_will_do = {
@@ -1548,7 +1548,7 @@ technologies = {
 		show_effect_as_desc = no
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1910
 
 
 		categories = {
