@@ -6,6 +6,7 @@ state={
 		steel=19.000
 		chromium=13.000
 		tungsten=9.000
+		rubber=6
 	}
 
 	history={
