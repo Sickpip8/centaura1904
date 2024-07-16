@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_light = {
-		year = 1922
+		year = 1880
 
 		can_be_produced = {
 			if = {
@@ -130,7 +130,7 @@ equipments = {
 
 	ship_hull_light_1 = {
 		abbreviation = "hdb"
-		year = 1922
+		year = 1900
 
 		archetype = ship_hull_light
 		priority = 2000
