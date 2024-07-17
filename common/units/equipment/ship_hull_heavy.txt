@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_heavy = {
-		year = 1922
+		year = 1880
 
 		can_be_produced = {
 			if = {
@@ -210,7 +210,7 @@ equipments = {
 	}
 	ship_hull_heavy_1 = {
 		abbreviation = "hcc"
-		year = 1922
+		year = 1880
 		archetype = ship_hull_heavy
 		priority = 1500
 		parent = ship_hull_pre_dreadnought
@@ -303,7 +303,7 @@ equipments = {
 
 	ship_hull_heavy_2 = {
 		abbreviation = "hcd"
-		year = 1936
+		year = 1900
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -369,7 +369,7 @@ equipments = {
 
 	ship_hull_heavy_3 = {
 		abbreviation = "hce"
-		year = 1940
+		year = 1908
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -435,7 +435,7 @@ equipments = {
 
 	ship_hull_heavy_4 = {
 		abbreviation = "hcf"
-		year = 1944
+		year = 1912
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -502,7 +502,7 @@ equipments = {
 
 	ship_hull_super_heavy_1 = {
 		abbreviation = "hcg"
-		year = 1940
+		year = 1910
 
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -598,7 +598,7 @@ equipments = {
 	}
 
 	battleship_1 = { 
-		year = 1922
+		year = 1880
 		archetype = ship_hull_heavy
 		priority = 1500
 		visual_level = 0
@@ -706,7 +706,7 @@ equipments = {
 	}
 	
 	battleship_2 = {
-		year = 1936
+		year = 1900
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -760,7 +760,7 @@ equipments = {
 	}
 	
 	battleship_3 = {
-		year = 1940
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -815,7 +815,7 @@ equipments = {
 	}
 	
 	battleship_4 = {
-		year = 1944
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -871,7 +871,7 @@ equipments = {
 
 
 	SH_battleship_1 = {
-		year = 1936
+		year = 1900
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -992,7 +992,7 @@ equipments = {
 	}
 	
 	SH_battleship_2 = {
-		year = 1944
+		year = 1912
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1115,7 +1115,7 @@ equipments = {
 		
 	}
 	battle_cruiser_1 = {
-		year = 1922
+		year = 1908
 		visual_level = 0
 		archetype = ship_hull_heavy
 		priority = 1600
@@ -1170,7 +1170,7 @@ equipments = {
 	}
 	
 	battle_cruiser_2 = {
-		year = 1940
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1600
