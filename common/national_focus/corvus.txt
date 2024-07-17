@@ -1408,6 +1408,27 @@
 		}
 		
 		focus = {
+		id = COV_air
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = COV_army_2 }
+		relative_position_id = COV_army_2
+		x = 2
+		y = 1
+		cost = 10
+		
+		available = {
+		OR = {
+			has_tech = early_fighter
+			has_tech = iw_small_airframe
+			}
+		}
+		
+		completion_reward = {
+			air_experience = 25
+			}
+		}
+		
+		focus = {
 		id = COV_army_3
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = COV_army_2 }
