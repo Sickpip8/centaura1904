@@ -73,12 +73,19 @@ CET_cetus_rules_the_waves:0 "Cetus Rules the Waves"
 CET_cetus_rules_the_waves_desc:0 "Cetus has always been nation to pride itself on its maritime history. Over the centuries the Cetan Navy has grown to be strongest on all of Forma. The quest to explore all of the Inanis is driving forward this expansion."
 CET_independent_armed_forces:0 "Independently Acting Armed Forces"
 CET_independent_armed_forces_desc:0 "The armed forces have since the invasion of Southern Corvus proven themselves to be completely fine on their own, since then the Cetan government has let go of it's control over the Army and Navy respectively and now merely act only on foreign affairs."
+CET_independent_armed_forces_2:0 "Independently Acting Armed Forces"
+CET_independent_armed_forces_2_desc0 "A recent military reorganisation has improved some parts of the army at the cost of the navy."
+CET_independent_armed_forces_3:0 "Independently Acting Armed Forces"
+CET_independent_armed_forces_3_desc0 "The army recently has received some extra attention from the Cetan high command."
+CET_military_reorganisation_nf0 "
+CET_military_reorganisation_nf_desc0 "
 SC_question:0 "The Southern Corvus Question"
 SC_question_desc:0 "The question has arisen as to what to do with Southern Corvus for the remaining future, if not tackled this could lead to rising unrest."
 frederick_scapha:0 "Frederick I"
 
 # misc
 cetus_joke_army_tooltip:0 "Just incase you need §G24 fully trained units§!. Do not take this focus if you wanna play by the rules."
+cetus_mil_org:0 "Taking this focus will reduce your attack by §R100%§! and reduces organisation temporarily."
 # characters
 
 CET_frederick_scapha:0 "Frederick I"

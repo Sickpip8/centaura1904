@@ -524,7 +524,7 @@ focus_tree = {
         id = CET_army
         x = 4
         y = 1
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		icon = GFX_goal_generic_army_doctrines
         relative_position_id = CET_armed_forces
 		prerequisite = { focus = CET_armed_forces }
         #icon = GFX_
@@ -540,9 +540,25 @@ focus_tree = {
         id = CET_navy
         x = -4
         y = 1
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		icon = GFX_goal_generic_navy_doctrines_tactics
         relative_position_id = CET_armed_forces
 		prerequisite = { focus = CET_armed_forces }
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		navy_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_new_naval_officers
+        x = -4
+        y = 1
+		icon = GFX_goal_generic_navy_doctrines_tactics
+        relative_position_id = CET_navy
+		prerequisite = { focus = CET_navy }
         #icon = GFX_
         #search_filters =
         cost = 10
@@ -567,6 +583,72 @@ focus_tree = {
 
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_cut_army_spending
+		icon = GFX_focus_NORDIC_mon_army
+        x = -2
+        y = 1
+        relative_position_id = CET_review_spending
+		prerequisite = { focus = CET_review_spending }
+		mutually_exclusive = { focus = CET_cut_navy_spending }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_ideas = CET_army_cut_idea
+        }
+    }
+	
+	focus = {
+        id = CET_cut_navy_spending
+		icon = GFX_focus_NORDIC_mon_navy
+        x = 0
+        y = 1
+        relative_position_id = CET_review_spending
+		prerequisite = { focus = CET_review_spending }
+		mutually_exclusive = { focus = CET_cut_army_spending }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_ideas = CET_naval_cut_idea
+        }
+    }
+	
+	focus = {
+        id = CET_army_focus
+		icon = GFX_focus_NORDIC_mon_army
+        x = 0
+        y = 2
+        relative_position_id = CET_cut_navy_spending
+		prerequisite = { focus = CET_cut_navy_spending }
+		prerequisite = { focus = CET_military_reorganisation }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		if = {
+		has_ideas = CET_independent_armed_forces_idea
+		}
+		swap_ideas = {
+				remove_idea = CET_independent_armed_forces_idea
+				add_idea = CET_independent_armed_forces_3_idea
+			}
+			else_if = {
+			swap_ideas = {
+				remove_idea = CET_independent_armed_forces_2_idea
+				add_idea = CET_independent_armed_forces_3_idea
+				}
+			}
         }
     }
 	
@@ -639,7 +721,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_counterattack_first
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		icon = GFX_focus_LAT_lightning_strike
         x = 2
         y = 1
         relative_position_id = CET_defence_measures
@@ -659,8 +741,33 @@ focus_tree = {
 		}
 		
 		focus = {
+        id = CET_military_reorganisation
+		icon = GFX_focus_SOV_organization_centralization_discipline
+        x = -4
+        y = 1
+        relative_position_id = CET_defence_measures
+		prerequisite = { focus = CET_defence_measures }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+		select_effect = {
+			add_ideas = CET_military_reorganisation_nf
+		}
+		
+        completion_reward = {
+		custom_effect_tooltip = cetus_mil_org
+				swap_ideas = {
+				remove_idea = CET_independent_armed_forces_idea
+				add_idea = CET_independent_armed_forces_2_idea
+				}
+			}
+		}
+		
+		focus = {
         id = CET_marines_attack
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		icon = GFX_focus_ETH_keep_the_chitet
         x = 0
         y = 1
         relative_position_id = CET_counterattack_first
@@ -676,7 +783,7 @@ focus_tree = {
 	}
 	focus = {
         id = CET_raise_army
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		icon = GFX_focus_generic_manpower
         x = -2
         y = 1
         relative_position_id = CET_counterattack_first
