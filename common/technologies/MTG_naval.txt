@@ -1320,11 +1320,11 @@ early_ship_hull_carrier = {
 
 		research_cost = 1.5
 
-		start_year = 1905
+		start_year = 1908
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 8 }
+			position = {  x = -2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1366,7 +1366,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 14 }
+			position = {  x = -2 y = 20 }
 		}
 
 		ai_will_do = {
@@ -1414,7 +1414,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 20 }
+			position = {  x = -2 y = 26 }
 		}
 
 		ai_will_do = {
@@ -1452,7 +1452,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 26 }
+			position = {  x = -2 y = 32 }
 		}
 
 		ai_will_do = {
@@ -1488,11 +1488,11 @@ early_ship_hull_carrier = {
 		}
 		research_cost = 1
 
-		start_year = 1912
+		start_year = 1914
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 19 }
+			position = {  x = -1 y = 25 }
 		}
 
 		ai_will_do = {
@@ -1545,7 +1545,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 25 }
+			position = {  x = -1 y = 31 }
 		}
 
 		ai_will_do = {
