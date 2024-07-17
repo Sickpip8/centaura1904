@@ -292,8 +292,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		available = {
-			has_tech = iw_fighters
+		OR = {
+			has_tech = early_fighter
+			has_tech = iw_small_airframe
 			}
+		}
 
 		complete_tooltip = {
 			air_experience = 25

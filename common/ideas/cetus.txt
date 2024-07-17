@@ -63,6 +63,21 @@ ideas = {
             }
         }
 		
+		
+		CET_incompetent_naval_command_idea = {
+            name = CET_incompetent_naval_command
+
+            picture = cetus_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			naval_retreat_chance_after_initial_combat = 0.8
+			naval_retreat_speed_after_initial_combat = 0.5
+			naval_torpedo_damage_reduction_factor = -0.1
+            }
+        }
+		
 		CET_defence_planning_idea = {
             name = CET_defence_planning
 
@@ -72,6 +87,7 @@ ideas = {
 
             modifier = {
 			army_defence_factor = 0.05
+			max_planning_factor = 0.05
             }
         }
 		

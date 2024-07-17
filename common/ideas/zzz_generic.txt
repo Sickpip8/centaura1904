@@ -163,7 +163,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
+				fascism_drift = -0.1
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
@@ -240,8 +240,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				communism_drift = -0.1
+				communism_acceptance = -85
 			}
 		}
 		democratic_influence = {
@@ -321,8 +321,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 35
+				communism_drift = -0.1
+				communism_acceptance = -35
 			}
 		}
 
@@ -576,7 +576,7 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				conscription = 0.05
+				conscription = 0.02
 				resistance_damage_to_garrison = -0.1 
 			}
 		}
@@ -600,7 +600,7 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				conscription = 0.02
+				conscription = 0.01
 			}
 		}
 	

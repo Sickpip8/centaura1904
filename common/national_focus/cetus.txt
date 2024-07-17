@@ -532,7 +532,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
+		army_experience = 10
         }
     }
 	
@@ -548,7 +548,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
+		navy_experience = 10
         }
     }
 	
@@ -569,23 +569,6 @@ focus_tree = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
         }
     }
-	
-	#focus = {
-     #   id = CET_2
-	#	icon = GFX_focus_SWE_neither_death_nor_dishonor
-    #    x = 0
-    #    y = 1
-      #  relative_position_id = CET_army
-	#	prerequisite = { focus = CET_army }
-#
-        #icon = GFX_
-        #search_filters =
-     #   cost = 10
-
-     #   completion_reward = {
-	#	custom_effect_tooltip = corvus_does_nothing_tooltip
-   #     }
-   # }
 	
 	focus = {
         id = CET_defence_measures
@@ -674,7 +657,23 @@ focus_tree = {
 				}
 			}
 		}
-	
+		
+		focus = {
+        id = CET_marines_attack
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = 0
+        y = 1
+        relative_position_id = CET_counterattack_first
+		prerequisite = { focus = CET_counterattack_first }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+			custom_effect_tooltip = corvus_does_nothing_tooltip
+		}
+	}
 	focus = {
         id = CET_raise_army
 		icon = GFX_focus_SWE_neither_death_nor_dishonor
@@ -743,7 +742,7 @@ focus_tree = {
 	focus = {
         id = CET_plan_corvus
 		icon = GFX_focus_COV_the_confederation
-        x = -4
+        x = -6
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
@@ -765,9 +764,9 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_corvus_bunker_lines_north
+        id = CET_corvus_warplan
 		icon = GFX_focus_COV_the_confederation
-        x = 0
+        x = 2
         y = 1
         relative_position_id = CET_plan_corvus
 		prerequisite = { focus = CET_plan_corvus }
@@ -782,12 +781,48 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_corvus_bunker_lines_south
+        id = CET_corvus_bunker_lines_north
 		icon = GFX_focus_COV_the_confederation
-        x = 2
+        x = 0
         y = 1
         relative_position_id = CET_plan_corvus
 		prerequisite = { focus = CET_plan_corvus }
+		mutually_exclusive = { focus = CET_corvus_bunker_lines_south }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_corvus_bunker_lines_south
+		icon = GFX_focus_COV_the_confederation
+        x = -2
+        y = 1
+        relative_position_id = CET_plan_corvus
+		prerequisite = { focus = CET_plan_corvus }
+		mutually_exclusive = { focus = CET_corvus_bunker_lines_north }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_whitemouth_defence
+		icon = GFX_focus_COV_the_confederation
+        x = 2
+        y = 1
+        relative_position_id = CET_corvus_warplan
+		prerequisite = { focus = CET_corvus_warplan focus = CET_southern_defence }
 
         #icon = GFX_
         #search_filters =
@@ -816,7 +851,7 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_complete_plan_antares
+        id = CET_southern_defence
 		icon = GFX_focus_generic_ant
         x = 0
         y = 1
@@ -833,9 +868,77 @@ focus_tree = {
     }
 	
 	focus = {
+        id = CET_nautan_fort
+		icon = GFX_focus_generic_ant
+        x = 0
+        y = 1
+        relative_position_id = CET_southern_defence
+		prerequisite = { focus = CET_southern_defence }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_mira_fort
+		icon = GFX_focus_generic_ant
+        x = 2
+        y = 1
+        relative_position_id = CET_southern_defence
+		prerequisite = { focus = CET_southern_defence }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_ant_eastern_fort
+		icon = GFX_focus_generic_ant
+        x = 4
+        y = 1
+        relative_position_id = CET_southern_defence
+		prerequisite = { focus = CET_southern_defence }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_complete_plan_antares
+		icon = GFX_focus_generic_ant
+        x = 0
+        y = 10
+        relative_position_id = CET_plan_antares
+		prerequisite = { focus = CET_plan_antares }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
         id = CET_plan_aquila
 		icon = GFX_focus_generic_aquila
-        x = 4
+        x = 6
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
@@ -852,7 +955,7 @@ focus_tree = {
 	focus = {
         id = CET_plan_columba
 		icon = GFX_focus_generic_no_image
-        x = 8
+        x = 12
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
