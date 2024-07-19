@@ -1,7 +1,7 @@
 equipments = {
 
 	ship_hull_carrier = {
-		year = 1922
+		year = 1908
 
 		can_be_produced = {
 			if = {
@@ -151,7 +151,7 @@ equipments = {
 
 	ship_hull_carrier_1 = {
 		abbreviation = "haa"
-		year = 1936
+		year = 1912
 		visual_level = 1
 		visual_tech_level_addition = 2
 		archetype = ship_hull_carrier
@@ -166,7 +166,7 @@ equipments = {
 
 	ship_hull_carrier_2 = {
 		abbreviation = "hab"
-		year = 1940
+		year = 1918
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -228,7 +228,7 @@ equipments = {
 
 	ship_hull_carrier_3 = {
 		abbreviation = "hac"
-		year = 1944
+		year = 1922
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -299,7 +299,7 @@ equipments = {
 
 	ship_hull_carrier_conversion_bb = {
 		abbreviation = "had"
-		year = 1922
+		year = 1908
 		visual_level = 0
 		archetype = ship_hull_carrier
 		priority = 1100
@@ -346,7 +346,7 @@ equipments = {
 
 	ship_hull_carrier_conversion_ca = {
 		abbreviation = "hae"
-		year = 1922
+		year = 1908
 		visual_level = 0
 		archetype = ship_hull_carrier
 		priority = 1200
@@ -388,7 +388,7 @@ equipments = {
 ###Prescripted designs for people without MtG
 
 	carrier_1 = {
-		year = 1922
+		year = 1908
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -482,7 +482,7 @@ equipments = {
 	}
 
 	carrier_2 = {
-		year = 1936
+		year = 1912
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -571,7 +571,7 @@ equipments = {
 	}
 
 	carrier_3 = {
-		year = 1940
+		year = 1918
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -618,7 +618,7 @@ equipments = {
 	}
 
 	carrier_4 = {
-		year = 1944
+		year = 1922
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000

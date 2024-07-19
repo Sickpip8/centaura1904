@@ -1210,7 +1210,7 @@ focus = {
 		
 		focus = {
 			id = ORS_RoundTwo
-			icon = GFX_focus_ger_strike_at_the_source
+			icon = GFX_focus_ORI_InvadeUrsa
 			x = 48
 			y = 4
 			cost = 5
@@ -1280,7 +1280,7 @@ focus = {
 		
 		focus = {
 			id = ORS_FinishTheLastManStanding
-			icon = GFX_focus_ICE_securing_the_north_sea_passage
+			icon = GFX_focus_ORI_InvadeHydrus
 			x = 47
 			y = 5
 			cost = 5
@@ -1306,7 +1306,7 @@ focus = {
 		
 		focus = {
 			id = ORS_TheEasternTitan
-			icon = GFX_focus_ETH_boots_on_the_shore
+			icon = GFX_focus_ORI_TheEasternTitan
 			x = 47
 			y = 6
 			cost = 5
@@ -1316,6 +1316,98 @@ focus = {
 			
 			prerequisite = {
 				focus = ORS_FinishTheLastManStanding
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_PrepareToStrikeTheBeast
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 54
+			y = 2
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_OrioniteImperialism
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_AntiAntareanPropaganda
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 54
+			y = 3
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_PrepareToStrikeTheBeast
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_StrikeTheBoogeymanOfCentaura
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 54
+			y = 4
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_AntiAntareanPropaganda
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_DestroyTheGiantOfTheNorth
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 56
+			y = 2
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_OrioniteImperialism
 			}
 			
 			completion_reward = {
