@@ -252,6 +252,19 @@ ideas = {
             }
         }
 		
+		CET_desperate_defence_idea = {
+            name = CET_desperate_defence
+
+            picture = cetus_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			mobilization_speed = 1
+			army_defence_factor = 0.2
+            }
+        }
+		
 		CET_defence_planning_idea = {
             name = CET_defence_planning
 
@@ -286,6 +299,7 @@ ideas = {
 
             modifier = {
 			army_defence_factor = 0.5
+			max_dig_in = 2
 			dig_in_speed_factor = 0.75
             }
         }

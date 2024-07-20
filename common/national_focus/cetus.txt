@@ -801,7 +801,7 @@ focus_tree = {
         cost = 5
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
+		add_ideas = CET_desperate_defence_idea
         }
     }
 	

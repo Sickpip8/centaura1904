@@ -169,7 +169,10 @@
  CET_naval_cut_desc:0 "Army reforms allowed!"
  CET_budget_reviewed:0 "Budget Review"
  CET_budget_reviewed_desc:0 "We have reviewed our budget in the army and navy. reduces consumer goods?"
- 
+ CET_defence_planning:0 "Defence Planning"
+ CET_defence_planning_desc:0 "Bunkers galore."
+ CET_desperate_defence:0 "Implemented Defence Measures"
+ CET_desperate_defence_desc:0 "We have been caught in a war and we need to put measures in order to not capitulate immediately."
  # misc
 
  # characters
