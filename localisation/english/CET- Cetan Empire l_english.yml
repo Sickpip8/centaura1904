@@ -113,9 +113,13 @@
  #plan aquila
  CET_plan_aquila:0 "Plan Aquila"
  CET_plan_aquila_desc:0 "
+ CET_complete_plan_aquila:0 "Complete Plan Aquila"
+ CET_complete_plan_aquila_desc:0 "
  #plan columba
  CET_plan_columba:0 "Plan Columba"
  CET_plan_columba_desc:0 "
+ CET_complete_plan_columba:0 "Complete Plan Columba"
+ CET_complete_plan_columba_desc:0 "
  
  
  # events 
