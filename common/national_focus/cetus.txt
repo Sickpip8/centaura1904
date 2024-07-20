@@ -1071,7 +1071,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_corvus_bunker_lines_border
-		icon = GFX_focus_COV_the_confederation
+		icon = GFX_focus_CET_north_fort
         x = 0
         y = 1
         relative_position_id = CET_plan_corvus
@@ -1158,7 +1158,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_corvus_bunker_lines_outer
-		icon = GFX_focus_COV_the_confederation
+		icon = GFX_focus_CET_sc_defence
         x = -2
         y = 1
         relative_position_id = CET_plan_corvus
@@ -1296,7 +1296,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_whitemouth_basic_defence
-		icon = GFX_focus_COV_the_confederation
+		icon = GFX_focus_CET_whitemouth_defence
         x = 2
         y = 1
         relative_position_id = CET_corvus_warplan
@@ -1359,7 +1359,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_st_kirks_defence
-		icon = GFX_focus_COV_the_confederation
+		icon = GFX_focus_CET_stkirk_fort
         x = -2
         y = 1
         relative_position_id = CET_whitemouth_basic_defence
@@ -1441,7 +1441,7 @@ focus_tree = {
 	}
 	focus = {
         id = CET_carrans_defence
-		icon = GFX_focus_COV_the_confederation
+		icon = GFX_focus_CET_carran_fort
         x = 0
         y = 1
         relative_position_id = CET_whitemouth_basic_defence
@@ -1584,7 +1584,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_nautan_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_nauta_fort
         x = 0
         y = 1
         relative_position_id = CET_southern_defence
@@ -1683,7 +1683,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_mira_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_mira_fort
         x = 2
         y = 1
         relative_position_id = CET_southern_defence
@@ -1831,7 +1831,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_ant_eastern_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_far_eastern_fort
         x = 4
         y = 1
         relative_position_id = CET_southern_defence

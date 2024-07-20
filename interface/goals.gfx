@@ -6313,6 +6313,11 @@ spriteTypes = {
 	#########
 	# cetus #
 	#########
+	#SpriteType = {
+	#	name = "GFX_focus_CET_"
+	#	texturefile = "gfx/interface/goals/focus_CET_.dds"
+	#}
+
 	SpriteType = {
 		name = "GFX_focus_CET_general_staff"
 		texturefile = "gfx/interface/goals/focus_CET_general_staff.dds"
@@ -6348,6 +6353,51 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_CET_every_man_himself"
 		texturefile = "gfx/interface/goals/focus_CET_naval_officers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_plan_corvus"
+		texturefile = "gfx/interface/goals/focus_CET_plan_corvus.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_north_fort"
+		texturefile = "gfx/interface/goals/focus_CET_north_fort.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_sc_defence"
+		texturefile = "gfx/interface/goals/focus_CET_sc_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_far_eastern_fort"
+		texturefile = "gfx/interface/goals/focus_CET_far_eastern_fort.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_mira_fort"
+		texturefile = "gfx/interface/goals/focus_CET_mira_fort.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_nauta_fort"
+		texturefile = "gfx/interface/goals/focus_CET_nauta_fort.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_whitemouth_defence"
+		texturefile = "gfx/interface/goals/focus_CET_whitemouth_defence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_stkirk_fort"
+		texturefile = "gfx/interface/goals/focus_CET_stkirk_fort.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CET_carran_fort"
+		texturefile = "gfx/interface/goals/focus_CET_carran_fort.dds"
 	}
 	#########
 	# orion #
