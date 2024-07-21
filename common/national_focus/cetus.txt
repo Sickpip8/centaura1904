@@ -556,7 +556,7 @@ focus_tree = {
         id = CET_new_naval_officers
         x = -4
         y = 1
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_focus_generic_naval_discipline
         relative_position_id = CET_navy
 		prerequisite = { focus = CET_navy }
         #icon = GFX_
@@ -565,6 +565,88 @@ focus_tree = {
 
         completion_reward = {
 		navy_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_grand_navy
+        x = -2
+        y = 1
+		icon = GFX_focus_ETH_an_ethiopian_navy_in_exile
+        relative_position_id = CET_navy
+		prerequisite = { focus = CET_navy }
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		navy_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_aircraft_research
+		icon = GFX_focus_ETH_the_ethiopian_air_force
+        x = 2
+        y = 1
+        relative_position_id = CET_navy
+		prerequisite = { focus = CET_army }
+		prerequisite = { focus = CET_navy }
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	
+	focus = {
+        id = CET_est_air_corp
+		icon = GFX_goal_generic_build_airforce
+        x = 0
+        y = 1
+        relative_position_id = CET_aircraft_research
+		prerequisite = { focus = CET_aircraft_research }
+		
+		available = {
+		OR = {
+			has_tech = early_fighter
+			has_tech = iw_small_airframe
+			}
+		}
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		air_experience = 5
+		random_state = {
+				limit = { 
+					OR = {
+						state = 7
+					}
+				}
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
         }
     }
 	
@@ -582,14 +664,17 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
+		add_timed_idea = {
+		idea = CET_budget_reviewed_idea
+		days = 210
+			}
         }
     }
 	
 	focus = {
         id = CET_cut_army_spending
 		icon = GFX_focus_NORDIC_mon_army
-        x = -2
+        x = 0
         y = 1
         relative_position_id = CET_review_spending
 		prerequisite = { focus = CET_review_spending }
@@ -601,13 +686,55 @@ focus_tree = {
 
         completion_reward = {
 		add_ideas = CET_army_cut_idea
+		if = {
+		has_ideas = CET_independent_armed_forces_idea
+		}
+		swap_ideas = {
+				remove_idea = CET_independent_armed_forces_idea
+				add_idea = CET_independent_armed_forces_2_b_idea
+			}
+			else_if = {
+			swap_ideas = {
+				remove_idea = CET_independent_armed_forces_2_b_idea
+				add_idea = CET_independent_armed_forces_3_b_idea
+				}
+			}
+        }
+    }
+	
+	focus = {
+        id = CET_increase_naval_budget
+		icon = GFX_focus_NORDIC_mon_army
+        x = 0
+        y = 1
+        relative_position_id = CET_cut_army_spending
+		prerequisite = { focus = CET_cut_army_spending }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		if = {
+		has_ideas = CET_rules_the_waves_idea
+		}
+		swap_ideas = {
+				remove_idea = CET_rules_the_waves_idea
+				add_idea = CET_rules_the_waves_2_idea
+				}
+			else_if = {
+			swap_ideas = {
+				remove_idea = CET_rules_the_waves_2_idea
+				add_idea = CET_rules_the_waves_3_idea
+				}
+			}
         }
     }
 	
 	focus = {
         id = CET_cut_navy_spending
 		icon = GFX_focus_NORDIC_mon_navy
-        x = 0
+        x = 2
         y = 1
         relative_position_id = CET_review_spending
 		prerequisite = { focus = CET_review_spending }
@@ -641,7 +768,7 @@ focus_tree = {
 		}
 		swap_ideas = {
 				remove_idea = CET_independent_armed_forces_idea
-				add_idea = CET_independent_armed_forces_3_idea
+				add_idea = CET_independent_armed_forces_2_idea
 			}
 			else_if = {
 			swap_ideas = {
@@ -654,8 +781,8 @@ focus_tree = {
 	
 	focus = {
         id = CET_defence_measures
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
-        x = 2
+		icon = GFX_focus_generic_home_defense
+        x = 4
         y = 1
         relative_position_id = CET_army
 		prerequisite = { focus = CET_army }
@@ -674,14 +801,14 @@ focus_tree = {
         cost = 5
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
+		add_ideas = CET_desperate_defence_idea
         }
     }
 	
 	focus = {
         id = CET_defence_first
 		icon = GFX_focus_generic_fortify_finland
-        x = -2
+        x = 2
         y = 1
         relative_position_id = CET_defence_measures
 		prerequisite = { focus = CET_defence_measures }
@@ -722,7 +849,7 @@ focus_tree = {
 	focus = {
         id = CET_counterattack_first
 		icon = GFX_focus_LAT_lightning_strike
-        x = 2
+        x = -2
         y = 1
         relative_position_id = CET_defence_measures
 		prerequisite = { focus = CET_defence_measures }
@@ -753,20 +880,42 @@ focus_tree = {
         cost = 10
 		
 		select_effect = {
-			add_ideas = CET_military_reorganisation_nf
+			add_ideas = CET_military_reorganisation_nf_idea
+		}
+
+		available = {
+
 		}
 		
-        completion_reward = {
-		custom_effect_tooltip = cetus_mil_org
-				swap_ideas = {
+		search_filters = {FOCUS_FILTER_ARMY_XP}
+
+		completion_reward = {
+			#Tooltip purposes (Select Effect)
+			custom_effect_tooltip = cetus_mil_org
+			effect_tooltip = {
+				add_ideas = CET_military_reorganisation_nf_idea
+			}
+
+			#(Complete Effect)
+			custom_effect_tooltip = cetus_mil_org_done
+			custom_effect_tooltip = cetus_mil_org_done_2
+			hidden_effect = {
+				remove_ideas = CET_military_reorganisation_nf_idea
+			}
+
+			#add_to_variable = { SOV_the_red_army_unit_infantry_design_cost_factor = -0.1 }
+			#add_to_variable = { SOV_the_red_army_unit_artillery_brigade_design_cost_factor = -0.1 }
+			swap_ideas = {
 				remove_idea = CET_independent_armed_forces_idea
 				add_idea = CET_independent_armed_forces_2_idea
 				}
+			army_experience = 25
+			add_command_power = 10
 			}
 		}
 		
 		focus = {
-        id = CET_marines_attack
+        id = CET_test
 		icon = GFX_focus_ETH_keep_the_chitet
         x = 0
         y = 1
@@ -781,12 +930,13 @@ focus_tree = {
 			custom_effect_tooltip = corvus_does_nothing_tooltip
 		}
 	}
+	
 	focus = {
         id = CET_raise_army
 		icon = GFX_focus_generic_manpower
-        x = -2
-        y = 1
-        relative_position_id = CET_counterattack_first
+        x = 0
+        y = 2
+        relative_position_id = CET_defence_measures
 		prerequisite = { focus = CET_counterattack_first focus = CET_defence_first }
 
         #icon = GFX_
@@ -830,9 +980,26 @@ focus_tree = {
 	}
 	
 	focus = {
+        id = CET_expand_marines
+		icon = GFX_focus_ETH_keep_the_chitet
+        x = 0
+        y = 1
+        relative_position_id = CET_raise_army
+		prerequisite = { focus = CET_raise_army }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+			add_ideas = CET_expand_em_idea
+		}
+	}
+	
+	focus = {
         id = CET_defence_plans
 		icon = GFX_goal_generic_defence
-        x = 18
+        x = 22
         y = 1
         relative_position_id = CET_army
 		prerequisite = { focus = CET_army }
@@ -862,6 +1029,17 @@ focus_tree = {
 			OR = {
 				NOT = { has_completed_focus = CET_plan_antares }
 				has_completed_focus = CET_complete_plan_antares
+				has_war_with = COV
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_aquila }
+				has_completed_focus = CET_complete_plan_aquila
+				has_war_with = COV
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_columba }
+				has_completed_focus = CET_complete_plan_columba
+				has_war_with = COV
 			}
 		}
 		
@@ -877,10 +1055,14 @@ focus_tree = {
         y = 1
         relative_position_id = CET_plan_corvus
 		prerequisite = { focus = CET_plan_corvus }
-
+		
+		available = {
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		}
+		
         #icon = GFX_
         #search_filters =
-        cost = 10
+        cost = 5
 		
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -888,35 +1070,224 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_corvus_bunker_lines_north
-		icon = GFX_focus_COV_the_confederation
+        id = CET_corvus_bunker_lines_border
+		icon = GFX_focus_CET_north_fort
         x = 0
         y = 1
         relative_position_id = CET_plan_corvus
 		prerequisite = { focus = CET_plan_corvus }
-		mutually_exclusive = { focus = CET_corvus_bunker_lines_south }
-
+		mutually_exclusive = { focus = CET_corvus_bunker_lines_outer }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 48
+		}
         #icon = GFX_
         #search_filters =
         cost = 10
 		
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-        }
-    }
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 48
+						}
+					}
+					custom_effect_tooltip = CET_border_defence_corvus
+					hidden_effect = {
+					48 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 145
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4639
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2920
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 156
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4441
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4383
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2870
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4235
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
 	
 	focus = {
-        id = CET_corvus_bunker_lines_south
-		icon = GFX_focus_COV_the_confederation
+        id = CET_corvus_bunker_lines_outer
+		icon = GFX_focus_CET_sc_defence
         x = -2
         y = 1
         relative_position_id = CET_plan_corvus
 		prerequisite = { focus = CET_plan_corvus }
-		mutually_exclusive = { focus = CET_corvus_bunker_lines_north }
-
+		mutually_exclusive = { focus = CET_corvus_bunker_lines_border }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 154
+		has_full_control_of_state = 47
+		has_full_control_of_state = 40
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
+		
+        completion_reward = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+						}
+					}
+					custom_effect_tooltip = CET_inland_defence_corvus
+					hidden_effect = {
+					154 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 21
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4762
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 808
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4727
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2079
+							instant_build = yes
+						}
+						47 = {
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 2449
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 4612
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 4561
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 4460
+								instant_build = yes
+								}
+						40 = {
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 1828
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 4301
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 749
+								instant_build = yes
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+        id = CET_complete_plan_corvus
+		icon = GFX_focus_COV_the_confederation
+        x = 0
+        y = 3
+        relative_position_id = CET_corvus_bunker_lines_border
+		prerequisite = { focus = CET_corvus_bunker_lines_outer focus = CET_corvus_bunker_lines_border }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 1
 		
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -924,22 +1295,241 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_whitemouth_defence
-		icon = GFX_focus_COV_the_confederation
+        id = CET_whitemouth_basic_defence
+		icon = GFX_focus_CET_whitemouth_defence
         x = 2
         y = 1
         relative_position_id = CET_corvus_warplan
 		prerequisite = { focus = CET_corvus_warplan focus = CET_southern_defence }
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 46
+		OR = {
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		has_completed_focus = CET_southern_defence
+			}
+			OR = {
+			NOT = { has_completed_focus = CET_complete_plan_antares }
+			has_completed_focus = CET_corvus_warplan
+			}
+		}
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 5
+		
+        completion_reward = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 46
+						}
+					}
+					custom_effect_tooltip = cetus_fort_whitemouth
+					hidden_effect = {
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5032
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5136
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 1346
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	
+	focus = {
+        id = CET_st_kirks_defence
+		icon = GFX_focus_CET_stkirk_fort
+        x = -2
+        y = 1
+        relative_position_id = CET_whitemouth_basic_defence
+		prerequisite = { focus = CET_whitemouth_basic_defence }
+		prerequisite = { focus = CET_corvus_warplan }
+		mutually_exclusive = { focus = CET_carrans_defence }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 46
+		OR = {
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		has_completed_focus = CET_southern_defence
+			}
+			OR = {
+			NOT = { has_completed_focus = CET_complete_plan_antares }
+			has_completed_focus = CET_plan_corvus
+			}
+			OR = {
+			NOT = { has_completed_focus = CET_complete_plan_antares }
+			NOT = { has_completed_focus = CET_complete_plan_corvus }
+			}
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
 		
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-        }
-    }
-	
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 46
+						}
+					}
+					custom_effect_tooltip = cetus_ring_of_stkirk
+					hidden_effect = {
+					46 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5032
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1793
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 345
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 5008
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 27
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+        id = CET_carrans_defence
+		icon = GFX_focus_CET_carran_fort
+        x = 0
+        y = 1
+        relative_position_id = CET_whitemouth_basic_defence
+		prerequisite = { focus = CET_whitemouth_basic_defence }
+		mutually_exclusive = { focus = CET_st_kirks_defence }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 46
+		OR = {
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		has_completed_focus = CET_southern_defence
+			}
+			OR = {
+			NOT = { has_completed_focus = CET_complete_plan_antares }
+			NOT = { has_completed_focus = CET_complete_plan_corvus }
+			}
+		}
+		
+        #icon = GFX_
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 46
+						}
+					}
+					custom_effect_tooltip = cetus_ring_of_carran
+					hidden_effect = {
+					46 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5136
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 1346
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2495
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1673
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 5043
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2788
+							instant_build = yes
+						}
+						7 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 5137
+							instant_build = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	focus = {
         id = CET_plan_antares
 		icon = GFX_focus_generic_ant
@@ -947,7 +1537,25 @@ focus_tree = {
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
-
+		
+		available = {
+			OR = {
+				NOT = { has_completed_focus = CET_plan_corvus }
+				has_completed_focus = CET_complete_plan_corvus
+				has_war_with = ANT
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_aquila }
+				has_completed_focus = CET_complete_plan_aquila
+				has_war_with = ANT
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_columba }
+				has_completed_focus = CET_complete_plan_columba
+				has_war_with = ANT
+			}
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
@@ -968,7 +1576,7 @@ focus_tree = {
         #icon = GFX_
         #search_filters =
         cost = 10
-
+		
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
         }
@@ -976,66 +1584,337 @@ focus_tree = {
 	
 	focus = {
         id = CET_nautan_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_nauta_fort
         x = 0
         y = 1
         relative_position_id = CET_southern_defence
 		prerequisite = { focus = CET_southern_defence }
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 7
+		NOT = { has_completed_focus = CET_complete_plan_antares }
+		}
         #icon = GFX_
         #search_filters =
         cost = 10
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-        }
-    }
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 7
+						}
+					}
+					custom_effect_tooltip = cetus_fort_nauta
+					hidden_effect = {
+					7 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 2919
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3312
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2254
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3199
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2999
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 5206
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 3146
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5365
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 2446
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 3153
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
 	
 	focus = {
         id = CET_mira_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_mira_fort
         x = 2
         y = 1
         relative_position_id = CET_southern_defence
 		prerequisite = { focus = CET_southern_defence }
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 43
+		NOT = { has_completed_focus = CET_complete_plan_antares }
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
 
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-        }
-    }
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 43
+						}
+					}
+					custom_effect_tooltip = cetus_fort_mira
+					hidden_effect = {
+					43 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 5161
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1401
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2173
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1738
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 867
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3208
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 200
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5350
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5324
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 2802
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 541
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5340
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 3282
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 980
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5249
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5177
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 5129
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 3236
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
 	
 	focus = {
         id = CET_ant_eastern_fort
-		icon = GFX_focus_generic_ant
+		icon = GFX_focus_CET_far_eastern_fort
         x = 4
         y = 1
         relative_position_id = CET_southern_defence
 		prerequisite = { focus = CET_southern_defence }
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 41
+		has_full_control_of_state = 44
+		NOT = { has_completed_focus = CET_complete_plan_antares }
+		}
+		
         #icon = GFX_
         #search_filters =
-        cost = 10
-
+        cost = 5
+		
         completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-        }
-    }
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+							has_full_control_of_state = 41
+							has_full_control_of_state = 44
+						}
+					}
+					custom_effect_tooltip = cetus_fort_far_east
+					hidden_effect = {
+					41 = {
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 120
+							instant_build = yes
+						}
+						43 = {
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 4974
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 4947
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 1159
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 1
+							province = 1846
+							instant_build = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	
 	focus = {
         id = CET_complete_plan_antares
 		icon = GFX_focus_generic_ant
         x = 0
-        y = 10
-        relative_position_id = CET_plan_antares
-		prerequisite = { focus = CET_plan_antares }
+        y = 1
+        relative_position_id = CET_nautan_fort
+		prerequisite = { focus = CET_nautan_fort }
+		prerequisite = { focus = CET_mira_fort focus = CET_ant_eastern_fort }
 
         #icon = GFX_
         #search_filters =
-        cost = 10
+        cost = 1
 
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -1049,10 +1928,45 @@ focus_tree = {
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
-
+		
+		available = {
+			OR = {
+				NOT = { has_completed_focus = CET_plan_antares }
+				has_completed_focus = CET_complete_plan_antares
+				has_war_with = AQU
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_corvus }
+				has_completed_focus = CET_complete_plan_corvus
+				has_war_with = AQU
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_columba }
+				has_completed_focus = CET_complete_plan_columba
+				has_war_with = AQU
+			}
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
+        id = CET_complete_plan_aquila
+		icon = GFX_focus_generic_aquila
+        x = 0
+        y = 1
+        relative_position_id = CET_plan_aquila
+		prerequisite = { focus = CET_plan_aquila }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 1
 
         completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -1066,7 +1980,25 @@ focus_tree = {
         y = 1
         relative_position_id = CET_defence_plans
 		prerequisite = { focus = CET_defence_plans }
-
+		
+		available = {
+			OR = {
+				NOT = { has_completed_focus = CET_plan_antares }
+				has_completed_focus = CET_complete_plan_antares
+				has_war_with = CLB
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_aquila }
+				has_completed_focus = CET_complete_plan_aquila
+				has_war_with = CLB
+			}
+			OR = {
+				NOT = { has_completed_focus = CET_plan_corvus }
+				has_completed_focus = CET_complete_plan_corvus
+				has_war_with = CLB
+			}
+		}
+		
         #icon = GFX_
         #search_filters =
         cost = 10
@@ -1077,17 +2009,35 @@ focus_tree = {
     }
 	
 	focus = {
+        id = CET_complete_plan_columba
+		icon = GFX_focus_generic_no_image
+        x = 0
+        y = 1
+        relative_position_id = CET_plan_columba
+		prerequisite = { focus = CET_plan_columba }
+
+        #icon = GFX_
+        #search_filters =
+        cost = 1
+
+        completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+        }
+    }
+	
+	focus = {
         id = CET_deploy_the_elite_guard
 		icon = GFX_focus_generic_total_war
-        x = 29
-        y = 2
+        x = 26
+        y = 0
 
         #icon = GFX_
         #search_filters =
         cost = 5
 
         completion_reward = {
-			custom_effect_tooltip = cetus_joke_army_tooltip
+			#custom_effect_tooltip = cetus_joke_army_tooltip
+			hidden_effect = {
 			random_owned_controlled_state = {
 				prioritize = { 45 }
 				limit = { PREV = { has_full_control_of_state = PREV } }
@@ -1190,6 +2140,7 @@ focus_tree = {
 				create_unit = {
 					division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 1" 
 					owner = PREV
+					}
 				}
 			}
 		}
