@@ -78,17 +78,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "1901.1.9"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1902.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "1903.1.6"
 			}
 		}
 	}
@@ -150,17 +150,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1903.1.1"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1904.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1905.1.1"
 			}
 		}
 	}
@@ -197,7 +197,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1906
+		start_year = 1904
 
 		folder = {
 			name = artillery_folder
@@ -214,17 +214,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "1905.1.9"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1906.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "1907.1.6"
 			}
 		}
 	}
@@ -268,7 +268,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1910
+		start_year = 1908
 
 		folder = {
 			name = artillery_folder
@@ -285,17 +285,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1909.1.6"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "1910.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1911.1.1"
 			}
 		}
 	}
@@ -337,7 +337,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1912
+		start_year = 1910
 
 		folder = {
 			name = artillery_folder
@@ -354,12 +354,12 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "1911.1.6"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1912.1.1"
 			}
 		}
 	}
@@ -380,7 +380,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1914
+		start_year = 1912
 
 		folder = {
 			name = artillery_folder
@@ -397,17 +397,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "1913.1.9"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1914.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "1915.1.6"
 			}
 		}
 	}
@@ -446,7 +446,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1920
+		start_year = 1915
 
 		folder = {
 			name = artillery_folder
@@ -463,17 +463,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1916.1.6"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1917.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1945.1.1"
+				date > "1918.1.1"
 			}
 		}
 	}
@@ -521,7 +521,7 @@ technologies = {
 
 		research_cost = 2
 
-		start_year = 1924
+		start_year = 1909
 
 		folder = {
 			name = artillery_folder
@@ -533,7 +533,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = ANT
 			}
 		}
 
@@ -565,7 +565,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1928
+		start_year = 1910
 
 		folder = {
 			name = artillery_folder
@@ -577,7 +577,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = ANT
 			}
 		}
 
@@ -609,7 +609,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1932
+		start_year = 1912
 
 		folder = {
 			name = artillery_folder
@@ -621,7 +621,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = ANT
 			}
 		}
 
@@ -644,7 +644,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1935
+		start_year = 1917
 
 		folder = {
 			name = artillery_folder
@@ -656,7 +656,7 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = ANT
 			}
 		}
 
@@ -705,28 +705,28 @@ technologies = {
 				factor = 0.5
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					tag = CET
+					tag = COV
+					tag = ANT
+					tag = ORI
+					tag = HYS
+					tag = RIA
+					tag = URS
 				}
 			}
 			modifier = {
 				factor = 2
-				date > "1919.1.1"
+				date > "1909.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1920.1.1"
+				date > "1910.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1921.1.1"
+				date > "1911.1.1"
 			}
 		}
 
@@ -758,7 +758,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1912
+		start_year = 1910
 
 		folder = {
 			name = artillery_folder
@@ -769,13 +769,13 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
+					tag = ANT
+					tag = ORI
+					tag = HYS
 				}
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
+					has_war_with = ANT
+					has_war_with = ORI
 					has_war_with = ENG
 				}
 				factor = 5
@@ -810,7 +810,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = artillery_folder
@@ -821,13 +821,13 @@ technologies = {
 			factor = 2
 			modifier = {
 				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
+					tag = ANT
+					tag = HYS
+					tag = ORI
 				}
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
+					has_war_with = ANT
+					has_war_with = ORI
 					has_war_with = ENG
 				}
 				factor = 5
@@ -866,7 +866,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 1916
 
 		folder = {
 			name = artillery_folder
@@ -877,14 +877,14 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
+					tag = ANT
+					tag = URS
+					tag = ORI
 				}
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
+					has_war_with = ANT
+					has_war_with = HYD
+					has_war_with = ORI
 				}
 				factor = 5
 			}
@@ -918,7 +918,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 1918
 
 		folder = {
 			name = artillery_folder
@@ -929,14 +929,14 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
+					tag = ANT
+					tag = HYS
+					tag = ORI
 				}
 				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
+					has_war_with = ANT
+					has_war_with = ORI
+					has_war_with = URS
 				}
 				factor = 5
 			}
@@ -966,7 +966,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 1920
 
 		folder = {
 			name = artillery_folder
@@ -977,9 +977,9 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
+					tag = ANT
+					tag = URS
+					tag = ORI
 				}
 				OR = {
 					has_war_with = JAP
@@ -1028,38 +1028,38 @@ technologies = {
 				factor = 0.2
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					tag = CET
+					tag = AQU
+					tag = ORI
+					tag = HYS
+					tag = RIA
+					tag = ANT
+					tag = COV
 				}
 			}
 			modifier = {
-				tag = JAP
+				tag = ANT
 				not = {
 					OR = {
-						has_War_with = SOV
-						has_war_with = USA
+						has_War_with = ANT
+						has_war_with = ORI
 					}
 				}
 				factor = 0.5
 			}
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1907.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1938.1.1"
+				date > "1908.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1909.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -1127,7 +1127,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1916
+		start_year = 1908
 
 		folder = {
 			name = artillery_folder
@@ -1148,23 +1148,23 @@ technologies = {
 				}
 			}
 			modifier = {
-				tag = JAP
+				tag = ANT
 				not = {
 					OR = {
-						has_War_with = SOV
-						has_war_with = USA
+						has_War_with = ORI
+						has_war_with = ANT
 					}
 				}
 				factor = 0.5
 			}
 			modifier = {
 				factor = 2
-				date > "1939.1.6"
+				date > "1909.1.6"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "1910.1.1"
 			}
 		}
 
@@ -1196,7 +1196,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1924
+		start_year = 1911
 
 		folder = {
 			name = artillery_folder
@@ -1208,30 +1208,30 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1939.1.9"
+				date > "1912.1.9"
 			}
 			modifier = {
-				tag = JAP
+				tag = ANT
 				not = {
 					OR = {
-						has_War_with = SOV
-						has_war_with = USA
+						has_War_with = ANT
+						has_war_with = ORI
 					}
 				}
 				factor = 0.5
 			}
 			modifier = {
 				factor = 2
-				date > "1940.1.1"
+				date > "1913.1.1"
 			}
 			modifier = {
-				tag = USA
+				tag = ORI
 				has_War = no
 				factor = 0.5 #this tank nonsense will never catch on
 			}
 			modifier = {
 				factor = 5
-				date > "1940.1.6"
+				date > "1913.1.6"
 			}
 			modifier = {
 				factor = 10
@@ -1297,7 +1297,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1932
+		start_year = 1913
 
 		folder = {
 			name = artillery_folder
@@ -1309,26 +1309,26 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "1914.1.6"
 			}
 			modifier = {
-				tag = JAP
+				tag = ANT
 				not = {
 					OR = {
-						has_War_with = SOV
-						has_war_with = USA
+						has_War_with = ANT
+						has_war_with = ORI
 					}
 				}
 				factor = 0.5
 			}
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "1914.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1943.1.1"
+				date > "1915.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -1394,7 +1394,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 1916
 
 		folder = {
 			name = artillery_folder
@@ -1406,21 +1406,21 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "1917.1.6"
 			}
 			modifier = {
-				tag = JAP
+				tag = ANT
 				not = {
 					OR = {
-						has_War_with = SOV
-						has_war_with = USA
+						has_War_with = ANT
+						has_war_with = ORI
 					}
 				}
 				factor = 0.5
 			}
 			modifier = {
 				factor = 5
-				date > "1943.1.1"
+				date > "1918.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -1454,7 +1454,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 1918
 
 		folder = {
 			name = artillery_folder
