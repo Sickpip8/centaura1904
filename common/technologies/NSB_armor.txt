@@ -112,7 +112,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1904
+		start_year = 1906
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
