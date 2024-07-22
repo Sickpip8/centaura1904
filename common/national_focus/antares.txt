@@ -2350,7 +2350,7 @@ focus_tree = {
 		cost = 10
 		available = {
 				is_subject = no
-				has_army_manpower = { size > 699999 }
+				has_army_manpower = { size > 999999 }
 		}
 		completion_reward = {
 			custom_effect_tooltip = corvus_does_nothing_tooltip
