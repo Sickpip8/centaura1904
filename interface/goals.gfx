@@ -6493,6 +6493,11 @@ spriteTypes = {
 		name = "GFX_focus_ORI_InvadeHydrus"
 		texturefile = "gfx/interface/goals/focus_ORI_InvadeHydrus.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_AntiAntareanPropaganda"
+		texturefile = "gfx/interface/goals/focus_ORI_AntiAntareanPropaganda.dds"
+	}
 	##########
 	# corvus #
 	##########

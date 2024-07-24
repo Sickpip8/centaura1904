@@ -1329,7 +1329,7 @@ focus = {
 		
 		focus = {
 			id = ORS_PrepareToStrikeTheBeast
-			icon = GFX_focus_ETH_boots_on_the_shore
+			icon = GFX_focus_focus_fra_revolution_utmost
 			x = 54
 			y = 2
 			cost = 5
@@ -1352,7 +1352,7 @@ focus = {
 		
 		focus = {
 			id = ORS_AntiAntareanPropaganda
-			icon = GFX_focus_ETH_boots_on_the_shore
+			icon = GFX_focus_ORI_AntiAntareanPropaganda
 			x = 54
 			y = 3
 			cost = 5
@@ -1375,7 +1375,7 @@ focus = {
 		
 		focus = {
 			id = ORS_StrikeTheBoogeymanOfCentaura
-			icon = GFX_focus_ETH_boots_on_the_shore
+			icon = GFX_focus_generic_total_war
 			x = 54
 			y = 4
 			cost = 5
@@ -1397,8 +1397,8 @@ focus = {
 		}
 		
 		focus = {
-			id = ORS_DestroyTheGiantOfTheNorth
-			icon = GFX_focus_ETH_boots_on_the_shore
+			id = ORS_TheNorthCentauranExpedition
+			icon = GFX_focus_NOR_hurtigruten
 			x = 56
 			y = 2
 			cost = 5
@@ -1410,6 +1410,126 @@ focus = {
 				focus = ORS_OrioniteImperialism
 			}
 			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_WarplanRiaa
+			icon = GFX_goal_generic_position_armies
+			x = 56
+			y = 3
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_TheNorthCentauranExpedition
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_DestroyTheGiantOfTheNorth
+			icon = GFX_focus_ETH_boots_on_the_shore
+			x = 56
+			y = 4
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_WarplanRiaa
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_FinishOffLibra
+			icon = GFX_focus_SOV_reinforce_northern_naval_bases
+			x = 55
+			y = 5
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_DestroyTheGiantOfTheNorth
+			}
+			prerequisite = {
+				focus = ORS_StrikeTheBoogeymanOfCentaura
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_TheMasterOfCentaura
+			icon = GFX_focus_ITA_mare_nostrum
+			x = 55
+			y = 6
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_FinishOffLibra
+			}
+			
+			completion_reward = {
+				add_stability = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 5
+			}
+		}
+		
+		focus = {
+			id = ORS_TheMasterOfForma
+			icon = GFX_focus_SOV_international_union_of_soviet_republics
+			x = 51
+			y = 8
+			cost = 5
+			available = {
+				
+			}
+			
+			prerequisite = {
+				focus = ORS_TheMasterOfCentaura
+			}
+			prerequisite = {
+				focus = ORS_TheEasternTitan
+			}
 			completion_reward = {
 				add_stability = 0.05
 			}
