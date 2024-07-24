@@ -39,7 +39,7 @@ equipments = {
 	}
 
 	artillery_equipment_0 = {
-		year = 1904
+		year = 1900
 
 		archetype = artillery_equipment
 		is_convertable = no
@@ -67,7 +67,7 @@ equipments = {
 	}
 
 	artillery_equipment_1 = {
-		year = 1912
+		year = 1900
 
 		archetype = artillery_equipment
 		priority = 50
@@ -75,7 +75,7 @@ equipments = {
 	}
 	
 	artillery_equipment_2 = {
-		year = 1916
+		year = 1904
 
 		archetype = artillery_equipment
 		parent = artillery_equipment_1
@@ -94,7 +94,7 @@ equipments = {
 	}
 	
 	artillery_equipment_3 = {
-		year = 1930
+		year = 1912
 
 		archetype = artillery_equipment
 		parent = artillery_equipment_2
@@ -114,7 +114,7 @@ equipments = {
 
 	# Nebelwerfers!
 	rocket_artillery_equipment = {
-		year = 1924
+		year = 1909
 
 		is_archetype = yes
 		picture = archetype_rocket_artillery_equipment		
@@ -158,7 +158,7 @@ equipments = {
 	}
 	
 	rocket_artillery_equipment_2 = {
-		year = 1943
+		year = 1917
 
 		archetype = rocket_artillery_equipment
 		parent = rocket_artillery_equipment_1
@@ -178,7 +178,7 @@ equipments = {
 	
 	#Katyusha 
 	motorized_rocket_equipment = {
-		year = 1934
+		year = 1917
 
 		is_archetype = yes
 		picture = archetype_motorized_rocket_equipment			
@@ -218,7 +218,7 @@ equipments = {
 	}
 	
 	motorized_rocket_equipment_1 = {
-		year = 1939
+		year = 1920
 
 		archetype = motorized_rocket_equipment
 		priority = 70

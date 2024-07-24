@@ -2147,6 +2147,9 @@ technologies = {
 		enable_equipments = {
 			gw_armored_car_equipment
 		}
+		enable_equipments = {
+			gwtank_chassis
+		}
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
 			leads_to_tech = armored_car2
