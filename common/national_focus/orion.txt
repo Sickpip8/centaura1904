@@ -608,7 +608,7 @@ focus_tree = {
 			}
 		}
 
-focus = {
+		focus = {
 			id = ORS_ExtinguishCorruption
 			icon = GFX_focus_ORI_ExtinguishCorruption
 			x = 24
@@ -983,7 +983,7 @@ focus = {
 			mutually_exclusive = { focus = ORS_OrioniteIsolationism }
 			
 			completion_reward = {
-				add_stability = 0.05
+				add_war_support = 0.05
 			}
 			
 			ai_will_do = {
@@ -1009,7 +1009,6 @@ focus = {
 			mutually_exclusive = { focus = ORS_OrioniteIsolationism }
 			
 			completion_reward = {
-				add_stability = 0.05
 			}
 			
 			ai_will_do = {
@@ -1104,7 +1103,7 @@ focus = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				add_ideas = ORS_NationalistRheotic
 			}
 			
 			ai_will_do = {
@@ -1151,7 +1150,22 @@ focus = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 3
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
 			}
 			
 			ai_will_do = {
@@ -1200,7 +1214,7 @@ focus = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+
 			}
 			
 			ai_will_do = {
@@ -1531,7 +1545,6 @@ focus = {
 				focus = ORS_TheEasternTitan
 			}
 			completion_reward = {
-				add_stability = 0.05
 			}
 			
 			ai_will_do = {
