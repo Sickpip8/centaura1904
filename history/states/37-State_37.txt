@@ -17,10 +17,34 @@ state={
 			4886 = {
 				bunker = 3
 			}
+			4793 = {
+				bunker = 1
+			}
+			2485 = {
+				bunker = 1
+			}
+			2768 = {
+				bunker = 1
+			}
+			4544 = {
+				bunker = 1
+			}
+			1929 = {
+				bunker = 1
+			}
+			4434 = {
+				bunker = 1
+			}
+			4377 = {
+				bunker = 1
+			}
+			4432 = {
+				bunker = 1
+			}
 		
 		}
 		victory_points = {
-			2022 17
+			4453 17
 		}
 	}
 	provinces={
