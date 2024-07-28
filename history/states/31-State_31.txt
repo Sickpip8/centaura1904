@@ -23,6 +23,15 @@ state={
 			335 = {
 				bunker = 3
 			}
+			423 = {
+				bunker = 2
+			}
+			335 = {
+				bunker = 2
+			}
+			4831 = {
+				bunker = 2
+			}
 		}
 		victory_points = {
 			1329 16
