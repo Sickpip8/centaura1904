@@ -141,7 +141,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 10
 		}
 		location = 2019
 		division_template = "Infantry Division"
@@ -152,7 +152,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 11
 		}
 		location = 4887
 		division_template = "Infantry Division"
@@ -163,7 +163,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 12
 		}
 		location = 1782
 		division_template = "Infantry Division"
@@ -174,7 +174,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 13
 		}
 		location = 1713
 		division_template = "Infantry Division"
@@ -185,7 +185,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 14
 		}
 		location = 4408
 		division_template = "Infantry Division"
@@ -196,7 +196,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 2
+			name_order = 15
 		}
 		location = 4643
 		division_template = "Infantry Division"

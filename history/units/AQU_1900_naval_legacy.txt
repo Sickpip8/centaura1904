@@ -7,21 +7,21 @@
 		task_force = {				
 			name = "First Flotilla"
 			location = 1329
-			ship = { name = "Altair" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AQU } } } # Italian pre-WW1 merchant cruiser
-			ship = { name = "Talona" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Nicolás Bravo Class" } } } # Italian pre-WW1 torpedo gunboat
-			ship = { name = "Alshain" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Durango Class" } } } # Spanish 1935 export gunboat
-			ship = { name = "Denebokab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
-			ship = { name = "Tarazed" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
-			ship = { name = "Okab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
+			ship = { name = "Altair" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AQU version_name = "Marion Class" } } }
+			ship = { name = "Talona" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Alshain" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Denebokab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Tarazed" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Okab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
 		}
 		task_force = {				
 			name = "Second Flotilla"
 			location = 1329
-			ship = { name = "Valegny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Nicolás Bravo Class" } } } # Italian pre-WW1 torpedo gunboat
-			ship = { name = "Almery" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Durango Class" } } } # Spanish 1935 export gunboat
-			ship = { name = "Valenmur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
-			ship = { name = "Villeurmeirs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
-			ship = { name = "Marinesse" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } } # Spanish 1934 export gunboat
+			ship = { name = "Valegny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Almery" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = version_name = "Talons Class" } } }
+			ship = { name = "Valenmur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Villeurmeirs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
+			ship = { name = "Marinesse" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU version_name = "Talons Class" } } }
 		}
 	}
 }
