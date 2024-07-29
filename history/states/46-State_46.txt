@@ -17,32 +17,34 @@ state={
 			infrastructure = 3
 			5032 = {
 				naval_base = 4
+
 			}
 			5136 = {
 				naval_base = 4
 
 			}
+
 		}
 		1944.1.1.12 = {
-		owner = ANT
-		controller = ANT
-		add_core_of = ANT
-		
+			owner = ANT
+			controller = ANT
+			add_core_of = ANT
+
 		}
 		victory_points = {
 			5032 35 
 		}
 		victory_points = {
-			5136 27
+			5136 27 
 		}
 		victory_points = {
-			1346 13
+			1346 13 
 		}
 
 	}
 
 	provinces={
-		27 345 1346 1673 1793 2495 2530 2712 2788 2843 3260 4868 4869 4903 4938 4951 4979 5008 5032 5043 5136 
+		27 345 1346 1673 1793 2495 2530 2712 2788 2843 3260 4868 4869 4903 4938 4951 4979 5008 5032 5043 5136 5137 
 	}
 	manpower=15783131
 	buildings_max_level_factor=1.000

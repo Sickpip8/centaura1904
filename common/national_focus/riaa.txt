@@ -11,10 +11,48 @@ focus_tree = {
     continuous_focus_position = { x = 25 y = 680 }
 
     focus = {
-        id = RIA_placeholder
+        id = RIA_the_northern_conqueror
         icon = GFX_goal_generic_territory_or_war
         x = 10
         y = 0
+		mutually_exclusive = { focus = RIA_northern_unity }
+        cost = 5
+        available = {
+            
+        }
+        completion_reward = {
+            add_war_support = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = RIA_the_
+        icon = GFX_goal_generic_territory_or_war
+        x = 0
+        y = 1
+		prerequisite = { focus = RIA_the_northern_conqueror }
+		relative_position_id = RIA_the_northern_conqueror
+        cost = 5
+        available = {
+            
+        }
+        completion_reward = {
+            add_war_support = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = RIA_northern_unity
+        icon = GFX_goal_generic_territory_or_war
+        x = 15
+        y = 0
+		mutually_exclusive = { focus = RIA_the_northern_conqueror }
         cost = 5
         available = {
             

@@ -2,11 +2,12 @@
 state={
 	id=9
 	name="STATE_9"
-	resources = {
-		steel = 9
-		tungsten = 4
-		rubber=10
+	resources={
+		steel=9.000
+		tungsten=4.000
+		rubber=10.000
 	}
+
 	history={
 		owner = AQU
 		add_core_of = AQU
@@ -14,7 +15,7 @@ state={
 			arms_factory = 6
 			industrial_complex = 7
 			infrastructure = 4
-		
+
 		}
 		victory_points = {
 			14 45 
@@ -23,10 +24,10 @@ state={
 	}
 
 	provinces={
-		14 193 206 241 296 298 369 416 457 528 592 650 682 920 1316 1482 1606 1608 2537 2573 2685 2800 2850 2873 2967 3070 3233 3288 4278 4283 4303 4314 4324 4341 4384 4407 4454 4463 4493 4516 4531 4545 4563 4576 4577 4620 4623 4631 4668 4672 4701 4707 4744 4748 
+		14 193 241 298 369 416 592 650 682 920 1316 1482 1606 1608 2537 2573 2800 2850 2873 2967 3070 3233 3288 4384 4407 4454 4463 4493 4516 4531 4545 4563 4576 4577 4620 4623 4631 4668 4672 4701 4707 4744 4748 
 	}
+	manpower=25616236
 	buildings_max_level_factor=1.000
+	state_category=industrial_heartland
 	local_supplies=0.000
-        manpower=25616236
-        state_category = industrial_heartland
 }

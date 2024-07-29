@@ -6,12 +6,12 @@ state={
 		add_core_of = HYS
 		buildings = {
 			infrastructure = 1
-			6707 = {
+			1124 = {
 				naval_base = 1
 				}
 			}
 			victory_points = {
-			6707 1 
+			1124 1 
 			}
 		}
 	provinces={

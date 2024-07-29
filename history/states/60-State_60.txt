@@ -2,26 +2,30 @@
 state={
 	id=60
 	name="STATE_60"
-	resources = {
-		tungsten = 13
+	resources={
+		tungsten=13.000
 	}
-	history = {
+
+	history={
 		owner = CLB
 		add_core_of = CLB
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 1
 			infrastructure = 2
+
 		}
 		victory_points = {
-			2364 7
+			2364 7 
 		}
+
 	}
+
 	provinces={
-		36 138 218 321 334 368 1165 1227 1350 1467 1538 1837 1865 2113 2133 2313 2357 2364 2381 2793 3186 3297 3726 3746 3768 3827 3832 3850 3859 3881 3899 3902 
+		36 138 218 321 334 368 782 1109 1165 1227 1350 1467 1538 1588 1661 1677 1837 1865 1950 2000 2113 2133 2313 2357 2364 2381 2482 2793 3186 3297 3726 3746 3758 3768 3791 3827 3832 3850 3859 3881 3899 3902 3910 3921 3970 3986 4015 4036 
 	}
+	manpower=940162
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-        manpower=940162
-        state_category = town
 }
