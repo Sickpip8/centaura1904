@@ -1126,7 +1126,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = AUR
+				}
 			}
 			
 			ai_will_do = {
@@ -1214,7 +1217,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-
+				add_ideas = ORS_OMAC
 			}
 			
 			ai_will_do = {
@@ -1237,7 +1240,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = URS
+				}
 			}
 			
 			ai_will_do = {
@@ -1310,7 +1316,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = HYS
+				}
 			}
 			
 			ai_will_do = {
@@ -1402,7 +1411,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ANT
+				}
 			}
 			
 			ai_will_do = {
@@ -1471,7 +1483,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = RIA
+				}
 			}
 			
 			ai_will_do = {
@@ -1497,7 +1512,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = LBR
+				}
 			}
 			
 			ai_will_do = {

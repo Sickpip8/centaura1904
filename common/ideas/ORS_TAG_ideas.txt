@@ -334,5 +334,23 @@ ideas = {
 				justify_war_goal_time = -0.3
 			}
 		}
+	
+		ORS_OMAC = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_cap = 0.2
+				extra_marine_supply_grace = 48
+				special_forces_out_of_supply_factor = -0.20
+			}
+		}
 	}
 }
