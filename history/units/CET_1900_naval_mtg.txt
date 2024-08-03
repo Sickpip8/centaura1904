@@ -83,7 +83,7 @@
 		naval_base = 4809
 		task_force = {				
 			name = "Dubwallow Command"
-			location = 5910
+			location = 5190
 			ship = { name = "CIS Rada" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
 			ship = { name = "CIS Rhesus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 			ship = { name = "CIS Rhine" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
