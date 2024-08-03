@@ -62,8 +62,8 @@
 		name = "Northern FLeet"
 		naval_base = 4809
 		task_force = {				
-			name = "Nauta Command"
-			location = 2919
+			name = "South Corvus Command"
+			location = 4809
 			ship = { name = "CIS Axol" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
 			ship = { name = "CIS Kaitos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
 			ship = { name = "CIS Nitham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
@@ -103,3 +103,18 @@
 	}
 }
 
+instant_effect = {
+### Under Construction Notes ###
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "CET" 
+			version_name = "Numero Class"
+		}
+		name = "CIS Septem"
+		requested_factories = 2
+		progress = 0.79
+		amount = 1
+		industrial_manufacturer = mio:ENG_cammell_laird_organization
+	}
+}

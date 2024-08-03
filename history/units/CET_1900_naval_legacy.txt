@@ -62,8 +62,8 @@
 		name = "Northern FLeet"
 		naval_base = 4809
 		task_force = {				
-			name = "Nauta Command"
-			location = 2919
+			name = "South Corvus Command"
+			location = 4809
 			ship = { name = "CIS Axol" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Kaitos" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Nitham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CET } } }
@@ -103,3 +103,14 @@
 	}
 }
 
+instant_effect = {
+### Under Construction Notes ###
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "CET" 
+		}
+		requested_factories = 2
+		progress = 0.79
+		amount = 1
+	}
