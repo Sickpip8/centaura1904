@@ -18,13 +18,15 @@ country_event = {
 				set_state_owner = 131
 				set_state_owner = 132
 				set_state_owner = 134
+				set_state_owner = 182
 		hidden_effect = {
 			LPS = {
 				set_state_controller = 133
-				set_state_controller  = 130
-				set_state_controller  = 131
-				set_state_controller  = 132
-				set_state_controller  = 134
+				set_state_controller = 130
+				set_state_controller = 131
+				set_state_controller = 132
+				set_state_controller = 134
+				set_state_controller = 182
 				}
 			}
 		}
