@@ -1,0 +1,105 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Southern FLeet"
+		naval_base = 1329
+		task_force = {				
+			name = "Nauta Command"
+			location = 2919
+			ship = { name = "CIS Prima" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Secundus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Tertia" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Quarta" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Diphda" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Minkar" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Nitham" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Luyten" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Gleise" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Cayrel" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Rubigo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Rust Class" } } }
+			ship = { name = "CIS Robigo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Rust Class" } } }
+			ship = { name = "CIS Ferrugo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Rust Class" } } }
+			ship = { name = "CIS Aerugino" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Rust Class" } } }
+			ship = { name = "CIS Potamoi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Achelous" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Alpheus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Asopus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Inachus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Nilus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Peneus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Scamander" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Acis" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Acragas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Aeas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+		}
+		task_force = {				
+			name = "St. Kirk Command"
+			location = 5032
+			ship = { name = "CIS Baten" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Shemali" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Johalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Pickelhalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Vahelm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Villuhelm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Marhelm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+		}
+		task_force = {				
+			name = "Carran Command"
+			location = 5136
+			ship = { name = "CIS Quintus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Sextus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Numero Class" } } }
+			ship = { name = "CIS Kulshalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Bochams" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Untherhelm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Boohelm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Aegaeus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Aesar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Northern FLeet"
+		naval_base = 4809
+		task_force = {				
+			name = "Nauta Command"
+			location = 2919
+			ship = { name = "CIS Axol" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Kaitos" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Nitham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Nitham II" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Briham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Hobdalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Tolhalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Valhalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Welhalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Bulhalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+			ship = { name = "CIS Estham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Western Islands FLeet"
+		naval_base = 4809
+		task_force = {				
+			name = "Dubwallow Command"
+			location = 5910
+			ship = { name = "CIS Rada" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = CET version_name = "Diphda Class" } } }
+			ship = { name = "CIS Rhesus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhine" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhodius" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhyndacus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+		}
+		task_force = {				
+			name = "Melmere Command"
+			location = 1495
+			ship = { name = "CIS Nyodymium" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Nyodymium Class" } } }
+			ship = { name = "CIS Nestos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Nessus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Meles" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Numicius" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Marsyas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+		}
+	}
+}
+

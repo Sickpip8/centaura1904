@@ -24,8 +24,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_attack_factor  = 0.10
-				army_defense_factor = 0.10
+				army_attack_factor  = 0.05
+				army_defense_factor = 0.05
 			}
 
 			duration = 180

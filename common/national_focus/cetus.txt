@@ -1002,6 +1002,8 @@ focus_tree = {
 		}
 	}
 	
+	########################################################### defence plans ###############################################################
+	
 	focus = {
         id = CET_defence_plans
 		icon = GFX_goal_generic_defence
@@ -1089,6 +1091,7 @@ focus_tree = {
 		
 		available = {
 		has_full_control_of_state = 48
+		NOT = { has_war_with = COV }
 		}
         
         #search_filters =
@@ -1173,6 +1176,10 @@ focus_tree = {
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		
+		bypass = {
+		has_war_with = COV
+		}
 		
 		available = {
 		has_full_control_of_state = 154
@@ -1273,6 +1280,137 @@ focus_tree = {
 								instant_build = yes
 								}
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+        id = CET_corvus_bunker_lines_cetus
+		icon = GFX_
+        x = -2
+        y = 1
+        relative_position_id = CET_corvus_bunker_lines_border
+		prerequisite = { focus = CET_corvus_bunker_lines_border focus = CET_corvus_bunker_lines_outer }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		available = {
+		has_full_control_of_state = 46
+		has_full_control_of_state = 47
+		has_full_control_of_state = 40
+		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		}
+		
+        
+        #search_filters =
+        cost = 10
+		
+        completion_reward = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = CET
+								is_in_faction_with = CET
+							}
+						}
+					}
+					custom_effect_tooltip = CET_deneb_line_tt
+					hidden_effect = {
+					40 = {
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 345
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4951
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2530
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4868
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 3163
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1839
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2449
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4612
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2151
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4507
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4511
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4460
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 1828
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4312
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 2006
+							instant_build = yes
 						}
 					}
 				}
