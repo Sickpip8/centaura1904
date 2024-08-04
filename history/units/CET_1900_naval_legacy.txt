@@ -2,7 +2,7 @@
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Southern FLeet"
+		name = "Southern Fleet"
 		naval_base = 1329
 		task_force = {				
 			name = "Nauta Command"
@@ -79,7 +79,7 @@
 	}
 	
 	fleet = {
-		name = "Western Islands FLeet"
+		name = "Western Islands Fleet"
 		naval_base = 4809
 		task_force = {				
 			name = "Dubwallow Command"
