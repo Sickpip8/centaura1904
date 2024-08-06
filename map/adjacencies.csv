@@ -1,4 +1,4 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-
+7200;7710;sea;7910;2418;635;2335;622;SAGITTARIUS_STRAIT;Sagittarius
 -1;-1;;-1;-1;-1;-1;-1;-1
-2745;6793;sea;75033;-1;-1;-1;-1;;cetan islands
+#2745;6793;sea;75033;-1;-1;-1;-1;;cetan islands
