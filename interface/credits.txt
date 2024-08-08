@@ -18,6 +18,7 @@ EeksusDeekus (some loading screen gfx)
 
 # PLAYTESTERS
 kaiser1915
+RomanRoman#5124 (sl12223)
 
 # FORMER DEVS
 striped_ (Striped) (Cetus Dev)

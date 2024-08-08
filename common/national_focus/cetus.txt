@@ -452,13 +452,12 @@ focus_tree = {
     focus = {
         id = CET_status_quo
 
-        x = 13
+        x = 20
         y = 0
-        relative_position_id = CET_sc1
 
         icon = GFX_focus_generic_monarchy_2
         #search_filters =
-        cost = 1
+        cost = 5
 
         allow_branch = {
             if = {
@@ -472,7 +471,7 @@ focus_tree = {
             }
         }
 
-        mutually_exclusive = { focus = CET_fascist }
+        mutually_exclusive = { focus = CET_militarism }
 
         completion_reward = {
             add_stability = 0.05
@@ -501,12 +500,127 @@ focus_tree = {
         #search_filters =
         cost = 10
 
-        mutually_exclusive = { focus = CET_democratic_peaceful_revolution}
+        mutually_exclusive = { focus = CET_democracy }
 
         prerequisite = { focus = CET_status_quo }
 
         completion_reward = {
-		
+		add_stability = 0.05
+        }
+    }
+	
+	focus = {
+        id = CET_democracy
+
+        x = 1
+        y = 1
+        relative_position_id = CET_status_quo
+		icon = GFX_goal_generic_support_democracy
+        
+        #search_filters =
+        cost = 10
+
+        mutually_exclusive = { focus = CET_monarchist }
+
+        prerequisite = { focus = CET_status_quo }
+
+        completion_reward = {
+            add_popularity = {
+            ideology = democratic
+            popularity = 0.1
+		    }
+        }
+	}
+	
+	focus = {
+        id = CET_a_changing_landscape
+        x = 0
+        y = 1
+		icon = GFX_focus_hun_elect_a_king
+        relative_position_id = CET_democracy
+		prerequisite = { focus = CET_democracy }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		army_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_a_constitutional_monarchy
+        x = 0
+        y = 1
+		icon = GFX_focus_hun_elect_a_king
+        relative_position_id = CET_a_changing_landscape
+		mutually_exclusive = { focus = CET_a_full_democracy }
+		prerequisite = { focus = CET_a_changing_landscape }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		army_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_a_full_democracy
+        x = 2
+        y = 1
+		icon = GFX_focus_ARG_defense_and_democracy
+        relative_position_id = CET_a_changing_landscape
+		mutually_exclusive = { focus = CET_a_constitutional_monarchy }
+		prerequisite = { focus = CET_a_changing_landscape }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		army_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_militarism
+        x = 30
+        y = 0
+		icon = GFX_focus_ger_assassinate_mussolini
+		mutually_exclusive = { focus = CET_status_quo }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+            add_war_support = 0.05
+            hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+        }
+    }
+	
+	focus = {
+        id = CET_milw
+        x = 2
+        y = 1
+		icon = GFX_goal_generic_army_doctrines
+        relative_position_id = CET_militarism
+		prerequisite = { focus = CET_militarism }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		army_experience = 10
         }
     }
 	
@@ -514,7 +628,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_armed_forces
-        x = 40
+        x = 50
         y = 0
 		icon = GFX_focus_SWE_neither_death_nor_dishonor
         

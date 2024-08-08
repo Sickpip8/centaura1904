@@ -1,0 +1,59 @@
+units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Inanis Ocean Fleet"
+		naval_base = 2177
+		task_force = {				
+			name = "Kharon Detachment"
+			location = 2177
+			ship = { name = "AIS Venus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Ahsabkab" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Vallis" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Mercury" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Aparangi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Borealis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Argentum" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Argenteus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Pallidus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Nitor" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Nummus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Roseus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Rubesco" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Rubefacio" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Lux Lubra" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Lux Rosea" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Tenebris Rubrum" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Tenebris Rosea" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ANT } } }
+		}
+	}
+	
+	fleet = {
+		name = "Libran Ocean Fleet"
+		naval_base = 2286
+		task_force = {				
+			name = "Aquila Detachment"
+			location = 2286
+			ship = { name = "AIS Tir" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Flavus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Aeterna Flavus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Symmetrus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Inflexibilis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+		}
+	}
+	
+	fleet = {
+		name = "Southern Fleet"
+		naval_base = 6073
+		task_force = {				
+			name = "Skorpius Detachment"
+			location = 6073
+			ship = { name = "AIS Stilbon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Resistentia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Obduratus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Forctis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			ship = { name = "AIS Robustus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANT } } }
+			}
+		}
+	}
+}
