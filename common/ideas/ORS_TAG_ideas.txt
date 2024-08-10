@@ -352,5 +352,42 @@ ideas = {
 				special_forces_out_of_supply_factor = -0.20
 			}
 		}
+		
+		ORS_TheMasterOfCentaura = {
+			picture = vittoria_mutilata
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.2
+				stability_factor = 0.2
+				stability_weekly = 0.005
+			}
+		}
+		
+		ORS_TheEasternTitan = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor  = 0.15
+				army_defense_factor = 0.15
+				breakthrough_factor = 0.1
+				army_org_factor = 0.15
+			}
+		}
 	}
 }
