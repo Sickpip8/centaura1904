@@ -1342,7 +1342,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				add_ideas = ORS_TheEasternTitan
 			}
 			
 			ai_will_do = {
@@ -1538,7 +1538,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				add_ideas = ORS_TheMasterOfCentaura
 			}
 			
 			ai_will_do = {
