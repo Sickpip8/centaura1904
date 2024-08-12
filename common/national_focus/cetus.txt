@@ -253,6 +253,7 @@ focus_tree = {
 
         completion_reward = {
             48 = { add_core_of = CET }
+			154 = { add_core_of = CET }
             remove_ideas = CET_SC_question_idea
         }
     }
@@ -565,9 +566,12 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
-        }
-    }
+		add_timed_idea = {
+				idea = CET_strengthened_monarch_idea
+				days = 365
+			}
+		}
+	}
 	
 	focus = {
         id = CET_pro_cetan_propaganda
@@ -713,6 +717,22 @@ focus_tree = {
     }
 	
 	focus = {
+        id = CET_deport_corvuns_north
+        x = -2
+        y = 1
+		icon = GFX_focus_eng_motion_of_no_confidence
+        relative_position_id = CET_unite_corvuses
+		prerequisite = { focus = CET_unite_corvuses }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = -50000
+        }
+    }
+	
+	focus = {
         id = CET_towards_a_greater_cetus
         x = 0
         y = 1
@@ -724,7 +744,9 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
+		51 = { add_claim_by = CET }
+		52 = { add_claim_by = CET }
+		53 = { add_claim_by = CET }
         }
     }
 	
@@ -740,7 +762,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
+		37 = { add_claim_by = CET }
         }
     }
 	
@@ -893,7 +915,7 @@ focus_tree = {
         cost = 10
 
 		completion_reward = {
-			#add_ideas = CET_master_s_centaura
+			add_ideas = CET_master_s_centaura_idea
 			add_manpower = 1
 		}
 	}
@@ -955,9 +977,11 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
+		add_ideas = neutrality_idea
         }
     }
+	
+	############################################### isolate
 	
 	focus = {
         id = CET_practice_isolation
@@ -972,7 +996,23 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
+		add_ideas = neutrality_idea
+        }
+    }
+		
+	focus = {
+        id = CET_focus_on_unity
+        x = -2
+        y = 1
+		icon = GFX_goal_generic_national_unity
+        relative_position_id = CET_practice_isolation
+		prerequisite = { focus = CET_practice_isolation }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_stability = 0.05
         }
     }
 	
@@ -996,7 +1036,7 @@ focus_tree = {
         id = CET_our_resources
         x = 0
         y = 1
-		icon = GFX_focus_generic_mining_industry
+		icon = GFX_focus_generic_tungsten
         relative_position_id = CET_develop_ourselves
 		prerequisite = { focus = CET_develop_ourselves }
         
@@ -1017,7 +1057,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_our_factory
-        x = 0
+        x = -2
         y = 1
 		icon = GFX_focus_generic_industry_3
         relative_position_id = CET_our_resources
@@ -1044,20 +1084,59 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = CET_focus_on_unity
-        x = -2
+        id = CET_exploit_south_corvun_iron_belt
+        x = 0
         y = 1
-		icon = GFX_goal_generic_national_unity
-        relative_position_id = CET_practice_isolation
-		prerequisite = { focus = CET_practice_isolation }
+		icon = GFX_focus_generic_mining_industry
+        relative_position_id = CET_our_factory
+		prerequisite = { focus = CET_our_factory }
+        
+		available = {
+		has_full_control_of_state = 48
+		has_full_control_of_state = 154
+		}
+		
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	focus = {
+        id = CET_increase_army_works_engineering_section_budget
+        x = 0
+        y = 1
+		icon = GFX_goal_generic_defence
+        relative_position_id = CET_our_resources
+		prerequisite = { focus = CET_our_resources }
         
         #search_filters =
         cost = 10
 
         completion_reward = {
-		add_stability = 0.05
+		add_manpower = 12
         }
     }
+	
+	focus = {
+        id = CET_refurbish_scaphan_line
+        x = 0
+        y = 1
+		icon = GFX_goal_generic_defence
+        relative_position_id = CET_increase_army_works_engineering_section_budget
+		prerequisite = { focus = CET_increase_army_works_engineering_section_budget }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	################################# shared neutrals
 	
 	focus = {
         id = CET_inanis_explorers
@@ -1091,6 +1170,8 @@ focus_tree = {
         }
     }
 	
+	############################################ friendly neutralism
+	
 	focus = {
         id = CET_friendly_with_all
         x = 4
@@ -1122,9 +1203,12 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
-        }
-    }
+		add_relation_modifier = {
+			target = ANT
+			modifier = CET_contact_antares
+			}
+		}
+	}
 	
 	focus = {
         id = CET_mirren_elke_pact
@@ -1143,12 +1227,28 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_preemptive_strike
+        id = CET_carran_kharon_accords
         x = 0
         y = 1
+		icon = GFX_focus_generic_treaty
+        relative_position_id = CET_mirren_elke_pact
+		prerequisite = { focus = CET_mirren_elke_pact }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	focus = {
+        id = CET_preemptive_strike
+        x = 2
+        y = 1
 		icon = GFX_focus_COV_the_confederation
-        relative_position_id = CET_friendly_with_all
-		prerequisite = { focus = CET_friendly_with_all }
+        relative_position_id = CET_mirren_elke_pact
+		prerequisite = { focus = CET_mirren_elke_pact }
         
         #search_filters =
         cost = 10
@@ -1205,13 +1305,29 @@ focus_tree = {
     }
 	
 	focus = {
+        id = CET_allow_voting
+        x = 0
+        y = 1
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+        relative_position_id = CET_a_changing_landscape
+		prerequisite = { focus = CET_a_changing_landscape }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		army_experience = 10
+        }
+    }
+	
+	focus = {
         id = CET_a_constitutional_monarchy
         x = 0
         y = 1
 		icon = GFX_focus_BRA_constitutional_monarchy
-        relative_position_id = CET_a_changing_landscape
+        relative_position_id = CET_allow_voting
 		mutually_exclusive = { focus = CET_a_full_democracy }
-		prerequisite = { focus = CET_a_changing_landscape }
+		prerequisite = { focus = CET_allow_voting }
         
         #search_filters =
         cost = 10
@@ -1226,9 +1342,9 @@ focus_tree = {
         x = 2
         y = 1
 		icon = GFX_focus_NOR_send_the_king_back_to_denmark
-        relative_position_id = CET_a_changing_landscape
+        relative_position_id = CET_allow_voting
 		mutually_exclusive = { focus = CET_a_constitutional_monarchy }
-		prerequisite = { focus = CET_a_changing_landscape }
+		prerequisite = { focus = CET_allow_voting }
         
         #search_filters =
         cost = 10
@@ -1377,7 +1493,7 @@ focus_tree = {
     }
 	
 	focus = {
-        id = CET_grand_navy
+        id = CET_great_inanis_fleet
         x = -2
         y = 1
 		icon = GFX_focus_ETH_an_ethiopian_navy_in_exile
@@ -2318,17 +2434,8 @@ focus_tree = {
 		
 		available = {
 		has_full_control_of_state = 46
-		OR = {
+		IF = {
 		NOT = { has_completed_focus = CET_complete_plan_corvus }
-		has_completed_focus = CET_southern_defence
-			}
-			OR = {
-			NOT = { has_completed_focus = CET__plan_antares }
-			has_completed_focus = CET_complete_plan_corvus
-			}
-			OR = {
-			NOT = { has_completed_focus = CET_complete_plan_antares }
-			NOT = { has_completed_focus = CET_complete_plan_corvus }
 			}
 		}
 		
@@ -2400,15 +2507,18 @@ focus_tree = {
 		available = {
 		has_full_control_of_state = 46
 		OR = {
-		NOT = { has_completed_focus = CET_complete_plan_corvus }
+		NOT = { has_completed_focus = CET_plan_corvus }
 		has_completed_focus = CET_southern_defence
 			}
 			OR = {
 			NOT = { has_completed_focus = CET_complete_plan_antares }
 			NOT = { has_completed_focus = CET_complete_plan_corvus }
 			}
+			OR = {
+			NOT = { has_completed_focus = CET_complete_plan_antares }
+			has_completed_focus = CET_plan_antares
+			}
 		}
-		
         
         #search_filters =
         cost = 10

@@ -2351,6 +2351,11 @@ focus_tree = {
 		available = {
 				is_subject = no
 				has_army_manpower = { size > 999999 }
+				check_variable = { num_equipment_in_armies_k@infantry_equipment > 80 }
+			custom_trigger_tooltip = {
+			 	tooltip = ANT_eq_trigger_tt
+			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 80 }
+			 }
 		}
 		completion_reward = {
 			custom_effect_tooltip = corvus_does_nothing_tooltip

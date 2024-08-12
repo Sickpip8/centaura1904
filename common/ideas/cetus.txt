@@ -315,5 +315,43 @@ ideas = {
                 production_speed_bunker_factor = 0.4
             }
         }
+		
+		CET_towards_greater_cetus_idea = {
+            name = CET_towards_greater_cetus
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                war_support_factor = 0.1
+                political_power_gain = 0.25
+            }
+        }
+		
+		CET_master_s_centaura_idea = {
+            name = CET_master_s_centaura
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                war_support_factor = 0.1
+                political_power_gain = 0.25
+            }
+        }
+		
+		CET_strengthened_monarch_idea = {
+            name = CET_strengthened_monarch
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                neutrality_drift = 0.1
+            }
+        }
     }
 }
