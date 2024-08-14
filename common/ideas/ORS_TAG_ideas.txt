@@ -92,7 +92,6 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.3
 				stability_factor = -0.2
 				industrial_capacity_factory = 0.1
-				industrial_capacity_factory = 0.1
 				production_factory_max_efficiency_factor = 0.1
 			}
 		}	
@@ -387,6 +386,47 @@ ideas = {
 				army_defense_factor = 0.15
 				breakthrough_factor = 0.1
 				army_org_factor = 0.15
+			}
+		}
+		
+		ORS_IsolatedEconomy = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = AUR
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				stability_weekly = -0.01
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				industrial_capacity_factory = -0.2
+			}
+		}
+		
+		ORS_AntiAntareanPropaganda = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = ANT
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+				breakthrough_bonus_against = 0.1
 			}
 		}
 	}
