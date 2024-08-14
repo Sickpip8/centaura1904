@@ -519,7 +519,7 @@ focus_tree = {
 		prerequisite = { focus = CET_monarchist }
         
         #search_filters =
-        cost = 10
+        cost = 5
 
         completion_reward = {
 		add_manpower = 12
@@ -634,10 +634,10 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = CET_local_civilian_industry
+        id = CET_local_military_industry
         x = 2
         y = 1
-		icon = GFX_focus_generic_industry_1
+		icon = GFX_goal_generic_construct_mil_factory
         relative_position_id = CET_support_local_development
 		prerequisite = { focus = CET_support_local_development }
         
@@ -653,7 +653,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
-				type = industrial_complex
+				type = arms_factory
 				level = 2
 				instant_build = yes
 				}
@@ -1020,7 +1020,7 @@ focus_tree = {
         id = CET_develop_ourselves
         x = 0
         y = 1
-		icon = GFX_
+		icon = GFX_focus_spr_masters_of_our_own_fate
         relative_position_id = CET_practice_isolation
 		prerequisite = { focus = CET_practice_isolation }
         
@@ -1057,11 +1057,11 @@ focus_tree = {
 	
 	focus = {
         id = CET_our_factory
-        x = -2
+        x = -3
         y = 1
 		icon = GFX_focus_generic_industry_3
         relative_position_id = CET_our_resources
-		prerequisite = { focus = CET_our_resources }
+		prerequisite = { focus = CET_our_resources focus = CET_towards_a_greater_cetus }
         
         #search_filters =
         cost = 10
@@ -1085,7 +1085,7 @@ focus_tree = {
 	
 	focus = {
         id = CET_exploit_south_corvun_iron_belt
-        x = 0
+        x = -1
         y = 1
 		icon = GFX_focus_generic_mining_industry
         relative_position_id = CET_our_factory
@@ -1100,7 +1100,33 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
+		48 = { add_resource = {
+		type = steel
+		amount = 10 }
+			}
+		}
+    }
+	
+	focus = {
+        id = CET_oil_in_the_ocean
+        x = 1
+        y = 1
+		icon = GFX_goal_generic_oil_refinery
+        relative_position_id = CET_our_factory
+		prerequisite = { focus = CET_our_factory }
+        
+		available = {
+		has_full_control_of_state = 7
+		}
+		
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		49 = { add_resource = {
+		type = oil 
+		amount = 6 }
+			}
         }
     }
 	
@@ -1132,17 +1158,71 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
+		add_timed_idea = {
+		idea = CET_refurbish_scaphan_line
+        days = 210
+			}
+		}
+	}
+	
+	focus = {
+        id = CET_setup_weapon_caches
+        x = 2
+        y = 1
+		icon = GFX_focus_FIN_weapon_caches
+        relative_position_id = CET_increase_army_works_engineering_section_budget
+		prerequisite = { focus = CET_increase_army_works_engineering_section_budget }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
 		add_manpower = 12
         }
     }
 	
+	focus = {
+        id = CET_construct_anti_air
+        x = -2
+        y = 1
+		icon = GFX_focus_generic_air_defense
+        relative_position_id = CET_refurbish_scaphan_line
+		prerequisite = { focus = CET_refurbish_scaphan_line }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	focus = {
+        id = CET_cache_feed
+        x = 2
+        y = 1
+		icon = GFX_focus_cze_military_research_institute
+        relative_position_id = CET_refurbish_scaphan_line
+		prerequisite = { focus = CET_refurbish_scaphan_line }
+		prerequisite = { focus = CET_setup_weapon_caches }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	
+	
 	################################# shared neutrals
 	
 	focus = {
-        id = CET_inanis_explorers
+        id = CET_copy_foreign_designs
         x = 2
         y = 1
-		icon = GFX_focus_NOR_the_glucksburg_sea_wall
+		icon = GFX_focus_generic_copy_plane_designs
         relative_position_id = CET_practice_isolation
 		prerequisite = { focus = CET_practice_isolation focus = CET_friendly_with_all }
         
@@ -1159,8 +1239,8 @@ focus_tree = {
         x = 0
         y = 1
 		icon = GFX_focus_research2
-        relative_position_id = CET_inanis_explorers
-		prerequisite = { focus = CET_inanis_explorers }
+        relative_position_id = CET_copy_foreign_designs
+		prerequisite = { focus = CET_copy_foreign_designs }
         
         #search_filters =
         cost = 10
@@ -1169,6 +1249,24 @@ focus_tree = {
 		add_manpower = 12
         }
     }
+	
+	focus = {
+        id = CET_cetan_royal_academy
+        x = 0
+        y = 1
+		icon = GFX_focus_NORDIC_com_capstone_research
+        relative_position_id = CET_further_research
+		prerequisite = { focus = CET_further_research }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+        }
+    }
+	
+	
 	
 	############################################ friendly neutralism
 	
@@ -1460,6 +1558,7 @@ focus_tree = {
         }
     }
 	
+	######################################## navy #
 	focus = {
         id = CET_navy
         x = -4
@@ -1505,6 +1604,22 @@ focus_tree = {
 
         completion_reward = {
 		navy_experience = 10
+        }
+    }
+	
+	focus = {
+        id = CET_inanis_explorers
+        x = 0
+        y = 1
+		icon = GFX_focus_NOR_the_glucksburg_sea_wall
+        relative_position_id = CET_great_inanis_fleet
+		prerequisite = { focus = CET_great_inanis_fleet }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
         }
     }
 	
@@ -1702,6 +1817,8 @@ focus_tree = {
 			}
         }
     }
+	
+	########################################### defencesive measures
 	
 	focus = {
         id = CET_defence_measures
@@ -2126,19 +2243,25 @@ focus_tree = {
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 21
+							province = 2676
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 4762
+							province = 844
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
 							level = 3
-							province = 808
+							province = 4837
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4779
 							instant_build = yes
 						}
 						add_building_construction = {
@@ -2147,56 +2270,48 @@ focus_tree = {
 							province = 4727
 							instant_build = yes
 						}
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 2079
-							instant_build = yes
-						}
-						47 = {
+						48 = {
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 2449
+								province = 4667
 								instant_build = yes
 							}
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 4612
+								province = 649
 								instant_build = yes
 							}
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 4561
+								province = 4550
 								instant_build = yes
 							}
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 4460
-								instant_build = yes
-								}
-						40 = {
-							add_building_construction = {
-								type = bunker
-								level = 3
-								province = 1828
+								province = 2754
 								instant_build = yes
 							}
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 4301
+								province = 4415
 								instant_build = yes
 							}
 							add_building_construction = {
 								type = bunker
 								level = 3
-								province = 749
+								province = 276
 								instant_build = yes
-								}
+							}
+							add_building_construction = {
+								type = bunker
+								level = 3
+								province = 4308
+								instant_build = yes
 							}
 						}
 					}
