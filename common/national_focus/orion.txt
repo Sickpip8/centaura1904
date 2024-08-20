@@ -1484,7 +1484,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_stability = 0.05
+				add_ideas = ORS_WarPlanRiaa
 			}
 			
 			ai_will_do = {
@@ -1587,6 +1587,7 @@ focus_tree = {
 				focus = ORS_TheEasternTitan
 			}
 			completion_reward = {
+				add_ideas = ORS_MasterOfForma
 			}
 			
 			ai_will_do = {

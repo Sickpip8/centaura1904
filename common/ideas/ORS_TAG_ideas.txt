@@ -421,12 +421,54 @@ ideas = {
 			available = {}
 			
 			removal_cost = -1
-			
+			modifier = {
+				offensive_war_stability_factor = 0.2
+			}
 			targeted_modifier = {
 				tag = ANT
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
 				breakthrough_bonus_against = 0.1
+			}
+		}
+		
+		ORS_WarPlanRiaa = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = RIA
+				attack_bonus_against = 0.2
+				defense_bonus_against = 0.15
+				breakthrough_bonus_against = 0.1
+			}
+		}
+		
+		ORS_MasterOfForma = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			modifier = {
+				army_attack_factor  = 0.25
+				army_defense_factor = 0.25
+				breakthrough_factor = 0.15
+				army_org_factor = 0.25
+				political_power_factor = 0.3
+				stability_factor = 0.4
+				stability_weekly = 0.01
 			}
 		}
 	}
