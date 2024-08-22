@@ -402,12 +402,11 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
-				stability_weekly = -0.01
-				consumer_goods_factor = 0.4
-				production_speed_buildings_factor = -0.2
-				production_factory_max_efficiency_factor = -0.2
-				production_factory_efficiency_gain_factor = -0.2
-				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				industrial_capacity_factory = -0.1
 			}
 		}
 		
@@ -421,9 +420,7 @@ ideas = {
 			available = {}
 			
 			removal_cost = -1
-			modifier = {
-				offensive_war_stability_factor = 0.2
-			}
+			
 			targeted_modifier = {
 				tag = ANT
 				attack_bonus_against = 0.1
@@ -462,13 +459,12 @@ ideas = {
 			
 			removal_cost = -1
 			modifier = {
-				army_attack_factor  = 0.25
-				army_defense_factor = 0.25
-				breakthrough_factor = 0.15
-				army_org_factor = 0.25
-				political_power_factor = 0.3
-				stability_factor = 0.4
-				stability_weekly = 0.01
+				army_attack_factor  = 0.15
+				army_defense_factor = 0.15
+				breakthrough_factor = 0.5
+				army_org_factor = 0.15
+				political_power_factor = 0.2
+				stability_factor = 0.05
 			}
 		}
 	}
