@@ -1596,7 +1596,7 @@ focus_tree = {
 		}
 		
 		focus = {
-			id = ORS_The
+			id = ORS_TheHard1900s
 			icon = GFX_focus_SOV_international_union_of_soviet_republics
 			x = 51
 			y = 8
@@ -1605,12 +1605,6 @@ focus_tree = {
 				
 			}
 			
-			prerequisite = {
-				focus = ORS_TheMasterOfCentaura
-			}
-			prerequisite = {
-				focus = ORS_TheEasternTitan
-			}
 			completion_reward = {
 				add_ideas = ORS_MasterOfForma
 			}
