@@ -49,7 +49,7 @@ units = {
 		}
 		location = 3860
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	
@@ -58,9 +58,9 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 4065
+		location = 421
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	
@@ -71,7 +71,7 @@ units = {
 		}
 		location = 4037
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 	
@@ -82,8 +82,8 @@ units = {
 		}
 		location = 2364
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -93,8 +93,8 @@ units = {
 		}
 		location = 121
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -104,8 +104,8 @@ units = {
 		}
 		location = 3860
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -115,8 +115,8 @@ units = {
 		}
 		location = 3860
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -126,8 +126,8 @@ units = {
 		}
 		location = 4142
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -137,8 +137,8 @@ units = {
 		}
 		location = 4110
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -148,8 +148,8 @@ units = {
 		}
 		location = 604
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -159,8 +159,8 @@ units = {
 		}
 		location = 3978
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -170,8 +170,8 @@ units = {
 		}
 		location = 1877
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -181,8 +181,8 @@ units = {
 		}
 		location = 4003
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -192,8 +192,8 @@ units = {
 		}
 		location = 3124
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -203,8 +203,8 @@ units = {
 		}
 		location = 3308
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 	
 	division = {
@@ -212,9 +212,9 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 421
+		location = 4065
 		division_template = "Columban Mountaineer Unit"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
 	}
 }

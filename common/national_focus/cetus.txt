@@ -318,7 +318,7 @@ focus_tree = {
             48 = {
                 add_extra_state_shared_building_slots = 2
                 add_building_construction = {
-                    type = arms_factory
+                    type = industrial_complex
                     level = 1
                     instant_build = yes
                 }
@@ -522,7 +522,7 @@ focus_tree = {
         cost = 5
 
         completion_reward = {
-		add_manpower = 12
+		add_ideas = CET_the_whale_idea
         }
     }
 	
@@ -723,12 +723,31 @@ focus_tree = {
 		icon = GFX_focus_eng_motion_of_no_confidence
         relative_position_id = CET_unite_corvuses
 		prerequisite = { focus = CET_unite_corvuses }
+		
+		available = {
+		has_full_control_of_state = 8
+		has_full_control_of_state = 51
+		has_full_control_of_state = 52
+		has_full_control_of_state = 53
+		}
         
         #search_filters =
         cost = 10
 
         completion_reward = {
 		add_manpower = -50000
+		8 = {
+			add_resistance = -10
+			}
+			51 = {
+			add_resistance = -10
+			}
+			52 = {
+			add_resistance = -10
+			}
+			53 = {
+			add_resistance = -10
+			}
         }
     }
 	
@@ -1150,7 +1169,7 @@ focus_tree = {
         id = CET_refurbish_scaphan_line
         x = 0
         y = 1
-		icon = GFX_goal_generic_defence
+		icon = GFX_focus_SWE_hedgehog_defense
         relative_position_id = CET_increase_army_works_engineering_section_budget
 		prerequisite = { focus = CET_increase_army_works_engineering_section_budget }
         
@@ -1159,7 +1178,7 @@ focus_tree = {
 
         completion_reward = {
 		add_timed_idea = {
-		idea = CET_refurbish_scaphan_line
+		idea = CET_refurbish_scaphan_line_idea
         days = 210
 			}
 		}
@@ -1201,7 +1220,7 @@ focus_tree = {
         id = CET_cache_feed
         x = 2
         y = 1
-		icon = GFX_focus_cze_military_research_institute
+		icon = GFX_focus_FIN_oy_alkoholiliike
         relative_position_id = CET_refurbish_scaphan_line
 		prerequisite = { focus = CET_refurbish_scaphan_line }
 		prerequisite = { focus = CET_setup_weapon_caches }
@@ -1287,11 +1306,110 @@ focus_tree = {
         }
     }
 	
+	focus = {
+        id = CET_trade
+        x = 1
+        y = 1
+		icon = GFX_focus_generic_industrialists
+        relative_position_id = CET_friendly_with_all
+		prerequisite = { focus = CET_friendly_with_all }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = CET_look_for_deals
+        x = 0
+        y = 1
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+        relative_position_id = CET_trade
+		prerequisite = { focus = CET_trade }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = CET_aquilan_trade
+        x = -1
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = CET_look_for_deals
+		prerequisite = { focus = CET_look_for_deals }
+		mutually_exclusive = { focus = CET_antarean_trade }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = CET_hydran_imports
+        x = 0
+        y = 1
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+        relative_position_id = CET_aquilan_trade
+		prerequisite = { focus = CET_aquilan_trade }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = CET_auriga
+        x = 0
+        y = 1
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+        relative_position_id = CET_hydran_imports
+		prerequisite = { focus = CET_hydran_imports }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = CET_antarean_trade
+        x = 1
+        y = 1
+		icon = GFX_focus_generic_ant
+        relative_position_id = CET_look_for_deals
+		prerequisite = { focus = CET_look_for_deals }
+		prerequisite = { focus = CET_contact_antares }
+		mutually_exclusive = { focus = CET_aquilan_trade }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
 	
 	
 	focus = {
         id = CET_contact_antares
-        x = 2
+        x = 4
         y = 1
 		icon = GFX_focus_generic_ant
         relative_position_id = CET_friendly_with_all
@@ -1301,12 +1419,16 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_relation_modifier = {
-			target = ANT
-			modifier = CET_contact_antares
+		ANT = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = CET_contact_antares
+				}
 			}
 		}
 	}
+	
+	
 	
 	focus = {
         id = CET_mirren_elke_pact

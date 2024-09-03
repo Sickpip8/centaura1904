@@ -53,6 +53,10 @@ bookmarks = {
             minor = yes
 			history = AQU_1900_DESC
 			ideology = democracy
+			ideas = {
+				AQU_iron_army_idea
+				AQU_lucas_silva_idea
+			}
 		}
 		GRS = {
             minor = yes
@@ -78,6 +82,9 @@ bookmarks = {
             minor = yes
 			history = CTA_1900_DESC
 			ideology = neutrality
+			ideas = {
+				CTA_democratic_bastion_idea
+			}
 		}
 		VUL = {
             minor = yes

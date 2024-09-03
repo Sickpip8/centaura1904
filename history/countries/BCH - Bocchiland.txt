@@ -19,6 +19,9 @@ add_political_power = 1000
 set_convoys = 9000
 
 recruit_character = BCH_hitori_gotoh
+recruit_character = BCH_kita_ikuyo
+recruit_character = BCH_ryo_yamada
+recruit_character = BCH_nijika_ijichi
 
 set_popularities = {
 	democratic = 100

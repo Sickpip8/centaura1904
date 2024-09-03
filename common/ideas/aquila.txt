@@ -16,3 +16,15 @@ ideas = {
 				forced_surrender_limit = 0.4
             }
         }
+		
+		AQU_lucas_silva_idea = {
+            name = AQU_lucas_silva
+            
+            picture = idea_iron_army
+            allowed = { original_tag = AQU }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = 0.1
+            }
+        }

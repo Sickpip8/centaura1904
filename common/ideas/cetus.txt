@@ -354,8 +354,8 @@ ideas = {
             }
         }
 		
-		CET_refurbish_scaphan_line = {
-            name = CET_refurbish_scaphan_line_idea
+		CET_refurbish_scaphan_line_idea = {
+            name = CET_refurbish_scaphan_line
             
             picture = CET_towards_greater_cetus
             allowed = { original_tag = CET }
@@ -363,6 +363,18 @@ ideas = {
 
             modifier = {
                 production_speed_bunker_factor = 0.2
+            }
+        }
+		
+		CET_the_whale_sea_idea = {
+            name = CET_the_whale_sea
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                industrial_capacity_dockyard = 0.05
             }
         }
     }

@@ -1,0 +1,18 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Southern Fleet"
+		naval_base = 2454
+		task_force = {				
+			name = "1st Command"
+			location = 2454
+			ship = { name = "FUS Muscida" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
+			ship = { name = "FUS Muscida II" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
+			ship = { name = "FUS Muscida III" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
+			ship = { name = "FUS Tania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
+			ship = { name = "FUS Alkafzah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
+			ship = { name = "FUS Borealis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
+			ship = { name = "FUS Carlina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
+			
+# add obb to ursa country file, add ship classes

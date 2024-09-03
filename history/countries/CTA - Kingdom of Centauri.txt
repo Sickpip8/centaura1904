@@ -30,6 +30,10 @@ add_political_power = 1
 
 set_convoys = 10
 
+add_ideas = {
+	CTA_democratic_bastion_idea
+	}
+
 set_popularities = {
 	democratic = 1
 	communism = 0

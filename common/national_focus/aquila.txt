@@ -11,7 +11,7 @@ focus_tree = {
     continuous_focus_position = { x = 25 y = 680 }
 
     focus = {
-        id = AQU_placeholder
+        id = AQU_stable_path_of_democracy
         icon = GFX_goal_generic_territory_or_war
         x = 10
         y = 0
@@ -26,3 +26,196 @@ focus_tree = {
             factor = 5
         }
     }
+	
+	focus = {
+        id = AQU_territorial_integrity
+        x = 4
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_stable_path_of_democracy
+		prerequisite = { focus = AQU_stable_path_of_democracy }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	

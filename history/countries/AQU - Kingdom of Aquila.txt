@@ -75,6 +75,9 @@ add_ideas = {
 	AQU_iron_army_idea
 }
 
+recruit_character = AQU_ewan_fouwler
+recruit_character = AQU_lucas_silva
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Destroyers #

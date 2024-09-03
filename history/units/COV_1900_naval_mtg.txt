@@ -1,0 +1,68 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "firery Fleet"
+		naval_base = 
+		task_force = {				
+			name = "1 Command"
+			location =  
+			ship = { name = "CS Rex" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = COV version_name = "Khorin Class" } } }
+			ship = { name = "CS Rubigo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COV version_name = "CLA Class" } } }
+			ship = { name = "CS DD2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COV version_name = "DD2 Class" } } }
+		}
+		task_force = {				
+			name = "2 Command"
+			location = 
+			ship = { name = "CS Baten" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = COV version_name = "Khorin Class" } } }
+		}
+		task_force = {				
+			name = "3 Command"
+			location = 
+			ship = { name = "CS Quintus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = COV version_name = "Elatus Class" } } }
+			ship = { name = "CS Kulshalm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COV version_name = "DD1 Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "handsndeck FLeet"
+		naval_base = 
+		task_force = {				
+			name = "4 Command"
+			location = 
+			ship = { name = "CS Fluid" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COV version_name = "Fluid Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "sl12223 Fleet"
+		naval_base = 
+		task_force = {				
+			name = "5 Command"
+			location = 
+			ship = { name = "CS Coronis" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = COV version_name = "Khorin Class" } } }
+			ship = { name = "CS Rhesus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COV version_name = "DD2 Class" } } }
+		}
+		task_force = {				
+			name = "6 Command"
+			location = 
+			ship = { name = "CS Nyodymium" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COV version_name = "CAL Class" } } }
+			ship = { name = "CS Nestos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COV version_name = "DD2 Class" } } }
+		}
+	}
+}
+
+instant_effect = {
+### Under Construction Notes ###
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "COV" 
+			version_name = "Elatus Class"
+		}
+		name = "CS Elatusa"
+		requested_factories = 2
+		progress = 0.79
+		amount = 1
+	}
+}

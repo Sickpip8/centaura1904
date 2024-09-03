@@ -91,6 +91,15 @@
  # neutral
  CET_neutralist_monarchism:0 "Neutral Monarchism"
  CET_neutralist_monarchism_desc:0 "
+ # imperial-neutral isolationist focuses
+ CET_our_resources:0 "Our Own Resources"
+ CET_our_resources_desc:0 "
+ CET_our_factory:0 "Our Industry"
+ CET_our_factory_desc:0 "
+ CET_exploit_south_corvun_iron_belt:0 "Exploit South Corvun Iron"
+ CET_exploit_south_corvun_iron_belt_desc:0 "
+ CET_oil_in_the_ocean:0 "Oil In The Oceans"
+ CET_oil_in_the_ocean_desc:0 "
  #isolate
  CET_practice_isolation:0 "Practice Isolation"
  CET_practice_isolation_desc:0 "
@@ -98,16 +107,23 @@
  CET_develop_ourselves_desc:0 "
  CET_focus_on_unity:0 "Focus On National Unity"
  CET_focus_on_unity_desc:0 "
- CET_inanis_explorers:0 "Protectors Of The Inanis"
+ CET_inanis_explorers:0 "Protectors Of The Inanis" #put to naval
  CET_inanis_explorers_desc:0 "Even if we do not want to continue the conquests for resources, the Inanis Ocean is still ours. We will proclaim that the Inanis is Cetan and only Cetus can hold control over it."
- CET_further_research:0 "Further Our Research"
- CET_further_research_desc:0 "
- CET_our_resources:0 "Our Own Resources"
- CET_our_resources_desc:0 "
- CET_our_factory:0 "Our Industry"
- CET_our_factory_desc:0 "
  CET_increase_army_works_engineering_section_budget:0 "Increase the Army Works Budget"
  CET_increase_army_works_engineering_section_budget_desc:0 "
+ CET_setup_weapon_caches:0 "Setup Weapon Caches"
+ CET_setup_weapon_caches_desc:0 "
+ CET_cache_feed:0 "Feed The Caches"
+ CET_cache_feed_desc:0 "
+ CET_construct_anti_air:0 "Construct Anti Air"
+ CET_construct_anti_air_desc:0 "
+ # shared isolate-friendly
+ CET_copy_foreign_designs:0 "Copy Foreign Designs"
+ CET_copy_foreign_designs_desc:0 "
+ CET_further_research:0 "Further Our Research"
+ CET_further_research_desc:0 "
+ CET_cetan_royal_academy:0 "Cetan Royal Academy"
+ CET_cetan_royal_academy_desc:0 "
  #friendly
  CET_friendly_with_all:0 "Friendly Relations"
  CET_friendly_with_all_desc:0 "
@@ -115,6 +131,8 @@
  CET_contact_antares_desc:0 "
  CET_mirren_elke_pact:0 "Mirren-Elke Pact"
  CET_mirren_elke_pact_desc:0 "We have also noticed a closer diplomatic relation with Antares and Corvus, so we should work on securing a non-agression pact with Antares, and to keep our neutrality in this world."
+ CET_carran_kharon_accords:0 "Carran-Kharon Accords"
+ CET_carran_kharon_accords_desc:0 "
  CET_preemptive_strike:0 "Pre-emptive Strike"
  CET_preemptive_strike_desc:0 "After we seized South Corvus, we have noticed that Corvus harbors some kind of revanchism against us. We cannot allow them to strike at us first, a pre-emptive strike is needed."
  # - firerys army focus tree
@@ -258,6 +276,12 @@
  CET_desperate_defence_desc:0 "We have been caught in a war and we need to put measures in order to not capitulate immediately."
  CET_master_s_centaura:0 "Master Of South Centaura"
  CET_master_s_centaura_desc:0 "
+ CET_strengthened_monarch:0 "Monarchy Strengthened"
+ CET_strengthened_monarch_desc:0 "
+ CET_refurbish_scaphan_line:0 "Scaphan Line Refurbishment"
+ CET_refurbish_scaphan_line_desc:0 "
+ CET_the_whale_sea:0 "The Whale"
+ CET_the_whale_sea_desc:0 "Cetus's constellation is based off a whale. It was decided since the ancient times Cetus was to claim the oceans."
  # misc
 
  # characters
