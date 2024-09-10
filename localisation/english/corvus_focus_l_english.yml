@@ -184,7 +184,7 @@
  corvun_sabotage_supply_tooltip:0 "Taking this focus will allow a decision to damage supply depots in South Corvus."
  corvun_sabotage_factory_tooltip:0 "Taking this focus will allow a decision to damage military factories in South Corvus."
  corvun_sabotage_factory_2_tooltip:0 "Taking this focus will allow a decision to damage military factories in Cetus."
- corvus_take_initial_offensive_on_war:0 "You should take Initial Offensive focus after declaring war on Cetus."
+ corvus_take_initial_offensive_on_war:0 "Autocompletes on war with Cetus."
  
  ######
  # misc

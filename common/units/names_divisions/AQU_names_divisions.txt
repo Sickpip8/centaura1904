@@ -58,7 +58,7 @@ AQU_INF_01 = {
 		5 = { "%dth Infantry Division" }
 		42 = { "%dnd Infantry Division" }
 		43 = { "%drd Infantry Division" }
-		44 = { "%dth Division" }
+		44 = { "%dth Infantry Division" }
 		48 = { "%dth Infantry Division" }
 		49 = { "%dth Infantry Division" }
 		50 = { "%dth Infantry Division" }
@@ -168,6 +168,7 @@ AQU_INF_01 = {
 		149 = { "%dth Infantry Division" }
 		150 = { "%dth Infantry Division" }
 	}
+}
 	
 	AQU_INF_02 = {
 	name = "Civil Guard"
@@ -280,4 +281,5 @@ AQU_INF_01 = {
 		94 = { "%dth Civil Guard" }
 		95 = { "%dth Civil Guard" }
 		96 = { "%dth Civil Guard" }
+	}
 }

@@ -92,7 +92,8 @@ Initial States, In numerical order
 	- 59 South Columba
 	- 60 West Columba
 	- 61 Central Columba
-	- 62 North Columba
+	- 62 North Columba (coastal)
+	- 185 North Columba (inland)
 
 63 - 73 Riaa (11+1) State_13
 	- 63 Southernmost Riaa (Corvus border)
@@ -248,3 +249,4 @@ Newly added states after the initial states
 182 east lepus islands (Broke from East Lepus) 132
 183 north libran islands (west) (Broke from West Libran Island) 1
 184 north libran islands (east) (Broke from East Libran Island) 20
+185 north columba (inland, great plains)

@@ -28,8 +28,10 @@
  #########
  # spirits
  #########
- AQU_iron_army_idea:0 "The Iron Army"
- AQU_iron_army_idea_desc:0 "The “Iron Army” nickname was given to the Aquilans when in the early 1800’s, they held off a major Antarean assault from the sout. In the aftermath of that war, the Aquilans were able to retain their borders with minimal losses."
+ AQU_iron_army:0 "The Iron Army"
+ AQU_iron_army_desc:0 "The “Iron Army” nickname was given to the Aquilans when in the early 1800’s, they held off a major Antarean assault from the sout. In the aftermath of that war, the Aquilans were able to retain their borders with minimal losses."
+ AQU_lucas_silva:0 "King Lucas Silva"
+ AQU_lucas_silva_desc:0 "The King of Aquila, although he does not retain any power, he is a good figurehead for our country."
  ######
  # misc
  ######

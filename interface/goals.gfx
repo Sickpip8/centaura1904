@@ -6307,6 +6307,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_focus_generic_democratic_beam"
+		texturefile = "gfx/interface/goals/focus_generic_democratic_beam.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_focus_generic_attack_cetus"
 		texturefile = "gfx/interface/goals/focus_generic_attack_cetus.dds"
 	}

@@ -539,7 +539,7 @@
 		relative_position_id = COV_war_with_cetus
 		x = 0
 		y = 2
-		cost = 0
+		cost = 10
 
 		completion_reward = {
 			#country_event = {

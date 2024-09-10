@@ -69,3 +69,19 @@ Hydra:
 	Musca: 5,581,312 (1.1162623999999999%)
 	
 # State populations found in State note v2.txt
+
+All numbers are rough estimates.
+
+1908 (~1.2 BILLION)
+Riaa: ~420,000,000 (35%)
+Antares: ~300,000,000 (25%)
+Columba: ~120,000,000 (10%)
+Aquila: ~108,000,000 (9%)
+Cetus: ~84,000,000 (7%)
+Grusa: ~48,000,000 (4%)
+Vega: ~36,000,000 (3%)
+Centauri: ~36,000,000 (3%)
+Tucana: ~36,000,000 (3%)
+Vulpa: ~12,000,000 (1%)
+
+Ursa: ~140,000,000

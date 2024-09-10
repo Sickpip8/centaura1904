@@ -16,6 +16,7 @@ focus_tree = {
         x = 10
         y = 0
         cost = 5
+		mutually_exclusive = { focus = AQU_repeal_democratic_law }
         available = {
             
         }
@@ -28,12 +29,13 @@ focus_tree = {
     }
 	
 	focus = {
-        id = AQU_territorial_integrity
-        x = 4
+        id = AQU_beacon_of_democracy
+        x = -4
         y = 1
-		icon = GFX_focus_generic_aquila
+		icon = GFX_focus_generic_democratic_beam
         relative_position_id = AQU_stable_path_of_democracy
 		prerequisite = { focus = AQU_stable_path_of_democracy }
+		mutually_exclusive = { focus = AQU_restart_expansionism }
         
         #search_filters =
         cost = 10
@@ -44,12 +46,13 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
-        x = 0
+        id = AQU_restart_expansionism # Expansionist democracy
+        x = 4
         y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+		icon = GFX_goal_generic_demand_territory
+        relative_position_id = AQU_stable_path_of_democracy
+		prerequisite = { focus = AQU_stable_path_of_democracy }
+		mutually_exclusive = { focus = AQU_beacon_of_democracy }
         
         #search_filters =
         cost = 10
@@ -60,12 +63,12 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
-        x = 0
-        y = 1
+        id = AQU_repeal_democratic_law
+        x = 12
+        y = 0
 		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+        relative_position_id = AQU_stable_path_of_democracy
+		mutually_exclusive = { focus = AQU_stable_path_of_democracy }
         
         #search_filters =
         cost = 10

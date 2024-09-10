@@ -98,3 +98,7 @@ RDN = {
 	color = rgb { 204 179 125 }
 	color_ui  = rgb { 174 149 95 }
 }
+LGS = {
+	color = rgb { 0 220 220 }
+	color_ui  = rgb { 0 190 190 }
+}
