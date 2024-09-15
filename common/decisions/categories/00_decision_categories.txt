@@ -547,3 +547,15 @@ generic_refit_civilian_ships_category = {
 	}
 	visible_when_empty = no
 }
+
+ANT_bocchiland = {
+	allowed = {
+		original_tag = ANT
+	}
+}
+
+ANT_unity_speech = {
+	allowed = {
+		original_tag = ANT
+	}
+}

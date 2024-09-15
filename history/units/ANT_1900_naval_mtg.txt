@@ -8,11 +8,9 @@ units = {
 			name = "Kharon Detachment"
 			location = 2177
 			ship = { name = "AIS Venus" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
-			ship = { name = "AIS Ahsabkab" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
-			ship = { name = "AIS Vallis" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
-			ship = { name = "AIS Mercury" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Mercury Class" } } }
-			ship = { name = "AIS Aparangi" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Mercury Class" } } }
-			ship = { name = "AIS Borealis" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Mercury Class" } } }
+			ship = { name = "AIS Mercury" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
+			ship = { name = "AIS Forma" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
+			ship = { name = "AIS Mars" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ANT version_name = "Venus Class" } } }
 			ship = { name = "AIS Argentum" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANT version_name = "Argentum Class"  } } }
 			ship = { name = "AIS Argenteus" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANT version_name = "Argentum Class"  } } }
 			ship = { name = "AIS Pallidus" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ANT version_name = "Argentum Class"  } } }
@@ -34,7 +32,7 @@ units = {
 		task_force = {				
 			name = "Aquila Detachment"
 			location = 2286
-			ship = { name = "AIS Tir" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Mercury Class"  } } }
+			ship = { name = "AIS Maia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Venus Class"  } } }
 			ship = { name = "AIS Flavus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
 			ship = { name = "AIS Aeterna Flavus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
 			ship = { name = "AIS Symmetrus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
@@ -48,7 +46,7 @@ units = {
 		task_force = {				
 			name = "Skorpius Detachment"
 			location = 6073
-			ship = { name = "AIS Stilbon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Mercury Class"  } } }
+			ship = { name = "AIS Theia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Venus Class"  } } }
 			ship = { name = "AIS Resistentia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
 			ship = { name = "AIS Obduratus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
 			ship = { name = "AIS Forctis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }

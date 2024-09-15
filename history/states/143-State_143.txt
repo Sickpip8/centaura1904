@@ -15,33 +15,41 @@ state={
 			arms_factory = 1
 			dockyard = 3
 			
-			6322 = {
-				naval_base = 1
+			2160 = {
+				naval_base = 6
 			}
 
-			20 = {
+			2667 = {
+				naval_base = 2
+			}
+			
+			6430 = {
 				naval_base = 1
 			}
 			
-			657 = {
-				naval_base = 1
+			6465 = {
+				naval_base = 2
 			}
 			
-			3126 = {
-				naval_base = 1
-			}
-			
-			1497 = {
-				naval_base = 1
-			}
-			
-			6232 = {
+			6456 = {
 				naval_base = 1
 			}
 			
 		}
 		victory_points = {
-			6322 7
+			2160 35
+		}
+		victory_points = {
+			2667 15
+		}
+		victory_points = {
+			6430 10
+		}
+		victory_points = {
+			6465 15
+		}
+		victory_points = {
+			6456 10
 		}
 	}
 	provinces={

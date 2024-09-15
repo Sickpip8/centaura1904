@@ -41,7 +41,18 @@ spriteTypes = {
 		name = "GFX_portrait_ORI_Simon_Cromwell_small"
 		texturefile = "gfx/leaders/ORI/portrait_ORI_Simon_Cromwell_small.dds"
 	}
+
+	# hydrus
 	
+
+
+	# antares
+
+	spriteType = {
+		name = "GFX_portrait_ANT_kalvin_tau"
+		texturefile = "gfx/leaders/ANT/portrait_ANT_kalvin_tau.dds"
+	}
+
 	# ursa
 
 	spriteType = {

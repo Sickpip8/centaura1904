@@ -20,7 +20,7 @@ focus_tree = {
 
         icon = GFX_focus_SWE_organize_a_putsch
         #search_filters =
-        cost = 2
+        cost = 222222222222222
 
         completion_reward = {
             add_political_power = 100

@@ -86,33 +86,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Kalvin Tau"
-	desc = "test"
-	picture = portrait_ANT_Kalvin_Tau.dds
-	expire = "1927.1.1"
-	ideology = despotism
-	traits = { Autocratic_Imperialist
-	}
-}
-create_country_leader = {
-	name = "Andrew Tau"
-	desc = "test"
-	picture = portrait_ANT_Andrew_Tau.dds
-	expire = "1968.1.1"
-	ideology = Liberalism
-	traits = { Liberal Politician
-	}
-}
-create_country_leader = {
-	name = "Aran Tau"
-	desc = "test"
-	picture = portrait_ANT_Aran_Tau.dds
-	expire = "1965.1.1"
-	ideology = Falangism
-	traits = { Dictator
-	}
-}
+recruit_character = ANT_kalvin_tau
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -228,7 +202,7 @@ if = {
 	#}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Mercury Class"
+		name = "Venus Class"
 		type = ship_hull_heavy_1
 		name_group = ANT_BB_HISTORICAL
 		parent_version = 0
@@ -246,22 +220,22 @@ if = {
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
 	}
-	create_equipment_variant = {
-		name = "Venus Class"
-		type = ship_hull_heavy_2
-		name_group = ANT_BB_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_bb_1
-			front_1_custom_slot = ship_heavy_battery_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_heavy_battery_1
-		}
-	}
+	#create_equipment_variant = {
+	#	name = "Venus Class"
+	#	type = ship_hull_heavy_2
+	#	name_group = ANT_BB_HISTORICAL
+	#	parent_version = 0
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_heavy_battery_1
+	#		fixed_ship_anti_air_slot = empty
+		#	fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		#	fixed_ship_radar_slot = empty
+		#	fixed_ship_engine_slot = heavy_ship_engine_1
+		#	fixed_ship_secondaries_slot = ship_secondaries_2
+		#	fixed_ship_armor_slot = ship_armor_bb_1
+	#		front_1_custom_slot = ship_heavy_battery_1
+		#	mid_1_custom_slot = ship_secondaries_1
+		#	mid_2_custom_slot = ship_secondaries_1
+	#		rear_1_custom_slot = ship_heavy_battery_1
+	#	}
+	#}

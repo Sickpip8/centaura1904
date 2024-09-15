@@ -1,0 +1,172 @@
+### REGULAR DESTROYER NAMES###
+CET_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CET }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }		
+
+	can_use = { always = yes }
+
+	prefix = "CIS"								
+	fallback_name = "Destroyer %s"					
+
+	unique = {
+		"Methone"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CET_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CET }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	can_use = { always = yes }
+	
+	prefix = "CIS"							
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		"Io"
+	}
+}
+
+### A-A LIGHT CRUISER NAMES###
+CET_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { CET }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	can_use = { always = yes }
+	
+	prefix = "CIS"								
+	fallback_name = "Light Cruiser (AA) %s"
+
+	unique = {
+		"Galatea" "Despina"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CET_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CET }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	can_use = { always = yes }
+	
+	prefix = "CIS"								
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		"Kappa"
+	}
+}
+
+### BATTLESHIP NAMES ###
+CET_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CET }
+	
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "CIS"								
+	fallback_name = "Battleship %s"		
+
+	unique = {
+        "Meissa"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+CET_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CET }
+	
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "CIS"								
+	fallback_name = "Battlecruiser %s"		
+
+	unique = {
+           "Meissur"
+ 	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CET_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CET }
+	
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "CIS"							
+	fallback_name = "Carrier %s"		
+
+	unique = {
+		"Yorktown"
+	}
+}
+
+### LIGHT CARRIER NAMES ###
+CET_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CET }
+	
+	can_use = { always = yes }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "CIS"							
+	fallback_name = "Carrier %s"	
+
+	unique = {
+		# CVL Names
+		"fireryheart0190"
+	}
+}
+
+### SUBMARINES ###
+CET_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CET }
+	
+	can_use = { always = yes }
+	
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "CIS"							
+	fallback_name = "S-%s"
+	
+	unique = {
+		# Starting with K-class ships 
+		"S-I"
+	}
+}

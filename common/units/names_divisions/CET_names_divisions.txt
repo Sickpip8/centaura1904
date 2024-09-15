@@ -32,7 +32,7 @@
 #                                      the current game version.
 
 CET_INF_01 = {
-	name = "Cetan Infantry Division"
+	name = "Infantry Division"
 
 	for_countries = { CET }
 

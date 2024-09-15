@@ -48,7 +48,6 @@ COV = {
 			"Experimentium A"
 			}
 		}
-	}
 	air_wing_names_template = AIR_WING_NAME_COV_FALLBACK
 
 	infantry = {

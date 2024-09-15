@@ -48,7 +48,6 @@ ANT = {
 			"Skorpius"
 			}
 		}
-	}
 	air_wing_names_template = AIR_WING_NAME_ANT_FALLBACK
 
 	#Air wings can only be named through archetype

@@ -2,17 +2,17 @@
 
 	##### NAVAL UNITS #####
 	fleet = {
-		name = "Southern Fleet"
+		name = "1st Fleet"
 		naval_base = 2454
 		task_force = {				
-			name = "1st Command"
+			name = "Placek"
 			location = 2454
-			ship = { name = "ORS Muscida" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
-			ship = { name = "ORS Muscida II" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
-			ship = { name = "ORS Muscida III" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = URS version_name = "Muscida Class" } } }
-			ship = { name = "ORS Tania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
-			ship = { name = "ORS Alkafzah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
-			ship = { name = "ORS Borealis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
-			ship = { name = "ORS Carlina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = URS version_name = "Tania Class" } } }
+			ship = { name = "ORS Saiph" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = ORI version_name = "Saiph Class" } } }
+			ship = { name = "ORS a" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = ORI version_name = "Saiph Class" } } }
+			ship = { name = "ORS Sasssiph" definition = destroyer equipment = { ship_hull_heavy_2 = { amount = 1 owner = ORI version_name = "Saiph Class" } } }
+			ship = { name = "ORS Tania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORI version_name = "Tania Class" } } }
+			ship = { name = "ORS Alkafzah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORI version_name = "Tania Class" } } }
+			ship = { name = "ORS Borealis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORI version_name = "Tania Class" } } }
+			ship = { name = "ORS Carlina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORI version_name = "Tania Class" } } }
 			
 # add obb to ursa country file, add ship classes

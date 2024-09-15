@@ -1,3 +1,5 @@
+# this country is courtesy of guard409 . lingstonia will cross the columban mountains and save aquila !
+
 capital = 58
 
 set_research_slots = 2
