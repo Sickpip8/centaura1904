@@ -467,5 +467,26 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
+		
+		ORS_TheHard1900s = {
+			picture = can_send_in_the_zombies
+			
+			allowed = {
+				tag = ORI
+			}
+			
+			available = {}
+			
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.4
+				industrial_capacity_factory = -0.3
+				production_speed_buildings_factor  = -0.3
+				stability_weekly = -0.5
+				production_factory_max_efficiency_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.3
+				
+			}
+		}
 	}
 }
