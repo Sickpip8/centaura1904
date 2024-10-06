@@ -11,12 +11,14 @@ state={
 		add_core_of = LPS
 		buildings = {
 			infrastructure = 1
-
+			industrial_complex = 1
 		}
 		victory_points = {
 			2042 10 
 		}
-
+		start_resistance = yes
+		set_resistance = 75
+		set_compliance = 10
 	}
 
 	provinces={

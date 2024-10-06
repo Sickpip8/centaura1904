@@ -189,3 +189,29 @@ news_event = {
 		trigger = { TAG = COV }
 	}
 }
+news_event = {
+	id = news.414
+	title = news.414.t
+	desc = news.414.d
+	picture = GFX_news_event_ITA_civil_war
+	#picture = GFX_report_event_WW2_news1
+	#fire_only_once = yes
+	
+	#major = yes 
+	is_triggered_only = yes
+	option = {
+		name = news.414.a
+		trigger = {
+			TAG = URS
+		}
+	}
+	option = {
+		name = news.414.b
+		trigger = {
+			OR = {
+				TAG = HYS
+				TAG = ORI
+			}
+		}
+	}
+}

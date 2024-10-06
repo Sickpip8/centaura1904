@@ -16,7 +16,9 @@ state={
 		victory_points = {
 			2296 5 
 		}
-
+		start_resistance = yes
+		set_resistance = 25
+		set_compliance = 45
 	}
 
 	provinces={

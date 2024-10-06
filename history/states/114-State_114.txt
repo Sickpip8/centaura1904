@@ -14,14 +14,14 @@ state={
 			infrastructure = 1
 			4345 = {
 				naval_base = 3
-
 			}
-
 		}
 		victory_points = {
 			451 6 
 		}
-
+		start_resistance = yes
+		set_resistance = 30
+		set_compliance = 60
 	}
 
 	provinces={

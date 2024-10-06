@@ -11,6 +11,7 @@ state={
 		buildings = {
 		dockyard = 1
 		infrastructure = 2
+		industrial_complex = 1
 		2226 = {
 			naval_base = 4
 			}
@@ -18,6 +19,9 @@ state={
 		victory_points = {
 			2226 10
 		}
+		start_resistance = yes
+		set_resistance = 15
+		set_compliance = 55
 	}
 	provinces={
 		443 557 644 1104 1306 1371 1615 2062 2226 2375 3076 3220 3944 3989 4018 4029 4030 4055 4070 4108 4133 
