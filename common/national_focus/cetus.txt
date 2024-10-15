@@ -1359,7 +1359,7 @@ focus_tree = {
         id = CET_hydran_imports
         x = 0
         y = 1
-		icon = GFX_focus_SOV_breadbasket_of_the_union
+		icon = GFX_focus_BRA_cafe_com_leite_politics
         relative_position_id = CET_aquilan_trade
 		prerequisite = { focus = CET_aquilan_trade }
         
@@ -1372,7 +1372,7 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = CET_auriga
+        id = CET_aurigan_business
         x = 0
         y = 1
 		icon = GFX_focus_SOV_breadbasket_of_the_union
@@ -1714,6 +1714,39 @@ focus_tree = {
     }
 	
 	focus = {
+        id = CET_expand_marines
+		icon = GFX_focus_ETH_keep_the_chitet
+        x = 0
+        y = 1
+        relative_position_id = CET_new_naval_officers
+		prerequisite = { focus = CET_new_naval_officers }
+
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+			add_ideas = CET_expand_em_idea
+		}
+	}
+	
+	focus = {
+		id = CET_shore_invading_generals
+        x = 0
+        y = 1
+		icon = GFX_focus_BRA_navy
+        relative_position_id = CET_expand_marines
+		prerequisite = { focus = CET_expand_marines }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		navy_experience = 10
+        }
+    }
+	
+	focus = {
         id = CET_great_inanis_fleet
         x = -2
         y = 1
@@ -1951,12 +1984,7 @@ focus_tree = {
 		prerequisite = { focus = CET_army }
 		
 		available = {
-			OR = {
-			has_war_with = COV
-			has_war_with = ANT
-			has_war_with = AQU
-			has_war_with = CLB
-			}
+			NOT = { has_war = CET }
 		}
 		
         
@@ -2139,23 +2167,6 @@ focus_tree = {
 					owner = PREV
 				}
 			}
-		}
-	}
-	
-	focus = {
-        id = CET_expand_marines
-		icon = GFX_focus_ETH_keep_the_chitet
-        x = 0
-        y = 1
-        relative_position_id = CET_raise_army
-		prerequisite = { focus = CET_raise_army }
-
-        
-        #search_filters =
-        cost = 10
-
-        completion_reward = {
-			add_ideas = CET_expand_em_idea
 		}
 	}
 	

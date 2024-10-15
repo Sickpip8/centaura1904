@@ -134,7 +134,7 @@ instant_effect = {
 			creator = "CET" 
 			version_name = "Potamoi Class"
 		}
-		name = "CIS e"
+		name = "CIS Fish"
 		requested_factories = 2
 		progress = 0.79
 		amount = 1

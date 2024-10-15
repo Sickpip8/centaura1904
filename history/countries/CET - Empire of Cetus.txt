@@ -2,6 +2,13 @@ capital = 7
 
 oob = "CET_1900"
 
+set_power_balance = {
+	id = CET_power_balance
+	left_side = default_left_side
+    right_side = default_right_side
+    set_value = 0.1
+}
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CET_1900_naval_mtg"

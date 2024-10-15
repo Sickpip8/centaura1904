@@ -18,7 +18,7 @@
 			name = "Second Flotilla"
 			location = 1329
 			ship = { name = "Valegny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } }
-			ship = { name = "Almery" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = } } }
+			ship = { name = "Almery" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } }
 			ship = { name = "Valenmur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } }
 			ship = { name = "Villeurmeirs" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } }
 			ship = { name = "Marinesse" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AQU } } }

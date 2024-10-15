@@ -55,9 +55,9 @@
 		icon = GFX_focus_COV_the_confederation
 		x = 25
 		y = 0
-		cost = 10
 		cost = 5
-
+		
+		
 		completion_reward = {
 				add_political_power = 50
 			}
@@ -130,7 +130,7 @@
 								all_provinces = yes
 								limit_to_naval_base = yes
 							}
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 						add_building_construction = {
@@ -150,7 +150,7 @@
 								all_provinces = yes
 								limit_to_naval_base = yes
 							}
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 						add_building_construction = {
@@ -170,7 +170,7 @@
 								all_provinces = yes
 								limit_to_naval_base = yes
 							}
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 						add_building_construction = {
@@ -311,26 +311,39 @@
 			}
 		}
 		
+#		focus = {
+#		id = COV_purchase_antarean_armor
+	#	icon = GFX_focus_ARG_the_war_machine
+	#	prerequisite = { focus = COV_expand_antarean_support }
+		#relative_position_id = COV_expand_antarean_support
+	#	x = -1
+		#y = 1
+		#cost = 10
+	#	completion_reward = {
+	#			custom_effect_tooltip = corvus_does_nothing_tooltip
+	#		}
+	#	}
+		
 		focus = {
 		id = COV_contact_southern_rebels
 		icon = GFX_focus_generic_workers
 		prerequisite = { focus = COV_prepare_to_take_SC }
 		relative_position_id = COV_prepare_to_take_SC
-		available = {
-			OR = {
-				war_length_with = {
-				tag = USA
-				months > 2024
-				}
-			}
-		}
+	#	available = {
+	#		OR = {
+	#			war_length_with = {
+	#			tag = MUS
+	#			months > 2024
+	#			}
+	#		}
+	#	}
 		x = 4
 		y = 1
-		#cost = 5
-		cost = 100000
+		cost = 5
+	#	cost = 100000
 
 		completion_reward = {
-				custom_effect_tooltip = corvus_path_not_work_tooltip
+				custom_effect_tooltip = corvus_allows_sabotage_decision_tooltip
 			}
 		}
 		
@@ -344,7 +357,6 @@
 		cost = 5
 
 		completion_reward = {
-				custom_effect_tooltip = corvus_not_work_tooltip
 				custom_effect_tooltip = corvun_sabotage_infrastructure_tooltip
 			}
 		}
@@ -359,7 +371,6 @@
 		cost = 5
 
 		completion_reward = {
-				custom_effect_tooltip = corvus_not_work_tooltip
 				custom_effect_tooltip = corvun_sabotage_railway_tooltip
 			}
 		}
@@ -374,7 +385,6 @@
 		cost = 5
 
 		completion_reward = {
-				custom_effect_tooltip = corvus_not_work_tooltip
 				custom_effect_tooltip = corvun_sabotage_supply_tooltip
 			}
 		}
@@ -389,7 +399,6 @@
 		cost = 5
 		
 		completion_reward = {
-				custom_effect_tooltip = corvus_not_work_tooltip
 				custom_effect_tooltip = corvun_sabotage_factory_tooltip
 			}
 		}
@@ -404,7 +413,6 @@
 		cost = 5
 		
 		completion_reward = {
-				custom_effect_tooltip = corvus_not_work_tooltip
 				custom_effect_tooltip = corvun_sabotage_factory_2_tooltip
 			}
 		}
@@ -466,6 +474,8 @@
 			}
 		}
 		
+		# ----
+		
 		focus = {
 		id = COV_war_with_cetus
 		icon = GFX_focus_generic_attack_cetus
@@ -478,7 +488,7 @@
 		}
 		relative_position_id = COV_ramp_production_up
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 
 		completion_reward = {
@@ -489,7 +499,6 @@
 					target = CET
 					expire = 0
 				}
-				custom_effect_tooltip = corvus_take_initial_offensive_on_war
 			}
 		}
 		
@@ -515,7 +524,7 @@
 		}
 		relative_position_id = COV_expand_antarean_support
 		x = 0
-		y = 3
+		y = 2
 		cost = 10
 		completion_reward = {
 				custom_effect_tooltip = corvus_temp_none_tootlip
@@ -533,8 +542,8 @@
 		}
 		
 		focus = {
-		id = COV_initial_offensive
-		icon = GFX_focus_SWE_varnplikt
+		id = COV_wartime_administration
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
 		prerequisite = { focus = COV_war_with_cetus }
 		relative_position_id = COV_war_with_cetus
 		x = 0
@@ -542,13 +551,84 @@
 		cost = 10
 
 		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_implement_rationing_policy
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		prerequisite = { focus = COV_wartime_administration }
+		relative_position_id = COV_wartime_administration
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_suppress_the_street_families
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		prerequisite = { focus = COV_implement_rationing_policy }
+		relative_position_id = COV_implement_rationing_policy
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_warbonds
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		prerequisite = { focus = COV_wartime_administration }
+		relative_position_id = COV_wartime_administration
+		x = 2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_address_the_dysfunctional_economy
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		prerequisite = { focus = COV_wartime_administration }
+		relative_position_id = COV_wartime_administration
+		x = -2
+		y = 1
+		cost = 10
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_initial_offensive
+		icon = GFX_focus_SWE_varnplikt
+		prerequisite = { focus = COV_war_with_cetus }
+		relative_position_id = COV_war_with_cetus
+		x = 4
+		y = 2
+		cost = 10
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_take_initial_offensive_on_war
 			#country_event = {
 					#id = cov.1
 					#random_days = 0
 				#}
 				add_timed_idea = {
 				idea = COV_surpise_attack_idea
-				days = 7
+				days = 2
 				}
 			}
 		}
@@ -561,7 +641,7 @@
 		prerequisite = { focus = COV_initial_offensive }
 		mutually_exclusive = { focus = COV_continue_attack }
 		relative_position_id = COV_initial_offensive
-		x = -4
+		x = 0
 		y = 1
 		cost = 5
 
@@ -574,25 +654,11 @@
 		}
 		
 		focus = {
-		id = COV_improve_supply_issue
-		icon = GFX_focus_generic_supply_line
-		prerequisite = { focus = COV_consolidate_gains }
-		relative_position_id = COV_consolidate_gains
-		x = -2
-		y = 1
-		cost = 10
-
-		completion_reward = {
-				add_ideas = COV_improve_supply_idea
-			}
-		}
-		
-		focus = {
 		id = COV_fortification_focus
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = COV_consolidate_gains }
 		relative_position_id = COV_consolidate_gains
-		x = 2
+		x = 0
 		y = 1
 		cost = 10
 
@@ -607,9 +673,9 @@
 		focus = {
 		id = COV_increase_gun_production
 		icon = GFX_focus_SMB_mountain_guns
-		prerequisite = { focus = COV_consolidate_gains }
+		prerequisite = { focus = COV_consolidate_gains focus = COV_continue_attack }
 		relative_position_id = COV_consolidate_gains
-		x = 0
+		x = 2
 		y = 1
 		cost = 10
 
@@ -647,6 +713,20 @@
 			}
 		}
 		
+		focus = {
+		id = COV_improve_supply_issue
+		icon = GFX_focus_generic_supply_line
+		prerequisite = { focus = COV_increase_gun_production }
+		relative_position_id = COV_increase_gun_production
+		x = 0
+		y = 1
+		cost = 10
+
+		completion_reward = {
+				add_ideas = COV_improve_supply_idea
+			}
+		}
+		
 		# continued offensive #
 		
 		focus = {
@@ -667,70 +747,6 @@
 			}
 		}
 		
-		focus = {
-		id = COV_northern_offensive
-		icon = GFX_focus_ETH_northern_thrust
-		prerequisite = { focus = COV_continue_attack }
-		mutually_exclusive = { focus = COV_southern_offensive }
-		relative_position_id = COV_continue_attack
-		x = -2
-		y = 1
-		cost = 10
-
-		completion_reward = {
-				custom_effect_tooltip = corvus_does_nothing_tooltip
-			}
-		}
-		
-		focus = {
-		id = COV_mountaineers
-		icon = GFX_focus_GRE_a_land_of_mountains
-		prerequisite = { focus = COV_northern_offensive }
-		relative_position_id = COV_northern_offensive
-		x = 0
-		y = 1
-		cost = 10
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 1
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
-		}
-	}
-		
-		focus = {
-		id = COV_southern_offensive
-		icon = GFX_focus_ETH_victory_in_the_desert
-		prerequisite = { focus = COV_continue_attack }
-		mutually_exclusive = { focus = COV_northern_offensive }
-		relative_position_id = COV_continue_attack
-		x = 2
-		y = 1
-		cost = 10
-
-		completion_reward = {
-				custom_effect_tooltip = corvus_does_nothing_tooltip
-			}
-		}
-		
-		#focus = {
-		#id = COV_placeholder
-		#icon = GFX_
-		#prerequisite = { focus = COV_southern_offensive }
-		#relative_position_id = COV_southern_offensive
-		#x = 0
-		#y = 1
-		#cost = 10
-
-		#completion_reward = {
-		#		add_political_power = 100
-		#	}
-		#}
-		
 	################################################################################################################
 	################################# POLITICAL PATH: DEMOCRATIC ###################################################
 	################################################################################################################
@@ -743,6 +759,10 @@
 		x = -4
 		y = 1
 		cost = 5
+		
+		ai_will_do = {
+			factor = 0
+		}
 
 		completion_reward = {
 				custom_effect_tooltip = corvus_path_not_work_tooltip

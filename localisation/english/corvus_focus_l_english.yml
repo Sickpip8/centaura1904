@@ -1,4 +1,5 @@
 ﻿l_english:
+ rail_way_plural:0 "railways"
  urs.1.t:0 "Lepus Declares Independence!"
  urs.1.d:0 "Ever since Hydrus declared independence, rebels located in Lepus have tried constantly to immitate what happened in Hydrus but to no avail until now. We underestimated their power coupled with the fact that the army has been in a very bad situation, the rebels have managed to break free from us."
  urs.1.a:0 "As if things weren't bad enough already!" #DO NOT TOUCH THIS IT'S FOR AN EVENT!!!!
@@ -29,8 +30,8 @@
  COV_expand_antarean_support_desc:0 "umm.. makes you buy guns from antares? idk"
  COV_request_antarean_intervention:0 "Request Antarean Intervention"
  COV_request_antarean_intervention_desc:0 "The war is not going in our favor. If we do not ask for help quickly, Cetus will overrun North Corvus and we will cease to exist. By any means."
- COV_contact_southern_rebels:0 "Contact Resistance"
- COV_contact_southern_rebels_desc:0 "There are still Corvun nationalists in South Corvus. We will contact them for sabotage operations."
+ COV_contact_southern_rebels:0 "Send Saboteurs Into South Corvus"
+ COV_contact_southern_rebels_desc:0 "We should send saboteurs into South Corvus to disrupt Cetan operations there and to conduct sabotage operations."
  COV_rebel_sabotage:0 "Sabotage Infrastructure"
  COV_rebel_sabotage_desc:0 "We will start off by attacking any Cetan infrastructure in South Corvus."
  COV_sabotage_railway:0 "Sabotage Railways"
@@ -157,7 +158,20 @@
  ###########
  # decisions
  ###########
- 
+ COV_corvus_sabotage_operations:0 "South Corvun Sabotage"
+ COV_corvus_sabotage_operations_desc:0 "Sabotaging the facilities that we may later retake may not be a great idea, but it may help us when war inevitably starts."
+ corvus_contact_rebels:0 "Contact Saboteurs"
+ corvus_contact_rebels_desc:0 "We will establish contact with saboteurs in South Corvus, checking if they have made it to their respective locations, and if they are ready to wreck the infrastructure built by the Cetans."
+ corvus_infrastructure_attack:0 "Infrastructure Sabotage"
+ corvus_infrastructure_attack_desc:0 "Damages infrastructure in South Corvus."
+ corvus_railway_attack:0 "Railway Sabotage"
+ corvus_railway_attack_desc:0 "Damages railways in South Corvus."
+ corvus_supply_attack:0 "Sabotage Supply Depots"
+ corvus_supply_attack_desc:0 "Damages supply depots in South Corvus."
+ corvus_arms_factory_attack:0 "Sabotage Military Factories"
+ corvus_arms_factory_attack_desc:0 "Damages military factories in South Corvus."
+ corvus_cetus_arms_factory_attack:0 "Attack Cetan Military Factories"
+ corvus_cetus_arms_factory_attack_desc:0 "Damages military factories in Cetus."
  #########
  # spirits
  #########
@@ -183,6 +197,7 @@
  corvus_battery_1_tooltip:0 "Constructs Level 1 coastal forts on every coastal province. Adds 2 levels for port cities."
  corvus_battery_2_tooltip:0 "Adds 2 levels of coastal forts on every coastal province."
  corvun_assimilation_tooltip:0 "This will make Antares §Gintervene§! in the war, §Rbut turn Corvus into a puppet of Antares.§!"
+ corvus_allows_sabotage_decision_tooltip:0 "Taking this focus will activate a decisions tab for sabotaging."
  corvun_sabotage_infrastructure_tooltip:0 "Taking this focus will allow a decision to damage infrastructure in South Corvus."
  corvun_sabotage_railway_tooltip:0 "Taking this focus will allow a decision to damage railways in South Corvus."
  corvun_sabotage_supply_tooltip:0 "Taking this focus will allow a decision to damage supply depots in South Corvus."
@@ -193,3 +208,7 @@
  ######
  # misc
  ######
+ 
+ COV_pp_50_cp_10:0 "£pol_power  §Y50§!  £command_power  §Y10§!"
+ COV_pp_50_cp_10_blocked:0 "£pol_power  §R50§!  £command_power  §R10§!"
+ COV_pp_50_cp_10_tooltip:0 "It costs £pol_power  §Y50§! and £command_power  §Y10§! to take the decision"

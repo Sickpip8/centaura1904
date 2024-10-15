@@ -8,11 +8,11 @@ focus_tree = {
             tag = AQU
         }
     }
-    continuous_focus_position = { x = 25 y = 680 }
+    continuous_focus_position = { x = 25 y = 1080 }
 
     focus = {
         id = AQU_stable_path_of_democracy
-        icon = GFX_goal_generic_territory_or_war
+        icon = GFX_focus_generic_democratic_beam
         x = 10
         y = 0
         cost = 5
@@ -46,6 +46,102 @@ focus_tree = {
 	}
 	
 	focus = {
+        id = AQU_deport_antareans
+        x = -4
+        y = 1
+		icon = GFX_focus_generic_democratic_beam
+        relative_position_id = AQU_beacon_of_democracy
+		prerequisite = { focus = AQU_beacon_of_democracy }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_dissuade_ultranationalism
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_democratic_beam
+        relative_position_id = AQU_deport_antareans
+		prerequisite = { focus = AQU_deport_antareans }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_w
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_
+		prerequisite = { focus = AQU_ }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_increase_defence_budget
+        x = 2
+        y = 1
+		icon = GFX_focus_generic_military_mission
+        relative_position_id = AQU_beacon_of_democracy
+		prerequisite = { focus = AQU_beacon_of_democracy }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_standardise_the_cg
+        x = 0
+        y = 1
+		icon = GFX_focus_generic_military_mission
+        relative_position_id = AQU_increase_defence_budget
+		prerequisite = { focus = AQU_increase_defence_budget }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
+        id = AQU_the_aquilan_spirit
+        x = 4
+        y = 1
+		icon = GFX_focus_generic_democratic_beam
+        relative_position_id = AQU_beacon_of_democracy
+		prerequisite = { focus = AQU_beacon_of_democracy focus = AQU_restart_expansionism }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
         id = AQU_restart_expansionism # Expansionist democracy
         x = 4
         y = 1
@@ -63,10 +159,26 @@ focus_tree = {
 	}
 	
 	focus = {
+        id = AQU_expand_army
+        x = 4
+        y = 2
+		icon = GFX_focus_generic_aquila
+        relative_position_id = AQU_restart_expansionism
+		prerequisite = { focus = AQU_restart_expansionism focus = AQU_suspend_parliament }
+        
+        #search_filters =
+        cost = 10
+
+        completion_reward = {
+		add_manpower = 12
+		}
+	}
+	
+	focus = {
         id = AQU_repeal_democratic_law
         x = 12
         y = 0
-		icon = GFX_focus_generic_aquila
+		icon = GFX_focus_renounce_the_treaty_of_trianon
         relative_position_id = AQU_stable_path_of_democracy
 		mutually_exclusive = { focus = AQU_stable_path_of_democracy }
         
@@ -79,12 +191,12 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
+        id = AQU_suspend_parliament
         x = 0
         y = 1
 		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+        relative_position_id = AQU_repeal_democratic_law
+		prerequisite = { focus = AQU_repeal_democratic_law }
         
         #search_filters =
         cost = 10
@@ -95,12 +207,12 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
+        id = AQU_slowly_repower_king
         x = 0
         y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+		icon = GFX_focus_generic_monarchy_1
+        relative_position_id = AQU_suspend_parliament
+		prerequisite = { focus = AQU_suspend_parliament }
         
         #search_filters =
         cost = 10
@@ -111,12 +223,12 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
-        x = 0
+        id = AQU_deport_democratic_elements
+        x = 2
         y = 1
 		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+        relative_position_id = AQU_slowly_repower_king
+		prerequisite = { focus = AQU_slowly_repower_king }
         
         #search_filters =
         cost = 10
@@ -127,13 +239,17 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
+        id = AQU_return_of_the_king
         x = 0
         y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
+		icon = GFX_focus_eng_god_save_the_king
+        relative_position_id = AQU_slowly_repower_king
+		prerequisite = { focus = AQU_slowly_repower_king }
         
+		available = {
+		neutrality > 0.75
+		}
+		
         #search_filters =
         cost = 10
 
@@ -143,60 +259,10 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = AQU_
-        x = 0
-        y = 1
+        id = AQU_continue_construction_ring_of_fire
+        x = 30
+        y = 0
 		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
-        
-        #search_filters =
-        cost = 10
-
-        completion_reward = {
-		add_manpower = 12
-		}
-	}
-	
-	focus = {
-        id = AQU_
-        x = 0
-        y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
-        
-        #search_filters =
-        cost = 10
-
-        completion_reward = {
-		add_manpower = 12
-		}
-	}
-	
-	focus = {
-        id = AQU_
-        x = 0
-        y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
-        
-        #search_filters =
-        cost = 10
-
-        completion_reward = {
-		add_manpower = 12
-		}
-	}
-	
-	focus = {
-        id = AQU_
-        x = 0
-        y = 1
-		icon = GFX_focus_generic_aquila
-        relative_position_id = AQU_
-		prerequisite = { focus = AQU_ }
         
         #search_filters =
         cost = 10

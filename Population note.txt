@@ -34,22 +34,36 @@ Auriga: 4
 Musca: 1
 
 
-# POPULATION DIVIDER, 1900
+# POPULATION DIVIDER, 1900 (OLD)
 # PERCENTAGES TO CONTINENT, NOT ENTIRE WORLD
 
 Centaura:
-	Vulpa: 5,754,587 (0.47954891666666666%) # add 2 mil
-	Riaa: 580,130,320 (48.344193333333%)
-	Tucana: 7,901,679 (0.65847325%)
-	Centauri: 10,771,380 (0.897615%)
-	Columba: 18,787,706 (1.5656421666666667%)
-	Vega: 19,266,558 (1.6055465%)
-	Grusa: 33,071,493 (2.75595775%)
-	Cetus: 124,475,929 (10.372994083333%)
-	Corvus: 82,826,551 (6.902212583333334%)
-	Aquila: 104,029,050 (8.6690875%)
-	Antares: 317,725,282 (26.477106833333%) # remove 2 mil
-	Lacerta: 3,329,397 (0.27744975%)
+	Vulpa: 5,754,587 
+	Riaa: 580,130,320 
+	Tucana: 7,901,679 
+	Centauri: 10,771,380 
+	Columba: 18,787,706 
+	Vega: 19,266,558 
+	Grusa: 33,071,493 
+	Cetus: 124,475,929 
+	Corvus: 82,826,551 
+	Aquila: 104,029,050 
+	Antares: 317,725,282 
+	Lacerta: 3,329,397 
+	
+REESTIMATED COUNT:
+	Vulpa: 6,859,992
+	Riaa: 580,130,320 
+	Tucana: 7,901,679 
+	Centauri: 10,771,380 
+	Columba: 18,787,706 
+	Vega: 19,266,558 
+	Grusa: 33,071,493 
+	Cetus: 124,475,929 
+	Corvus: 82,826,551 
+	Aquila: 104,029,050 
+	Antares: 317,725,282 
+	Lacerta: 3,329,397 
 
 
 Ursa: 
