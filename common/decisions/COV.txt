@@ -56,8 +56,8 @@ COV_corvus_sabotage_operations = {
 		}
 		
 		fire_only_once = no
-		days_re_enable = 1
-	#	days_re_enable = 28
+	#	days_re_enable = 1
+		days_re_enable = 28
 		
 		cost = 50
 		

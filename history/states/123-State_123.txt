@@ -5,7 +5,7 @@ state={
 		owner = URS
 		add_core_of = CNS
 		victory_points = {
-			6712 7
+			6712 1
 		}
 	}
 	provinces={
