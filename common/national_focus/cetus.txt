@@ -902,33 +902,9 @@ focus_tree = {
 		prerequisite = { focus = CET_antarean_threat }
         available = {
 			OR = {
-				ANT = { has_capitulated = yes }
+				ANT = { is_subject_of = CET }
 				NOT = { country_exists = ANT }
 			}
-			IF = {
-				has_full_control_of_state = 91
-				has_full_control_of_state = 92
-				has_full_control_of_state = 93
-				has_full_control_of_state = 94
-				has_full_control_of_state = 95
-				has_full_control_of_state = 96
-				has_full_control_of_state = 97
-				has_full_control_of_state = 98
-				has_full_control_of_state = 99
-				has_full_control_of_state = 100
-				has_full_control_of_state = 101
-				has_full_control_of_state = 102
-				has_full_control_of_state = 103
-				has_full_control_of_state = 104
-				has_full_control_of_state = 105
-				has_full_control_of_state = 106
-				has_full_control_of_state = 107
-				has_full_control_of_state = 108
-				has_full_control_of_state = 109
-				has_full_control_of_state = 110
-				has_full_control_of_state = 111
-			}
-		}
 		
         #search_filters =
         cost = 10

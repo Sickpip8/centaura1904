@@ -492,6 +492,7 @@
 		cost = 10
 
 		completion_reward = {
+				custom_effect_tooltip = corvus_garrison_coast
 				add_named_threat = { threat = 5 name = COV_war_with_cetus }
 				create_wargoal = {
 					type = take_core_state
@@ -545,10 +546,13 @@
 		id = COV_wartime_administration
 		icon = GFX_focus_NOR_continue_nygaardsvold_government
 		prerequisite = { focus = COV_war_with_cetus }
+		available = {
+			has_war = yes
+			}
 		relative_position_id = COV_war_with_cetus
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -556,27 +560,13 @@
 		}
 		
 		focus = {
-		id = COV_implement_rationing_policy
-		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		id = COV_increase_coal_production
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = COV_wartime_administration }
 		relative_position_id = COV_wartime_administration
 		x = 0
 		y = 1
-		cost = 10
-
-		completion_reward = {
-		custom_effect_tooltip = corvus_does_nothing_tooltip
-			}
-		}
-		
-		focus = {
-		id = COV_suppress_the_street_families
-		icon = GFX_focus_NOR_continue_nygaardsvold_government
-		prerequisite = { focus = COV_implement_rationing_policy }
-		relative_position_id = COV_implement_rationing_policy
-		x = 0
-		y = 1
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -585,12 +575,12 @@
 		
 		focus = {
 		id = COV_warbonds
-		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = COV_wartime_administration }
 		relative_position_id = COV_wartime_administration
 		x = 2
 		y = 1
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -604,7 +594,50 @@
 		relative_position_id = COV_wartime_administration
 		x = -2
 		y = 1
-		cost = 10
+		cost = 5
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		
+		focus = {
+		id = COV_implement_rationing_policy
+		icon = GFX_focus_generic_agricultural_subsidies
+		prerequisite = { focus = COV_address_the_dysfunctional_economy }
+		relative_position_id = COV_address_the_dysfunctional_economy
+		x = 1
+		y = 1
+		cost = 5
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_cooperate_the_street_families
+		icon = GFX_focus_generic_industrialists
+		prerequisite = { focus = COV_address_the_dysfunctional_economy }
+		relative_position_id = COV_address_the_dysfunctional_economy
+		x = -2
+		y = 1
+		cost = 5
+
+		completion_reward = {
+		custom_effect_tooltip = corvus_does_nothing_tooltip
+			}
+		}
+		
+		focus = {
+		id = COV_suppress_the_street_families
+		icon = GFX_focus_generic_industrialists
+		prerequisite = { focus = COV_address_the_dysfunctional_economy }
+		relative_position_id = COV_address_the_dysfunctional_economy
+		x = -1
+		y = 1
+		cost = 5
 
 		completion_reward = {
 		custom_effect_tooltip = corvus_does_nothing_tooltip
@@ -627,8 +660,11 @@
 					#random_days = 0
 				#}
 				add_timed_idea = {
-				idea = COV_surpise_attack_idea
+				idea = COV_surprise_attack_idea
 				days = 2
+				}
+				hidden_effect = {
+				activate_mission = corvus_failing_economy_d
 				}
 			}
 		}

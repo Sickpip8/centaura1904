@@ -30,6 +30,7 @@
  COV_expand_antarean_support_desc:0 "umm.. makes you buy guns from antares? idk"
  COV_request_antarean_intervention:0 "Request Antarean Intervention"
  COV_request_antarean_intervention_desc:0 "The war is not going in our favor. If we do not ask for help quickly, Cetus will overrun North Corvus and we will cease to exist. By any means."
+ # - sabotage
  COV_contact_southern_rebels:0 "Send Saboteurs Into South Corvus"
  COV_contact_southern_rebels_desc:0 "We should send saboteurs into South Corvus to disrupt Cetan operations there and to conduct sabotage operations."
  COV_rebel_sabotage:0 "Sabotage Infrastructure"
@@ -44,6 +45,7 @@
  COV_sabotage_factory_2_desc:0 "We will go a step further, and go into Cetus to attack their military factories."
  COV_war_with_cetus:0 "War with Cetus"
  COV_war_with_cetus_desc:0 "Our preparations are done. We shall march back into South Corvus and retake what once was ours."
+ # - initial offensive
  COV_initial_offensive:0 "Initial Offensive"
  COV_initial_offensive_desc:0 "We will quickly advance into Cetus, catching them by surprise as they do not expect an invasion."
  COV_consolidate_gains:0 "Consolidate Gains"
@@ -62,6 +64,17 @@
  COV_mountaineers_desc:0 "Attacking mountains is a tough task. Training specialised troops to take these mountains will benefit us greatly."
  COV_southern_offensive:0 "Southern Offensive"
  COV_southern_offensive_desc:0 "A southern offensive would allow us to reclaim the rest of South Corvus."
+ # - wartime administration
+ COV_wartime_administration:0 "Wartime Administration"
+ COV_wartime_administration_desc:0 "
+ COV_implement_rationing_policy:0 "Implement Rationing Policy"
+ COV_implement_rationing_policy_desc:0 "
+ COV_suppress_the_street_families:0 "Suppress Street Families"
+ COV_suppress_the_street_families_desc:0 "
+ COV_warbonds:0 "Issue Warbonds"
+ COV_warbonds_desc:0 "
+ COV_address_the_dysfunctional_economy:0 "Address The Dysfunctional Economy"
+ COV_address_the_dysfunctional_economy_desc:0 "
  ##########################
  # political not historical
  ##########################
@@ -172,9 +185,9 @@
  corvus_arms_factory_attack_desc:0 "Damages military factories in South Corvus."
  corvus_cetus_arms_factory_attack:0 "Attack Cetan Military Factories"
  corvus_cetus_arms_factory_attack_desc:0 "Damages military factories in Cetus."
- #########
- # spirits
- #########
+ ################
+ # national ideas
+ ################
  COV_revanchism:0 "Corvun Revanchism"
  COV_revanchism_desc:0 "Cetus invaded and occupied South Corvus in 1880. We were surprised by this invasion and we could not defend. We will return one day."
  COV_revanchism_2:0 "Corvun Revanchism"
@@ -187,6 +200,8 @@
  COV_bunker_boost_desc:0 "We shall build fortifications to hold what we have taken."
  COV_renewed_offensive:0 "Renewed Offensive"
  COV_renewed_offensive_desc:0 "Continue the push into Cetus. Corvus will not stop so quickly!"
+ COV_improve_supply:0 "Improving Supply Chain"
+ COV_improve_supply_desc:0 "idk what to write here"
  ##########
  # tooltips
  ##########
@@ -204,6 +219,8 @@
  corvun_sabotage_factory_tooltip:0 "Taking this focus will allow a decision to damage military factories in South Corvus."
  corvun_sabotage_factory_2_tooltip:0 "Taking this focus will allow a decision to damage military factories in Cetus."
  corvus_take_initial_offensive_on_war:0 "Autocompletes on war with Cetus."
+ corvus_own_the_state:0 "(To clarify, own the states (annex it), not just occupy it.)"
+ corvus_garrison_coast:0 "Pro tip: Garrison the coastline."
  
  ######
  # misc

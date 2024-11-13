@@ -2,29 +2,34 @@
 state={
 	id=74
 	name="STATE_74"
-	resources = {
-		tungsten = 4
+	resources={
+		tungsten=4.000
 	}
-	history = {
+
+	history={
 		owner = TUC
 		add_core_of = TUC
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 1
 			infrastructure = 2
-			548 = {
-			naval_base = 4
+			198 = {
+				naval_base = 4
+
 			}
+
 		}
 		victory_points = {
-			548 18
+			198 18 
 		}
+
 	}
+
 	provinces={
-		198 357 394 548 659 685 1074 1125 1274 2268 3491 3533 3585 
+		198 357 394 659 685 1074 1125 1274 2268 3491 3533 
 	}
+	manpower=2824730
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
-        manpower=2824730
-        state_category = large_town
 }

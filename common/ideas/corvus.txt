@@ -51,8 +51,20 @@ ideas = {
             }
         }
 		
-		COV_surpise_attack_idea = { #timed idea when corvus invades cetus. should last for a week
-            name = COV_surpise_attack
+		COV_failed_economy_1_idea = {
+            name = COV_failed_economy_1
+
+            picture = COV_failed_economy_1
+            allowed = { original_tag = COV }
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.5
+            }
+        }
+		
+		COV_surprise_attack_idea = { #timed idea when corvus invades cetus. should last for a week
+            name = COV_surprise_attack
 
             picture = COV_surpise_attack
             allowed = { original_tag = COV }
