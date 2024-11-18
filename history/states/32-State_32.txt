@@ -13,7 +13,7 @@ state={
 		add_core_of = AQU
 		buildings = {
 			infrastructure = 2
-		
+			stronghold_network = 1
 		}
 		victory_points = {
 			1713 15

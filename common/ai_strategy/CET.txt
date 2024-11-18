@@ -1,0 +1,18 @@
+CET_against_enemies = {
+	allowed = {
+		original_tag = CET
+	}
+	enable = {
+		country_exists = ANT
+		country_exists = COV
+	}
+	abort = {
+		COV = { has_capitulated = yes }
+		ANT = { has_capitulated = yes }
+	}
+	
+	ai_strategy = {
+    type = build_army
+    id = infantry_default
+    value = 48
+}

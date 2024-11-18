@@ -33,6 +33,20 @@ country_event = {
     }
 }
 
+country_event = {
+	id = cet.3
+	title = cet.3.t
+	desc = cet.3.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cet.3.a
+		add_war_support = -0.15
+	}
+}
+
 country_event = { # good management of sc
     id = CET.10
     title = TCET10

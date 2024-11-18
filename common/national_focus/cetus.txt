@@ -912,6 +912,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = CET_master_s_centaura_idea
 			add_manpower = 1
+			}
 		}
 	}
 	
