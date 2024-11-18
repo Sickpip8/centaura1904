@@ -483,7 +483,7 @@
 		prerequisite = { focus = COV_coastal_battery }
 		available = {
 			is_subject = no
-			has_army_manpower = { size > 599999 }
+			has_army_manpower = { size > 499999 }
 			#has_army_manpower = { size > 1 }
 		}
 		relative_position_id = COV_ramp_production_up
