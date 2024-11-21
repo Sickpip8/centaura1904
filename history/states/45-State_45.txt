@@ -22,6 +22,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=8601461
+        manpower=5601461
         state_category = large_town
 }
