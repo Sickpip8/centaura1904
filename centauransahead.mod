@@ -52,10 +52,11 @@ replace_path="gfx/posteffect_volumes.txt"
 #replace_path="common/ideas"
 #replace_path="ai_strategy"
 #replace_path="gfx/loadingscreens"
+replace_path="common/technologies"
 tags={
 	"Map"
 	"Utilities"
 }
 picture="thumbnail.png"
-supported_version="1.14.*"
+supported_version="1.15.*"
 path="mod/centauransahead"
