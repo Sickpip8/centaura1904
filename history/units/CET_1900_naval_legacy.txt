@@ -46,17 +46,17 @@
 			ship = { name = "CIS Atlas" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Kymopoleia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Otos" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CET } } }
-			ship = { name = "CIS Potamoi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Achelous" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Alpheus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Asopus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Inachus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Nilus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Peneus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Scamander" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Acis" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Acragas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Aeas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Potamoi" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Achelous" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Alpheus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Asopus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Inachus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Nilus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Peneus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Scamander" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Acis" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Acragas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Aeas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 		}
 		task_force = {				
 			name = "St. Kirk Command"
@@ -77,8 +77,8 @@
 			ship = { name = "CIS Bochams" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Untherhelm" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Boohelm" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CET } } }
-			ship = { name = "CIS Aegaeus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Aesar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Aegaeus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Aesar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 		}
 	}
 	
@@ -108,20 +108,20 @@
 			name = "Dubwallow Command"
 			location = 5190
 			ship = { name = "CIS Rada" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CET version_name = "Kaitos Class" } } }
-			ship = { name = "CIS Rhesus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Rhine" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Rhodius" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Rhyndacus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhesus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhine" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhodius" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Rhyndacus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 		}
 		task_force = {				
 			name = "Melmere Command"
 			location = 1495
 			ship = { name = "CIS Nyodymium" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Nyodymium Class" } } }
-			ship = { name = "CIS Nestos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Nessus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Meles" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Numicius" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
-			ship = { name = "CIS Marsyas" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Nestos" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Nessus" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Meles" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Numicius" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
+			ship = { name = "CIS Marsyas" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 		}
 	}
 }
@@ -130,7 +130,7 @@ instant_effect = {
 ### Under Construction Notes ###
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = destroyer_2
 			creator = "CET" 
 			version_name = "Potamoi Class"
 		}

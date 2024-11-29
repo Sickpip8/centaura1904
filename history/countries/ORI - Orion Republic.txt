@@ -209,7 +209,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Saiph Class"
+		name = "Pollux Class"
 		type = ship_hull_heavy_1
 		name_group = ORI_BB_HISTORICAL
 		parent_version = 0

@@ -381,7 +381,7 @@ COV_dysfunctional_economy_idk = {
 		}
 
 		complete_effect = {
-			 
+		remove_idea = COV_dysfunctional_economy_idea
 		}
 
 		remove_effect = {
@@ -397,7 +397,63 @@ COV_dysfunctional_economy_idk = {
 			}
 		
 		visible = {
-			has_war = yes
+			has_completed_focus = COV_address_the_dysfunctional_economy
+		}
+		
+		fire_only_once = no
+		
+		days_re_enable = 28
+		
+		cost = 50
+		
+		complete_effect = {
+		add_days_mission_timeout = {
+			mission = corvus_failing_economy_d
+			days = 30
+			}
+		}
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	corvus_coal_production = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+		has_completed_focus = COV_implement_rationing_policy
+			}
+		
+		visible = {
+			has_completed_focus = COV_address_the_dysfunctional_economy
+		}
+		
+		fire_only_once = no
+		
+		days_re_enable = 28
+		
+		cost = 50
+		
+		complete_effect = {
+		add_days_mission_timeout = {
+			mission = corvus_failing_economy_d
+			days = 30
+			}
+		}
+		ai_will_do = {
+		factor = 1
+		}
+	}
+	corvus_warbonds = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+		has_completed_focus = COV_implement_rationing_policy
+			}
+		
+		visible = {
+			has_completed_focus = COV_address_the_dysfunctional_economy
 		}
 		
 		fire_only_once = no

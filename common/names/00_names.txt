@@ -45,42 +45,6 @@ default = {
 ###############################################################
 # The Majors
 ###############################################################
-ANT = {
-	male = {
-		names = {
-			Bocchi
-		}
-	}
-	female = {
-		names = { Cassius }
-	}
-	surnames = { 
-		Kharon
-	}
-	callsigns = { "Acer" }
-	
-	prefix = o_unternehmen
-	operation = {
-		0 = {
-			o_ostwind
-			o_wetzstein
-		}
-		7 = { #nautaregion
-			o_see_western
-		}
-		43 = { #mira
-			o_herbstreise
-		}
-		44 = { #innercetus
-			o_interlund
-		}
-		41 = { #aquilanbordercetus
-			o_granduer
-		}
-	}
-	
-}
-
 
 HYS = {
 	male = {

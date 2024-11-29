@@ -11,6 +11,8 @@
 			ship = { name = "HS Arctium" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HYS version_name = "Thistle Class" } } }
 			ship = { name = "HS Carduus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HYS version_name = "Thistle Class" } } }
 			ship = { name = "HS Carlina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HYS version_name = "Thistle Class" } } }
+			}
+		}
 			
 
 #Genera in the Asteraceae with the word thistle often used in their common names include:
