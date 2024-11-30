@@ -198,7 +198,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "Nyodymium Class" 
+		name = "Neodymium Class" 
 		type = ship_hull_cruiser_1
 		name_group = CET_CA_HISTORICAL
 		parent_version = 0
@@ -216,7 +216,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Nyodymiumite Class" #temp name
+		name = "Neodymiumite Class" #temp name
 		type = ship_hull_cruiser_2
 		name_group = CET_CA_HISTORICAL
 		parent_version = 0

@@ -89,6 +89,12 @@
 			name = "South Corvus Command"
 			location = 4809
 			ship = { name = "CIS Ouranous" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = CET version_name = "Kaitos Class" } } }
+			ship = { name = "CIS Neodymiumite" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
+			ship = { name = "CIS Neodymiumate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
+			ship = { name = "CIS Neodymiumete" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
+			ship = { name = "CIS Neodymiunate" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
+			ship = { name = "CIS Niodymiumite" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
+			ship = { name = "CIS Nyodymiumite" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CET version_name = "Neodymiumite Class" } } }
 			ship = { name = "CIS Nitham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
 			ship = { name = "CIS Nitham II" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
 			ship = { name = "CIS Briham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CET version_name = "Nitham Class" } } }
@@ -116,7 +122,7 @@
 		task_force = {				
 			name = "Melmere Command"
 			location = 1495
-			ship = { name = "CIS Nyodymium" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Nyodymium Class" } } }
+			ship = { name = "CIS Neodymium" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CET version_name = "Neodymium Class" } } }
 			ship = { name = "CIS Nestos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 			ship = { name = "CIS Nessus" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
 			ship = { name = "CIS Meles" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CET version_name = "Potamoi Class" } } }
