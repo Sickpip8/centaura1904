@@ -9,11 +9,11 @@ CET_DD_HISTORICAL = {
 
 	can_use = { always = yes }
 
-	prefix = "CIS"								
+	prefix = "CIS "								
 	fallback_name = "Destroyer %s"					
 
 	unique = {
-		"Methone"
+		"Aurae" "Asteriae" "Hesperides" "Aegle" "Arethusa" "Erytheia" "Eratheis" "Hyades" "Pleiades" "Maia" "Electra" "Taygete" "Alcyone" "Celaeno" "Asterope" "Merope" "Nephele" "Alseides" "Auloniades" "Leimonides" "Napaeae" "Oreads" 
 	}
 }
 
@@ -28,30 +28,11 @@ CET_CL_HISTORICAL = {
 	
 	can_use = { always = yes }
 	
-	prefix = "CIS"							
+	prefix = "CIS "							
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
-		"Io"
-	}
-}
-
-### A-A LIGHT CRUISER NAMES###
-CET_CLAA_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CLAA
-
-	for_countries = { CET }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser }
-	
-	can_use = { always = yes }
-	
-	prefix = "CIS"								
-	fallback_name = "Light Cruiser (AA) %s"
-
-	unique = {
-		"Galatea" "Despina"
+		"Io" "Subaru" "Awa"
 	}
 }
 
@@ -66,7 +47,7 @@ CET_CA_HISTORICAL = {
 	
 	can_use = { always = yes }
 	
-	prefix = "CIS"								
+	prefix = "CIS "								
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
@@ -85,7 +66,7 @@ CET_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "CIS"								
+	prefix = "CIS "								
 	fallback_name = "Battleship %s"		
 
 	unique = {
@@ -104,7 +85,7 @@ CET_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "CIS"								
+	prefix = "CIS "								
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
@@ -123,7 +104,7 @@ CET_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "CIS"							
+	prefix = "CIS "							
 	fallback_name = "Carrier %s"		
 
 	unique = {
@@ -142,7 +123,7 @@ CET_CVL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "CIS"							
+	prefix = "CIS "							
 	fallback_name = "Carrier %s"	
 
 	unique = {
@@ -162,7 +143,7 @@ CET_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "CIS"							
+	prefix = "CIS "							
 	fallback_name = "S-%s"
 	
 	unique = {
