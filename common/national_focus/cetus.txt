@@ -775,6 +775,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
+		add_ideas = CET_towards_greater_cetus_idea
 		51 = { add_claim_by = CET }
 		52 = { add_claim_by = CET }
 		53 = { add_claim_by = CET }
