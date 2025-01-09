@@ -833,31 +833,6 @@ focus_tree = {
 			}
 		}
 		
-		focus = {
-			id = ORS_HartPropaganda
-			icon = GFX_goal_generic_propaganda
-			x = 20
-			y = 7
-			cost = 5
-			available = {
-				ORI_Kevin_Hart = {is_country_leader = yes}
-			}
-			
-			prerequisite = {
-				focus = ORS_ExpandTheVenetaiaBureauOfResearch
-			}
-			
-			completion_reward = {
-				add_timed_idea = {
-					idea = ORS_HartCampaigning
-					days = 140
-				}
-			}
-			
-			ai_will_do = {
-				factor = 5
-			}
-		}
 		
 		focus = {
 			id = ORS_HartPropaganda
