@@ -2,7 +2,7 @@
  ### Rifles
  infantry_equipment_0:0 "Pre-War Equipment"
  infantry_equipment_0_short:0 "Basic Equip"
- infantry_equipment_0_desc:0 "Weapons and enquipment developed Before the War"
+ infantry_equipment_0_desc:0 "Weapons and enquipment developed before the War"
  infantry_equipment_1:0 "Bolt Action Riles"
  infantry_equipment_1_short:0 "Weapons I"
  infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
@@ -75,10 +75,10 @@
  support_weapons7_short:0 "Support Weapons VII"
  support_weapons7_desc:0 "With more powerfull Automatic rifles and advanced assault weapons Reliable and powerfull Support Weapons are a must."
  ### Motorized
- motorized_equipment_0:0 "Basic Trucks"
- motorized_equipment_0_short:0 "Truck"
+ motorized_equipment_0:0 "Early Trucks"
+ motorized_equipment_0_short:0 "Trucks"
  motorized_equipment_0_desc:0 "Early trucks developed for basic transportation of goods, modified for War time"
- motorized_equipment_1:0 "Motorised Infantry"
+ motorized_equipment_1:0 "Improved Trucks"
  motorized_equipment_1_short:0 "Motorised"
  motorized_equipment_1_desc:0 "Dedicated trucks for moving through terrain quickly, and transportation of troops."
  mechanized_equipment_1:0 " Mechanized Infantry"
@@ -98,7 +98,7 @@
  mechanized_equipment_5_desc:0 "Speacily devised Personnel Carriers made to defend infantry and maneuver through difficult terrain."
  mechanized_equipment_6:0 "Armoured Personnel Carriers"
  mechanized_equipment_6_short:0 "Mech Infantry VI"
- mechanized_equipment_6_desc:0 "Speacily devised Personnel Carriers made to defend infantry and maneuver through difficult terrain."
+ mechanized_equipment_6_desc:0 "Specialy devised Personnel Carriers made to defend infantry and maneuver through difficult terrain."
  # amphibous
  amphibious_mechanized_equipment_1:0 "Amphibious Mechanized"
  amphibious_mechanized_equipment_1_short:0 "Amphibous Mech"
