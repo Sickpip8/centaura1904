@@ -1,4 +1,4 @@
-name="centauransaheads color mod"
+name="centauransaheads color_mod"
 dependencies = {
 	"centauransahead"
 	}
@@ -8,4 +8,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="mod/centauransaheads color mod"
+path="mod/centauransaheads colour_mod"
