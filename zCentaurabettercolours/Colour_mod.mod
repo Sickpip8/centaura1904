@@ -8,4 +8,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="mod/centaurasahead/zCentaurabettercolours"
+path="mod/zCentaurabettercolours"
