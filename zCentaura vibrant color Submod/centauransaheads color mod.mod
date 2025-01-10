@@ -8,4 +8,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="mod/centauransaheads color mod"
+path="mod/zCentaura vibrant color Submod/color mod"
