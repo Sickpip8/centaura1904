@@ -1,4 +1,4 @@
-name="centauransaheads color_mod"
+name="Hearts of Forma: Better Country Colours"
 dependencies = {
 	"centauransahead"
 	}
@@ -8,4 +8,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="mod/zCentaura vibrant color Submod/color mod"
+path="mod/centaurasahead/zCentaurabettercolours"
