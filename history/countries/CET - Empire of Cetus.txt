@@ -109,7 +109,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Nitham Class"
+		name = "Daphne Class"
 		type = ship_hull_light_1
 		name_group = CET_DD_HISTORICAL
 		parent_version = 0

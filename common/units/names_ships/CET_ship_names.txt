@@ -32,7 +32,7 @@ CET_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
-		"Io" "Subaru" "Awa"
+		"Anthousai" "Dryades" "Hamadryades" "Daphnaeae" "Epimeliades" "Kissiae" "Meliae" "Hyleoroi" "Haliae" "Crinaeae" "Eleionomae" "Limnades" "Limnatides" "Pegaeae"
 	}
 }
 
@@ -70,7 +70,7 @@ CET_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"		
 
 	unique = {
-        "Meissa"
+        "Zephyrus" "Skiron" "Notus" "Eurus" "Boreas" "Aura" "Nitham"
 	}
 }
 
@@ -89,7 +89,7 @@ CET_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
-           "Meissur"
+           "Keitos" "Didphda" "Barb"
  	}
 }
 
@@ -108,27 +108,7 @@ CET_CV_HISTORICAL = {
 	fallback_name = "Carrier %s"		
 
 	unique = {
-		"Yorktown"
-	}
-}
-
-### LIGHT CARRIER NAMES ###
-CET_CVL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CVL
-
-	for_countries = { CET }
-	
-	can_use = { always = yes }
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-	
-	prefix = "CIS "							
-	fallback_name = "Carrier %s"	
-
-	unique = {
-		# CVL Names
-		"fireryheart0190"
+		"Unity" "Gloria"
 	}
 }
 

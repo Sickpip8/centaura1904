@@ -4,9 +4,6 @@ state={
 	history = {
 		owner = ANT
 		add_core_of = ANT
-		victory_points = {
-			5382 16
-		}
 	}
 	provinces={
 		1231 2536 5382 5459 6804 6805 

@@ -145,17 +145,17 @@ Initial States, In numerical order
 	- 98 West Norma [CAPITAL: 6073]
 	- 99 Norma Island 
 	- 100 North Lupus 
-	- 101 South Lupus
+	- 101 West Norma
 	- 102 Lupus Island 
 	- 103 South Ara 
 	- 104 Northeastern Ara 
 	- 105 Northwestern Ara 
 	- 106 Northernmost Antares (North Skorpius) 
-	- 107 Northwestern Skorpius 
+	- 107 West Lepus
 	- 108 West Skorpius 
 	- 109 Central Skorpius 
 	- 110 South Skorpius 
-	- 111 Central Antares 
+	- 111 Central Lepus 
 	
 112 - 123 Canis (Ursa) (12) URSA: 10	ORION: 2
 	- 112 Northern Islands, ORION CLAIM 
