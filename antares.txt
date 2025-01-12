@@ -1,0 +1,304 @@
+ideas = {
+    country = {
+#INDUSTRY1
+        ANT_industry_idea = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.3
+                production_speed_industrial_complex_factor = 0.2 
+                production_speed_infrastructure_factor = 0.4
+                industrial_capacity_factory = -0.2 
+            }
+        }
+        ANT_industry_idea1 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.3
+                production_speed_industrial_complex_factor = 0.2 
+                production_speed_infrastructure_factor = 0.4
+                industrial_capacity_factory = -0.2 
+		production_speed_buildings_factor = 0.05
+            }
+        }
+###############
+        ANT_industry_ideac1 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.15
+                production_speed_industrial_complex_factor = 0.2 
+                production_speed_infrastructure_factor = 0.2
+                industrial_capacity_factory = -0.2 
+		production_speed_buildings_factor = 0.05
+            }
+        }
+        ANT_industry_ideac2 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.15
+                production_speed_industrial_complex_factor = 0.2 
+                industrial_capacity_factory = -0.2
+		production_speed_buildings_factor = 0.075
+            }
+        }
+        ANT_industry_ideac3 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.1
+                industrial_capacity_factory = -0.2 
+		production_speed_buildings_factor = 0.1
+            }
+        }
+        ANT_industry_ideacf = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.1
+                industrial_capacity_factory = 0.1 
+		production_speed_arms_factory_factor = 0.1
+            }
+        }
+##################
+        ANT_industry_idead1 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.4
+                production_speed_industrial_complex_factor = 0.2 
+                production_speed_infrastructure_factor = 0.5
+                industrial_capacity_factory = -0.2 
+		production_speed_buildings_factor = 0.075
+            }
+        }
+        ANT_industry_idead2 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.4
+                production_speed_industrial_complex_factor = 0.25 
+                production_speed_infrastructure_factor = 0.45
+                industrial_capacity_factory = -0.15 
+		production_speed_buildings_factor = 0.075
+            }
+        }
+        ANT_industry_idead3 = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.3
+                production_speed_industrial_complex_factor = 0.25 
+                production_speed_infrastructure_factor = 0.4
+                industrial_capacity_factory = -0.1
+		production_speed_buildings_factor = 0.1
+            }
+        }
+        ANT_industry_ideadf = {
+            name = ANT_antarean_industry
+            
+            picture = man_five_year_plan_industry
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.2
+                production_speed_industrial_complex_factor = 0.05 
+                production_speed_industrial_complex_factor = 0.1
+                production_speed_infrastructure_factor = 0.2
+                industrial_capacity_factory = 0.2
+		production_speed_buildings_factor = 0.1
+            }
+        }
+#INDUSTRY1
+#BOOOSTSStS
+		ANT_construction_boost_idea = {
+            name = ANT_construction_boost
+            
+            picture = ast_all_in
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_industrial_complex_factor = 0.3
+				production_speed_infrastructure_factor = 0.6
+            }
+        }
+		ANT_construction_boost2_idea = {
+            name = ANT_construction_boost2
+            
+            picture = ast_all_in
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+		production_speed_buildings_factor = 0.2
+            }
+        }
+		ANT_military_boost_idea = {
+            name = ANT_mil_construction_boost
+            
+            picture = ast_all_in
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_arms_factory_factor = 0.3
+
+            }
+        }
+		ANT_production_boost_idea = {
+            name = ANT_mil_production_boost
+            
+            picture = low_economic_mobilisation
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+                industrial_capacity_factory = 0.3
+
+            }
+        }
+#INDUSTRY2INDUSTRY2INDUSTRY2INDSUTRY2INDUSTRY2
+
+		ANT_militarized_economy_idea  = {
+            name = ANT_militarized_economy
+            
+            picture = generic_improved_industries
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+			consumer_goods_factor = 0.2
+			production_factory_max_efficiency_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.1
+			line_change_production_efficiency_factor = -0.1
+			conversion_cost_civ_to_mil_factor = -0.7
+            }
+        }
+#OTHERotheerotheerotheerotheroptherpgrhehrntendrh
+		ANT_paying_for_funding_idea  = {
+            name = ANT_paying_for_funding
+            
+            picture =generic_foreign_capital
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = 0.4
+            }
+        }
+		ANT_farming_idea  = {
+            name = ANT_efficient_farming
+            
+            picture =generic_agrarian_society
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = 0.1
+		monthly_population = 0.4
+		supply_factor = 0.2
+		supply_node_range = 0.2
+            }
+        }
+		ANT_patriotism = {
+            name = ANT_patriotism
+            
+            picture =FRA_scw_intervention_nationalists_focus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+war_stability_factor = 0.1
+offensive_war_stability_factor = 0.1
+army_core_attack_factor = 0.3
+army_core_defence_factor = 0.3	
+            }
+        }
+#######WAR REELATEDE#######
+		ANT_army = {
+            name = ANT_Antares_Imperial_army
+            
+            picture =NORDIC_army_communist
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+experience_gain_army_factor = -0.5
+
+army_org_factor = 0.1
+army_morale_factor = 0.1
+initiative_factor = 0.3
+            }
+        }
+		ANT_navy = {
+            name = ANT_Antares_Armada
+            
+            picture = NORDIC_navy_communist
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+experience_gain_navy_factor = -0.5	
+
+naval_retreat_speed = 0.3
+navy_org_factor = 0.1
+naval_morale_factor = 0.1
+            }
+        }
+		ANT_airforce = {
+            name = ANT_AAF
+            
+            picture = NORDIC_airforce_communist
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+experience_gain_air_factor = -0.5	
+
+            }
+        }
+
+
+#end
+    }
+}
