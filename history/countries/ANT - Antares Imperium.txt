@@ -10,6 +10,15 @@ if = {
 	}
 }
 
+
+add_ideas = { 
+	ANT_industry_idea
+	ANT_patriotism
+	ANT_army
+	ANT_navy
+	}
+
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

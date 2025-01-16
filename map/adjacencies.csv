@@ -8,6 +8,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6763;6766;sea;7866;-1;-1;-1;-1;;corvun islands
 6766;4242;sea;7866;-1;-1;-1;-1;;corvun islands
 2910;6767;sea;7866;-1;-1;-1;-1;;dair-corvun island
+4145;6753;lake;8212;-1;-1;-1;-1;;rostrum-procul corvus
+6751;6753;lake;8212;-1;-1;-1;-1;;procul-cetus
+4049;6751;lake;8212;-1;-1;-1;-1;;cetus-belhold
+4049;6755;lake;8212;-1;-1;-1;-1;;behold-cetus2
+4049;4086;lake;8212;-1;-1;-1;-1;;belhold-mainland
 -1;-1;-1;-1;-1;-1;-1;-1;;
 -1;-1;;-1;-1;-1;-1;-1;-1 
 2745;6793;sea;75033;-1;-1;-1;-1;;cetan islands
