@@ -1573,11 +1573,11 @@ focus_tree = {
 		focus = {
 			id = ORS_TheHard1900s
 			icon = GFX_focus_SOV_international_union_of_soviet_republics
-			x = 51
-			y = 8
+			x = 67
+			y = 0
 			cost = 5
 			available = {
-				
+				always = false
 			}
 			
 			completion_reward = {

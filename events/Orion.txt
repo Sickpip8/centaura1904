@@ -42,6 +42,7 @@ country_event = {
 		ORI = {
                country_event = {id = orion.3  days = 1 }
                }
+		ai_chance = {factor = 90}
 	}
 	
 	option = {
@@ -49,10 +50,11 @@ country_event = {
 		ORI = {
                country_event = {id = orion.4  days = 1 }
               }
+		ai_chance = {factor = 10}
 	}
 }
 
-country_event = {
+country_event = { #Ursa accepts
 	id = orion.3
 	title = orion.3.t
 	desc = orion.3.d
