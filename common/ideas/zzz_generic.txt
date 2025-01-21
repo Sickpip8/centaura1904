@@ -1243,6 +1243,28 @@ ideas = {
 			modifier = {
 			}
 		}
+		
+		# MOD IDEAS Generic
+		
+		forma_militarism = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				ai_desired_divisions_factor = 4
+			}
+		}
+		
 	}
 
 	# TECHNOLOGY

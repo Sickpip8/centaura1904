@@ -83,7 +83,8 @@ add_ideas = {
 		COV_dysfunctional_economy_idea
 		limited_conscription
 		low_economic_mobilisation
-			}
+		forma_militarism
+		}
 
 recruit_character = COV_oliver_khorin
 recruit_character = COV_henry_khorin
