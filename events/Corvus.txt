@@ -33,7 +33,7 @@ country_event = {
     }
 }
 
-# End of SCW, Republicans expanded Soviet aid - event for SOV
+# End of SCW, Corvus expanded Antares aid - event for ANT
 country_event = {
 	id = cov.2
 	title = cov.2.t
@@ -45,12 +45,12 @@ country_event = {
 	option = { # Ok
 		name = cov.2.a
 		effect_tooltip = {
-			puppet = SPD
+			puppet = COV
 		}
 	}
 }
 
-# End of SCW, Republicans expanded Soviet aid - event for SPD
+# End of SCW, Corvus expanded Antares aid - event for SPD
 country_event = {
 	id = cov.3
 	title = cov.3.t
@@ -61,41 +61,14 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				set_country_flag = SPR_democratic_government_flag
-			}
-			set_temp_variable = {
-				var = soviet_puppet_democratic_var
-				value = party_popularity@democratic
-			}
-			SOV = { puppet = SPD }
-			if = {
-				limit = {
-					has_country_flag = SPR_democratic_government_flag
-				}
-				set_politics = {
-					ruling_party = democratic
-				}
-				clr_country_flag = SPR_democratic_government_flag
-			}
-			set_political_party = {
-			    ideology = communism
-			    popularity = 100
-			}
-			add_popularity = {
-			    ideology = democratic
-			    popularity = soviet_puppet_democratic_var
-			}
+			ANT = { puppet = COV }
 		}
 	}
 	
 	option = { # Ok
 		name = cov.3.a
 		effect_tooltip = {
-			SOV = { puppet = SPD }
+			ANT = { puppet = COV }
 		}
 	}
 }
@@ -111,7 +84,7 @@ country_event = {
 	
 	option = {
 		name = cov.4.a # Yes
-		ai_chance = {factor = 90}
+		ai_chance = {factor = 99}
 		COV = {
 			add_to_faction = ROOT = {
 				add_ai_strategy = {
@@ -123,9 +96,8 @@ country_event = {
 		}
 	}
 	
-	#option = {
-	#	name = cov.4.b # NO 
-	#	ai_chance = {factor = 10}
-	#}
-
+	option = {
+		name = cov.4.b # NO 
+		ai_chance = {factor = 1}
+	}
 }

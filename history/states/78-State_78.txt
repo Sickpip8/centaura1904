@@ -4,54 +4,57 @@ state={
 	history = {
 		owner = CTA
 		add_core_of = CTA
+		add_dynamic_modifier = { 
+		modifier = CTA_defence_line_dynamic_modifier
+		}
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 3
 			3574 = {
 				coastal_bunker = 8
-				bunker = 8
+				bunker = 7
 			}
 			2953 = {
 				coastal_bunker = 8
-				bunker = 8
+				bunker = 7
 			}
 			3576 = {
 				coastal_bunker = 8
-				bunker = 8
+				bunker = 7
 			}
 			186 = {
 				coastal_bunker = 8
-				bunker = 8
+				bunker = 7
 			}
 			1585 = {
 				coastal_bunker = 8
-				bunker = 8
+				bunker = 7
 			}
 			3563 = {
-				bunker = 8
+				bunker = 7
 				coastal_bunker = 8
 			}
 			607 = {
-				bunker = 8
+				bunker = 7
 			}
 			3027 = {
-				bunker = 8
+				bunker = 7
 			}
 			1448 = {
-				bunker = 8
+				bunker = 7
 			}
 			1009 = {
-				bunker = 8
+				bunker = 7
 			}
 			3240 = {
-				bunker = 8
+				bunker = 7
 			}
 			3562 = {
-				bunker = 8
+				bunker = 7
 			}
 			3565 = {
-				bunker = 8
+				bunker = 7
 			}
 		}
 		victory_points = {

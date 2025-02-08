@@ -104,6 +104,18 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+	
+		periwinkle_idea = {
+
+            picture = generic_infantry_bonus
+			
+            allowed = { always = no }
+            removal_cost = -1
+
+            modifier = {
+                army_attack_factor = -1
+            }
+        }
 		
 		TO_chose_neutrality = {
 

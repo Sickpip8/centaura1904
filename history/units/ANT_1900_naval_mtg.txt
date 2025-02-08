@@ -28,10 +28,10 @@ units = {
 	
 	fleet = {
 		name = "Libran Ocean Fleet"
-		naval_base = 2286
+		naval_base = 5486
 		task_force = {				
 			name = "Aquila Detachment"
-			location = 2286
+			location = 5486
 			ship = { name = "AIS Maia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ANT version_name = "Venus Class"  } } }
 			ship = { name = "AIS Flavus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }
 			ship = { name = "AIS Aeterna Flavus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ANT version_name = "Flavus Class" } } }

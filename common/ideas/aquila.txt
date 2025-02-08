@@ -11,9 +11,10 @@ ideas = {
                 conscription_factor = -0.2
                 training_time_army_factor = 0.5
 				army_speed_factor = -0.1
-				army_defence_factor = 1
 				dig_in_speed_factor = 1
 				forced_surrender_limit = 0.4
+				ai_focus_naval_factor = 0
+				ai_focus_naval_air_factor = 0
             }
         }
 		
@@ -26,5 +27,54 @@ ideas = {
 
             modifier = {
                 stability_factor = 0.1
+            }
+        }
+		
+		AQU_outdated_technology_idea = {
+            name = AQU_outdated_technology
+            
+            picture = idea_iron_army
+            allowed = { original_tag = AQU }
+            removal_cost = -1
+
+            modifier = {
+                research_speed_factor = -0.1
+            }
+        }
+		
+		AQU_rusting_army_idea = {
+            name = AQU_rusting_army
+            
+            picture = idea_iron_army
+            allowed = { original_tag = AQU }
+            removal_cost = -1
+
+            modifier = {
+                army_attack_factor = -0.5
+				army_defence_factor = 1
+            }
+        }
+		
+		AQU_repower_king_idea = {
+            name = AQU_repower_king
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                neutrality_drift = 0.2
+            }
+        }
+		
+		AQU_deport_democracy_idea = {
+            name = AQU_deport_democracy
+            
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                democratic_drift = -0.6
             }
         }
