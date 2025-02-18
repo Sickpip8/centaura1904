@@ -17,6 +17,11 @@ state={
 			infrastructure = 4
 
 		}
+		1944.1.1.12 = {
+			owner = ANT
+			controller = ANT
+
+}
 		victory_points = {
 			14 45 
 		}

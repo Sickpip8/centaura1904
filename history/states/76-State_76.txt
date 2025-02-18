@@ -10,6 +10,11 @@ state={
 		victory_points = {
 			6651 2
 		}
+		1944.1.1.12 = {
+			owner = URS
+			controller = URS
+
+}
 	}
 	provinces={
 		6625 6626 6629 6631 6632 6633 6639 6642 6651 6658 6659 

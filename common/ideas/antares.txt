@@ -34,7 +34,7 @@ ideas = {
         ANT_industry_ideac1 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_central_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -49,7 +49,7 @@ ideas = {
         ANT_industry_ideac2 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_central_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -63,7 +63,7 @@ ideas = {
         ANT_industry_ideac3 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_central_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -76,7 +76,7 @@ ideas = {
         ANT_industry_ideacf = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_central_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -90,7 +90,7 @@ ideas = {
         ANT_industry_idead1 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_local_self_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -105,7 +105,7 @@ ideas = {
         ANT_industry_idead2 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_local_self_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -120,7 +120,7 @@ ideas = {
         ANT_industry_idead3 = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_local_self_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -135,7 +135,7 @@ ideas = {
         ANT_industry_ideadf = {
             name = ANT_antarean_industry
             
-            picture = man_five_year_plan_industry
+            picture = generic_local_self_management
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -218,7 +218,7 @@ ideas = {
 		ANT_paying_for_funding_idea  = {
             name = ANT_paying_for_funding
             
-            picture =generic_foreign_capital
+            picture =ger_mefo_bills_payment
             allowed = { original_tag = ANT }
             removal_cost = -1
 
@@ -252,6 +252,55 @@ war_stability_factor = 0.1
 offensive_war_stability_factor = 0.1
 army_core_attack_factor = 0.3
 army_core_defence_factor = 0.3	
+            }
+        }
+#######POLITICAL##########
+		ANT_ppdebuff = {
+            name = antarean_democracy
+            
+            picture = generic_pp_unity_bonus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+		political_power_factor = -0.4
+		neutrality_drift = -0.02
+            }
+        }
+		ANT_ppdebuff2 = {
+            name = antarean_democracy
+            
+            picture = generic_pp_unity_bonus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+		political_power_factor = -0.4
+		neutrality_drift = -0.01
+		stability_factor = -0.1
+            }
+        }
+		ANT_ppdebuff3 = {
+            name = antarean_democracy
+            
+            picture = generic_pp_unity_bonus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+		political_power_factor = -0.2
+		stability_factor = -0.2
+            }
+        }
+		ANT_ppdebuff4 = {
+            name = antarean_democracy
+            
+            picture = generic_pp_unity_bonus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+		political_power_factor = -0.2
             }
         }
 #######WAR REELATEDE#######

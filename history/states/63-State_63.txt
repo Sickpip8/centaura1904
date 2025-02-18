@@ -13,6 +13,11 @@ state={
 		victory_points = {
 			639 11
 		}
+		1944.1.1.12 = {
+			owner = COV
+			controller = COV
+
+}
 	}
 	provinces={
 		639 666 1619 2903 3835 

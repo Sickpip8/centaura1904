@@ -2,6 +2,14 @@ capital = 103
 
 oob = "ANT_1900"
 
+	add_ideas = { 
+ANT_ppdebuff
+ANT_patriotism
+ANT_industry_idea
+ANT_army
+ANT_navy
+}
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "ANT_1900_naval_mtg"
@@ -9,15 +17,6 @@ if = {
 		set_naval_oob = "ANT_1900_naval_legacy"
 	}
 }
-
-
-add_ideas = { 
-	ANT_industry_idea
-	ANT_patriotism
-	ANT_army
-	ANT_navy
-	}
-
 
 if = {
 	limit = {
@@ -73,19 +72,19 @@ set_technology = {
 	# i
 }
 
-set_stability = 0.46
+set_stability = 0.45
 
-set_war_support = 0.4
+set_war_support = 0.35
 
 add_political_power = 1
 
-set_convoys = 391
+set_convoys = 300
 
 set_popularities = {
-	democratic = 10
-	communism = 0
-	fascism = 20
-	neutrality = 70
+	democratic = 30
+	communism = 15
+	fascism = 10
+	neutrality = 45
 }
 
 set_politics = {
@@ -248,3 +247,4 @@ if = {
 	#		rear_1_custom_slot = ship_heavy_battery_1
 	#	}
 	#}
+

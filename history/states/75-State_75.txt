@@ -23,7 +23,11 @@ state={
 		victory_points = {
 			305 5 
 		}
+		1944.1.1.12 = {
+			owner = RIA
+			controller = RIA
 
+}
 	}
 
 	provinces={

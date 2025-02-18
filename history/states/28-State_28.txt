@@ -8,6 +8,11 @@ state={
 		victory_points = {
 			6760 1
 		}
+		1944.1.1.12 = {
+			owner = ANT
+			controller = ANT
+
+}
 	}
 	provinces={
 		6760 

@@ -13,6 +13,10 @@ state={
 			industrial_complex = 1
 			infrastructure = 2
 		}
+		1944.1.1.12 = {
+			owner = ANT
+			controller = ANT
+}
 		victory_points = {
 			1561 5
 		}
