@@ -6,7 +6,11 @@ state={
 		add_core_of = ANT
 		buildings = {
 			infrastructure = 1
+			6501 = {
+			naval_base = 1
+			}
 		}
+
 		victory_points = {
 			2457 1
 		}

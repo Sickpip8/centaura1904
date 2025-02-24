@@ -820,6 +820,79 @@ swap_ideas = {
             }
     }
 }
+# Develop the Euskor Basin
+focus = {
+    id = ANT_develop_euskor_basin
+    icon = GFX_goal_generic_construct_civ_factory
+    x = 14
+    y = 1
+    cost = 10
+    search_filters = { FOCUS_FILTER_INDUSTRY }
+    prerequisite = { focus = ANT_continue_industrialization }
+
+    ai_will_do = { factor = 1 }
+    completion_reward = {
+
+        6 = {
+            add_extra_state_shared_building_slots = 6
+
+        }
+    }
+}
+# Euskor Industry
+focus = {
+    id = ANT_euskor_industry
+    icon = GFX_goal_generic_construct_civ_factory
+    x = 14
+    y = 3
+    cost = 10
+    search_filters = { FOCUS_FILTER_INDUSTRY }
+    prerequisite = { focus =ANT_expand_euskor_extraction }
+
+    ai_will_do = { factor = 1 }
+    completion_reward = {
+
+        6 = {
+
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+
+            }
+        }
+    }
+}
+# Expand eurskor mines
+focus = {
+    id = ANT_expand_euskor_extraction
+    icon = GFX_goal_generic_construction2
+    x = 14
+    y = 2
+    cost = 10
+    search_filters = { FOCUS_FILTER_INDUSTRY }
+    prerequisite = { focus = ANT_develop_euskor_basin }
+    ai_will_do = { factor = 1 }
+    completion_reward = {
+        6 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+            add_resource = {
+                type = steel
+                amount = 30
+            }
+        }
+    }
+}
 # Deregulate the industrial sector
 focus = {
     id = ANT_deregulate_industrial_sector
@@ -1705,7 +1778,7 @@ focus = {
 	prerequisite = {focus = ANT_consolidate_monarchic_powers}
 	ai_will_do = { factor = 1 }
 	completion_reward = {
-custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+			add_political_power = 120
 
 	}
 }
@@ -1719,10 +1792,11 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_consolidate_monarchic_powers}
 	ai_will_do = { factor = 1 }
-	completion_reward = {
-custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
-
-	}
+		completion_reward = {
+			add_stability = 0.05
+			
+			
+		}
 }
 # x
 focus = {
@@ -1755,8 +1829,12 @@ focus = {
         mutually_exclusive = { focus = ANT_ }
 	ai_will_do = { factor = 1 }
 	completion_reward = {
-custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+			add_popularity = { ideology = communism popularity = -0.05 }
+			add_popularity = { ideology = democratic popularity = -0.10 }
 
+			
+			
+		
 	}
 }
 focus = {
@@ -1768,11 +1846,11 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_authoritarian3}
 	prerequisite = {focus = ANT_authoritarian4}
-	prerequisite = {focus = ANT_protest6}
+
         mutually_exclusive = { focus = ANT_ }
 	ai_will_do = { factor = 1 }
 	completion_reward = {
-custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+			add_popularity = { ideology = neutrality popularity = 0.10 }
 
 	}
 }
@@ -1784,7 +1862,7 @@ focus = {
 	cost = 10
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_authoritarian5a}
-
+	prerequisite = {focus = ANT_protest6}
         mutually_exclusive = { focus = ANT_ }
 	ai_will_do = { factor = 1 }
 	completion_reward = {
@@ -1985,10 +2063,12 @@ focus = {
 	prerequisite = {focus = ANT_protest6}
         mutually_exclusive = { focus = ANT_ }
 	ai_will_do = { factor = 1 }
-	completion_reward = {
-custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+    completion_reward = {
+        create_intelligence_agency = {
+            name = "Ka-Ink. Sekret Sekurity Servise"
+        }
 
-	}
+    }
 }
 # military_coup
 focus = {

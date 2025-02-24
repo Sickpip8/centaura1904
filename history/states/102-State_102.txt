@@ -4,6 +4,13 @@ state={
 	history = {
 		owner = ANT
 		add_core_of = ANT
+		buildings = {
+
+			infrastructure = 1
+			2536 = {
+			naval_base = 1
+			}
+		}
 	}
 	provinces={
 		1231 2536 5382 5459 6804 6805 

@@ -9,11 +9,12 @@ ANT_DD_HISTORICAL = {
 
 	can_use = { always = yes }
 
-	prefix = "AIS"								
-	fallback_name = "Destroyer %s"					
+	prefix = "AIS  "								
+	fallback_name = "AIS Type 12 DD - %s"					
 
 	unique = {
-		"Methone"
+		"Methone" "Polaris" "Sirius" "Regulus" "Altair" "Arcturus" "Procyon" "Bellatrix" "Capella"  "Rigel" "Deneb" "Fomalhaut" "Spica" "Castor" "Pollux" "Achernar" "Aldebaran" "Betelgeuse" "Canopus"  "Mira" "Algol" "Zubenelgenubi" "Zubeneschamali" "Elnath" "Hamal" "Alpheratz" "Markab" "Enif" "Ankaa"  "Merak" "Dubhe" "Phecda" "Megrez" "Alioth" "Mizar" "Alkaid" "Alhena" "Nunki" "Saiph"  "Rasalhague" "Caph" "Alsephina" "Maia" "Taygeta" "Electra" "Sterope" "Celaeno" "Atlas" "Merope" "Antares Rex" "Imperator" "Gladius" "Aquila" "Invictus" "Bellator" "Tyrannis" "Dominus" "Vox Regum" "Venator" "Praetorian" "Excidium" "Ardentia" "Legatus" "Justiciar" "Ignis" "Aurora" "Astralis" "Draconis" "Aeternum" "Perseverantia" "Lucidus" "Primus" "Ultor" "Centaurus" "Valerius" "Victoria" "Damnatio" "Excelsior" "Sanguis" "Leviathan" "Nocturnus" "Ferrum" "Grandis" "Praesidium" "Oblivion" "Fulminata" "Aegis" "Caelestis" "Conqueror" "Stella Mortis" "Vindex" "Obscurus" "Vindicta" "Pax Imperialis" "Fulgor" "Tenebris" "Ordinatus" "Dominatus" "Venator Maximus"
+
 	}
 }
 
@@ -28,32 +29,32 @@ ANT_CL_HISTORICAL = {
 	
 	can_use = { always = yes }
 	
-	prefix = "AIS"							
-	fallback_name = "Light Cruiser %s"
+	prefix = "AIS  "							
+	fallback_name = "AIS Type 18 CL - %s"
 
 	unique = {
-		"Io"
+		"Io" "Europa" "Ganymede" "Callisto" "Amalthea" "Himalia" "Elara" "Pasiphae" "Sinope" "Lysithea" "Carme" "Ananke" "Leda" "Thebe" "Adrastea" "Metis" "Callirrhoe" "Themisto" "Megaclite" "Taygete" "Chaldene" "Harpalyke" "Kalyke" "Iocaste" "Erinome" "Isonoe" "Praxidike" "Autonoe" "Thyone" "Hermippe" "Aitne" "Eurydome" "Euanthe" "Euporie" "Orthosie" "Sponde" "Kale" "Pasithee" "Hegemone" "Mneme" "Aoede" "Thelxinoe" "Arche" "Kallichore" "Helike" "Carpo" "Eukelade" "Cyllene" "Kore" "Herse" "Dia" "Titan" "Enceladus" "Mimas" "Tethys" "Dione" "Rhea" "Iapetus" "Hyperion" "Phoebe" "Janus" "Epimetheus" "Helene" "Telesto" "Calypso" "Atlas" "Prometheus" "Pandora" "Pan" "Ymir" "Paaliaq" "Tarvos" "Ijiraq" "Suttungr" "Kiviuq" "Mundilfari" "Albiorix" "Skathi" "Erriapus" "Siarnaq" "Thrymr" "Narvi" "Methone" "Pallene" "Polydeuces" "Daphnis" "Aegir" "Bebhionn" "Bergelmir" "Bestla" "Farbauti" "Fenrir" "Fornjot" "Hati" "Hyrrokkin" "Kari" "Loge" "Skoll" "Surtur" "Anthe" "Jarnsaxa" "Greip" "Tarqeq" "Aegaeon"
 	}
 }
 
 ### A-A LIGHT CRUISER NAMES###
-ANT_CLAA_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CLAA
-
-	for_countries = { ANT }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser }
-	
-	can_use = { always = yes }
-	
-	prefix = "AIS"								
-	fallback_name = "Light Cruiser (AA) %s"
-
-	unique = {
-		"Galatea" "Despina"
-	}
-}
+#ANT_CLAA_HISTORICAL = {
+#	name = NAME_THEME_HISTORICAL_CLAA
+#
+#	for_countries = { ANT }
+#
+#	type = ship
+#	ship_types = { ship_hull_cruiser light_cruiser }
+#	
+#	can_use = { always = yes }
+#	
+#	prefix = "AIS  "								
+#	fallback_name = "AIS CLAA - %s"
+#
+#	unique = {
+#		"Galatea" "Despina"
+#	}
+#}
 
 ### HEAVY CRUISER NAMES###
 ANT_CA_HISTORICAL = {
@@ -66,11 +67,11 @@ ANT_CA_HISTORICAL = {
 	
 	can_use = { always = yes }
 	
-	prefix = "AIS"								
-	fallback_name = "Heavy Cruiser %s"
+	prefix = "AIS  "								
+	fallback_name = "AIS Kalvin Class CA - %s"
 
 	unique = {
-		"Metal"
+		"Natrium" "Kalium" "Cuprum" "Argentum" "Stannum" "Stibium" "Aurum" "Hydrargyrum" "Plumbum"
 	}
 }
 
@@ -85,11 +86,11 @@ ANT_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "AIS"								
-	fallback_name = "Battleship %s"		
+	prefix = "AIS  "								
+	fallback_name = "AIS Antares Class BB - %s"		
 
 	unique = {
-        "Ahsabkab" "Vallis" "Aparangi" "Borealis" "Tir" "Stilbon"
+        "Ahsabkab" "Vallis" "Aparangi" "Borealis" "Tir" "Stilbon" "Fang" "Iota" "Rho" "Apollyon" "Alya"
 	}
 }
 
@@ -104,11 +105,11 @@ ANT_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "AIS"								
-	fallback_name = "Battlecruiser %s"		
+	prefix = "AIS  "								
+	fallback_name = "AIS Skorpius Class BC - %s"		
 
 	unique = {
-           "Teu"
+           "Kharon" "Lesath" "Villiama" "Aeminiva" "Leto" "Kanar"
  	}
 }
 
@@ -123,11 +124,11 @@ ANT_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "AIS"							
-	fallback_name = "Carrier %s"		
+	prefix = "AIS  "							
+	fallback_name = "AIS Type-IE CV nr. %s"		
 
 	unique = {
-		"Yorktown"
+		"fireryheart0190" "Hanssolo874" "Iron Eagle"
 	}
 }
 
@@ -142,12 +143,12 @@ ANT_CVL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "AIS"							
+	prefix = "AIS  "							
 	fallback_name = "Carrier %s"	
 
 	unique = {
 		# CVL Names
-		"fireryheart0190"
+		"Lerna" "Skorpius Alpha" "Skorpius Beta"
 	}
 }
 
@@ -162,10 +163,9 @@ ANT_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "AIS"							
-	fallback_name = "S-%s"
+	prefix = "AIUS  "							
+	fallback_name = "AIUS S-%s"
 	
 	unique = {
-		"S-I"
-	}
+"S-I Fish" "S-II Crab" "S-III Shell" "S-IV Squid" "S-V Octopus" "S-VI Snail" "S-VII Seagrass" "S-VIII Coral" "S-IX Barnacle" "S-X Whale"  "S-XI Shark" "S-XII Dolphin" "S-XIII Eel" "S-XIV Clam" "S-XV Jellyfish" "S-XVI Kelp" "S-XVII Starfish" "S-XVIII Urchin" "S-XIX Seahorse" "S-XX Manta"  "S-XXI Anemone" "S-XXII Lobster" "S-XXIII Mussel" "S-XXIV Nautilus" "S-XXV Plankton" "S-XXVI Ray" "S-XXVII Triton" "S-XXVIII Leviathan" "S-XXIX Kraken" "S-XXX Narwhal"  "S-XXXI Cuttlefish" "S-XXXII Piranha" "S-XXXIII Seaweed" "S-XXXIV Coelacanth" "S-XXXV Marlin" "S-XXXVI Snapper" "S-XXXVII Grouper" "S-XXXVIII Stingray" "S-XXXIX Tsunami" "S-XL Driftwood"  "S-XLI Lanternfish" "S-XLII Megalodon" "S-XLIII Remora" "S-XLIV Scallop" "S-XLV Algae" "S-XLVI Sea Cucumber" "S-XLVII Whelk" "S-XLVIII Oyster" "S-XLIX Moray" "S-L Tide" 	}
 }
