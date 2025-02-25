@@ -1574,7 +1574,7 @@ focus_tree = {
 			id = ORS_TheHard1900s
 			icon = GFX_focus_SOV_international_union_of_soviet_republics
 			x = 51
-			y = 8
+			y = 9
 			cost = 5
 			available = {
 				

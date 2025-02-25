@@ -1,6 +1,6 @@
 focus_tree = {
 	id = antares-focustree-valpha
-        continuous_focus_position = { x = 3000 y = 3000 }
+        continuous_focus_position = { x = -30 y = 20 }
 	country = {
 		factor = 0
 		modifier = {
@@ -1803,7 +1803,7 @@ focus = {
 	id = ANT_authoritarian3
 	icon = GFX_goal_unknown
 	x = 1
-	y = 7
+	y = 6
 	cost = 10
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_authoritarian1}
@@ -1822,7 +1822,7 @@ focus = {
 	id = ANT_authoritarian4
 	icon = GFX_goal_unknown
 	x = 3
-	y = 6
+	y = 7
 	cost = 10
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_authoritarian2}
@@ -2113,7 +2113,7 @@ focus = {
 	cost = 10
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 	prerequisite = {focus = ANT_reform_intelligence_service}
-#	prerequisite = {focus = ANT_authoritarian5}
+	prerequisite = {focus = ANT_authoritarian5}
         mutually_exclusive = { focus = ANT_ }
 	ai_will_do = { factor = 1 }
 	completion_reward = {
@@ -2291,6 +2291,424 @@ CET = {has_war_with = COV}
 custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
 
 	}}
+
+################## MILITARY SHIT ##########################
+
+
+# long timer that you need to do X focuses, research X techs and have X factories to complete
+focus = {
+	id = ANT_army_reform
+	icon = GFX_goal_unknown
+	x = 35
+	y = 0
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# xp
+focus = {
+	id = ANT_analyse_war_games
+	icon = GFX_goal_unknown
+	x = 34
+	y = 1
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_army_reform}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# add tech e/VIII and better arty, or give like uh 20k e/VIII in stockpile and 5k arty
+focus = {
+	id = ANT_equipment_needs
+	icon = GFX_goal_unknown
+	x = 33
+	y = 2
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	available = {
+		has_completed_focus = ANT_euskor_industry }
+	prerequisite = {focus = ANT_analyse_war_games}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# modify navy with shore bombardment bonus??
+focus = {
+	id = ANT_army_navy_coop
+	icon = GFX_goal_unknown
+	x = 36
+	y = 1
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_army_reform}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# doctrine or xp?
+focus = {
+	id = ANT_army_navy_war_game
+	icon = GFX_goal_unknown
+	x = 35
+	y = 2
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_analyse_war_games}
+	prerequisite = {focus = ANT_army_navy_coop}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# arty research bonus or more arty idk
+focus = {
+	id = ANT_rethink_arty_doctrine
+	icon = GFX_goal_unknown
+	x = 31
+	y = 2
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_analyse_war_games}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# idk
+focus = {
+	id = ANT_learn_from_grease_war
+	icon = GFX_goal_unknown
+	x = 34
+	y = 3
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_army_navy_war_game}
+	prerequisite = {focus = ANT_equipment_needs}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# doctrine
+focus = {
+	id = ANT_reorganize_army
+	icon = GFX_goal_unknown
+	x = 30
+	y = 4
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_learn_from_grease_war}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# navy cotridren
+focus = {
+	id = ANT_navy_reform
+	icon = GFX_goal_unknown
+	x = 40
+	y = 5
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_learn_from_grease_war}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# idk
+focus = {
+	id = ANT_solve_coms_isssue
+	icon = GFX_goal_unknown
+	x = 38
+	y = 2
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_army_navy_coop}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# radio research bonus
+focus = {
+	id = ANT_radio_tech
+	icon = GFX_goal_unknown
+	x = 38
+	y = 3
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_solve_coms_isssue}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# 
+focus = {
+	id = ANT_new_battleline_doctrine
+	icon = GFX_goal_unknown
+	x = 38
+	y = 6
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_navy_reform}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_need_for_more_ships
+	icon = GFX_goal_unknown
+	x = 39
+	y = 7
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_new_battleline_doctrine}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_better_designs
+	icon = GFX_goal_unknown
+	x = 37
+	y = 7
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_new_battleline_doctrine}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_rethink_screens
+	icon = GFX_goal_unknown
+	x = 42
+	y = 6
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_navy_reform}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# CL
+focus = {
+	id = ANT_torpedo_focus
+	icon = GFX_goal_unknown
+	x = 44
+	y = 07
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_rethink_screens}
+        mutually_exclusive = { focus = ANT_gun_focus }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# CL
+focus = {
+	id = ANT_gun_focus
+	icon = GFX_goal_unknown
+	x = 46
+	y = 7
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_rethink_screens}
+        mutually_exclusive = { focus = ANT_torpedo_focus }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_more_destroyers
+	icon = GFX_goal_unknown
+	x = 42
+	y = 7
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_rethink_screens}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_torpedo_dd
+	icon = GFX_goal_unknown
+	x = 42
+	y = 8
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_more_destroyers}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_increase_budget
+	icon = GFX_goal_unknown
+	x = 40
+	y = 8
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_need_for_more_ships}
+	prerequisite = {focus = ANT_more_destroyers}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_xpand_mainland_dockyards
+	icon = GFX_goal_unknown
+	x = 37
+	y = 9
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_increase_budget}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_new_dockyards
+	icon = GFX_goal_unknown
+	x = 39
+	y = 9
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_increase_budget}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# x
+focus = {
+	id = ANT_island_dockyard
+	icon = GFX_goal_unknown
+	x = 41
+	y = 9
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_increase_budget}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+# needs a bunch of ships, gives navy ask and def against cetus for 360 days
+focus = {
+	id = ANT_prepare_navy_war_cetus
+	icon = GFX_goal_unknown
+	x = 40
+	y = 12
+	cost = 10
+	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
+	prerequisite = {focus = ANT_}
+        mutually_exclusive = { focus = ANT_ }
+	ai_will_do = { factor = 1 }
+	completion_reward = {
+custom_effect_tooltip="PLACEHOLDER, DOES NOTHING"
+
+	}
+}
+
+
 #TEEMPORARYRRYRYRYYRYRYRYRYRYRYRYRYRYRRY
 # Intervene in the SCW
 focus = {
@@ -2302,8 +2720,10 @@ focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION  }
 	ai_will_do = { factor = 10 }
 
-	prerequisite = {focus = ANT_prepare_for_war_with_cetus}
-will_lead_to_war_with = CET
+	available = {
+         has_completed_focus = ANT_prepare_for_war_with_cetus }
+
+    	will_lead_to_war_with = CET
 	completion_reward = {
 
 
@@ -2323,9 +2743,33 @@ focus = {
 	cost = 10
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	prerequisite = {focus = ANT_warcetus}
+        mutually_exclusive = { focus = ANT_corvbad }
+
 	ai_will_do = { factor = 10 }
 	completion_reward = {
 puppet = COV
+
+	}
+}
+# corvus got too much war score >:(
+focus = {
+	id = ANT_corvbad
+	icon = GFX_goal_generic_major_war
+	x = 27
+	y = 2
+	cost = 10
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	prerequisite = {focus = ANT_warcetus}
+        mutually_exclusive = { focus = ANT_skorpiivus }
+
+	ai_will_do = { factor = 1 }
+will_lead_to_war_with = COV
+
+	completion_reward = {
+declare_war_on = {
+    target = COV
+    type = puppet
+}
 
 	}
 }
