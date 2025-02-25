@@ -68,6 +68,7 @@ add_ideas = {
 	URS_navy_spirit
 	URS_domestic_unrest
 	URS_sluggish_economy
+	forma_militarism
 }
 
 set_research_slots = 4

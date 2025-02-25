@@ -461,7 +461,7 @@ ideas = {
 			modifier = {
 				army_attack_factor  = 0.15
 				army_defense_factor = 0.15
-				breakthrough_factor = 0.5
+				breakthrough_factor = 0.15
 				army_org_factor = 0.15
 				political_power_factor = 0.2
 				stability_factor = 0.05
@@ -482,7 +482,7 @@ ideas = {
 				consumer_goods_factor = 0.4
 				industrial_capacity_factory = -0.3
 				production_speed_buildings_factor  = -0.3
-				stability_weekly = -0.5
+				stability_weekly = -0.01
 				production_factory_max_efficiency_factor = -0.3
 				production_factory_efficiency_gain_factor = -0.3
 				

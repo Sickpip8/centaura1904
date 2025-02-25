@@ -914,10 +914,11 @@ focus_tree = {
 		prerequisite = { focus = CET_attack_grusa }
 		prerequisite = { focus = CET_antarean_threat }
         available = {
-			OR = {
-				ANT = { is_subject_of = CET }
-				NOT = { country_exists = ANT }
+		OR = {
+			ANT = { is_subject_of = CET }
+			NOT = { country_exists = ANT }
 			}
+		}
 		
         #search_filters =
         cost = 10
@@ -926,7 +927,6 @@ focus_tree = {
 			add_ideas = CET_master_s_centaura_idea
 			}
 		}
-	}
 	
 	focus = {
         id = CET_antarean_threat

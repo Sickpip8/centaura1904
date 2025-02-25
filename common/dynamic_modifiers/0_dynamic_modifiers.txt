@@ -33,3 +33,33 @@ COV_southern_offensive_modifier = { #STATE MODIFIER
 	army_attack_factor = 0.1
 	pocket_penalty = -0.15
 }
+
+AQU_defence_line_dynamic_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    state_bunker_max_level_terrain_limit = 2
+}
+
+CTA_battery_line_dynamic_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    state_coastal_bunker_max_level_terrain_limit = 4
+}
+
+CTA_defence_line_dynamic_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    state_bunker_max_level_terrain_limit = 2
+	state_coastal_bunker_max_level_terrain_limit = 2
+}
+
+AQU_the_scorch_dynamic_modifier = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    supply_factor = 0.6
+	army_defense_factor = 1.2
+}

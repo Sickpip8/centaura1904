@@ -74,6 +74,8 @@ set_politics = {
 add_ideas = {
 	AQU_iron_army_idea
 	AQU_lucas_silva_idea
+	AQU_outdated_technology_idea
+	AQU_rusting_army_idea
 }
 
 recruit_character = AQU_ewan_fouwler
