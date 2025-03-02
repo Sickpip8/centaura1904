@@ -63,3 +63,12 @@ AQU_the_scorch_dynamic_modifier = { #State Modifier
     supply_factor = 0.6
 	army_defense_factor = 1.2
 }
+
+CET_sector_funded = { #State Modifier
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    state_production_speed_bunker_factor = 1
+	state_production_speed_land_fort_factor = 1
+	state_production_speed_anti_air_building_factor = 1
+}

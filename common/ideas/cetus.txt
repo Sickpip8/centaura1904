@@ -377,5 +377,15 @@ ideas = {
                 industrial_capacity_dockyard = 0.05
             }
         }
+		
+		CET_develop_selves_idea = {
+            picture = CET_towards_greater_cetus
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.5 
+            }
+        }
     }
 }

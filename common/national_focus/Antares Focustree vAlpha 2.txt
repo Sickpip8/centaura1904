@@ -934,6 +934,7 @@ focus = {
             focus = ANT_clean_cities
             focus = ANT_deregulate_industrial_sector
         }
+    }
 	available = {
   	 NOT = {
          has_idea = ANT_paying_for_funding_idea }
@@ -1243,6 +1244,7 @@ focus = {
       	  or = {
             focus = ANT_urbanization
 	    focus = ANT_fund_growth_of_new_cities}
+		}
    ai_will_do = { factor = 1 }
     completion_reward = {
            	     add_timed_idea = {
