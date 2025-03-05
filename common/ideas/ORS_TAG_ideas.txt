@@ -131,11 +131,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.2
-				stability_factor = 0.2
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2
-				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = -0.05
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}
 			
 			duration = 360
@@ -157,11 +157,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = 0.2
-				industrial_capacity_factory = 0.2
-				industrial_capacity_dockyard = 0.2
-				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = -0.1
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
 	

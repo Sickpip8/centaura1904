@@ -494,8 +494,7 @@ focus_tree = {
 			y = 4
 			cost = 0.1
 			available = {
-				ORI_Kevin_Hart = {is_country_leader = yes}
-				date < 1900.12.09
+				always = false
 			
 			}
 			
@@ -528,7 +527,10 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_political_power = 100
+				swap_ideas = {
+					remove_idea = ORS_EconomicBoom
+					add_idea = ORS_EconomicBoom2
+				}
 			}
 			
 			ai_will_do = {
@@ -544,7 +546,7 @@ focus_tree = {
 			cost = 10
 			available = {
 				ORI_Kevin_Hart = {is_country_leader = yes}
-				date < 1900.12.09
+				date < 1902.12.09
 			
 			}
 			
@@ -553,7 +555,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_political_power = 100
+				add_ideas = ORS_EconomicBoom
 			}
 			
 			ai_will_do = {
@@ -569,7 +571,7 @@ focus_tree = {
 			cost = 5
 			available = {
 				ORI_Kevin_Hart = {is_country_leader = yes}
-				date < 1900.12.09
+				date < 1902.12.09
 			
 			}
 			
@@ -593,6 +595,7 @@ focus_tree = {
 			y = 5
 			cost = 5
 			available = {
+				always = false
 			}
 			
 			prerequisite = {
@@ -623,6 +626,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
+				add_stability = 0.05
 				swap_ideas = {
 					remove_idea = ORS_RampantGovernmentCorruption
 					add_idea = ORS_RampantGovernmentCorruption1
@@ -876,7 +880,7 @@ focus_tree = {
 			
 			completion_reward = {
 				add_timed_idea = {
-					idea = ORS_HartCampaigning
+					idea = ORS_BuildingSpeed
 					days = 365
 				}
 			}
@@ -1581,7 +1585,7 @@ focus_tree = {
 			}
 			
 			completion_reward = {
-				add_ideas = ORS_TheHard1900s
+			
 			}
 			
 			ai_will_do = {
