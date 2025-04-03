@@ -8782,7 +8782,12 @@ spriteTypes = {
 		name = "GFX_idea_ORI_RapidIndustrialization"
 		texturefile = "gfx/interface/ideas/idea_ORI_RapidIndustrialization.dds"			
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_ORI_TheHard1900s"
+		texturefile = "gfx/interface/ideas/idea_ORI_TheHard1900s.dds"			
+	}
+	
 	# corvus
 	spriteType = {
 		name = "GFX_idea_COV_revanchism_idea"
