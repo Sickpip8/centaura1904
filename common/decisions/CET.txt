@@ -18,7 +18,7 @@ CET_army_work_budgets = {
 			has_completed_focus = CET_increase_army_works_engineering_section_budget
 		}
 		
-		fire_only_once = yes
+		fire_only_once = no
 		
 		cost = 100
 		
@@ -45,7 +45,7 @@ CET_army_work_budgets = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 10
 		}
 	}
 	
@@ -68,7 +68,7 @@ CET_army_work_budgets = {
 			has_completed_focus = CET_increase_army_works_engineering_section_budget
 		}
 		
-		fire_only_once = yes
+		fire_only_once = no
 		
 		cost = 50
 		
@@ -118,7 +118,7 @@ CET_army_work_budgets = {
 			has_completed_focus = CET_increase_army_works_engineering_section_budget
 		}
 		
-		fire_only_once = yes
+		fire_only_once = no
 		
 		cost = 100
 		
@@ -168,7 +168,7 @@ CET_army_work_budgets = {
 			has_completed_focus = CET_increase_army_works_engineering_section_budget
 		}
 		
-		fire_only_once = yes
+		fire_only_once = no
 		
 		cost = 50
 		
@@ -199,6 +199,56 @@ CET_army_work_budgets = {
 		}
 	}
 	
+	CET_cetus_southeast = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_completed_focus = CET_increase_army_works_engineering_section_budget
+			has_full_control_of_state = 44
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 44 }
+	 		highlight_color_before_active = 3
+			highlight_color_while_active = 2 
+		}
+
+		visible = {
+			has_completed_focus = CET_increase_army_works_engineering_section_budget
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 60
+
+		modifier = {
+			
+		}
+		
+		complete_effect = {
+		44 = {
+			add_dynamic_modifier = { 
+				modifier = CET_sector_funded 
+				}
+			}
+		}
+
+		remove_effect = {
+			44 = {
+				remove_dynamic_modifier = {
+					modifier = CET_sector_funded
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	CET_aquila_border_south = {
 
 		icon = generic_prepare_civil_war
@@ -218,7 +268,7 @@ CET_army_work_budgets = {
 			has_completed_focus = CET_increase_army_works_engineering_section_budget
 		}
 		
-		fire_only_once = yes
+		fire_only_once = no
 		
 		cost = 50
 		
@@ -238,6 +288,56 @@ CET_army_work_budgets = {
 
 		remove_effect = {
 			41 = {
+				remove_dynamic_modifier = {
+					modifier = CET_sector_funded
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	CET_aquila_border_north = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_completed_focus = CET_increase_army_works_engineering_section_budget
+			has_full_control_of_state = 39
+		}
+		
+		highlight_states = {
+			highlight_state_targets = { state = 39 }
+	 		highlight_color_before_active = 3
+			highlight_color_while_active = 2 
+		}
+
+		visible = {
+			has_completed_focus = CET_increase_army_works_engineering_section_budget
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 60
+
+		modifier = {
+			
+		}
+		
+		complete_effect = {
+		39 = {
+			add_dynamic_modifier = { 
+				modifier = CET_sector_funded 
+				}
+			}
+		}
+
+		remove_effect = {
+			39 = {
 				remove_dynamic_modifier = {
 					modifier = CET_sector_funded
 				}

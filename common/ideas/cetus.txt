@@ -387,5 +387,16 @@ ideas = {
                 production_speed_buildings_factor = 0.5 
             }
         }
+		
+		CET_army_works_budget_idea = {
+
+            picture = CET_
+            allowed = { original_tag = CET }
+            removal_cost = -1
+
+            modifier = {
+			consumer_goods_factor = 0.1
+            }
+        }
     }
 }

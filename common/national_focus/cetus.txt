@@ -600,7 +600,7 @@ focus_tree = {
 		prerequisite = { focus = CET_pro_cetan_propaganda focus = CET_seek_investments }
         
         #search_filters =
-        cost = 10
+        cost = 5
 
         completion_reward = {
 		random_state = {
@@ -628,7 +628,7 @@ focus_tree = {
 		prerequisite = { focus = CET_support_local_development }
         
         #search_filters =
-        cost = 10
+        cost = 5
 
         completion_reward = {
 		random_state = {
@@ -1224,8 +1224,11 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		add_manpower = 12
-        }
+		add_timed_idea = {
+		idea = CET_army_works_budget_idea
+        days = 70
+			}
+		}
     }
 	
 	focus = {

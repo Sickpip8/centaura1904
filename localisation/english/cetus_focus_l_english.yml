@@ -235,7 +235,15 @@
  # events 
  
  # decisions
- 
+ CET_army_work_budgets:0 "Allocating the Army Works Budget"
+ CET_army_work_budgets_desc:0 "test123"
+ CET_south_corvus_north:0 "Fund the South Corvun Budget (north)"
+ CET_south_corvus_south:0 "Fund the South Corvun Budget (south)"
+ CET_nauta_region:0 "Fund the Capital Region"
+ CET_cetus_south:0 "Fund the South"
+ CET_cetus_southeast:0 "Fund the Southeast"
+ CET_aquila_border_south:0 "Fund the Aquilan Border's Budget (south)"
+ CET_aquila_border_north:0 "Fund the Aquilan Border's Budget (north)"
  # tooltips
  cetus_joke_army_tooltip:0 "Just incase you need §G24 fully trained units§!. Do not take this focus if you wanna play by the rules."
  cetus_mil_org:0 "When you take this focus:"
@@ -301,7 +309,8 @@
  CET_develop_selves_idea:0 "Developing Ourselves"
  CET_develop_selves_idea_desc:0 "We must focus on ourselves to better our countries, not taking over more land."
  # misc
-
+ CET_budget_allocate:0 "Budget Allocating"
+ CET_sector_funded:0 "Sector Funded"
  # characters
  
  CET_frederick_scapha:0 "Frederick I"
