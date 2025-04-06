@@ -15,9 +15,18 @@ state={
 			1641 = {
 			naval_base = 4
 			}
+			1204 = {
+			naval_base = 6
+			}
 		}
 		victory_points = {
-			1641 10
+			1204 10
+		}
+		victory_points = {
+		2545 10
+		}
+		victory_points = {
+		4172 5
 		}
 		start_resistance = yes
 		set_resistance = 20

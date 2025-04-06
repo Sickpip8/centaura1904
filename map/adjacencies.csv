@@ -13,6 +13,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4049;6751;lake;8212;-1;-1;-1;-1;;cetus-belhold
 4049;6755;lake;8212;-1;-1;-1;-1;;behold-cetus2
 4049;4086;lake;8212;-1;-1;-1;-1;;belhold-mainland
+6756;4077;sea;7852;-1;-1;-1;-1;;canis island
+6647;6646;sea;7578;-1;-1;-1;-1;;hydrus east island
 -1;-1;-1;-1;-1;-1;-1;-1;;
 -1;-1;;-1;-1;-1;-1;-1;-1 
 2745;6793;sea;75033;-1;-1;-1;-1;;cetan islands

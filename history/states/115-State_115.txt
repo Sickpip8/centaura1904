@@ -12,15 +12,24 @@ state={
 		buildings =  {
 			infrastructure = 2
 			industrial_complex = 2
-			2181 = {
+			1396 = {
 				naval_base = 5
 			}
-			3242 = {
+			3714 = {
 				naval_base = 3
 			}
 		}
 		victory_points = {
-			2181 10
+			1396 10
+		}
+		victory_points = {
+		3643 5
+		}
+		victory_points = {
+		3714 10
+		}
+		victory_points = {
+		3289 10
 		}
 		start_resistance = yes
 		set_resistance = 10
