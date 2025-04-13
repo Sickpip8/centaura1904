@@ -21,6 +21,12 @@ state={
 		start_resistance = yes
 		set_resistance = 40
 		set_compliance = 35
+		1944.1.1.12 = {
+			owner = HYS
+			controller = HYS
+			add_core_of = HYS
+
+}
 	}
 
 	provinces={

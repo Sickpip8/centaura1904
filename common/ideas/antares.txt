@@ -2,7 +2,7 @@ ideas = {
     country = {
 #INDUSTRY1
         ANT_industry_idea = {
-            name = ANT_antarean_industry
+            name = "Antarean Industrialisation"
             
             picture = man_five_year_plan_industry
             allowed = { original_tag = ANT }
@@ -16,7 +16,7 @@ ideas = {
             }
         }
         ANT_industry_idea1 = {
-            name = ANT_antarean_industry
+            name = "Antarean Industrialization"
             
             picture = man_five_year_plan_industry
             allowed = { original_tag = ANT }
@@ -32,7 +32,7 @@ ideas = {
         }
 ###############
         ANT_industry_ideac1 = {
-            name = ANT_antarean_industry
+            name = "Centralised Industry"
             
             picture = generic_central_management
             allowed = { original_tag = ANT }
@@ -47,7 +47,7 @@ ideas = {
             }
         }
         ANT_industry_ideac2 = {
-            name = ANT_antarean_industry
+            name = "Centralised Industry"
             
             picture = generic_central_management
             allowed = { original_tag = ANT }
@@ -61,7 +61,7 @@ ideas = {
             }
         }
         ANT_industry_ideac3 = {
-            name = ANT_antarean_industry
+            name = "Centralised Industry"
             
             picture = generic_central_management
             allowed = { original_tag = ANT }
@@ -74,7 +74,7 @@ ideas = {
             }
         }
         ANT_industry_ideacf = {
-            name = ANT_antarean_industry
+            name = "Centralised Industry"
             
             picture = generic_central_management
             allowed = { original_tag = ANT }
@@ -88,7 +88,7 @@ ideas = {
         }
 ##################
         ANT_industry_idead1 = {
-            name = ANT_antarean_industry
+            name = "Decentralised Industry"
             
             picture = generic_local_self_management
             allowed = { original_tag = ANT }
@@ -103,7 +103,7 @@ ideas = {
             }
         }
         ANT_industry_idead2 = {
-            name = ANT_antarean_industry
+            name = "Decentralised Industry"
             
             picture = generic_local_self_management
             allowed = { original_tag = ANT }
@@ -118,7 +118,7 @@ ideas = {
             }
         }
         ANT_industry_idead3 = {
-            name = ANT_antarean_industry
+            name = "Decentralised Industry"
             
             picture = generic_local_self_management
             allowed = { original_tag = ANT }
@@ -133,7 +133,7 @@ ideas = {
             }
         }
         ANT_industry_ideadf = {
-            name = ANT_antarean_industry
+            name = "Decentralised Industry"
             
             picture = generic_local_self_management
             allowed = { original_tag = ANT }
@@ -151,7 +151,7 @@ ideas = {
 #INDUSTRY1
 #BOOOSTSStS
 		ANT_construction_boost_idea = {
-            name = ANT_construction_boost
+            name =  "Civilian construction boost"
             
             picture = ast_all_in
             allowed = { original_tag = ANT }
@@ -163,7 +163,7 @@ ideas = {
             }
         }
 		ANT_construction_boost2_idea = {
-            name = ANT_construction_boost2
+            name = "General construction boost"
             
             picture = ast_all_in
             allowed = { original_tag = ANT }
@@ -174,7 +174,7 @@ ideas = {
             }
         }
 		ANT_military_boost_idea = {
-            name = ANT_mil_construction_boost
+            name = "Military construction boost"
             
             picture = ast_all_in
             allowed = { original_tag = ANT }
@@ -186,7 +186,7 @@ ideas = {
             }
         }
 		ANT_production_boost_idea = {
-            name = ANT_mil_production_boost
+            name = "Military production boost"
             
             picture = low_economic_mobilisation
             allowed = { original_tag = ANT }
@@ -200,7 +200,7 @@ ideas = {
 #INDUSTRY2INDUSTRY2INDUSTRY2INDSUTRY2INDUSTRY2
 
 		ANT_militarized_economy_idea  = {
-            name = ANT_militarized_economy
+            name = "Military Industry"
             
             picture = generic_improved_industries
             allowed = { original_tag = ANT }
@@ -216,7 +216,7 @@ ideas = {
         }
 #OTHERotheerotheerotheerotheroptherpgrhehrntendrh
 		ANT_paying_for_funding_idea  = {
-            name = ANT_paying_for_funding
+            name = "Paying for funding"
             
             picture =ger_mefo_bills_payment
             allowed = { original_tag = ANT }
@@ -227,7 +227,7 @@ ideas = {
             }
         }
 		ANT_farming_idea  = {
-            name = ANT_efficient_farming
+            name = "Efficient Farming"
             
             picture =generic_agrarian_society
             allowed = { original_tag = ANT }
@@ -241,7 +241,20 @@ ideas = {
             }
         }
 		ANT_patriotism = {
-            name = ANT_patriotism
+            name = Patriotism
+            
+            picture =FRA_scw_intervention_nationalists_focus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+surrender_limit = 0.05
+army_core_attack_factor = 0.1
+army_core_defence_factor = 0.1
+            }
+        }
+		ANT_patriotism0 = {
+            name = Patriotism
             
             picture =FRA_scw_intervention_nationalists_focus
             allowed = { original_tag = ANT }
@@ -249,14 +262,66 @@ ideas = {
 
             modifier = {
 war_stability_factor = 0.1
-offensive_war_stability_factor = 0.1
+war_support_factor = 0.05
+surrender_limit = 0.05
+army_core_attack_factor = 0.1
+army_core_defence_factor = 0.1
+            }
+        }
+		ANT_patriotism1 = {
+            name = Patriotism
+            
+            picture =FRA_scw_intervention_nationalists_focus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+war_stability_factor = 0.2
+
+war_support_factor = 0.05
+surrender_limit = 0.05
+army_core_attack_factor = 0.15
+army_core_defence_factor = 0.15
+
+            }
+        }
+		ANT_patriotism2 = {
+            name = "For the emperor!"
+            
+            picture =FRA_scw_intervention_nationalists_focus
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+war_stability_factor = 0.1
+
+war_support_factor = 0.05
+surrender_limit = 0.05
+army_core_attack_factor = 0.2
+army_core_defence_factor = 0.2
+neutrality_drift = 0.02
+            }
+        }
+		ANT_patriotism3 = {
+            name = "BANZAI!"
+            
+            picture = warrior_traditions_idea
+            allowed = { original_tag = ANT }
+            removal_cost = -1
+
+            modifier = {
+war_stability_factor = 0.1
+
+war_support_factor = 0.1
+surrender_limit = 0.15
 army_core_attack_factor = 0.3
-army_core_defence_factor = 0.3	
+army_core_defence_factor = 0.3
+neutrality_drift = 0.02
             }
         }
 #######POLITICAL##########
 		ANT_ppdebuff = {
-            name = antarean_democracy
+            name = "Antarean democracy"
             
             picture = generic_pp_unity_bonus
             allowed = { original_tag = ANT }
@@ -268,7 +333,7 @@ army_core_defence_factor = 0.3
             }
         }
 		ANT_ppdebuff2 = {
-            name = antarean_democracy
+            name = "Antarean democracy"
             
             picture = generic_pp_unity_bonus
             allowed = { original_tag = ANT }
@@ -281,7 +346,7 @@ army_core_defence_factor = 0.3
             }
         }
 		ANT_ppdebuff3 = {
-            name = antarean_democracy
+            name = "Antarean democracy"
             
             picture = generic_pp_unity_bonus
             allowed = { original_tag = ANT }
@@ -293,7 +358,7 @@ army_core_defence_factor = 0.3
             }
         }
 		ANT_ppdebuff4 = {
-            name = antarean_democracy
+            name = "Antarean democracy"
             
             picture = generic_pp_unity_bonus
             allowed = { original_tag = ANT }
@@ -305,7 +370,7 @@ army_core_defence_factor = 0.3
         }
 #######WAR REELATEDE#######
 		ANT_army = {
-            name = ANT_Antares_Imperial_army
+            name = "Antares Imperial Army"
             
             picture =NORDIC_army_communist
             allowed = { original_tag = ANT }
@@ -320,7 +385,7 @@ initiative_factor = 0.3
             }
         }
 		ANT_navy = {
-            name = ANT_Antares_Armada
+            name = "Antares Armada"
             
             picture = NORDIC_navy_communist
             allowed = { original_tag = ANT }
@@ -335,7 +400,7 @@ naval_morale_factor = 0.1
             }
         }
 		ANT_airforce = {
-            name = ANT_AAF
+            name = "Antares Imperial Airforce"
             
             picture = NORDIC_airforce_communist
             allowed = { original_tag = ANT }

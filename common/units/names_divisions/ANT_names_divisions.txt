@@ -14,7 +14,7 @@
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
-#
+#		  this text is not here
 # unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
 #             this option is available here mainly for a mods.
 #
@@ -32,7 +32,7 @@
 #                                      the current game version.
 
 ANT_INF_01 = {
-	name = "Infantry Division"
+	name = "Infantry Divisions"
 
 	for_countries = { ANT }
 
@@ -92,7 +92,7 @@ ANT_INF_01 = {
 		81 = { "%s. Infantry Division" }
 		82 = { "%s. Infantry Division" }
 		36 = { "%s. Infantry Division" }
-		801 = { "%s. Infantry Division" }
+		801 = { "%s. Super Sekret Infantry Division" }
 		40 = { "%s. Ara Infantry Division" }
 		57 = { "%s. Ara Infantry Division" }
 		58 = { "%s. Ara Infantry Division" }
@@ -170,7 +170,7 @@ ANT_INF_01 = {
 }
 
 ANT_RES_01 = {
-	name = "Reserve Division"
+	name = "Reserve Divisions"
 
 	for_countries = { ANT }
 
@@ -308,7 +308,7 @@ ANT_RES_01 = {
 }
 
 ANT_CAV_01 = {
-	name = "Cavalry Division"
+	name = "Kavalry Divisions"
 
 	for_countries = { ANT }
 
@@ -319,42 +319,42 @@ ANT_CAV_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { ANT_MEC_01 }
 
-	fallback_name = "%s. Cavalry Division"
+	fallback_name = "%s. Kavalry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Guard-Cavalry Division" }
-		2 = { "%s. Cavalry Division" }
-		3 = { "%s. Cavalry Division" }
-		4 = { "Cavalry-Huzzar Division %s" }
-		5 = { "Cavalry-Huzzar Division %s" }
-		6 = { "Skorpian Cavalry Division %s" }
-		7 = { "Skorpian Cavalry Division %s" }
-		8 = { "Skorpian Cavalry Division %s" }
-		9 = { "Skorpian Cavalry Division %s" }
-		10 = { "Skorpian Guard-Cavalry Division %s" }
+		1 = { "%s. Guard-Kavalry Division" }
+		2 = { "%s. Kavalry Division" }
+		3 = { "%s. Kavalry Division" }
+		4 = { "Kavalry-Huzzar Division %s" }
+		5 = { "Kavalry-Huzzar Division %s" }
+		6 = { "Skorpian Kavalry Division %s" }
+		7 = { "Skorpian Kavalry Division %s" }
+		8 = { "Skorpian Kavalry Division %s" }
+		9 = { "Skorpian Kavalry Division %s" }
+		10 = { "Skorpian Guard-Kavalry Division %s" }
 		11 = { "Anateria Guard-Huzzar Division %s" }
-		12 = { "%s. Cavalry Division" }
-		13 = { "%s. Cavalry Division" }
-		14 = { "%s. Cavalry Division" }
-		15 = { "%s. Cavalry Division" }
-		16 = { "Cavalry-Huzzar Division %s" }
-		17 = { "Cavalry-Huzzar Division %s" }
+		12 = { "%s. Kavalry Division" }
+		13 = { "%s. Kavalry Division" }
+		14 = { "%s. Kavalry Division" }
+		15 = { "%s. Kavalry Division" }
+		16 = { "Kavalry-Huzzar Division %s" }
+		17 = { "Kavalry-Huzzar Division %s" }
 		18 = { "%s. Dragoon Division" }
-		19 = { "%s. Cavalry Division" }
-		20 = { "%s. Cavalry Division" }
-		21 = { "%s. Cavalry Division" }
-		22 = { "%s. Cavalry Special Force" }
-		23 = { "%s. Cavalry Division" }
+		19 = { "%s. Kavalry Division" }
+		20 = { "%s. Kavalry Division" }
+		21 = { "%s. Kavalry Division" }
+		22 = { "%s. Kavalry Special Force" }
+		23 = { "%s. Kavalry Division" }
 		24 = { "Anateria Guard-Huzzar Division %s" }
 
 	}
 }
 
 ANT_MEC_01 = {
-	name = "Early Motorised Division"
+	name = "Early Motorised Divisions"
 
 	for_countries = { ANT }
 
@@ -365,42 +365,42 @@ ANT_MEC_01 = {
 	# Number reservation system will tie to another group.
 	link_numbering_with = { ANT_CAV_01 }
 
-	fallback_name = "%s. Motorised Cavalry Division"
+	fallback_name = "%s. Motorised Kavalry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s. Motorised Guard-Cavalry Division" }
-		2 = { "%s. Motorised Cavalry Division" }
-		3 = { "%s. Motorised Cavalry Division" }
-		4 = { "Motorised Cavalry-Huzzar Division %s" }
-		5 = { "Motorised Cavalry-Huzzar Division %s" }
-		6 = { "Skorpian Motorised Cavalry Division %s" }
-		7 = { "Skorpian Motorised Cavalry Division %s" }
-		8 = { "Skorpian Motorised Cavalry Division %s" }
-		9 = { "Skorpian Motorised Cavalry Division %s" }
-		10 = { "Skorpian Motorised Guard-Cavalry Division %s" }
+		1 = { "%s. Motorised Guard-Kavalry Division" }
+		2 = { "%s. Motorised Kavalry Division" }
+		3 = { "%s. Motorised Kavalry Division" }
+		4 = { "Motorised Kavalry-Huzzar Division %s" }
+		5 = { "Motorised Kavalry-Huzzar Division %s" }
+		6 = { "Skorpian Motorised Kavalry Division %s" }
+		7 = { "Skorpian Motorised Kavalry Division %s" }
+		8 = { "Skorpian Motorised Kavalry Division %s" }
+		9 = { "Skorpian Motorised Kavalry Division %s" }
+		10 = { "Skorpian Motorised Guard-Kavalry Division %s" }
 		11 = { "Anateria Motorised Guard-Huzzar Division %s" }
-		12 = { "%s. Motorised Cavalry Division" }
-		13 = { "%s. Motorised Cavalry Division" }
-		14 = { "%s. Motorised Cavalry Division" }
-		15 = { "%s. Motorised Cavalry Division" }
-		16 = { "Motorised Cavalry-Huzzar Division %s" }
-		17 = { "Motorised Cavalry-Huzzar Division %s" }
+		12 = { "%s. Motorised Kavalry Division" }
+		13 = { "%s. Motorised Kavalry Division" }
+		14 = { "%s. Motorised Kavalry Division" }
+		15 = { "%s. Motorised Kavalry Division" }
+		16 = { "Motorised Kavalry-Huzzar Division %s" }
+		17 = { "Motorised Kavalry-Huzzar Division %s" }
 		18 = { "%s. Motorised Dragoon Division" }
-		19 = { "%s. Motorised Cavalry Division" }
-		20 = { "%s. Motorised Cavalry Division" }
-		21 = { "%s. Motorised Cavalry Division" }
-		22 = { "%s. Motorised Cavalry Special Force" }
-		23 = { "%s. Motorised Cavalry Division" }
+		19 = { "%s. Motorised Kavalry Division" }
+		20 = { "%s. Motorised Kavalry Division" }
+		21 = { "%s. Motorised Kavalry Division" }
+		22 = { "%s. Motorised Kavalry Special Force" }
+		23 = { "%s. Motorised Kavalry Division" }
 		24 = { "Anateria Motorised Guard-Huzzar Division %s" }
 
 	}
 }
 
 ANT_SHK_01 = {
-	name = "Armoured Division"
+	name = "Armoured Divisions"
 
 	for_countries = { ANT }
 
@@ -430,8 +430,8 @@ ANT_SHK_01 = {
 		11= { "%s. Skorpian Armoured Division" }
 		12 = { "%s. Armoured Division"}
 		13 = { "%s. Lucky Armoured Division" }
-		14 = { "%s. Armoured Division"}
-		15 = { "%s. Armoured Division"}
+		14 = { "%s. Libran Armoured Division"}
+		15 = { "%s. Lion Armoured Division"}
 		16 = { "%s. Armoured Division"}
 		17 = { "%s. Armoured Division"}
 		18 = { "%s. Armoured Division"}
@@ -441,5 +441,35 @@ ANT_SHK_01 = {
 		22 = { "%s. Lepus-Elite Armoured Division" }
 		23 = { "%s. Armoured Division"}
 		24 = { "%s. Finale Armoured Division"}
+		123 = { "%s. EEEEEEESPORTT ALTAAAA Armoured Division"
+	}
+}
+
+
+ANT_SHK_02 = {
+	name = "Shokk Divisions"
+
+	for_countries = { ANT }
+
+	can_use = { always = yes }
+
+	division_types = { "tank" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { ANT_MEC_01 }
+
+	fallback_name = "Shokk Division %s"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Antarean-Guard Super-Shokk Division %s" }
+		2 = { "Antarean Shokk Division %s" }
+		3 = { "Aquilan Veterans Shokk Division %s" }
+		4 = { "Special Shokk Division %s" }
+		5 = { "Skorpii Shokk Division %s" }
+		6 = { "Shokk-Marine Division %s" }
+
 	}
 }

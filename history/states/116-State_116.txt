@@ -23,8 +23,9 @@ state={
 		set_resistance = 15
 		set_compliance = 55
 		1944.1.1.12 = {
-			owner = ORI
-			controller = ORI
+			owner = HYS
+			controller = HYS
+			add_core_of = HYS
 
 }
 	}
