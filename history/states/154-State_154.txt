@@ -17,8 +17,8 @@ state={
 			industrial_complex = 1
 			dockyard = 1
 			infrastructure = 3
-			4809 = {
-				naval_base = 2
+			21 = {
+				naval_base = 3
 				}
 			}
 			1944.1.1.12 = {
@@ -26,7 +26,7 @@ state={
 				controller = COV
 				}
 			victory_points = {
-			4809 11 
+			21 11 
 			}
 		}
 	provinces={

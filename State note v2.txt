@@ -79,7 +79,7 @@ Initial States, In numerical order
 	- 154 Southernmost Corvus
 	
 51 - 55 Corvus (5+1) State_8
-	- 51 Corvun Center [CAPITAL: 89]
+	- 51 Corvun Center [CAPITAL: 1774] ( North-central )
 	- 52 Southeast North Corvus
 	- 53 North Corvus, Southern part (Central Corvus)
 	- 54 Inanis Islands

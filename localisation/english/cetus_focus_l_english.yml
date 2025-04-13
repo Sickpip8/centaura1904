@@ -1,6 +1,8 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§!victory points = §Y$POINTS$§!"
-
+ 
+ neutrality_mild_idea:0 "Mild Neutrality"
+ 
  #focus tree "Striped's contribution"
  CET_sc1:0 "The South Corvus Question"
  CET_sc1_desc:0 "Since the invasion of Southern Corvus in 1880 we have held onto this territory as if we were occupying it. The question has arisen as to how we will incorporate the Southern Corvus territories in the future. If we cannot take care of such a priority it will hurt us in the long run."
@@ -47,7 +49,7 @@
  CET_monarchist_desc:0 "We have been a kingdom ever since the start of our great nation. This path seems to be our most stable way into the future."
  CET_the_whale:0 "Cetus, The Whale"
  CET_the_whale_desc:0 "
- CET_seek_investments:0 "The Kings Investments"
+ CET_seek_investments:0 "Seek Civil Investments"
  CET_seek_investments_desc:0 "
  CET_strengthen_monarch:0 "Strengthen The Monarch"
  CET_strengthen_monarch_desc:0 "
@@ -109,7 +111,7 @@
  CET_focus_on_unity_desc:0 "
  CET_inanis_explorers:0 "Protectors Of The Inanis" #put to naval
  CET_inanis_explorers_desc:0 "Even if we do not want to continue the conquests for resources, the Inanis Ocean is still ours. We will proclaim that the Inanis is Cetan and only Cetus can hold control over it."
- CET_increase_army_works_engineering_section_budget:0 "Increase the Army Works Budget"
+ CET_increase_army_works_engineering_section_budget:0 "Allocate the Army Works Budget"
  CET_increase_army_works_engineering_section_budget_desc:0 "
  CET_setup_weapon_caches:0 "Setup Weapon Caches"
  CET_setup_weapon_caches_desc:0 "
@@ -233,7 +235,15 @@
  # events 
  
  # decisions
- 
+ CET_army_work_budgets:0 "Allocating the Army Works Budget"
+ CET_army_work_budgets_desc:0 "test123"
+ CET_south_corvus_north:0 "Fund the South Corvun Budget (north)"
+ CET_south_corvus_south:0 "Fund the South Corvun Budget (south)"
+ CET_nauta_region:0 "Fund the Capital Region"
+ CET_cetus_south:0 "Fund the South"
+ CET_cetus_southeast:0 "Fund the Southeast"
+ CET_aquila_border_south:0 "Fund the Aquilan Border's Budget (south)"
+ CET_aquila_border_north:0 "Fund the Aquilan Border's Budget (north)"
  # tooltips
  cetus_joke_army_tooltip:0 "Just incase you need §G24 fully trained units§!. Do not take this focus if you wanna play by the rules."
  cetus_mil_org:0 "When you take this focus:"
@@ -294,8 +304,13 @@
  CET_refurbish_scaphan_line_desc:0 "
  CET_the_whale_sea:0 "The Whale"
  CET_the_whale_sea_desc:0 "Cetus's constellation is based off a whale. It was decided since the ancient times Cetus was to claim the oceans."
+ CET_towards_greater_cetus:0 "Towards a Greater Cetus"
+ CET_towards_greater_cetus_desc:0 "The destiny of Cetus was to take over the world, as it had taken over the old Venus."
+ CET_develop_selves_idea:0 "Developing Ourselves"
+ CET_develop_selves_idea_desc:0 "We must focus on ourselves to better our countries, not taking over more land."
  # misc
-
+ CET_budget_allocate:0 "Budget Allocating"
+ CET_sector_funded:0 "Sector Funded"
  # characters
  
  CET_frederick_scapha:0 "Frederick I"

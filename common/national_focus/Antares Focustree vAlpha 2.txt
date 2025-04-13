@@ -943,6 +943,7 @@ focus = {
             focus = ANT_clean_cities
             focus = ANT_deregulate_industrial_sector
         }
+    }
 	available = {
   	 NOT = {
          has_idea = ANT_paying_for_funding_idea }

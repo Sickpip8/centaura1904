@@ -9,11 +9,11 @@ bookmarks = {
 		
 		ANT = {
 			history = ANT_1900_DESC
-			ideology = fascism
+			ideology = neutrality
 		}
 		ORI = {
 			history = ORI_1900_DESC
-			ideology = neutrality
+			ideology = democratic
 		}
 		CET = {
 			history = CET_1900_DESC
@@ -52,7 +52,7 @@ bookmarks = {
 		AQU = {
             minor = yes
 			history = AQU_1900_DESC
-			ideology = democracy
+			ideology = democratic
 			ideas = {
 				AQU_iron_army_idea
 				AQU_lucas_silva_idea

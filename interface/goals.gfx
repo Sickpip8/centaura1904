@@ -6550,4 +6550,9 @@ spriteTypes = {
 		name = "GFX_focus_COV_dev_central_2"
 		texturefile = "gfx/interface/goals/focus_COV_dev_central_2.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_ORI_TheHard1900s"
+		texturefile = "gfx/interface/goals/focus_ORI_TheHard1900s.dds"
+	}
 }

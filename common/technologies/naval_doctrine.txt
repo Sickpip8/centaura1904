@@ -25,7 +25,15 @@ technologies = {
 		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
-
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_underway_replenishment	
+				}
+			}
+		}
 
 		xor = { trade_interdiction base_strike } 
 		
@@ -113,7 +121,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
@@ -166,6 +174,22 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -216,8 +240,20 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_war_with = URS
+				has_war_with = GER
 				factor = 5
+			}
+			modifier = {
+				tag = ENG
+				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -263,6 +299,14 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -304,6 +348,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -352,12 +404,20 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -408,7 +468,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
@@ -465,12 +525,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -521,12 +589,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -585,12 +661,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = CET
+				tag = ENG
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -679,6 +763,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -722,6 +814,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -759,6 +859,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -834,6 +942,10 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 3
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
 			}
@@ -888,6 +1000,10 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 3
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
 			}
@@ -940,8 +1056,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 3
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -994,8 +1122,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 3
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -1046,8 +1186,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 2
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -1109,8 +1261,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
+				tag = GER
+				factor = 2
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -1213,6 +1377,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -1261,6 +1433,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -1302,6 +1482,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -1338,6 +1526,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 		}
 		
 		ai_research_weights = {
@@ -1557,7 +1753,15 @@ technologies = {
 			leads_to_tech =  convoy_escorts_bs
 			research_cost_coeff = 1
 		}
-		
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_underway_replenishment	
+				}
+			}
+		}		
 		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes	
@@ -1581,8 +1785,8 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
@@ -1642,10 +1846,17 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
+			}
+			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
@@ -1704,10 +1915,25 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
+			}
+			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
 			}
 		}
 		
@@ -1759,14 +1985,29 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
 			}
 			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
+			}
+			modifier = {
 				has_navy_experience > 120
 				factor = 4
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -1822,10 +2063,25 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
+			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
@@ -1875,10 +2131,25 @@ technologies = {
 			factor = 1
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 4
+			}
+			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -1928,10 +2199,26 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					tag = ORI
-					tag = ANT
+					tag = USA
+					tag = JAP
 				}
 				factor = 2.5
+			}
+			modifier = {
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+				}
+				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
+			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
@@ -1984,7 +2271,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2036,12 +2323,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -2090,12 +2385,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -2137,12 +2440,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -2191,7 +2502,7 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
@@ -2251,12 +2562,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		
@@ -2306,12 +2625,20 @@ technologies = {
 				factor = 5
 			}
 			modifier = {
-				tag = ORI
+				tag = USA
 				factor = 2
 			}
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_1_trigger = yes }
+				factor = 0.5
+			}
+			modifier = {
+				not = { ai_air_doctrine_tier_2_trigger = yes }
+				factor = 0.75
 			}
 		}
 		

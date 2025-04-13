@@ -84,10 +84,10 @@
 	
 	fleet = {
 		name = "Northern FLeet"
-		naval_base = 4809
+		naval_base = 21
 		task_force = {				
 			name = "South Corvus Command"
-			location = 4809
+			location = 21
 			ship = { name = "CIS Ouranous" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Neodymiumite" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CET } } }
 			ship = { name = "CIS Neodymiumate" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CET } } }

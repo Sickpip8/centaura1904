@@ -93,7 +93,7 @@ set_politics = {
 add_ideas = {
 	ORS_RampantGovernmentCorruption
 	ORS_PrioritizedMilitary
-	ORS_GovernmentSubsidies
+	ORS_GovernmentSubisidies
 	ORS_RapidIndustrialization
 }
 
@@ -227,3 +227,5 @@ if = {
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
 	}
+	
+country_event = { id = orion.6 days = 243}

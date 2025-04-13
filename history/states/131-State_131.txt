@@ -12,12 +12,12 @@ state={
 			industrial_complex = 1 
 			infrastructure = 2
 			arms_factory = 1
-			3981 = {
-				naval_base = 4
+			116 = {
+				naval_base = 6
 			}
 		}
 		victory_points = {
-			798 25
+			116 25
 		}
 		start_resistance = yes
 		set_resistance = 40

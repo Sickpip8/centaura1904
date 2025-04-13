@@ -50,10 +50,10 @@ units = {
 	
 	fleet = {
 		name = "Northern Fleet"
-		naval_base = 3803
+		naval_base = 3890
 		task_force = {				
 			name = "Kraz Command"
-			location = 3803
+			location = 3890
 			ship = { name = "CS Coronis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = COV version_name = "Khorin Class" } } }
 			ship = { name = "CS Solis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = COV version_name = "Adsum Class" } } }
 			ship = { name = "CS Fortuna" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = COV version_name = "Adsum Class" } } }
