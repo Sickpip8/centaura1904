@@ -37,11 +37,19 @@ equipments = {
 			steel = 2
 		}
 	}
-
 	artillery_equipment_0 = {
 		year = 1900
 
 		archetype = artillery_equipment
+		priority = 50
+		visual_level = 0
+	}
+
+	artillery_equipment_1 = {
+		year = 1900
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_0
 		is_convertable = no
 		visual_level = 1
 		defense = 10
@@ -66,13 +74,7 @@ equipments = {
 		}
 	}
 
-	artillery_equipment_1 = {
-		year = 1900
 
-		archetype = artillery_equipment
-		priority = 50
-		visual_level = 0
-	}
 	
 	artillery_equipment_2 = {
 		year = 1904

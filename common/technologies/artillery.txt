@@ -1,9 +1,9 @@
 technologies = {
-
+#1890 ?
 	gw_artillery = {
 
 		enable_equipments = {
-			artillery_equipment_1
+			artillery_equipment_0
 		}
 
 		path = {
@@ -42,17 +42,14 @@ technologies = {
 			}
 		}
 	}
-
+#arty 1
 	artillery0 = {
 
 		enable_equipments = {
-			artillery_equipment_0
+			artillery_equipment_1
 		}
 
-		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_medium_cannon
-		}
+
 
 		path = {
 			leads_to_tech = interwar_artillery
