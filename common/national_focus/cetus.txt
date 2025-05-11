@@ -1109,13 +1109,17 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-		39 = { add_resource = {
-		type = oil 
-		amount = 4 }
+		39 = { 
+		add_resource = {
+				type = oil 
+				amount = 4 
+				}
 			}
-			40 = { add_resource = {
-		type = tungsten
-		amount = 6 }
+			40 = { 
+				add_resource = {
+				type = tungsten
+				amount = 6 
+				}
 			}
 		}
     }

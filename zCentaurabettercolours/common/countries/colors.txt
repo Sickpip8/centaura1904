@@ -15,7 +15,7 @@ LBR = {
 	color_ui  = rgb { 152 60 152 }
 }
 ORI = {
-	color = rgb { 32 75 179 }
+	color = rgb { 38 55 69 }
 	color_ui  = rgb { 2 45 149 }
 }
 AUR = {
@@ -27,7 +27,7 @@ URS = {
 	color_ui  = rgb { 127 30 30 }
 }
 ANT = {
-	color = rgb { 210 100 0 }
+	color = rgb { 170 10 20 }
 	color_ui  = rgb { 180 70 0 }
 }
 AQU = {
@@ -35,11 +35,11 @@ AQU = {
 	color_ui  = rgb { 6 78 159 }
 }
 VEG = {
-	color = rgb { 222 215 163 }
+	color = rgb { 43 124 135 }
 	color_ui  = rgb { 192 185 133 }
 }
 GRS = {
-	color = rgb { 207 197 122 }
+	color = rgb {99 0 42 }
 	color_ui  = rgb { 177 167 92 }
 }
 CLB = {

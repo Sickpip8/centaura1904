@@ -14,11 +14,20 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			2042 10 
+			4250 10 
+		}
+		victory_points = {
+		1422 5
 		}
 		start_resistance = yes
 		set_resistance = 75
 		set_compliance = 10
+		1944.1.1.12 = {
+			owner = HYS
+			controller = HYS
+			add_core_of = HYS
+
+}
 	}
 
 	provinces={

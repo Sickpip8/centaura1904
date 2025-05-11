@@ -14,11 +14,17 @@ state={
 
 		}
 		victory_points = {
-			2296 5 
+			726 5 
 		}
 		start_resistance = yes
 		set_resistance = 25
 		set_compliance = 45
+		1944.1.1.12 = {
+			owner = HYS
+			controller = HYS
+			add_core_of = HYS
+
+}
 	}
 
 	provinces={

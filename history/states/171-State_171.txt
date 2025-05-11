@@ -2,17 +2,17 @@ state={
 	id=171
 	name="STATE_171"
 	history={
-		owner = URS
-		add_core_of = CNS
+		owner = HYS
+		add_core_of = HYS
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
-			6756 1
+			6750 1
 		}
 	}
 	provinces={
-		6756 
+		1046 6750 
 	}
 	manpower=1337
 	state_category = tiny_island

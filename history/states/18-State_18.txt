@@ -9,7 +9,7 @@ state={
 		owner = MUS
 		add_core_of = MUS
 		victory_points = {
-			1853 50 
+			306 50 
 		}
 
 	}

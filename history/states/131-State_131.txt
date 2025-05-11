@@ -12,16 +12,22 @@ state={
 			industrial_complex = 1 
 			infrastructure = 2
 			arms_factory = 1
-			3981 = {
-				naval_base = 4
+			116 = {
+				naval_base = 6
 			}
 		}
 		victory_points = {
-			798 25
+			116 25
 		}
 		start_resistance = yes
 		set_resistance = 40
 		set_compliance = 20
+		1944.1.1.12 = {
+			owner = HYS
+			controller = HYS
+			add_core_of = HYS
+
+}
 	}
 	provinces={
 		116 272 574 596 608 798 984 1548 1657 2035 2152 2327 2519 2656 2665 2695 2717 2811 3000 3037 3896 3909 3915 3926 3932 3936 3947 3949 3957 3964 3965 3975 3981 3982 3991 4000 4005 4012 4019 4022 4035 4040 4041 4060 4072 4079 
