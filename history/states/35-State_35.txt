@@ -12,9 +12,8 @@ state={
 		add_core_of = AQU
 		buildings = {
 			arms_factory = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			infrastructure = 3
-			stronghold_network = 1
 			4923 = {
 				bunker = 3
 

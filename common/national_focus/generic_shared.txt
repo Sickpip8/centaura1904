@@ -268,7 +268,15 @@ shared_focus = {
 		cost = 10
 		
 		search_filters = {   FOCUS_FILTER_RESEARCH }
-
+		
+		available = {
+			if = {
+			OR = {
+				has_tech = iw_small_airframe
+				has_tech = early_fighter
+				}
+			}
+		}
 		available_if_capitulated = yes
 
 
@@ -778,10 +786,10 @@ shared_focus = {
 	shared_focus = {
 		id = submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = flexible_navy focus = large_navy }
+		prerequisite = { focus = destroyer_effort }
 		x = 0
 		y = 1
-		relative_position_id = flexible_navy
+		relative_position_id = destroyer_effort
 		cost = 10
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
@@ -855,10 +863,11 @@ shared_focus = {
 	shared_focus = {
 		id = destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = submarine_effort }
+		prerequisite = { focus = flexible_navy focus = large_navy }
+		
 		x = 0
 		y = 1
-		relative_position_id = submarine_effort
+		relative_position_id = flexible_navy
 		cost = 10
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }

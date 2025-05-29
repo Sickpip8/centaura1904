@@ -91,7 +91,7 @@ search_filter_prios = {
     }
 	
 	focus = {
-        id = AQU_ring_of_fire
+        id = AQU_fort_management
         icon = GFX_goal_generic_territory_or_war
         x = -4
         y = 1
@@ -115,8 +115,8 @@ search_filter_prios = {
         x = -2
         y = 1
         cost = 5
-		prerequisite = { focus = AQU_ring_of_fire }
-		relative_position_id = AQU_ring_of_fire
+		prerequisite = { focus = AQU_fort_management }
+		relative_position_id = AQU_fort_management
         available = {
             
         }
@@ -134,8 +134,8 @@ search_filter_prios = {
         x = 0
         y = 1
         cost = 5
-		prerequisite = { focus = AQU_ring_of_fire }
-		relative_position_id = AQU_ring_of_fire
+		prerequisite = { focus = AQU_fort_management }
+		relative_position_id = AQU_fort_management
         available = {
             
         }
@@ -153,8 +153,8 @@ search_filter_prios = {
         x = 2
         y = 1
         cost = 5
-		prerequisite = { focus = AQU_ring_of_fire }
-		relative_position_id = AQU_ring_of_fire
+		prerequisite = { focus = AQU_fort_management }
+		relative_position_id = AQU_fort_management
         available = {
             
         }
@@ -172,8 +172,8 @@ search_filter_prios = {
         x = 4
         y = 1
         cost = 5
-		prerequisite = { focus = AQU_ring_of_fire }
-		relative_position_id = AQU_ring_of_fire
+		prerequisite = { focus = AQU_fort_management }
+		relative_position_id = AQU_fort_management
         available = {
             
         }
@@ -193,6 +193,44 @@ search_filter_prios = {
         cost = 5
 		prerequisite = { focus = AQU_the_aquilan_spirit }
 		relative_position_id = AQU_the_aquilan_spirit
+        available = {
+            
+        }
+        completion_reward = {
+            add_stability = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = AQU_new_thinking
+        icon = GFX_goal_generic_territory_or_war
+        x = -1
+        y = 1
+        cost = 5
+		prerequisite = { focus = AQU_army_modernisation }
+		relative_position_id = AQU_army_modernisation
+        available = {
+            
+        }
+        completion_reward = {
+            add_stability = 0.05
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
+	
+	focus = {
+        id = AQU_innovate
+        icon = GFX_goal_generic_territory_or_war
+        x = 1
+        y = 1
+        cost = 5
+		prerequisite = { focus = AQU_army_modernisation }
+		relative_position_id = AQU_army_modernisation
         available = {
             
         }
