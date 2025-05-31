@@ -940,4 +940,35 @@ focus_tree = {
             factor = 5
         }
     }
+    focus = {
+        id = URS_alcor_trenching 
+        icon = GFX_goal_generic_military_sphere
+        x = 9
+        y = 6
+        cost = 4
+        prerequisite = { focus = URS_prelude_grease_war }
+        completion_reward = {
+            URS = {
+                add_state_core = 117
+            }
+            IF = {
+                limit = {
+                   117 = {
+                        has_dynamic_modifier = {
+                            modifier = URS_colonial_resistance
+                        }
+                    }
+                }
+                117 = {
+                    remove_dynamic_modifier = {
+                        modifier = URS_colonial_resistance
+                    }
+                }
+            }
+            custom_effect_tooltip = URS_alcor_trenching_tooltip
+        }
+        ai_will_do = {
+            factor = 5
+        }
+    }
 }
