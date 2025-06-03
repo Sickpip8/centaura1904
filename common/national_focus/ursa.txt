@@ -9,7 +9,41 @@ focus_tree = {
         }
     }
     continuous_focus_position = { x = 2025 y = 1000 } 
-
+	
+	focus = { 
+        id = URS_aircraft_pro
+        icon = GFX_focus_generic_naval_discipline 
+        x = 28
+        y = 0
+        cost = 1
+        completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				name = bomber_bonus
+				ahead_reduction = 8
+				uses = 1
+				category = light_air
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				name = bomber_bonus
+				ahead_reduction = 7
+				uses = 1
+				category = medium_air
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				name = bomber_bonus
+				ahead_reduction = 6
+				uses = 1
+				category = heavy_air
+			}
+        }
+        ai_will_do = {
+            factor = 20
+        }
+    }
+	
     focus = { 
         id = URS_navy_tree_start  
         icon = GFX_focus_generic_naval_discipline 
