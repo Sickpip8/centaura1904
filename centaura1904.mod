@@ -40,4 +40,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.15.*"
-path="mod/centauransahead"
+path="mod/centaura1904"
